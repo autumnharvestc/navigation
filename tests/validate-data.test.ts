@@ -41,10 +41,16 @@ describe('validateDataset', () => {
     };
     const result = validateDataset({
       regions: [country, province, orphan],
-      agencies: [agency, { ...agency, id: 'duplicate-url' }, { ...agency, id: 'duplicate-id' }],
+      agencies: [
+        agency,
+        { ...agency, id: 'duplicate-url' },
+        { ...agency, id: 'duplicate-id' },
+        { ...agency, url: 'https://other.gov.cn/' },
+      ],
     });
     expect(result.errors).toEqual(
       expect.arrayContaining([
+        expect.stringContaining('duplicate agency id'),
         expect.stringContaining('duplicate agency url'),
         expect.stringContaining('missing parent 999999'),
       ]),
