@@ -53,8 +53,19 @@ export async function preparePublicData(rootDir: string): Promise<PrepareResult>
     regions,
     agencies: [...nationalAgencies, ...provinceAgencies.flat()],
   });
-  if (validationResult.errors.length > 0) {
-    throw new DataValidationError(validationResult.errors);
+  const errors = [...validationResult.errors];
+  for (const [index, file] of provinceFiles.entries()) {
+    const expectedRegionCode = file.replace(/\.json$/, '');
+    for (const agency of provinceAgencies[index] ?? []) {
+      if (agency.regionCode !== expectedRegionCode) {
+        errors.push(
+          `data/provinces/${file}: agency ${agency.id} has regionCode ${agency.regionCode}; expected ${expectedRegionCode}`,
+        );
+      }
+    }
+  }
+  if (errors.length > 0) {
+    throw new DataValidationError(errors);
   }
 
   await Promise.all([
@@ -107,7 +118,7 @@ async function main(): Promise<void> {
   try {
     await preparePublicData(process.cwd());
   } catch (error) {
-    console.error(error instanceof Error ? error.message : error);
+    console.error(error);
     process.exitCode = 1;
     return;
   }
