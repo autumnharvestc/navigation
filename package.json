@@ -15,7 +15,8 @@
     "lint": "eslint .",
     "format:check": "prettier --check .",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "validate:data": "tsx scripts/validate-data.ts"
   },
   "dependencies": {
     "minisearch": "^7.2.0",
