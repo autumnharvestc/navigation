@@ -31,6 +31,25 @@ async function readJsonArray<T>(path: string): Promise<T[]> {
   return value as T[];
 }
 
+function isWithinRegion(
+  regionCode: string,
+  ancestorCode: string,
+  regions: Map<string, Region>,
+): boolean {
+  let current = regions.get(regionCode);
+  const visited = new Set<string>();
+
+  while (current) {
+    if (current.code === ancestorCode) return true;
+    if (visited.has(current.code)) return false;
+    visited.add(current.code);
+    if (!current.parentCode) return false;
+    current = regions.get(current.parentCode);
+  }
+
+  return false;
+}
+
 export async function preparePublicData(rootDir: string): Promise<PrepareResult> {
   const dataDir = join(rootDir, 'data');
   const provincesDir = join(dataDir, 'provinces');
@@ -49,17 +68,27 @@ export async function preparePublicData(rootDir: string): Promise<PrepareResult>
     provinceFiles.map((file) => readJsonArray<AgencyRecord>(join(provincesDir, file))),
   );
 
+  const regionByCode = new Map(regions.map((region) => [region.code, region]));
   const validationResult = validateDataset({
     regions,
     agencies: [...nationalAgencies, ...provinceAgencies.flat()],
   });
   const errors = [...validationResult.errors];
+
+  for (const agency of nationalAgencies) {
+    if (agency.regionCode !== 'CN') {
+      errors.push(
+        `data/national.json: agency ${agency.id} has regionCode ${agency.regionCode}; expected CN`,
+      );
+    }
+  }
+
   for (const [index, file] of provinceFiles.entries()) {
-    const expectedRegionCode = file.replace(/\.json$/, '');
+    const provinceCode = file.replace(/\.json$/, '');
     for (const agency of provinceAgencies[index] ?? []) {
-      if (agency.regionCode !== expectedRegionCode) {
+      if (!isWithinRegion(agency.regionCode, provinceCode, regionByCode)) {
         errors.push(
-          `data/provinces/${file}: agency ${agency.id} has regionCode ${agency.regionCode}; expected ${expectedRegionCode}`,
+          `data/provinces/${file}: agency ${agency.id} has regionCode ${agency.regionCode}; expected province ${provinceCode} or one of its descendants`,
         );
       }
     }
@@ -81,7 +110,6 @@ export async function preparePublicData(rootDir: string): Promise<PrepareResult>
     provinceFiles.map((file) => copyFile(join(provincesDir, file), join(publicProvincesDir, file))),
   );
 
-  const regionByCode = new Map(regions.map((region) => [region.code, region]));
   const shards: SearchManifest['shards'] = [];
   const writeSearchShard = async (regionCode: string, agencies: AgencyRecord[]) => {
     const documents = agencies.map((agency) =>

@@ -23,6 +23,22 @@ const beijing: Region = {
   sort: 1,
 };
 
+const beijingCity: Region = {
+  code: '110100',
+  name: '北京市',
+  level: 'city',
+  parentCode: '110000',
+  sort: 1,
+};
+
+const dongcheng: Region = {
+  code: '110101',
+  name: '东城区',
+  level: 'county',
+  parentCode: '110100',
+  sort: 1,
+};
+
 const nationalAgency: AgencyRecord = {
   id: 'CN-government-gov-cn',
   regionCode: 'CN',
@@ -41,6 +57,16 @@ const beijingAgency: AgencyRecord = {
   url: 'https://www.beijing.gov.cn/',
   category: 'government',
   sourceUrl: 'https://www.beijing.gov.cn/',
+};
+
+const dongchengAgency: AgencyRecord = {
+  id: '110101-government-dongcheng-gov-cn',
+  regionCode: '110101',
+  name: '东城区人民政府',
+  siteName: '东城区人民政府门户网站',
+  url: 'https://www.beijing.gov.cn/dongcheng/',
+  category: 'government',
+  sourceUrl: 'https://www.beijing.gov.cn/dongcheng/',
 };
 
 async function writeJson(path: string, value: unknown): Promise<void> {
@@ -127,6 +153,39 @@ describe('preparePublicData', () => {
     expect(result.shards).toEqual(manifest.shards);
   });
 
+  it('accepts a county descendant in its province shard', async () => {
+    await writeJson(join(rootDir, 'data', 'regions.json'), [
+      country,
+      beijing,
+      beijingCity,
+      dongcheng,
+    ]);
+    await writeJson(join(rootDir, 'data', 'national.json'), [nationalAgency]);
+    await writeJson(join(rootDir, 'data', 'provinces', '110000.json'), [dongchengAgency]);
+
+    const result = await preparePublicData(rootDir);
+
+    expect(result.shards).toEqual([
+      { regionCode: 'CN', path: 'search-index/CN.json', count: 1 },
+      { regionCode: '110000', path: 'search-index/110000.json', count: 1 },
+    ]);
+    await expect(readJson(join(rootDir, 'public', 'search-index', '110000.json'))).resolves.toEqual(
+      [
+        {
+          id: dongchengAgency.id,
+          name: dongchengAgency.name,
+          siteName: dongchengAgency.siteName,
+          regionCode: '110101',
+          regionName: '东城区',
+          level: 'county',
+          category: 'government',
+          domain: 'www.beijing.gov.cn',
+          url: dongchengAgency.url,
+        },
+      ],
+    );
+  });
+
   it('rejects invalid data before replacing trusted output', async () => {
     await writeJson(join(rootDir, 'data', 'regions.json'), [country, beijing]);
     await writeJson(join(rootDir, 'data', 'national.json'), [
@@ -144,7 +203,7 @@ describe('preparePublicData', () => {
     ).resolves.toBe('trusted');
   });
 
-  it('rejects a province shard whose agency belongs to another region', async () => {
+  it('rejects a province shard containing an agency from another province', async () => {
     const tianjin: Region = {
       code: '120000',
       name: '天津市',
@@ -152,7 +211,7 @@ describe('preparePublicData', () => {
       parentCode: 'CN',
       sort: 2,
     };
-    const mismatchedAgency: AgencyRecord = {
+    const tianjinAgency: AgencyRecord = {
       ...beijingAgency,
       id: '120000-government-tianjin-gov-cn',
       regionCode: '120000',
@@ -164,11 +223,28 @@ describe('preparePublicData', () => {
 
     await writeJson(join(rootDir, 'data', 'regions.json'), [country, beijing, tianjin]);
     await writeJson(join(rootDir, 'data', 'national.json'), [nationalAgency]);
-    await writeJson(join(rootDir, 'data', 'provinces', '110000.json'), [mismatchedAgency]);
+    await writeJson(join(rootDir, 'data', 'provinces', '110000.json'), [tianjinAgency]);
     await createTrustedStaleOutput();
 
     await expect(preparePublicData(rootDir)).rejects.toThrow(
-      /110000\.json.*regionCode 120000.*expected 110000/s,
+      /110000\.json.*regionCode 120000.*expected province 110000/s,
+    );
+    await expect(readFile(join(rootDir, 'public', 'data', 'trusted.json'), 'utf8')).resolves.toBe(
+      'trusted',
+    );
+    await expect(
+      readFile(join(rootDir, 'public', 'search-index', 'trusted.json'), 'utf8'),
+    ).resolves.toBe('trusted');
+  });
+
+  it('rejects a province record in the national shard', async () => {
+    await writeJson(join(rootDir, 'data', 'regions.json'), [country, beijing]);
+    await writeJson(join(rootDir, 'data', 'national.json'), [beijingAgency]);
+    await writeJson(join(rootDir, 'data', 'provinces', '110000.json'), []);
+    await createTrustedStaleOutput();
+
+    await expect(preparePublicData(rootDir)).rejects.toThrow(
+      /data\/national\.json.*regionCode 110000.*expected CN/s,
     );
     await expect(readFile(join(rootDir, 'public', 'data', 'trusted.json'), 'utf8')).resolves.toBe(
       'trusted',
