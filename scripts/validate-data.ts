@@ -19,7 +19,9 @@ async function main(): Promise<void> {
 
   const regions = await readJsonArray<Region>(regionsPath);
   const nationalAgencies = await readJsonArray<AgencyRecord>(nationalPath);
-  const provinceFiles = (await readdir(provincesPath)).filter((path) => path.endsWith('.json'));
+  const provinceFiles = (await readdir(provincesPath))
+    .filter((path) => path.endsWith('.json'))
+    .sort();
   const provinceAgencies = (
     await Promise.all(
       provinceFiles.map((path) => readJsonArray<AgencyRecord>(join(provincesPath, path))),

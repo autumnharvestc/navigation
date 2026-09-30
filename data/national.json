@@ -1,0 +1,48 @@
+[
+  {
+    "id": "CN-government-gov-cn",
+    "regionCode": "CN",
+    "name": "中华人民共和国中央人民政府",
+    "siteName": "中国政府网",
+    "url": "https://www.gov.cn/",
+    "category": "government",
+    "subcategory": "国务院",
+    "sourceUrl": "https://www.gov.cn/"
+  },
+  {
+    "id": "CN-people_congress-npc-gov-cn",
+    "regionCode": "CN",
+    "name": "全国人民代表大会",
+    "siteName": "中国人大网",
+    "url": "http://www.npc.gov.cn/",
+    "category": "people_congress",
+    "sourceUrl": "http://www.npc.gov.cn/"
+  },
+  {
+    "id": "CN-cppcc-cppcc-gov-cn",
+    "regionCode": "CN",
+    "name": "中国人民政治协商会议全国委员会",
+    "siteName": "中国政协网",
+    "url": "http://www.cppcc.gov.cn/",
+    "category": "cppcc",
+    "sourceUrl": "http://www.cppcc.gov.cn/"
+  },
+  {
+    "id": "CN-court-court-gov-cn",
+    "regionCode": "CN",
+    "name": "最高人民法院",
+    "siteName": "中华人民共和国最高人民法院",
+    "url": "https://www.court.gov.cn/",
+    "category": "court",
+    "sourceUrl": "https://www.court.gov.cn/"
+  },
+  {
+    "id": "CN-procuratorate-spp-gov-cn",
+    "regionCode": "CN",
+    "name": "最高人民检察院",
+    "siteName": "最高人民检察院",
+    "url": "https://www.spp.gov.cn/",
+    "category": "procuratorate",
+    "sourceUrl": "https://www.spp.gov.cn/"
+  }
+]

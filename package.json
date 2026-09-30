@@ -8,15 +8,16 @@
     "npm": ">=11"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "tsc --noEmit && vite build",
+    "dev": "npm run prepare:data && vite",
+    "build": "npm run prepare:data && tsc --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "format:check": "prettier --check .",
     "test": "vitest run",
     "test:watch": "vitest",
-    "validate:data": "tsx scripts/validate-data.ts"
+    "validate:data": "tsx scripts/validate-data.ts",
+    "prepare:data": "tsx scripts/prepare-public-data.ts"
   },
   "dependencies": {
     "minisearch": "^7.2.0",
