@@ -1,0 +1,7 @@
+.superpowers/
+docs/
+dist/
+coverage/
+node_modules/
+public/data/
+public/search-index/

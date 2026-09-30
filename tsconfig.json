@@ -10,7 +10,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "types": ["vitest/globals", "node"]
+    "types": ["vitest/globals", "node"],
+    "skipLibCheck": true
   },
   "include": ["src", "tests", "scripts", "vite.config.ts", "eslint.config.js"]
 }

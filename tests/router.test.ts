@@ -11,8 +11,14 @@ describe('parseHashRoute', () => {
   it('parses region and encoded search routes', () => {
     expect(parseHashRoute('#/region/110000')).toEqual({ kind: 'region', regionCode: '110000' });
     expect(parseHashRoute('#/search?q=%E5%8C%97%E4%BA%AC')).toEqual({
-      kind: 'search', query: '北京'
+      kind: 'search',
+      query: '北京',
     });
+  });
+
+  it('keeps malformed percent encodings as literal text', () => {
+    expect(parseHashRoute('#/region/%')).toEqual({ kind: 'region', regionCode: '%' });
+    expect(parseHashRoute('#/search?q=%')).toEqual({ kind: 'search', query: '%' });
   });
 
   it('round-trips each route', () => {
@@ -20,7 +26,7 @@ describe('parseHashRoute', () => {
       { kind: 'home' as const },
       { kind: 'national' as const },
       { kind: 'region' as const, regionCode: '110000' },
-      { kind: 'search' as const, query: '法院' }
+      { kind: 'search' as const, query: '法院' },
     ];
     for (const route of routes) expect(parseHashRoute(toHash(route))).toEqual(route);
   });
