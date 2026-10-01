@@ -1,5 +1,32 @@
-import { afterEach, describe, expect, it } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { renderShell, startApp } from '../src/app';
+import {
+  loadNationalAgencies as loadNationalAgenciesImpl,
+  loadRegions as loadRegionsImpl,
+} from '../src/data/client';
+import type { AgencyRecord, Region } from '../src/domain/schema';
+
+const regions: Region[] = [
+  { code: 'CN', name: '中国大陆', level: 'country', parentCode: null, sort: 0 },
+  { code: '110000', name: '北京市', level: 'province', parentCode: 'CN', sort: 1 },
+];
+
+const agency: AgencyRecord = {
+  id: 'CN-government-gov-cn',
+  regionCode: 'CN',
+  name: '中华人民共和国中央人民政府',
+  siteName: '中国政府网',
+  url: 'https://www.gov.cn/',
+  category: 'government',
+  sourceUrl: 'https://www.gov.cn/',
+};
+
+function createDependencies() {
+  return {
+    loadRegions: vi.fn<typeof loadRegionsImpl>().mockResolvedValue(regions),
+    loadNationalAgencies: vi.fn<typeof loadNationalAgenciesImpl>().mockResolvedValue([agency]),
+  };
+}
 
 describe('renderShell', () => {
   it('renders the global navigation and current title', () => {
@@ -26,22 +53,86 @@ describe('startApp', () => {
     location.hash = '';
   });
 
-  it('renders the initial route, updates on hashchange, and removes its listener on cleanup', () => {
+  it('loads and renders the home route', async () => {
     location.hash = '#/';
+    await new Promise((resolve) => setTimeout(resolve, 0));
     const root = document.createElement('div');
     document.body.append(root);
-    const cleanup = startApp(root);
+    const dependencies = createDependencies();
+    const cleanup = startApp(root, { dependencies });
 
-    expect(root.querySelector('p')?.textContent).toContain('home');
+    expect(root.textContent).toContain('正在加载');
+    await vi.waitFor(() => {
+      expect(root.querySelector('a[href="#/region/110000"]')).not.toBeNull();
+    });
+    expect(dependencies.loadRegions).toHaveBeenCalledTimes(1);
+
+    cleanup();
+    root.remove();
+  });
+
+  it('loads regions and national agencies in parallel for the national route', async () => {
+    location.hash = '#/national';
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    const root = document.createElement('div');
+    document.body.append(root);
+    const dependencies = createDependencies();
+    const cleanup = startApp(root, { dependencies });
+
+    await vi.waitFor(() => {
+      expect(root.querySelector('a[href="https://www.gov.cn/"]')).not.toBeNull();
+    });
+    expect(dependencies.loadRegions).toHaveBeenCalledTimes(1);
+    expect(dependencies.loadNationalAgencies).toHaveBeenCalledTimes(1);
+
+    cleanup();
+    root.remove();
+  });
+
+  it('shows an error and retries the current route', async () => {
+    location.hash = '#/';
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    const root = document.createElement('div');
+    document.body.append(root);
+    const dependencies = createDependencies();
+    dependencies.loadRegions
+      .mockRejectedValueOnce(new Error('network unavailable'))
+      .mockResolvedValueOnce(regions);
+    const cleanup = startApp(root, { dependencies });
+
+    await vi.waitFor(() => {
+      expect(root.textContent).toContain('数据加载失败');
+    });
+    root.querySelector<HTMLButtonElement>('button')?.click();
+
+    await vi.waitFor(() => {
+      expect(root.querySelector('a[href="#/region/110000"]')).not.toBeNull();
+    });
+    expect(dependencies.loadRegions).toHaveBeenCalledTimes(2);
+
+    cleanup();
+    root.remove();
+  });
+
+  it('removes its hashchange listener on cleanup', async () => {
+    location.hash = '#/';
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    const root = document.createElement('div');
+    document.body.append(root);
+    const dependencies = createDependencies();
+    const cleanup = startApp(root, { dependencies });
+
+    await vi.waitFor(() => {
+      expect(root.querySelector('a[href="#/region/110000"]')).not.toBeNull();
+    });
+    cleanup();
 
     location.hash = '#/national';
     window.dispatchEvent(new Event('hashchange'));
-    expect(root.querySelector('p')?.textContent).toContain('national');
+    await new Promise((resolve) => setTimeout(resolve, 0));
 
-    cleanup();
-    location.hash = '#/region/110000';
-    window.dispatchEvent(new Event('hashchange'));
-    expect(root.querySelector('p')?.textContent).toContain('national');
+    expect(dependencies.loadNationalAgencies).not.toHaveBeenCalled();
+    expect(root.querySelector('a[href="#/region/110000"]')).not.toBeNull();
 
     root.remove();
   });
