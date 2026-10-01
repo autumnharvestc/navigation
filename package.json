@@ -18,7 +18,10 @@
     "test:watch": "vitest",
     "validate:data": "tsx scripts/validate-data.ts",
     "check:links": "tsx scripts/check-links.ts",
-    "prepare:data": "tsx scripts/prepare-public-data.ts"
+    "prepare:data": "tsx scripts/prepare-public-data.ts",
+    "test:e2e": "playwright test",
+    "check:bundle": "tsx scripts/check-bundle-size.ts",
+    "ci": "npm run format:check && npm run lint && npm run typecheck && npm run validate:data && npm run test && npm run build && npm run check:bundle"
   },
   "dependencies": {
     "minisearch": "^7.2.0",
@@ -26,6 +29,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.63.0",
     "@types/node": "^24.19.0",
     "eslint": "^10.11.0",
     "globals": "^17.12.0",

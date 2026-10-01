@@ -253,4 +253,28 @@ describe('preparePublicData', () => {
       readFile(join(rootDir, 'public', 'search-index', 'trusted.json'), 'utf8'),
     ).resolves.toBe('trusted');
   });
+
+  it('preserves the .nojekyll deployment marker during regeneration', async () => {
+    await writeJson(join(rootDir, 'data', 'regions.json'), [country, beijing]);
+    await writeJson(join(rootDir, 'data', 'national.json'), [nationalAgency]);
+    await writeJson(join(rootDir, 'data', 'provinces', '110000.json'), [beijingAgency]);
+    await mkdir(join(rootDir, 'public'), { recursive: true });
+    await writeFile(join(rootDir, 'public', '.nojekyll'), 'existing marker\n', 'utf8');
+
+    await preparePublicData(rootDir);
+
+    await expect(readFile(join(rootDir, 'public', '.nojekyll'), 'utf8')).resolves.toBe(
+      'existing marker\n',
+    );
+  });
+
+  it('creates a .nojekyll marker when the public directory lacks one', async () => {
+    await writeJson(join(rootDir, 'data', 'regions.json'), [country, beijing]);
+    await writeJson(join(rootDir, 'data', 'national.json'), [nationalAgency]);
+    await writeJson(join(rootDir, 'data', 'provinces', '110000.json'), [beijingAgency]);
+
+    await preparePublicData(rootDir);
+
+    await expect(readFile(join(rootDir, 'public', '.nojekyll'), 'utf8')).resolves.toBe('');
+  });
 });

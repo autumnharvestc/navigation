@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitest/config';
+import { defaultExclude, defineConfig } from 'vitest/config';
 
 const repositoryName = process.env.GITHUB_REPOSITORY?.split('/')[1];
 const githubPagesBase = process.env.GITHUB_ACTIONS && repositoryName ? `/${repositoryName}/` : '/';
@@ -6,5 +6,9 @@ const githubPagesBase = process.env.GITHUB_ACTIONS && repositoryName ? `/${repos
 export default defineConfig({
   base: githubPagesBase,
   build: { target: 'es2022' },
-  test: { environment: 'happy-dom', coverage: { reporter: ['text', 'html'] } },
+  test: {
+    environment: 'happy-dom',
+    exclude: [...defaultExclude, 'tests/e2e/**'],
+    coverage: { reporter: ['text', 'html'] },
+  },
 });

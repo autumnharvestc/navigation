@@ -82,8 +82,9 @@ describe('renderShell', () => {
 
 describe('startApp', () => {
   afterEach(() => {
-    location.hash = '';
+    vi.clearAllTimers();
     vi.useRealTimers();
+    location.hash = '';
     vi.restoreAllMocks();
   });
 
@@ -197,6 +198,8 @@ describe('startApp', () => {
 
   it('clears a pending search debounce when navigation leaves the search route', async () => {
     location.hash = '#/search';
+    // Flush the hashchange event happy-dom schedules for the URL change before the
+    // app registers its listener, so it cannot trigger an extra route render.
     await new Promise((resolve) => setTimeout(resolve, 0));
     const root = document.createElement('div');
     document.body.append(root);
@@ -208,13 +211,16 @@ describe('startApp', () => {
     });
     const input = root.querySelector<HTMLInputElement>('input[type="search"]')!;
 
-    vi.useFakeTimers();
     input.value = '人民政府';
     input.dispatchEvent(new Event('input', { bubbles: true }));
+    // Navigate deterministically: set the hash and dispatch hashchange ourselves
+    // instead of relying on happy-dom's async scheduling.
     location.hash = '#/';
+    window.dispatchEvent(new Event('hashchange'));
 
-    await vi.advanceTimersByTimeAsync(0);
-    await vi.advanceTimersByTimeAsync(200);
+    // Wait past the 200ms debounce window with real timers; the pending debounce
+    // must have been cleared, otherwise it would rewrite the hash to '#/search?...'.
+    await new Promise((resolve) => setTimeout(resolve, 250));
 
     expect(location.hash).toBe('#/');
     expect(dependencies.loadSearchDocuments).toHaveBeenCalledTimes(1);

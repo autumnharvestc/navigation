@@ -103,6 +103,7 @@ export async function preparePublicData(rootDir: string): Promise<PrepareResult>
   ]);
   await mkdir(publicProvincesDir, { recursive: true });
   await mkdir(searchIndexDir, { recursive: true });
+  await writeFile(join(rootDir, 'public', '.nojekyll'), '', { flag: 'a' });
 
   await copyFile(regionsPath, join(publicDataDir, 'regions.json'));
   await copyFile(nationalPath, join(publicDataDir, 'national.json'));
