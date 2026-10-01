@@ -28,6 +28,23 @@ export function createRegionIndex(regions: Region[]): RegionIndex {
     siblings.sort(compareRegions);
   }
 
+  const collectAncestors = (code: string): Region[] => {
+    const ancestors: Region[] = [];
+    const visited = new Set<string>([code]);
+    let parentCode = byCode.get(code)?.parentCode ?? null;
+
+    while (parentCode !== null) {
+      const parent = byCode.get(parentCode);
+      if (!parent || visited.has(parent.code)) break;
+
+      ancestors.push(parent);
+      visited.add(parent.code);
+      parentCode = parent.parentCode;
+    }
+
+    return ancestors.reverse();
+  };
+
   return {
     get(code) {
       return byCode.get(code);
@@ -36,20 +53,7 @@ export function createRegionIndex(regions: Region[]): RegionIndex {
       return [...(childrenByParent.get(code) ?? [])];
     },
     ancestors(code) {
-      const ancestors: Region[] = [];
-      const visited = new Set<string>([code]);
-      let parentCode = byCode.get(code)?.parentCode ?? null;
-
-      while (parentCode !== null) {
-        const parent = byCode.get(parentCode);
-        if (!parent || visited.has(parent.code)) break;
-
-        ancestors.push(parent);
-        visited.add(parent.code);
-        parentCode = parent.parentCode;
-      }
-
-      return ancestors.reverse();
+      return collectAncestors(code);
     },
     provinceOf(code) {
       const region = byCode.get(code);
@@ -57,7 +61,7 @@ export function createRegionIndex(regions: Region[]): RegionIndex {
       if (region.level === 'province') return region;
       if (region.level !== 'city' && region.level !== 'county') return undefined;
 
-      return this.ancestors(code).find((ancestor) => ancestor.level === 'province');
+      return collectAncestors(code).find((ancestor) => ancestor.level === 'province');
     },
   };
 }

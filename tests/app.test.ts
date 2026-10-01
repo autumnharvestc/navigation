@@ -119,6 +119,30 @@ describe('startApp', () => {
     });
     expect(root.querySelector('nav[aria-label="面包屑"]')?.textContent).toContain('中国大陆');
     expect(dependencies.loadProvinceAgencies).toHaveBeenCalledWith('110000');
+    expect(dependencies.loadLinkStatus).toHaveBeenCalled();
+
+    cleanup();
+    root.remove();
+  });
+
+  it('loads national agencies for the country region without a province shard', async () => {
+    location.hash = '#/region/CN';
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    const root = document.createElement('div');
+    document.body.append(root);
+    const dependencies = createDependencies();
+    const cleanup = startApp(root, { dependencies });
+
+    await vi.waitFor(() => {
+      expect(root.querySelector('a[href="https://www.gov.cn/"]')).not.toBeNull();
+    });
+
+    const breadcrumb = root.querySelector('nav[aria-label="面包屑"]');
+    expect(breadcrumb?.textContent).toBe('中国大陆');
+    expect(breadcrumb?.querySelectorAll('li')).toHaveLength(1);
+    expect(breadcrumb?.querySelector('a')).toBeNull();
+    expect(dependencies.loadNationalAgencies).toHaveBeenCalledTimes(1);
+    expect(dependencies.loadProvinceAgencies).not.toHaveBeenCalled();
 
     cleanup();
     root.remove();
