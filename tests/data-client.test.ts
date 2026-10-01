@@ -74,6 +74,18 @@ describe('data client', () => {
     expect(missingMock).toHaveBeenCalledWith('/data/provinces/120000.json');
   });
 
+  it('returns an empty province list when the dev server serves its HTML fallback', async () => {
+    const fetchMock = vi.fn<typeof fetch>();
+    fetchMock.mockResolvedValueOnce(
+      new Response('<!doctype html><html><body>app</body></html>', {
+        status: 200,
+        headers: { 'content-type': 'text/html' },
+      }),
+    );
+
+    await expect(loadProvinceAgencies('120000', fetchMock)).resolves.toEqual([]);
+  });
+
   it('throws DataLoadError with the request path for non-2xx responses', async () => {
     const regionsMock = vi.fn<typeof fetch>();
     regionsMock.mockResolvedValueOnce(jsonResponse({ error: 'unavailable' }, 500));
@@ -88,6 +100,28 @@ describe('data client', () => {
     await expect(loadProvinceAgencies('110000', provinceMock)).rejects.toThrow(
       '/data/provinces/110000.json',
     );
+  });
+
+  it('throws DataLoadError for non-2xx HTML responses', async () => {
+    const provinceMock = vi.fn<typeof fetch>();
+    provinceMock.mockResolvedValueOnce(
+      new Response('<!doctype html><html><body>error</body></html>', {
+        status: 500,
+        headers: { 'content-type': 'text/html' },
+      }),
+    );
+    await expect(loadProvinceAgencies('110000', provinceMock)).rejects.toThrow(
+      '/data/provinces/110000.json',
+    );
+
+    const statusMock = vi.fn<typeof fetch>();
+    statusMock.mockResolvedValueOnce(
+      new Response('<!doctype html><html><body>error</body></html>', {
+        status: 503,
+        headers: { 'content-type': 'text/html' },
+      }),
+    );
+    await expect(loadLinkStatus(statusMock)).rejects.toThrow('/data/generated/link-status.json');
   });
 
   it('throws DataLoadError when national agencies are unavailable', async () => {
@@ -115,6 +149,18 @@ describe('data client', () => {
 
     await expect(loadLinkStatus(fetchMock)).resolves.toEqual(new Map());
     expect(fetchMock).toHaveBeenCalledWith('/data/generated/link-status.json');
+  });
+
+  it('returns an empty link status map when the dev server serves its HTML fallback', async () => {
+    const fetchMock = vi.fn<typeof fetch>();
+    fetchMock.mockResolvedValueOnce(
+      new Response('<!doctype html><html><body>app</body></html>', {
+        status: 200,
+        headers: { 'content-type': 'text/html' },
+      }),
+    );
+
+    await expect(loadLinkStatus(fetchMock)).resolves.toEqual(new Map());
   });
 
   it('throws DataLoadError for a non-2xx link status response', async () => {

@@ -48,8 +48,9 @@ export async function loadProvinceAgencies(
   fetchImpl: FetchImpl = fetch,
 ): Promise<AgencyRecord[]> {
   const response = await fetchImpl(publicUrl(`data/provinces/${provinceCode}.json`));
+  const contentType = response.headers.get('content-type') ?? '';
 
-  if (response.status === 404) return [];
+  if (response.status === 404 || (response.ok && contentType.includes('text/html'))) return [];
 
   if (!response.ok) {
     throw new DataLoadError(publicUrl(`data/provinces/${provinceCode}.json`), response.status);
@@ -63,7 +64,10 @@ export async function loadLinkStatus(
 ): Promise<Map<string, LinkStatus>> {
   const response = await fetchImpl(publicUrl('data/generated/link-status.json'));
 
-  if (response.status === 404) return new Map<string, LinkStatus>();
+  const contentType = response.headers.get('content-type') ?? '';
+  if (response.status === 404 || (response.ok && contentType.includes('text/html'))) {
+    return new Map<string, LinkStatus>();
+  }
 
   if (!response.ok) {
     throw new DataLoadError(publicUrl('data/generated/link-status.json'), response.status);

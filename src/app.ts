@@ -1,12 +1,21 @@
-import { loadNationalAgencies, loadRegions } from './data/client';
+import {
+  loadLinkStatus,
+  loadNationalAgencies,
+  loadProvinceAgencies,
+  loadRegions,
+} from './data/client';
 import { parseHashRoute } from './router';
 import type { Route } from './router';
+import { createRegionIndex } from './domain/region-tree';
 import { renderHomeView } from './views/home';
 import { renderNationalView } from './views/national';
+import { renderRegionView } from './views/region';
 
 export type AppDependencies = {
   loadRegions: typeof loadRegions;
   loadNationalAgencies: typeof loadNationalAgencies;
+  loadProvinceAgencies: typeof loadProvinceAgencies;
+  loadLinkStatus: typeof loadLinkStatus;
 };
 
 export type AppOptions = {
@@ -17,6 +26,8 @@ export type AppOptions = {
 const defaultDependencies: AppDependencies = {
   loadRegions,
   loadNationalAgencies,
+  loadProvinceAgencies,
+  loadLinkStatus,
 };
 
 function createLink(href: string, text: string): HTMLAnchorElement {
@@ -85,6 +96,23 @@ function renderError(main: HTMLElement, retry: () => void): void {
   main.replaceChildren(message, actions);
 }
 
+function renderRegionNotFound(main: HTMLElement): void {
+  const heading = document.createElement('h1');
+  heading.textContent = '地区不存在';
+
+  const message = document.createElement('p');
+  message.textContent = '请确认地区代码，或返回省级目录继续浏览。';
+
+  const homeLink = createLink('#/', '返回首页');
+  homeLink.className = 'button button--primary';
+
+  const actions = document.createElement('div');
+  actions.className = 'retry-actions';
+  actions.append(homeLink);
+
+  main.replaceChildren(heading, message, actions);
+}
+
 export function renderShell(root: HTMLElement, route: Route, options: AppOptions = {}): void {
   const title = options.title ?? '中国大陆政府机构官网导航';
   const main = renderFrame(root, title);
@@ -93,7 +121,10 @@ export function renderShell(root: HTMLElement, route: Route, options: AppOptions
 
 export function startApp(root: HTMLElement, options: AppOptions = {}): () => void {
   const title = options.title ?? '中国大陆政府机构官网导航';
-  const dependencies = options.dependencies ?? defaultDependencies;
+  const dependencies: AppDependencies = {
+    ...defaultDependencies,
+    ...options.dependencies,
+  };
   let renderToken = 0;
   let active = true;
 
@@ -102,7 +133,7 @@ export function startApp(root: HTMLElement, options: AppOptions = {}): () => voi
     const route = parseHashRoute(location.hash);
     const main = renderFrame(root, title);
 
-    if (route.kind === 'region' || route.kind === 'search') {
+    if (route.kind === 'search') {
       renderPlaceholder(main, route, title);
       return;
     }
@@ -117,12 +148,44 @@ export function startApp(root: HTMLElement, options: AppOptions = {}): () => voi
         return;
       }
 
-      const [, agencies] = await Promise.all([
-        dependencies.loadRegions(),
-        dependencies.loadNationalAgencies(),
-      ]);
+      if (route.kind === 'national') {
+        const [, agencies] = await Promise.all([
+          dependencies.loadRegions(),
+          dependencies.loadNationalAgencies(),
+        ]);
+        if (!active || token !== renderToken) return;
+        renderNationalView(main, agencies);
+        return;
+      }
+
+      const regions = await dependencies.loadRegions();
       if (!active || token !== renderToken) return;
-      renderNationalView(main, agencies);
+
+      const regionIndex = createRegionIndex(regions);
+      const region = regionIndex.get(route.regionCode);
+      if (!region) {
+        renderRegionNotFound(main);
+        return;
+      }
+
+      const [agencies, statusMap] =
+        region.level === 'country'
+          ? await Promise.all([dependencies.loadNationalAgencies(), dependencies.loadLinkStatus()])
+          : await Promise.all([
+              dependencies.loadProvinceAgencies(
+                regionIndex.provinceOf(region.code)?.code ?? region.code,
+              ),
+              dependencies.loadLinkStatus(),
+            ]);
+      if (!active || token !== renderToken) return;
+
+      renderRegionView(main, {
+        region,
+        ancestors: regionIndex.ancestors(region.code),
+        children: regionIndex.children(region.code),
+        agencies,
+        statusMap,
+      });
     } catch {
       if (!active || token !== renderToken) return;
       renderError(main, () => {

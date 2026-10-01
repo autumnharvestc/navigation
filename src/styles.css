@@ -137,6 +137,7 @@ button:focus-visible {
 }
 
 .province-list,
+.region-list,
 .agency-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
@@ -146,7 +147,8 @@ button:focus-visible {
   list-style: none;
 }
 
-.province-list a {
+.province-list a,
+.region-list a {
   display: block;
   padding: 0.75rem;
   border: 1px solid var(--border-color);
@@ -156,7 +158,8 @@ button:focus-visible {
   text-decoration: none;
 }
 
-.province-list a:hover {
+.province-list a:hover,
+.region-list a:hover {
   border-color: var(--primary-color);
   background-color: #f2f6ff;
 }
@@ -240,4 +243,57 @@ button:focus-visible {
   .agency-card__actions .button {
     flex: 1 1 100%;
   }
+}
+.breadcrumbs {
+  margin-bottom: 1.25rem;
+  color: var(--muted-color);
+  font-size: 0.9375rem;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs li {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.breadcrumbs li + li::before {
+  content: '/';
+  color: var(--border-color);
+}
+
+.breadcrumbs a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs [aria-current='page'] {
+  color: var(--muted-color);
+  font-weight: 600;
+}
+
+.level-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.125rem 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  color: var(--muted-color);
+  background-color: #f8fafc;
+  font-size: 0.875rem;
+  font-weight: 600;
+  vertical-align: middle;
 }
