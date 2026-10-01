@@ -1,4 +1,5 @@
-import type { AgencyCategory, AgencyRecord } from '../domain/schema';
+import type { AgencyCategory, AgencyRecord, LinkStatus } from '../domain/schema';
+import { renderStatusBadge } from './status-badge';
 
 export const agencyCategoryTitles: Record<AgencyCategory, string> = {
   party: '党中央',
@@ -11,6 +12,8 @@ export const agencyCategoryTitles: Record<AgencyCategory, string> = {
   department: '部门',
   other: '其他',
 };
+
+export type AgencyCardData = Pick<AgencyRecord, 'name' | 'siteName' | 'url' | 'category'>;
 
 function createDetail(label: string, value: string): HTMLDListElement {
   const term = document.createElement('dt');
@@ -26,13 +29,17 @@ function createDetail(label: string, value: string): HTMLDListElement {
   return details;
 }
 
-export function renderAgencyCard(agency: AgencyRecord): HTMLElement {
+export function renderAgencyCard(agency: AgencyCardData, status?: LinkStatus): HTMLElement {
   const card = document.createElement('article');
   card.className = 'agency-card';
 
   const name = document.createElement('h3');
   name.className = 'agency-card__name';
   name.textContent = agency.name;
+
+  const header = document.createElement('div');
+  header.className = 'agency-card__header';
+  header.append(name, renderStatusBadge(status));
 
   const siteName = createDetail('网站名称', agency.siteName);
   const domain = createDetail('域名', new URL(agency.url).hostname);
@@ -72,7 +79,7 @@ export function renderAgencyCard(agency: AgencyRecord): HTMLElement {
 
   const content = document.createElement('div');
   content.className = 'agency-card__content';
-  content.append(name, siteName, domain, category);
+  content.append(header, siteName, domain, category);
 
   card.append(content, actions);
 

@@ -3,6 +3,7 @@ import {
   loadNationalAgencies,
   loadProvinceAgencies,
   loadRegions,
+  loadSearchDocuments,
 } from './data/client';
 import { parseHashRoute } from './router';
 import type { Route } from './router';
@@ -10,12 +11,14 @@ import { createRegionIndex } from './domain/region-tree';
 import { renderHomeView } from './views/home';
 import { renderNationalView } from './views/national';
 import { renderRegionView } from './views/region';
+import { renderSearchView } from './views/search';
 
 export type AppDependencies = {
   loadRegions: typeof loadRegions;
   loadNationalAgencies: typeof loadNationalAgencies;
   loadProvinceAgencies: typeof loadProvinceAgencies;
   loadLinkStatus: typeof loadLinkStatus;
+  loadSearchDocuments: typeof loadSearchDocuments;
 };
 
 export type AppOptions = {
@@ -28,8 +31,8 @@ const defaultDependencies: AppDependencies = {
   loadNationalAgencies,
   loadProvinceAgencies,
   loadLinkStatus,
+  loadSearchDocuments,
 };
-
 function createLink(href: string, text: string): HTMLAnchorElement {
   const link = document.createElement('a');
   link.href = href;
@@ -133,14 +136,19 @@ export function startApp(root: HTMLElement, options: AppOptions = {}): () => voi
     const route = parseHashRoute(location.hash);
     const main = renderFrame(root, title);
 
-    if (route.kind === 'search') {
-      renderPlaceholder(main, route, title);
-      return;
-    }
-
     renderLoading(main);
 
     try {
+      if (route.kind === 'search') {
+        const [documents, statusMap] = await Promise.all([
+          dependencies.loadSearchDocuments(),
+          dependencies.loadLinkStatus(),
+        ]);
+        if (!active || token !== renderToken) return;
+        renderSearchView(main, { documents, statusMap, initialQuery: route.query });
+        return;
+      }
+
       if (route.kind === 'home') {
         const regions = await dependencies.loadRegions();
         if (!active || token !== renderToken) return;
@@ -168,15 +176,12 @@ export function startApp(root: HTMLElement, options: AppOptions = {}): () => voi
         return;
       }
 
-      const [agencies, statusMap] =
+      const agencies =
         region.level === 'country'
-          ? await Promise.all([dependencies.loadNationalAgencies(), dependencies.loadLinkStatus()])
-          : await Promise.all([
-              dependencies.loadProvinceAgencies(
-                regionIndex.provinceOf(region.code)?.code ?? region.code,
-              ),
-              dependencies.loadLinkStatus(),
-            ]);
+          ? await dependencies.loadNationalAgencies()
+          : await dependencies.loadProvinceAgencies(
+              regionIndex.provinceOf(region.code)?.code ?? region.code,
+            );
       if (!active || token !== renderToken) return;
 
       renderRegionView(main, {
@@ -184,7 +189,7 @@ export function startApp(root: HTMLElement, options: AppOptions = {}): () => voi
         ancestors: regionIndex.ancestors(region.code),
         children: regionIndex.children(region.code),
         agencies,
-        statusMap,
+        statusMap: new Map(),
       });
     } catch {
       if (!active || token !== renderToken) return;

@@ -5,6 +5,7 @@ import {
   loadNationalAgencies as loadNationalAgenciesImpl,
   loadProvinceAgencies as loadProvinceAgenciesImpl,
   loadRegions as loadRegionsImpl,
+  loadSearchDocuments as loadSearchDocumentsImpl,
 } from '../src/data/client';
 import type { AgencyRecord, Region } from '../src/domain/schema';
 
@@ -25,6 +26,18 @@ const agency: AgencyRecord = {
   sourceUrl: 'https://www.gov.cn/',
 };
 
+const searchDocument = {
+  id: '110000-court-bjgy-bjcourt-gov-cn',
+  name: '北京市高级人民法院',
+  siteName: '北京市高级人民法院',
+  regionCode: '110000',
+  regionName: '北京市',
+  level: 'province',
+  category: 'court',
+  domain: 'bjgy.bjcourt.gov.cn',
+  url: 'https://bjgy.bjcourt.gov.cn/',
+} as const;
+
 const beijingAgency: AgencyRecord = {
   id: '110000-government-beijing-gov-cn',
   regionCode: '110000',
@@ -39,6 +52,9 @@ function createDependencies() {
   return {
     loadRegions: vi.fn<typeof loadRegionsImpl>().mockResolvedValue(regions),
     loadNationalAgencies: vi.fn<typeof loadNationalAgenciesImpl>().mockResolvedValue([agency]),
+    loadSearchDocuments: vi
+      .fn<typeof loadSearchDocumentsImpl>()
+      .mockResolvedValue([searchDocument]),
     loadProvinceAgencies: vi.fn<typeof loadProvinceAgenciesImpl>().mockResolvedValue([]),
     loadLinkStatus: vi.fn<typeof loadLinkStatusImpl>().mockResolvedValue(new Map()),
   };
@@ -82,6 +98,7 @@ describe('startApp', () => {
       expect(root.querySelector('a[href="#/region/110000"]')).not.toBeNull();
     });
     expect(dependencies.loadRegions).toHaveBeenCalledTimes(1);
+    expect(dependencies.loadSearchDocuments).not.toHaveBeenCalled();
 
     cleanup();
     root.remove();
@@ -119,7 +136,51 @@ describe('startApp', () => {
     });
     expect(root.querySelector('nav[aria-label="面包屑"]')?.textContent).toContain('中国大陆');
     expect(dependencies.loadProvinceAgencies).toHaveBeenCalledWith('110000');
-    expect(dependencies.loadLinkStatus).toHaveBeenCalled();
+    expect(dependencies.loadLinkStatus).not.toHaveBeenCalled();
+    expect(dependencies.loadSearchDocuments).not.toHaveBeenCalled();
+
+    cleanup();
+    root.remove();
+  });
+
+  it('loads search documents and link status only for the search route', async () => {
+    location.hash = '#/search';
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    const root = document.createElement('div');
+    document.body.append(root);
+    const dependencies = createDependencies();
+    const cleanup = startApp(root, { dependencies });
+
+    await vi.waitFor(() => {
+      expect(root.querySelector('a[href="https://bjgy.bjcourt.gov.cn/"]')).not.toBeNull();
+    });
+    expect(dependencies.loadSearchDocuments).toHaveBeenCalledTimes(1);
+    expect(dependencies.loadLinkStatus).toHaveBeenCalledTimes(1);
+
+    cleanup();
+    root.remove();
+  });
+
+  it('shows a search error and retries the current route', async () => {
+    location.hash = '#/search';
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    const root = document.createElement('div');
+    document.body.append(root);
+    const dependencies = createDependencies();
+    dependencies.loadSearchDocuments
+      .mockRejectedValueOnce(new Error('network unavailable'))
+      .mockResolvedValueOnce([searchDocument]);
+    const cleanup = startApp(root, { dependencies });
+
+    await vi.waitFor(() => {
+      expect(root.textContent).toContain('数据加载失败');
+    });
+    root.querySelector<HTMLButtonElement>('button')?.click();
+
+    await vi.waitFor(() => {
+      expect(root.querySelector('a[href="https://bjgy.bjcourt.gov.cn/"]')).not.toBeNull();
+    });
+    expect(dependencies.loadSearchDocuments).toHaveBeenCalledTimes(2);
 
     cleanup();
     root.remove();
