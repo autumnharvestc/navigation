@@ -91,7 +91,7 @@ export function renderRegionView(root: HTMLElement, props: RegionViewProps): voi
     cards.className = 'agency-list';
     for (const agency of categoryAgencies) {
       const item = document.createElement('li');
-      item.append(renderAgencyCard(agency));
+      item.append(renderAgencyCard(agency, props.statusMap.get(agency.id)));
       cards.append(item);
     }
 

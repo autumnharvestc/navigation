@@ -1,0 +1,38 @@
+[
+  {
+    "id": "CN-government-gov-cn",
+    "status": "valid",
+    "httpStatus": 200,
+    "checkedAt": "2026-10-01T07:49:15.476Z"
+  },
+  {
+    "id": "CN-people_congress-npc-gov-cn",
+    "status": "valid",
+    "httpStatus": 200,
+    "checkedAt": "2026-10-01T07:49:15.549Z"
+  },
+  {
+    "id": "CN-cppcc-cppcc-gov-cn",
+    "status": "valid",
+    "httpStatus": 200,
+    "checkedAt": "2026-10-01T07:49:15.549Z"
+  },
+  {
+    "id": "CN-court-court-gov-cn",
+    "status": "valid",
+    "httpStatus": 200,
+    "checkedAt": "2026-10-01T07:49:15.550Z"
+  },
+  {
+    "id": "CN-procuratorate-spp-gov-cn",
+    "status": "valid",
+    "httpStatus": 200,
+    "checkedAt": "2026-10-01T07:49:15.551Z"
+  },
+  {
+    "id": "110000-government-beijing-gov-cn",
+    "status": "valid",
+    "httpStatus": 200,
+    "checkedAt": "2026-10-01T07:49:15.610Z"
+  }
+]

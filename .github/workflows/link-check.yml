@@ -23,6 +23,18 @@ jobs:
         id: link_check
         continue-on-error: true
         run: npm run check:links
+      - name: Commit generated link status
+        if: always() && (github.ref_name == 'master' || github.ref_name == 'main')
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/generated/link-status.json
+          if git diff --cached --quiet -- data/generated/link-status.json; then
+            echo "link-status.json unchanged; no commit created"
+          else
+            git commit -m "chore: update link status"
+            git push origin HEAD:"$GITHUB_REF_NAME"
+          fi
       - name: Upload link check report
         if: always()
         uses: actions/upload-artifact@v4

@@ -10,6 +10,7 @@ export type SearchDocument = {
   category: AgencyRecord['category'];
   domain: string;
   url: string;
+  sourceUrl: string;
 };
 
 export function domainOf(url: string): string {
@@ -27,5 +28,6 @@ export function toSearchDocument(agency: AgencyRecord, region: Region): SearchDo
     category: agency.category,
     domain: new URL(agency.url).hostname,
     url: agency.url,
+    sourceUrl: agency.sourceUrl,
   };
 }

@@ -13,6 +13,7 @@ const documents = [
     category: 'government',
     domain: 'www.beijing.gov.cn',
     url: 'https://www.beijing.gov.cn/',
+    sourceUrl: 'https://www.beijing.gov.cn/',
   },
   {
     id: 'b',
@@ -24,6 +25,7 @@ const documents = [
     category: 'court',
     domain: 'bjgy.bjcourt.gov.cn',
     url: 'https://bjgy.bjcourt.gov.cn/',
+    sourceUrl: 'https://bjgy.bjcourt.gov.cn/',
   },
 ] satisfies SearchDocument[];
 

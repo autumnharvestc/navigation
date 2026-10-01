@@ -123,6 +123,7 @@ describe('preparePublicData', () => {
         category: 'government',
         domain: 'www.gov.cn',
         url: nationalAgency.url,
+        sourceUrl: nationalAgency.sourceUrl,
       },
     ]);
     await expect(readJson(join(rootDir, 'public', 'search-index', '110000.json'))).resolves.toEqual(
@@ -137,6 +138,7 @@ describe('preparePublicData', () => {
           category: 'government',
           domain: 'www.beijing.gov.cn',
           url: beijingAgency.url,
+          sourceUrl: beijingAgency.sourceUrl,
         },
       ],
     );
@@ -181,6 +183,7 @@ describe('preparePublicData', () => {
           category: 'government',
           domain: 'www.beijing.gov.cn',
           url: dongchengAgency.url,
+          sourceUrl: dongchengAgency.sourceUrl,
         },
       ],
     );
@@ -252,6 +255,40 @@ describe('preparePublicData', () => {
     await expect(
       readFile(join(rootDir, 'public', 'search-index', 'trusted.json'), 'utf8'),
     ).resolves.toBe('trusted');
+  });
+
+  it('copies committed link status into public data', async () => {
+    const linkStatus = [
+      { id: nationalAgency.id, status: 'valid', checkedAt: '2026-09-30T00:00:00.000Z' },
+    ];
+    await writeJson(join(rootDir, 'data', 'regions.json'), [country, beijing]);
+    await writeJson(join(rootDir, 'data', 'national.json'), [nationalAgency]);
+    await writeJson(join(rootDir, 'data', 'provinces', '110000.json'), [beijingAgency]);
+    await writeJson(join(rootDir, 'data', 'generated', 'link-status.json'), linkStatus);
+
+    await preparePublicData(rootDir);
+
+    await expect(
+      readJson(join(rootDir, 'public', 'data', 'generated', 'link-status.json')),
+    ).resolves.toEqual(linkStatus);
+  });
+
+  it('removes stale public link status when generated status is absent', async () => {
+    await writeJson(join(rootDir, 'data', 'regions.json'), [country, beijing]);
+    await writeJson(join(rootDir, 'data', 'national.json'), [nationalAgency]);
+    await writeJson(join(rootDir, 'data', 'provinces', '110000.json'), [beijingAgency]);
+    await mkdir(join(rootDir, 'public', 'data', 'generated'), { recursive: true });
+    await writeFile(
+      join(rootDir, 'public', 'data', 'generated', 'link-status.json'),
+      'stale',
+      'utf8',
+    );
+
+    await preparePublicData(rootDir);
+
+    await expect(
+      readFile(join(rootDir, 'public', 'data', 'generated', 'link-status.json')),
+    ).rejects.toThrow(/ENOENT/);
   });
 
   it('preserves the .nojekyll deployment marker during regeneration', async () => {

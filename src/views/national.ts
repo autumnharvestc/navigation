@@ -1,5 +1,5 @@
 import { renderAgencyCard, agencyCategoryTitles } from '../components/agency-card';
-import type { AgencyCategory, AgencyRecord } from '../domain/schema';
+import type { AgencyCategory, AgencyRecord, LinkStatus } from '../domain/schema';
 
 const categoryOrder: AgencyCategory[] = [
   'party',
@@ -13,7 +13,11 @@ const categoryOrder: AgencyCategory[] = [
   'other',
 ];
 
-export function renderNationalView(root: HTMLElement, agencies: AgencyRecord[]): void {
+export function renderNationalView(
+  root: HTMLElement,
+  agencies: AgencyRecord[],
+  statusMap: Map<string, LinkStatus>,
+): void {
   const heading = document.createElement('h1');
   heading.textContent = '国家级机关目录';
 
@@ -38,7 +42,7 @@ export function renderNationalView(root: HTMLElement, agencies: AgencyRecord[]):
     cards.className = 'agency-list';
     for (const agency of categoryAgencies) {
       const item = document.createElement('li');
-      item.append(renderAgencyCard(agency));
+      item.append(renderAgencyCard(agency, statusMap.get(agency.id)));
       cards.append(item);
     }
 

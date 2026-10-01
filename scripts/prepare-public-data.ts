@@ -1,4 +1,4 @@
-import { copyFile, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { access, copyFile, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import type { AgencyRecord, Region } from '../src/domain/schema';
@@ -56,6 +56,8 @@ export async function preparePublicData(rootDir: string): Promise<PrepareResult>
   const publicDataDir = join(rootDir, 'public', 'data');
   const publicProvincesDir = join(publicDataDir, 'provinces');
   const searchIndexDir = join(rootDir, 'public', 'search-index');
+  const linkStatusPath = join(dataDir, 'generated', 'link-status.json');
+  const publicGeneratedDir = join(publicDataDir, 'generated');
 
   const regionsPath = join(dataDir, 'regions.json');
   const nationalPath = join(dataDir, 'national.json');
@@ -107,6 +109,18 @@ export async function preparePublicData(rootDir: string): Promise<PrepareResult>
 
   await copyFile(regionsPath, join(publicDataDir, 'regions.json'));
   await copyFile(nationalPath, join(publicDataDir, 'national.json'));
+
+  let hasLinkStatus = false;
+  try {
+    await access(linkStatusPath);
+    hasLinkStatus = true;
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error;
+  }
+  if (hasLinkStatus) {
+    await mkdir(publicGeneratedDir, { recursive: true });
+    await copyFile(linkStatusPath, join(publicGeneratedDir, 'link-status.json'));
+  }
   await Promise.all(
     provinceFiles.map((file) => copyFile(join(provincesDir, file), join(publicProvincesDir, file))),
   );

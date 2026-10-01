@@ -26,6 +26,7 @@ describe('toSearchDocument', () => {
       category: 'government',
       domain: 'www.beijing.gov.cn',
       url: 'https://www.beijing.gov.cn/',
+      sourceUrl: 'https://www.beijing.gov.cn/',
     });
     expect(JSON.parse(JSON.stringify(document))).toEqual(document);
   });

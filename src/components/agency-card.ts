@@ -13,20 +13,42 @@ export const agencyCategoryTitles: Record<AgencyCategory, string> = {
   other: '其他',
 };
 
-export type AgencyCardData = Pick<AgencyRecord, 'name' | 'siteName' | 'url' | 'category'>;
+export type AgencyCardData = Pick<
+  AgencyRecord,
+  'name' | 'siteName' | 'url' | 'category' | 'sourceUrl'
+>;
 
-function createDetail(label: string, value: string): HTMLDListElement {
+function createDetail(label: string, value: string | Node): HTMLDListElement {
   const term = document.createElement('dt');
   term.textContent = label;
 
   const description = document.createElement('dd');
-  description.textContent = value;
+  if (typeof value === 'string') {
+    description.textContent = value;
+  } else {
+    description.append(value);
+  }
 
   const details = document.createElement('dl');
   details.className = 'agency-card__details';
   details.append(term, description);
 
   return details;
+}
+
+function formatCheckedAt(checkedAt: string): string {
+  const date = new Date(checkedAt);
+  if (Number.isNaN(date.getTime())) return '未知时间';
+
+  return new Intl.DateTimeFormat('zh-CN', {
+    timeZone: 'Asia/Shanghai',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hourCycle: 'h23',
+  }).format(date);
 }
 
 export function renderAgencyCard(agency: AgencyCardData, status?: LinkStatus): HTMLElement {
@@ -44,6 +66,17 @@ export function renderAgencyCard(agency: AgencyCardData, status?: LinkStatus): H
   const siteName = createDetail('网站名称', agency.siteName);
   const domain = createDetail('域名', new URL(agency.url).hostname);
   const category = createDetail('类别', agencyCategoryTitles[agency.category]);
+
+  const sourceLink = document.createElement('a');
+  sourceLink.href = agency.sourceUrl;
+  sourceLink.target = '_blank';
+  sourceLink.rel = 'noopener noreferrer';
+  sourceLink.textContent = '查看来源';
+  const source = createDetail('来源', sourceLink);
+
+  const lastCheckedAt = status
+    ? createDetail('最后核验时间', formatCheckedAt(status.checkedAt))
+    : undefined;
 
   const officialLink = document.createElement('a');
   officialLink.className = 'button button--primary';
@@ -79,7 +112,8 @@ export function renderAgencyCard(agency: AgencyCardData, status?: LinkStatus): H
 
   const content = document.createElement('div');
   content.className = 'agency-card__content';
-  content.append(header, siteName, domain, category);
+  content.append(header, siteName, domain, category, source);
+  if (lastCheckedAt) content.append(lastCheckedAt);
 
   card.append(content, actions);
 

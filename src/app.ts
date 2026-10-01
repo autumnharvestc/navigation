@@ -165,12 +165,13 @@ export function startApp(root: HTMLElement, options: AppOptions = {}): () => voi
       }
 
       if (route.kind === 'national') {
-        const [, agencies] = await Promise.all([
+        const [, agencies, statusMap] = await Promise.all([
           dependencies.loadRegions(),
           dependencies.loadNationalAgencies(),
+          dependencies.loadLinkStatus(),
         ]);
         if (!active || token !== renderToken) return;
-        renderNationalView(main, agencies);
+        renderNationalView(main, agencies, statusMap);
         return;
       }
 
@@ -184,12 +185,14 @@ export function startApp(root: HTMLElement, options: AppOptions = {}): () => voi
         return;
       }
 
-      const agencies =
+      const [agencies, statusMap] = await Promise.all([
         region.level === 'country'
-          ? await dependencies.loadNationalAgencies()
-          : await dependencies.loadProvinceAgencies(
+          ? dependencies.loadNationalAgencies()
+          : dependencies.loadProvinceAgencies(
               regionIndex.provinceOf(region.code)?.code ?? region.code,
-            );
+            ),
+        dependencies.loadLinkStatus(),
+      ]);
       if (!active || token !== renderToken) return;
 
       renderRegionView(main, {
@@ -197,7 +200,7 @@ export function startApp(root: HTMLElement, options: AppOptions = {}): () => voi
         ancestors: regionIndex.ancestors(region.code),
         children: regionIndex.children(region.code),
         agencies,
-        statusMap: new Map(),
+        statusMap,
       });
     } catch {
       if (!active || token !== renderToken) return;

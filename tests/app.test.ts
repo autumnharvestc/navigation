@@ -7,7 +7,7 @@ import {
   loadRegions as loadRegionsImpl,
   loadSearchDocuments as loadSearchDocumentsImpl,
 } from '../src/data/client';
-import type { AgencyRecord, Region } from '../src/domain/schema';
+import type { AgencyRecord, LinkStatus, Region } from '../src/domain/schema';
 
 const regions: Region[] = [
   { code: 'CN', name: '中国大陆', level: 'country', parentCode: null, sort: 0 },
@@ -15,6 +15,12 @@ const regions: Region[] = [
   { code: '110100', name: '市辖区', level: 'city', parentCode: '110000', sort: 1 },
   { code: '120000', name: '天津市', level: 'province', parentCode: 'CN', sort: 2 },
 ];
+
+const linkStatus: LinkStatus = {
+  id: 'CN-government-gov-cn',
+  status: 'valid',
+  checkedAt: '2026-09-30T00:00:00.000Z',
+};
 
 const agency: AgencyRecord = {
   id: 'CN-government-gov-cn',
@@ -36,6 +42,7 @@ const searchDocument = {
   category: 'court',
   domain: 'bjgy.bjcourt.gov.cn',
   url: 'https://bjgy.bjcourt.gov.cn/',
+  sourceUrl: 'https://bjgy.bjcourt.gov.cn/',
 } as const;
 
 const beijingAgency: AgencyRecord = {
@@ -113,6 +120,7 @@ describe('startApp', () => {
     const root = document.createElement('div');
     document.body.append(root);
     const dependencies = createDependencies();
+    dependencies.loadLinkStatus.mockResolvedValue(new Map([[agency.id, linkStatus]]));
     const cleanup = startApp(root, { dependencies });
 
     await vi.waitFor(() => {
@@ -120,6 +128,8 @@ describe('startApp', () => {
     });
     expect(dependencies.loadRegions).toHaveBeenCalledTimes(1);
     expect(dependencies.loadNationalAgencies).toHaveBeenCalledTimes(1);
+    expect(dependencies.loadLinkStatus).toHaveBeenCalledTimes(1);
+    expect(root.querySelector('.status-badge')?.textContent).toBe('正常');
 
     cleanup();
     root.remove();
@@ -132,6 +142,14 @@ describe('startApp', () => {
     document.body.append(root);
     const dependencies = createDependencies();
     dependencies.loadProvinceAgencies.mockResolvedValue([beijingAgency]);
+    dependencies.loadLinkStatus.mockResolvedValue(
+      new Map([
+        [
+          beijingAgency.id,
+          { id: beijingAgency.id, status: 'unknown', checkedAt: '2026-09-30T00:00:00.000Z' },
+        ],
+      ]),
+    );
     const cleanup = startApp(root, { dependencies });
 
     await vi.waitFor(() => {
@@ -139,14 +157,15 @@ describe('startApp', () => {
     });
     expect(root.querySelector('nav[aria-label="面包屑"]')?.textContent).toContain('中国大陆');
     expect(dependencies.loadProvinceAgencies).toHaveBeenCalledWith('110000');
-    expect(dependencies.loadLinkStatus).not.toHaveBeenCalled();
+    expect(dependencies.loadLinkStatus).toHaveBeenCalledTimes(1);
     expect(dependencies.loadSearchDocuments).not.toHaveBeenCalled();
+    expect(root.querySelector('.status-badge')?.textContent).toBe('待核验');
 
     cleanup();
     root.remove();
   });
 
-  it('loads search documents and link status only for the search route', async () => {
+  it('loads search documents and link status for the search route', async () => {
     location.hash = '#/search';
     await new Promise((resolve) => setTimeout(resolve, 0));
     const root = document.createElement('div');
