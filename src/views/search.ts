@@ -36,7 +36,7 @@ function appendOption(select: HTMLSelectElement, value: string, label: string): 
   select.append(option);
 }
 
-export function renderSearchView(root: HTMLElement, options: SearchViewOptions): void {
+export function renderSearchView(root: HTMLElement, options: SearchViewOptions): () => void {
   const heading = document.createElement('h1');
   heading.textContent = '全域搜索';
 
@@ -114,7 +114,7 @@ export function renderSearchView(root: HTMLElement, options: SearchViewOptions):
     renderResults();
     window.clearTimeout(debounceTimeout);
     debounceTimeout = window.setTimeout(() => {
-      location.hash = toHash({ kind: 'search', query: input.value });
+      history.replaceState(null, '', toHash({ kind: 'search', query: input.value }));
     }, 200);
   });
   level.addEventListener('change', renderResults);
@@ -122,4 +122,8 @@ export function renderSearchView(root: HTMLElement, options: SearchViewOptions):
 
   renderResults();
   root.replaceChildren(heading, form, results);
+
+  return () => {
+    window.clearTimeout(debounceTimeout);
+  };
 }

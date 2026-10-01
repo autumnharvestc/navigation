@@ -130,10 +130,14 @@ export function startApp(root: HTMLElement, options: AppOptions = {}): () => voi
   };
   let renderToken = 0;
   let active = true;
+  let viewCleanup: (() => void) | undefined;
 
   const renderRoute = async (): Promise<void> => {
     const token = ++renderToken;
     const route = parseHashRoute(location.hash);
+
+    viewCleanup?.();
+    viewCleanup = undefined;
     const main = renderFrame(root, title);
 
     renderLoading(main);
@@ -145,7 +149,11 @@ export function startApp(root: HTMLElement, options: AppOptions = {}): () => voi
           dependencies.loadLinkStatus(),
         ]);
         if (!active || token !== renderToken) return;
-        renderSearchView(main, { documents, statusMap, initialQuery: route.query });
+        viewCleanup = renderSearchView(main, {
+          documents,
+          statusMap,
+          initialQuery: route.query,
+        });
         return;
       }
 
@@ -209,6 +217,8 @@ export function startApp(root: HTMLElement, options: AppOptions = {}): () => voi
   return () => {
     active = false;
     renderToken += 1;
+    viewCleanup?.();
+    viewCleanup = undefined;
     removeEventListener('hashchange', handleHashChange);
   };
 }

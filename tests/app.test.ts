@@ -83,6 +83,8 @@ describe('renderShell', () => {
 describe('startApp', () => {
   afterEach(() => {
     location.hash = '';
+    vi.useRealTimers();
+    vi.restoreAllMocks();
   });
 
   it('loads and renders the home route', async () => {
@@ -156,6 +158,67 @@ describe('startApp', () => {
     });
     expect(dependencies.loadSearchDocuments).toHaveBeenCalledTimes(1);
     expect(dependencies.loadLinkStatus).toHaveBeenCalledTimes(1);
+
+    cleanup();
+    root.remove();
+  });
+
+  it('updates the search URL without reloading the route or losing input focus', async () => {
+    location.hash = '#/search';
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    const root = document.createElement('div');
+    document.body.append(root);
+    const dependencies = createDependencies();
+    const cleanup = startApp(root, { dependencies });
+
+    await vi.waitFor(() => {
+      expect(root.querySelector('input[type="search"]')).not.toBeNull();
+    });
+    expect(dependencies.loadSearchDocuments).toHaveBeenCalledTimes(1);
+    const input = root.querySelector<HTMLInputElement>('input[type="search"]')!;
+    input.focus();
+
+    const replaceState = vi.spyOn(history, 'replaceState').mockImplementation(() => {});
+    input.value = '人民政府';
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+    await new Promise((resolve) => setTimeout(resolve, 250));
+
+    expect(replaceState).toHaveBeenCalledWith(
+      null,
+      '',
+      '#/search?q=%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C',
+    );
+    expect(dependencies.loadSearchDocuments).toHaveBeenCalledTimes(1);
+    expect(document.activeElement).toBe(input);
+
+    cleanup();
+    root.remove();
+  });
+
+  it('clears a pending search debounce when navigation leaves the search route', async () => {
+    location.hash = '#/search';
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    const root = document.createElement('div');
+    document.body.append(root);
+    const dependencies = createDependencies();
+    const cleanup = startApp(root, { dependencies });
+
+    await vi.waitFor(() => {
+      expect(root.querySelector('input[type="search"]')).not.toBeNull();
+    });
+    const input = root.querySelector<HTMLInputElement>('input[type="search"]')!;
+
+    vi.useFakeTimers();
+    input.value = '人民政府';
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+    location.hash = '#/';
+
+    await vi.advanceTimersByTimeAsync(0);
+    await vi.advanceTimersByTimeAsync(200);
+
+    expect(location.hash).toBe('#/');
+    expect(dependencies.loadSearchDocuments).toHaveBeenCalledTimes(1);
+    expect(root.querySelector('input[type="search"]')).toBeNull();
 
     cleanup();
     root.remove();
