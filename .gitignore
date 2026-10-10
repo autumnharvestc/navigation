@@ -6,3 +6,5 @@ test-results/
 public/data/
 public/search-index/
 reports/link-check.md
+
+.worktrees/
