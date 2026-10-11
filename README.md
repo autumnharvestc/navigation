@@ -42,6 +42,7 @@ npm run validate:data # 校验人工维护数据
 npm run build         # 生产构建（自动准备公开数据）
 npm run preview       # 预览生产构建
 npm run check:bundle  # 构建体积门禁（gzip 后总大小不超过 250 KiB）
+npm run import:regions # 从民政公开接口重新生成行政区划快照（仅维护时手动执行）
 npm run check:links   # 执行链接巡检并生成报告
 npm run ci            # 本地运行完整 CI 校验
 ```
@@ -50,12 +51,27 @@ npm run ci            # 本地运行完整 CI 校验
 
 人工维护的数据全部位于 `data/`，提交时只提交这些文件：
 
-- `data/regions.json`：行政区划树（六位标准行政区划代码；国家级为 `CN`）。
+- data/regions.json：行政区划树（六位标准行政区划代码；国家级为 CN）。
+- data/regions.meta.json：行政区划快照的来源、抓取时间、覆盖范围与数量统计。
 - `data/national.json`：国家级机关记录（`regionCode` 必须为 `CN`）。
 - `data/provinces/<省级代码>.json`：省级分片，只包含该省及其下辖市、县、区的机关记录。
 - `data/generated/`：脚本生成的派生数据（如链接状态），不手工编辑。
 
 `public/data/` 与 `public/search-index/` 是 `prepare:data` 生成的发布数据，不入库。每条记录必须提供 `sourceUrl` 作为来源与纠错依据，详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 行政区划数据来源与更新
+
+完整行政区划树来自[民政一体化政务服务平台（中国国家地名信息库）](https://dmfw.mca.gov.cn/)的公开接口：
+
+```text
+GET https://dmfw.mca.gov.cn/9095/xzqh/getList
+GET https://dmfw.mca.gov.cn/9095/xzqh/getList?code=<12位地级代码>&level=3
+```
+
+- 维护者在联网环境下执行 `npm run import:regions`，脚本会抓取官方数据、过滤乡镇街道、把 12 位代码转换为六位代码，并原子更新 `data/regions.json` 与 `data/regions.meta.json`。
+- 静态快照提交到仓库，运行中的站点和 CI 均不访问民政接口。接口可能受 WAF、限流或网络环境影响；失败时脚本非零退出，不会写入半成品。
+- 直辖市使用 `110100`、`120100`、`310100`、`500100` 作为稳定的“市辖区”分组；河南、湖北、海南、新疆的省直辖县级单位分别使用 `419000`、`429000`、`469000`、`659000`。
+- 东莞、中山、儋州、嘉峪关等“直筒子市”在官方接口中只返回 level=4 的街道或镇，没有 level=3 县级节点。项目保留地级节点并允许县级子节点为空，不为这类城市伪造县级代码。
 
 ## 部署地址填写方法
 

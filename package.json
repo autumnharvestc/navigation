@@ -21,7 +21,8 @@
     "prepare:data": "tsx scripts/prepare-public-data.ts",
     "test:e2e": "playwright test",
     "check:bundle": "tsx scripts/check-bundle-size.ts",
-    "ci": "npm run format:check && npm run lint && npm run typecheck && npm run validate:data && npm run test && npm run build && npm run check:bundle"
+    "ci": "npm run format:check && npm run lint && npm run typecheck && npm run validate:data && npm run test && npm run build && npm run check:bundle",
+    "import:regions": "tsx scripts/import-regions.ts"
   },
   "dependencies": {
     "minisearch": "^7.2.0",

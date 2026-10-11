@@ -1,0 +1,14 @@
+{
+  "sourceName": "民政一体化政务服务平台（中国国家地名信息库）",
+  "sourceUrl": "https://dmfw.mca.gov.cn/9095/xzqh/getList",
+  "retrievedAt": "2026-10-11T01:35:34.204Z",
+  "coverage": "中国大陆",
+  "levels": ["country", "province", "city", "county"],
+  "counts": {
+    "country": 1,
+    "province": 31,
+    "city": 341,
+    "county": 2847
+  },
+  "transform": "官方接口 12 位代码转为六位代码；过滤乡镇街道；直辖市与省直辖县级单位使用稳定的导航分组节点。"
+}
