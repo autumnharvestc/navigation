@@ -23,6 +23,7 @@ type SourceEvidence = {
   httpStatus: number;
   finalUrl: string;
   targetHosts: string[];
+  targetMappings?: Array<{ regionCode: string; url: string; host: string }>;
   intermediateEvidence?: Array<{ url: string; note: string }>;
 };
 
@@ -50,19 +51,20 @@ const expectedCounts: Record<string, number> = {
 };
 const expectedSourceUrls = [
   'https://www.henan.gov.cn/',
-  'http://www.hubei.gov.cn/2019/zqdh/szwz/',
+  'https://www.wuhan.gov.cn/zwgk/',
   'https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html',
   'http://www.gd.gov.cn/yw/ds/index.html',
   'http://www.gxzf.gov.cn/',
   'https://www.hainan.gov.cn/hainan/',
 ];
 const expectedAnomalyCodes = [
+  '411000',
   '411400',
   '430400',
   '431000',
   '431200',
   '433100',
-  '440600',
+  '440200',
   '441400',
   '441800',
 ];
@@ -87,6 +89,19 @@ function duplicateValues(values: string[]): string[] {
 
 function uniqueSorted(values: string[]): string[] {
   return [...new Set(values)].sort();
+}
+
+function normalizedUrl(value: string): string {
+  const url = new URL(value);
+  const pathname = url.pathname.replace(/\/+$/, '') || '/';
+  return `${url.protocol}//${url.hostname.toLowerCase()}${pathname}${url.search}`;
+}
+
+function hostSlug(value: string): string {
+  return new URL(value).hostname
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
 }
 
 describe('central and south china city portals', () => {
@@ -140,6 +155,13 @@ describe('central and south china city portals', () => {
         category: 'government',
         sourceUrl: expected.sourceUrl,
       });
+      expect(normalizedUrl(actual[0]?.url ?? ''), `${expected.regionCode} URL changed`).toBe(
+        normalizedUrl(expected.url),
+      );
+      expect(
+        normalizedUrl(actual[0]?.sourceUrl ?? ''),
+        `${expected.regionCode} sourceUrl changed`,
+      ).toBe(normalizedUrl(expected.sourceUrl));
 
       const region = regions.find((candidate) => candidate.code === expected.regionCode);
       expect(region, `missing region ${expected.regionCode}`).toMatchObject({
@@ -183,10 +205,20 @@ describe('central and south china city portals', () => {
       fixture.sources.find((source) => source.sourceUrl.includes('henan.gov.cn'))
         ?.intermediateEvidence?.length,
     ).toBe(1);
-    expect(
-      fixture.sources.find((source) => source.sourceUrl.includes('hubei.gov.cn'))
-        ?.intermediateEvidence?.length,
-    ).toBe(1);
+    expect(JSON.stringify(fixture)).not.toContain('r.jina.ai');
+    const hubeiSource = fixture.sources.find(
+      (source) => source.sourceUrl === 'https://www.wuhan.gov.cn/zwgk/',
+    );
+    const hubeiGolden = golden.filter((entry) => entry.regionCode.startsWith('42'));
+    expect(hubeiSource?.targetMappings).toEqual(
+      hubeiGolden
+        .map((entry) => ({
+          regionCode: entry.regionCode,
+          url: entry.url,
+          host: new URL(entry.url).hostname,
+        }))
+        .sort((a, b) => a.regionCode.localeCompare(b.regionCode)),
+    );
     expect(duplicateValues(fixture.anomalies.map((entry) => entry.regionCode))).toEqual([]);
     expect(uniqueSorted(fixture.anomalies.map((entry) => entry.regionCode))).toEqual(
       [...expectedAnomalyCodes].sort(),
@@ -195,6 +227,28 @@ describe('central and south china city portals', () => {
       expect(goldenCodes.has(anomaly.regionCode)).toBe(true);
       expect(anomaly.kind).not.toBe('');
       expect(anomaly.detail).not.toBe('');
+    }
+  });
+
+  it('locks corrected Guangdong regionCode to URL mappings', async () => {
+    const golden = await readFixture<GoldenPortal[]>('central-south-portals.golden.json');
+    const records = await readData<AgencyRecord[]>('provinces/440000.json');
+    const expected = {
+      '440200': 'https://www.sg.gov.cn/',
+      '440300': 'https://www.sz.gov.cn/',
+      '440400': 'https://www.zhuhai.gov.cn/',
+      '440500': 'https://www.shantou.gov.cn/',
+      '440600': 'https://www.foshan.gov.cn/',
+    } as const;
+
+    for (const [regionCode, url] of Object.entries(expected)) {
+      const goldenEntry = golden.find((entry) => entry.regionCode === regionCode);
+      const record = records.find((candidate) => candidate.regionCode === regionCode);
+      expect(goldenEntry?.url, `${regionCode} golden URL changed`).toBe(url);
+      expect(normalizedUrl(record?.url ?? ''), `${regionCode} data URL changed`).toBe(
+        normalizedUrl(url),
+      );
+      expect(record?.id).toBe(`${regionCode}-government-${hostSlug(url)}`);
     }
   });
 

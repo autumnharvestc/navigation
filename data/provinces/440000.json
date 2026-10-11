@@ -18,47 +18,47 @@
     "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
   },
   {
-    "id": "440200-government-www-sz-gov-cn",
+    "id": "440200-government-www-sg-gov-cn",
     "regionCode": "440200",
     "name": "韶关市人民政府",
     "siteName": "韶关市人民政府",
+    "url": "https://www.sg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "440300-government-www-sz-gov-cn",
+    "regionCode": "440300",
+    "name": "深圳市人民政府",
+    "siteName": "深圳市人民政府",
     "url": "https://www.sz.gov.cn/",
     "category": "government",
     "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
   },
   {
-    "id": "440300-government-www-zhuhai-gov-cn",
-    "regionCode": "440300",
-    "name": "深圳市人民政府",
-    "siteName": "深圳市人民政府",
+    "id": "440400-government-www-zhuhai-gov-cn",
+    "regionCode": "440400",
+    "name": "珠海市人民政府",
+    "siteName": "珠海市人民政府",
     "url": "https://www.zhuhai.gov.cn/",
     "category": "government",
     "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
   },
   {
-    "id": "440400-government-www-shantou-gov-cn",
-    "regionCode": "440400",
-    "name": "珠海市人民政府",
-    "siteName": "珠海市人民政府",
+    "id": "440500-government-www-shantou-gov-cn",
+    "regionCode": "440500",
+    "name": "汕头市人民政府",
+    "siteName": "汕头市人民政府",
     "url": "https://www.shantou.gov.cn/",
     "category": "government",
     "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
   },
   {
-    "id": "440500-government-www-foshan-gov-cn",
-    "regionCode": "440500",
-    "name": "汕头市人民政府",
-    "siteName": "汕头市人民政府",
-    "url": "https://www.foshan.gov.cn/",
-    "category": "government",
-    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
-  },
-  {
-    "id": "440600-government-www-sg-gov-cn",
+    "id": "440600-government-www-foshan-gov-cn",
     "regionCode": "440600",
     "name": "佛山市人民政府",
     "siteName": "佛山市人民政府",
-    "url": "http://www.sg.gov.cn/",
+    "url": "https://www.foshan.gov.cn/",
     "category": "government",
     "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
   },
