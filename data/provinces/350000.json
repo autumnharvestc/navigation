@@ -18,6 +18,123 @@
     "sourceUrl": "https://www.fujian.gov.cn/"
   },
   {
+    "id": "350102-government-www-gl-gov-cn-www-gl-gov",
+    "regionCode": "350102",
+    "name": "鼓楼区人民政府",
+    "siteName": "福州市鼓楼区人民政府",
+    "url": "http://www.gl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
+    "id": "350103-government-www-taijiang-gov-cn-www-taijiang-gov",
+    "regionCode": "350103",
+    "name": "台江区人民政府",
+    "siteName": "福州市台江区人民政府",
+    "url": "http://www.taijiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
+    "id": "350104-government-www-fzcangshan-gov-cn-www-fzcangshan-gov",
+    "regionCode": "350104",
+    "name": "仓山区人民政府",
+    "siteName": "福州市仓山区人民政府",
+    "url": "http://www.fzcangshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
+    "id": "350105-government-www-mawei-gov-cn-www-mawei-gov",
+    "regionCode": "350105",
+    "name": "马尾区人民政府",
+    "siteName": "福州市马尾区人民政府",
+    "url": "http://www.mawei.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
+    "id": "350111-government-www-fzja-gov-cn-www-fzja-gov",
+    "regionCode": "350111",
+    "name": "晋安区人民政府",
+    "siteName": "福州市晋安区人民政府",
+    "url": "http://www.fzja.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
+    "id": "350112-government-www-fzcl-gov-cn-www-fzcl-gov",
+    "regionCode": "350112",
+    "name": "长乐区人民政府",
+    "siteName": "福州市长乐区人民政府",
+    "url": "http://www.fzcl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
+    "id": "350121-government-www-minhou-gov-cn-www-minhou-gov",
+    "regionCode": "350121",
+    "name": "闽侯县人民政府",
+    "siteName": "闽侯县人民政府",
+    "url": "http://www.minhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
+    "id": "350122-government-www-fzlj-gov-cn-www-fzlj-gov",
+    "regionCode": "350122",
+    "name": "连江县人民政府",
+    "siteName": "连江县人民政府",
+    "url": "http://www.fzlj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
+    "id": "350123-government-www-luoyuan-gov-cn-www-luoyuan-gov",
+    "regionCode": "350123",
+    "name": "罗源县人民政府",
+    "siteName": "罗源县人民政府",
+    "url": "http://www.luoyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
+    "id": "350124-government-www-fzmq-gov-cn-www-fzmq-gov",
+    "regionCode": "350124",
+    "name": "闽清县人民政府",
+    "siteName": "闽清县人民政府",
+    "url": "http://www.fzmq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
+    "id": "350125-government-www-yongtai-gov-cn-www-yongtai-gov",
+    "regionCode": "350125",
+    "name": "永泰县人民政府",
+    "siteName": "永泰县人民政府",
+    "url": "http://www.yongtai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
+    "id": "350128-government-www-pingtan-gov-cn-www-pingtan-gov",
+    "regionCode": "350128",
+    "name": "平潭县人民政府",
+    "siteName": "平潭县人民政府",
+    "url": "https://www.pingtan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
+    "id": "350181-government-www-fuqing-gov-cn-www-fuqing-gov",
+    "regionCode": "350181",
+    "name": "福清市人民政府",
+    "siteName": "福清市人民政府",
+    "url": "https://www.fuqing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fuzhou.gov.cn/"
+  },
+  {
     "id": "350200-government-xm-gov-cn",
     "regionCode": "350200",
     "name": "厦门市人民政府",
@@ -142,6 +259,105 @@
     "url": "https://www.sm.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350404-government-www-smsy-gov-cn-www-smsy-gov",
+    "regionCode": "350404",
+    "name": "三元区人民政府",
+    "siteName": "三元区人民政府门户网站",
+    "url": "http://www.smsy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sm.gov.cn/"
+  },
+  {
+    "id": "350405-government-www-fjsx-gov-cn-www-fjsx-gov",
+    "regionCode": "350405",
+    "name": "沙县区人民政府",
+    "siteName": "沙县区人民政府门户网站",
+    "url": "http://www.fjsx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sm.gov.cn/"
+  },
+  {
+    "id": "350421-government-www-fjmx-gov-cn-www-fjmx-gov",
+    "regionCode": "350421",
+    "name": "明溪县人民政府",
+    "siteName": "明溪县人民政府门户网站",
+    "url": "http://www.fjmx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sm.gov.cn/"
+  },
+  {
+    "id": "350423-government-www-fjql-gov-cn-www-fjql-gov",
+    "regionCode": "350423",
+    "name": "清流县人民政府",
+    "siteName": "清流县人民政府门户网站",
+    "url": "http://www.fjql.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sm.gov.cn/"
+  },
+  {
+    "id": "350424-government-www-fjnh-gov-cn-www-fjnh-gov",
+    "regionCode": "350424",
+    "name": "宁化县人民政府",
+    "siteName": "宁化县人民政府门户网站",
+    "url": "http://www.fjnh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sm.gov.cn/"
+  },
+  {
+    "id": "350425-government-www-datian-gov-cn-www-datian-gov",
+    "regionCode": "350425",
+    "name": "大田县人民政府",
+    "siteName": "大田县人民政府门户网站",
+    "url": "http://www.datian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sm.gov.cn/"
+  },
+  {
+    "id": "350426-government-www-fjyx-gov-cn-www-fjyx-gov",
+    "regionCode": "350426",
+    "name": "尤溪县人民政府",
+    "siteName": "尤溪县人民政府门户网站",
+    "url": "http://www.fjyx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sm.gov.cn/"
+  },
+  {
+    "id": "350428-government-www-jiangle-gov-cn-www-jiangle-gov",
+    "regionCode": "350428",
+    "name": "将乐县人民政府",
+    "siteName": "将乐县人民政府门户网站",
+    "url": "http://www.jiangle.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sm.gov.cn/"
+  },
+  {
+    "id": "350429-government-www-fjtn-gov-cn-www-fjtn-gov",
+    "regionCode": "350429",
+    "name": "泰宁县人民政府",
+    "siteName": "泰宁县人民政府门户网站",
+    "url": "http://www.fjtn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sm.gov.cn/"
+  },
+  {
+    "id": "350430-government-www-fjjn-gov-cn-www-fjjn-gov",
+    "regionCode": "350430",
+    "name": "建宁县人民政府",
+    "siteName": "建宁县人民政府门户网站",
+    "url": "http://www.fjjn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sm.gov.cn/"
+  },
+  {
+    "id": "350481-government-www-ya-gov-cn-www-ya-gov",
+    "regionCode": "350481",
+    "name": "永安市人民政府",
+    "siteName": "永安市人民政府门户网站",
+    "url": "https://www.ya.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sm.gov.cn/"
   },
   {
     "id": "350500-government-quanzhou-gov-cn",
@@ -369,6 +585,96 @@
     "sourceUrl": "https://www.fujian.gov.cn/"
   },
   {
+    "id": "350702-government-www-ypzf-gov-cn-www-ypzf-gov",
+    "regionCode": "350702",
+    "name": "延平区人民政府",
+    "siteName": "延平区人民政府",
+    "url": "https://www.ypzf.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.np.gov.cn/"
+  },
+  {
+    "id": "350703-government-www-fjjy-gov-cn-www-fjjy-gov",
+    "regionCode": "350703",
+    "name": "建阳区人民政府",
+    "siteName": "建阳区人民政府",
+    "url": "https://www.fjjy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.np.gov.cn/"
+  },
+  {
+    "id": "350721-government-www-fjsc-gov-cn-www-fjsc-gov",
+    "regionCode": "350721",
+    "name": "顺昌县人民政府",
+    "siteName": "顺昌县人民政府",
+    "url": "https://www.fjsc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.np.gov.cn/"
+  },
+  {
+    "id": "350722-government-www-pc-gov-cn-www-pc-gov",
+    "regionCode": "350722",
+    "name": "浦城县人民政府",
+    "siteName": "浦城县人民政府",
+    "url": "https://www.pc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.np.gov.cn/"
+  },
+  {
+    "id": "350723-government-www-guangze-gov-cn-www-guangze-gov",
+    "regionCode": "350723",
+    "name": "光泽县人民政府",
+    "siteName": "光泽县人民政府",
+    "url": "https://www.guangze.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.np.gov.cn/"
+  },
+  {
+    "id": "350724-government-www-songxi-gov-cn-www-songxi-gov",
+    "regionCode": "350724",
+    "name": "松溪县人民政府",
+    "siteName": "松溪县人民政府",
+    "url": "https://www.songxi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.np.gov.cn/"
+  },
+  {
+    "id": "350725-government-www-zhenghe-gov-cn-www-zhenghe-gov",
+    "regionCode": "350725",
+    "name": "政和县人民政府",
+    "siteName": "政和县人民政府",
+    "url": "https://www.zhenghe.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.np.gov.cn/"
+  },
+  {
+    "id": "350781-government-www-shaowu-gov-cn-www-shaowu-gov",
+    "regionCode": "350781",
+    "name": "邵武市人民政府",
+    "siteName": "邵武市人民政府",
+    "url": "https://www.shaowu.gov.cn/cms/html/swsrmzf/index.html",
+    "category": "government",
+    "sourceUrl": "https://www.np.gov.cn/"
+  },
+  {
+    "id": "350782-government-www-wys-gov-cn-www-wys-gov",
+    "regionCode": "350782",
+    "name": "武夷山市人民政府",
+    "siteName": "武夷山市人民政府",
+    "url": "https://www.wys.gov.cn/cms/html/wyssrmzf/index.html",
+    "category": "government",
+    "sourceUrl": "https://www.np.gov.cn/"
+  },
+  {
+    "id": "350783-government-www-jo-gov-cn-www-jo-gov",
+    "regionCode": "350783",
+    "name": "建瓯市人民政府",
+    "siteName": "建瓯市人民政府",
+    "url": "https://www.jo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.np.gov.cn/"
+  },
+  {
     "id": "350800-government-longyan-gov-cn",
     "regionCode": "350800",
     "name": "龙岩市人民政府",
@@ -376,6 +682,69 @@
     "url": "https://www.longyan.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350802-government-www-fjxinluo-gov-cn-www-fjxinluo-gov",
+    "regionCode": "350802",
+    "name": "新罗区人民政府",
+    "siteName": "龙岩市新罗区人民政府",
+    "url": "http://www.fjxinluo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.longyan.gov.cn/"
+  },
+  {
+    "id": "350803-government-www-yongding-gov-cn-www-yongding-gov",
+    "regionCode": "350803",
+    "name": "永定区人民政府",
+    "siteName": "龙岩市永定区人民政府",
+    "url": "http://www.yongding.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.longyan.gov.cn/"
+  },
+  {
+    "id": "350821-government-www-changting-gov-cn-www-changting-gov",
+    "regionCode": "350821",
+    "name": "长汀县人民政府",
+    "siteName": "长汀县人民政府",
+    "url": "http://www.changting.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.longyan.gov.cn/"
+  },
+  {
+    "id": "350823-government-www-shanghang-gov-cn-www-shanghang-gov",
+    "regionCode": "350823",
+    "name": "上杭县人民政府",
+    "siteName": "上杭县人民政府",
+    "url": "http://www.shanghang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.longyan.gov.cn/"
+  },
+  {
+    "id": "350824-government-www-wp-gov-cn-www-wp-gov",
+    "regionCode": "350824",
+    "name": "武平县人民政府",
+    "siteName": "武平县人民政府",
+    "url": "http://www.wp.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.longyan.gov.cn/"
+  },
+  {
+    "id": "350825-government-www-fjlylc-gov-cn-www-fjlylc-gov",
+    "regionCode": "350825",
+    "name": "连城县人民政府",
+    "siteName": "连城县人民政府",
+    "url": "http://www.fjlylc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.longyan.gov.cn/"
+  },
+  {
+    "id": "350881-government-www-zp-gov-cn-www-zp-gov",
+    "regionCode": "350881",
+    "name": "漳平市人民政府",
+    "siteName": "漳平市人民政府",
+    "url": "http://www.zp.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.longyan.gov.cn/"
   },
   {
     "id": "350900-government-ningde-gov-cn",

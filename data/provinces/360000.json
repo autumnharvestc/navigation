@@ -108,6 +108,42 @@
     "sourceUrl": "https://www.jiangxi.gov.cn/"
   },
   {
+    "id": "360202-government-www-jdzcjq-gov-cn",
+    "regionCode": "360202",
+    "name": "昌江区人民政府",
+    "siteName": "昌江区人民政府",
+    "url": "http://www.jdzcjq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jdz.gov.cn/"
+  },
+  {
+    "id": "360203-government-www-jdzzsq-gov-cn",
+    "regionCode": "360203",
+    "name": "珠山区人民政府",
+    "siteName": "珠山区人民政府",
+    "url": "http://www.jdzzsq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360222-government-www-fuliang-gov-cn",
+    "regionCode": "360222",
+    "name": "浮梁县人民政府",
+    "siteName": "浮梁县人民政府",
+    "url": "https://www.fuliang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jdz.gov.cn/"
+  },
+  {
+    "id": "360281-government-www-lep-gov-cn-www-lep-gov",
+    "regionCode": "360281",
+    "name": "乐平市人民政府",
+    "siteName": "乐平市人民政府",
+    "url": "http://www.lep.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jdz.gov.cn/"
+  },
+  {
     "id": "360300-government-pingxiang-gov-cn",
     "regionCode": "360300",
     "name": "萍乡市人民政府",
@@ -115,6 +151,51 @@
     "url": "https://www.pingxiang.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360302-government-www-jxay-gov-cn",
+    "regionCode": "360302",
+    "name": "安源区人民政府",
+    "siteName": "安源区人民政府",
+    "url": "http://www.jxay.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360313-government-www-jxxd-gov-cn",
+    "regionCode": "360313",
+    "name": "湘东区人民政府",
+    "siteName": "湘东区人民政府",
+    "url": "http://www.jxxd.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360321-government-www-zglh-gov-cn",
+    "regionCode": "360321",
+    "name": "莲花县人民政府",
+    "siteName": "莲花县人民政府",
+    "url": "http://www.zglh.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360322-government-www-jxslx-gov-cn",
+    "regionCode": "360322",
+    "name": "上栗县人民政府",
+    "siteName": "上栗县人民政府",
+    "url": "http://www.jxslx.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360323-government-www-luxi-gov-cn",
+    "regionCode": "360323",
+    "name": "芦溪县人民政府",
+    "siteName": "芦溪县人民政府",
+    "url": "http://www.luxi.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
   },
   {
     "id": "360400-government-jiujiang-gov-cn",
@@ -277,6 +358,33 @@
     "url": "http://www.yingtan.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360602-government-www-yuehu-gov-cn-www-yuehu-gov",
+    "regionCode": "360602",
+    "name": "月湖区人民政府",
+    "siteName": "月湖区人民政府网站",
+    "url": "http://www.yuehu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.yingtan.gov.cn/"
+  },
+  {
+    "id": "360603-government-www-yujiang-gov-cn-www-yujiang-gov",
+    "regionCode": "360603",
+    "name": "余江区人民政府",
+    "siteName": "余江区人民政府网站",
+    "url": "http://www.yujiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.yingtan.gov.cn/"
+  },
+  {
+    "id": "360681-government-www-guixi-gov-cn-www-guixi-gov",
+    "regionCode": "360681",
+    "name": "贵溪市人民政府",
+    "siteName": "贵溪市人民政府",
+    "url": "http://www.guixi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.yingtan.gov.cn/"
   },
   {
     "id": "360700-government-ganzhou-gov-cn",
@@ -639,6 +747,15 @@
     "sourceUrl": "https://www.yichun.gov.cn/"
   },
   {
+    "id": "360926-government-www-tonggu-gov-cn-www-tonggu-gov",
+    "regionCode": "360926",
+    "name": "铜鼓县人民政府",
+    "siteName": "铜鼓县人民政府",
+    "url": "http://www.tonggu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yichun.gov.cn/"
+  },
+  {
     "id": "360981-government-www-jxfc-gov-cn",
     "regionCode": "360981",
     "name": "丰城市人民政府",
@@ -783,11 +900,110 @@
     "sourceUrl": "https://www.jiangxi.gov.cn/"
   },
   {
+    "id": "361102-government-www-jxxz-gov-cn",
+    "regionCode": "361102",
+    "name": "信州区人民政府",
+    "siteName": "信州区人民政府",
+    "url": "http://www.jxxz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zgsr.gov.cn/"
+  },
+  {
+    "id": "361103-government-www-gfx-gov-cn",
+    "regionCode": "361103",
+    "name": "广丰区人民政府",
+    "siteName": "广丰区人民政府",
+    "url": "http://www.gfx.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "361104-government-www-srx-gov-cn",
+    "regionCode": "361104",
+    "name": "广信区人民政府",
+    "siteName": "广信区人民政府",
+    "url": "http://www.srx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zgsr.gov.cn/"
+  },
+  {
+    "id": "361123-government-www-zgys-gov-cn",
+    "regionCode": "361123",
+    "name": "玉山县人民政府",
+    "siteName": "玉山县人民政府",
+    "url": "https://www.zgys.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zgsr.gov.cn/"
+  },
+  {
+    "id": "361124-government-www-jxyanshan-gov-cn",
+    "regionCode": "361124",
+    "name": "铅山县人民政府",
+    "siteName": "铅山县人民政府",
+    "url": "http://www.jxyanshan.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "361125-government-www-hfzf-gov-cn",
+    "regionCode": "361125",
+    "name": "横峰县人民政府",
+    "siteName": "横峰县人民政府",
+    "url": "http://www.hfzf.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "361126-government-www-jxyy-gov-cn",
+    "regionCode": "361126",
+    "name": "弋阳县人民政府",
+    "siteName": "弋阳县人民政府",
+    "url": "http://www.jxyy.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "361127-government-www-yugan-gov-cn-www-yugan-gov",
+    "regionCode": "361127",
+    "name": "余干县人民政府",
+    "siteName": "余干县人民政府",
+    "url": "https://www.yugan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zgsr.gov.cn/"
+  },
+  {
+    "id": "361128-government-www-poyang-gov-cn",
+    "regionCode": "361128",
+    "name": "鄱阳县人民政府",
+    "siteName": "鄱阳县人民政府",
+    "url": "http://www.poyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zgsr.gov.cn/"
+  },
+  {
+    "id": "361129-government-www-zgwn-gov-cn",
+    "regionCode": "361129",
+    "name": "万年县人民政府",
+    "siteName": "万年县人民政府",
+    "url": "http://www.zgwn.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
+  },
+  {
     "id": "361130-government-www-jxwy-gov-cn",
     "regionCode": "361130",
     "name": "婺源县人民政府",
     "siteName": "婺源县人民政府",
     "url": "http://www.jxwy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "361181-government-www-dxs-gov-cn-www-dxs-gov",
+    "regionCode": "361181",
+    "name": "德兴市人民政府",
+    "siteName": "德兴市人民政府",
+    "url": "https://www.dxs.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.zgsr.gov.cn/"
   }

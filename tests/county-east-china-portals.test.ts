@@ -47,12 +47,12 @@ type SourceFixture = {
 
 const provinceFiles = ['320000', '330000', '340000', '350000', '360000', '370000'];
 const expectedByProvince: Record<string, { total: number; included: number; blank: number }> = {
-  '32': { total: 95, included: 91, blank: 4 },
-  '33': { total: 90, included: 42, blank: 48 },
-  '34': { total: 104, included: 52, blank: 52 },
-  '35': { total: 84, included: 42, blank: 42 },
-  '36': { total: 100, included: 76, blank: 24 },
-  '37': { total: 136, included: 60, blank: 76 },
+  '32': { total: 95, included: 95, blank: 0 },
+  '33': { total: 90, included: 90, blank: 0 },
+  '34': { total: 104, included: 104, blank: 0 },
+  '35': { total: 84, included: 83, blank: 1 },
+  '36': { total: 100, included: 100, blank: 0 },
+  '37': { total: 136, included: 136, blank: 0 },
 };
 
 async function readJson<T>(path: string): Promise<T> {
@@ -173,9 +173,9 @@ describe('east china county portals', () => {
     const expectedEntries = golden.filter((entry) => entry.expected);
     const expectedByUrl = new Map(expectedEntries.map((entry) => [entry.sourceUrl, entry]));
 
-    expect(fixture.checkedAt).toBe('2026-10-11T16:42:47+08:00');
+    expect(fixture.checkedAt).toBe('2026-10-11T17:25:07+08:00');
     expect(fixture.maintenance).toContain('expected=false');
-    expect(fixture.sources).toHaveLength(51);
+    expect(fixture.sources).toHaveLength(76);
     expect(duplicateValues(fixture.sources.map((source) => source.sourceUrl))).toEqual([]);
     expect(new Set(fixture.sources.map((source) => source.sourceUrl))).toEqual(
       new Set(expectedEntries.map((entry) => entry.sourceUrl)),

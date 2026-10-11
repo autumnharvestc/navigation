@@ -108,8 +108,13 @@
     "regionName": "六合区",
     "level": "county",
     "parentCode": "320100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "320116-government-www-njlh-gov-cn-www-njlh-gov",
+    "agencyName": "六合区人民政府",
+    "siteName": "南京市六合区人民政府",
+    "url": "http://www.njlh.gov.cn/",
+    "sourceUrl": "https://www.nanjing.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "320117",
@@ -844,8 +849,13 @@
     "regionName": "大丰区",
     "level": "county",
     "parentCode": "320900",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "320904-government-www-dafeng-gov-cn-www-dafeng-gov",
+    "agencyName": "大丰区人民政府",
+    "siteName": "大丰区人民政府",
+    "url": "https://www.dafeng.gov.cn/",
+    "sourceUrl": "https://www.yancheng.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "320921",
@@ -1073,8 +1083,13 @@
     "regionName": "句容市",
     "level": "county",
     "parentCode": "321100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "321183-government-www-jurong-gov-cn-www-jurong-gov",
+    "agencyName": "句容市人民政府",
+    "siteName": "句容市人民政府",
+    "url": "https://www.jurong.gov.cn/",
+    "sourceUrl": "https://www.zhenjiang.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "321202",
@@ -1094,8 +1109,13 @@
     "regionName": "高港区",
     "level": "county",
     "parentCode": "321200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "321203-government-www-cmc-gov-cn-www-cmc-gov",
+    "agencyName": "高港区人民政府",
+    "siteName": "泰州医药高新区管委会（高港区人民政府）",
+    "url": "https://www.cmc.gov.cn/",
+    "sourceUrl": "https://www.taizhou.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "321204",
@@ -1258,8 +1278,13 @@
     "regionName": "滨江区",
     "level": "county",
     "parentCode": "330100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330108-government-www-hhtz-gov-cn-www-hhtz-gov-cn",
+    "agencyName": "滨江区人民政府",
+    "siteName": "滨江区人民政府",
+    "url": "https://www.hhtz.gov.cn/",
+    "sourceUrl": "https://www.hangzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330109",
@@ -1305,224 +1330,364 @@
     "regionName": "临安区",
     "level": "county",
     "parentCode": "330100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330112-government-www-linan-gov-cn-www-linan-gov-cn",
+    "agencyName": "临安区人民政府",
+    "siteName": "临安区人民政府",
+    "url": "https://www.linan.gov.cn/",
+    "sourceUrl": "https://www.hangzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330113",
     "regionName": "临平区",
     "level": "county",
     "parentCode": "330100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330113-government-www-linping-gov-cn-www-linping-gov-cn",
+    "agencyName": "临平区人民政府",
+    "siteName": "临平区人民政府",
+    "url": "https://www.linping.gov.cn/",
+    "sourceUrl": "https://www.hangzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330114",
     "regionName": "钱塘区",
     "level": "county",
     "parentCode": "330100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330114-government-www-qiantang-gov-cn-www-qiantang-gov-cn",
+    "agencyName": "钱塘区人民政府",
+    "siteName": "钱塘区人民政府",
+    "url": "https://www.qiantang.gov.cn/",
+    "sourceUrl": "https://www.hangzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330122",
     "regionName": "桐庐县",
     "level": "county",
     "parentCode": "330100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330122-government-www-tonglu-gov-cn-www-tonglu-gov-cn",
+    "agencyName": "桐庐县人民政府",
+    "siteName": "桐庐县人民政府",
+    "url": "http://www.tonglu.gov.cn/",
+    "sourceUrl": "https://www.hangzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330127",
     "regionName": "淳安县",
     "level": "county",
     "parentCode": "330100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330127-government-www-qdh-gov-cn-www-qdh-gov-cn",
+    "agencyName": "淳安县人民政府",
+    "siteName": "淳安县人民政府",
+    "url": "https://www.qdh.gov.cn/",
+    "sourceUrl": "https://www.hangzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330182",
     "regionName": "建德市",
     "level": "county",
     "parentCode": "330100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330182-government-www-jiande-gov-cn-www-jiande-gov",
+    "agencyName": "建德市人民政府",
+    "siteName": "建德市人民政府",
+    "url": "https://www.jiande.gov.cn/",
+    "sourceUrl": "https://www.hangzhou.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "330203",
     "regionName": "海曙区",
     "level": "county",
     "parentCode": "330200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330203-government-www-haishu-gov-cn-www-haishu-gov",
+    "agencyName": "海曙区人民政府",
+    "siteName": "宁波市海曙区人民政府",
+    "url": "http://www.haishu.gov.cn/",
+    "sourceUrl": "https://www.ningbo.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330205",
     "regionName": "江北区",
     "level": "county",
     "parentCode": "330200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330205-government-www-nbjb-gov-cn-www-nbjb-gov",
+    "agencyName": "江北区人民政府",
+    "siteName": "宁波市江北区人民政府",
+    "url": "http://www.nbjb.gov.cn/",
+    "sourceUrl": "https://www.ningbo.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330206",
     "regionName": "北仑区",
     "level": "county",
     "parentCode": "330200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330206-government-www-bl-gov-cn-www-bl-gov",
+    "agencyName": "北仑区人民政府",
+    "siteName": "宁波市北仑区人民政府 宁波经济技术开发区管理委员会",
+    "url": "http://www.bl.gov.cn/",
+    "sourceUrl": "https://www.ningbo.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330211",
     "regionName": "镇海区",
     "level": "county",
     "parentCode": "330200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330211-government-www-zh-gov-cn-www-zh-gov",
+    "agencyName": "镇海区人民政府",
+    "siteName": "宁波市镇海区人民政府",
+    "url": "http://www.zh.gov.cn/",
+    "sourceUrl": "https://www.ningbo.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330212",
     "regionName": "鄞州区",
     "level": "county",
     "parentCode": "330200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330212-government-www-nbyz-gov-cn-www-nbyz-gov",
+    "agencyName": "鄞州区人民政府",
+    "siteName": "鄞州区人民政府",
+    "url": "http://www.nbyz.gov.cn/",
+    "sourceUrl": "https://www.ningbo.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330213",
     "regionName": "奉化区",
     "level": "county",
     "parentCode": "330200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330213-government-www-fh-gov-cn-www-fh-gov",
+    "agencyName": "奉化区人民政府",
+    "siteName": "宁波市奉化区人民政府",
+    "url": "http://www.fh.gov.cn/index.html",
+    "sourceUrl": "https://www.ningbo.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330225",
     "regionName": "象山县",
     "level": "county",
     "parentCode": "330200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330225-government-www-xiangshan-gov-cn-www-xiangshan-gov",
+    "agencyName": "象山县人民政府",
+    "siteName": "象山县人民政府",
+    "url": "http://www.xiangshan.gov.cn/",
+    "sourceUrl": "https://www.ningbo.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "330226",
     "regionName": "宁海县",
     "level": "county",
     "parentCode": "330200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330226-government-www-ninghai-gov-cn-www-ninghai-gov",
+    "agencyName": "宁海县人民政府",
+    "siteName": "宁海县人民政府",
+    "url": "http://www.ninghai.gov.cn/",
+    "sourceUrl": "https://www.ningbo.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330281",
     "regionName": "余姚市",
     "level": "county",
     "parentCode": "330200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330281-government-www-yy-gov-cn-www-yy-gov",
+    "agencyName": "余姚市人民政府",
+    "siteName": "余姚市人民政府网站",
+    "url": "https://www.yy.gov.cn/",
+    "sourceUrl": "https://www.ningbo.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "330282",
     "regionName": "慈溪市",
     "level": "county",
     "parentCode": "330200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330282-government-www-cixi-gov-cn-www-cixi-gov",
+    "agencyName": "慈溪市人民政府",
+    "siteName": "慈溪市人民政府网站",
+    "url": "http://www.cixi.gov.cn/",
+    "sourceUrl": "https://www.ningbo.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330302",
     "regionName": "鹿城区",
     "level": "county",
     "parentCode": "330300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330302-government-www-lucheng-gov-cn-www-lucheng-gov",
+    "agencyName": "鹿城区人民政府",
+    "siteName": "鹿城区人民政府",
+    "url": "http://www.lucheng.gov.cn/",
+    "sourceUrl": "https://www.wenzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330303",
     "regionName": "龙湾区",
     "level": "county",
     "parentCode": "330300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330303-government-www-longwan-gov-cn-www-longwan-gov",
+    "agencyName": "龙湾区人民政府",
+    "siteName": "龙湾区政府",
+    "url": "http://www.longwan.gov.cn/",
+    "sourceUrl": "https://www.wenzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330304",
     "regionName": "瓯海区",
     "level": "county",
     "parentCode": "330300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330304-government-www-ouhai-gov-cn-www-ouhai-gov",
+    "agencyName": "瓯海区人民政府",
+    "siteName": "瓯海区人民政府",
+    "url": "http://www.ouhai.gov.cn/",
+    "sourceUrl": "https://www.wenzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330305",
     "regionName": "洞头区",
     "level": "county",
     "parentCode": "330300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330305-government-www-dongtou-gov-cn-www-dongtou-gov",
+    "agencyName": "洞头区人民政府",
+    "siteName": "洞头区人民政府",
+    "url": "http://www.dongtou.gov.cn/",
+    "sourceUrl": "https://www.wenzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330324",
     "regionName": "永嘉县",
     "level": "county",
     "parentCode": "330300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330324-government-www-yj-gov-cn-www-yj-gov",
+    "agencyName": "永嘉县人民政府",
+    "siteName": "永嘉县人民政府",
+    "url": "http://www.yj.gov.cn/",
+    "sourceUrl": "https://www.wenzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330326",
     "regionName": "平阳县",
     "level": "county",
     "parentCode": "330300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330326-government-www-zjpy-gov-cn-www-zjpy-gov",
+    "agencyName": "平阳县人民政府",
+    "siteName": "平阳县政府门户网站",
+    "url": "http://www.zjpy.gov.cn/",
+    "sourceUrl": "https://www.wenzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330327",
     "regionName": "苍南县",
     "level": "county",
     "parentCode": "330300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330327-government-www-cncn-gov-cn-www-cncn-gov",
+    "agencyName": "苍南县人民政府",
+    "siteName": "苍南县人民政府",
+    "url": "http://www.cncn.gov.cn/",
+    "sourceUrl": "https://www.wenzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330328",
     "regionName": "文成县",
     "level": "county",
     "parentCode": "330300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330328-government-www-wencheng-gov-cn-www-wencheng-gov",
+    "agencyName": "文成县人民政府",
+    "siteName": "文成县人民政府",
+    "url": "http://www.wencheng.gov.cn/?rxLoad=1&_rand=1500863764203",
+    "sourceUrl": "https://www.wenzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330329",
     "regionName": "泰顺县",
     "level": "county",
     "parentCode": "330300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330329-government-www-ts-gov-cn-www-ts-gov",
+    "agencyName": "泰顺县人民政府",
+    "siteName": "泰顺县人民政府-首页",
+    "url": "http://www.ts.gov.cn/",
+    "sourceUrl": "https://www.wenzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330381",
     "regionName": "瑞安市",
     "level": "county",
     "parentCode": "330300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330381-government-www-ruian-gov-cn-www-ruian-gov",
+    "agencyName": "瑞安市人民政府",
+    "siteName": "瑞安市人民政府",
+    "url": "http://www.ruian.gov.cn/",
+    "sourceUrl": "https://www.wenzhou.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "330382",
     "regionName": "乐清市",
     "level": "county",
     "parentCode": "330300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330382-government-www-yueqing-gov-cn-www-yueqing-gov",
+    "agencyName": "乐清市人民政府",
+    "siteName": "乐清市人民政府",
+    "url": "http://www.yueqing.gov.cn/",
+    "sourceUrl": "https://www.wenzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330383",
     "regionName": "龙港市",
     "level": "county",
     "parentCode": "330300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330383-government-www-zjlg-gov-cn-www-zjlg-gov",
+    "agencyName": "龙港市人民政府",
+    "siteName": "龙港市人民政府",
+    "url": "http://www.zjlg.gov.cn/",
+    "sourceUrl": "https://www.wenzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330402",
@@ -1620,40 +1785,65 @@
     "regionName": "吴兴区",
     "level": "county",
     "parentCode": "330500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330502-government-www-wuxing-gov-cn-www-wuxing-gov",
+    "agencyName": "吴兴区人民政府",
+    "siteName": "吴兴区人民政府",
+    "url": "http://www.wuxing.gov.cn/",
+    "sourceUrl": "https://www.huzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330503",
     "regionName": "南浔区",
     "level": "county",
     "parentCode": "330500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330503-government-www-nanxun-gov-cn-www-nanxun-gov",
+    "agencyName": "南浔区人民政府",
+    "siteName": "南浔区人民政府",
+    "url": "http://www.nanxun.gov.cn/",
+    "sourceUrl": "https://www.huzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330521",
     "regionName": "德清县",
     "level": "county",
     "parentCode": "330500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330521-government-www-deqing-gov-cn-www-deqing-gov",
+    "agencyName": "德清县人民政府",
+    "siteName": "德清县人民政府",
+    "url": "http://www.deqing.gov.cn/",
+    "sourceUrl": "https://www.huzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330522",
     "regionName": "长兴县",
     "level": "county",
     "parentCode": "330500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330522-government-www-zjcx-gov-cn-www-zjcx-gov",
+    "agencyName": "长兴县人民政府",
+    "siteName": "长兴县人民政府网",
+    "url": "http://www.zjcx.gov.cn/",
+    "sourceUrl": "https://www.huzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330523",
     "regionName": "安吉县",
     "level": "county",
     "parentCode": "330500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330523-government-www-anji-gov-cn-www-anji-gov",
+    "agencyName": "安吉县人民政府",
+    "siteName": "安吉县人民政府",
+    "url": "http://www.anji.gov.cn/",
+    "sourceUrl": "https://www.huzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330602",
@@ -1738,72 +1928,117 @@
     "regionName": "婺城区",
     "level": "county",
     "parentCode": "330700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330702-government-www-wuch-gov-cn-www-wuch-gov",
+    "agencyName": "婺城区人民政府",
+    "siteName": "金华市婺城区人民政府",
+    "url": "http://www.wuch.gov.cn/",
+    "sourceUrl": "https://www.jinhua.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330703",
     "regionName": "金东区",
     "level": "county",
     "parentCode": "330700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330703-government-www-jindong-gov-cn-www-jindong-gov-cn",
+    "agencyName": "金东区人民政府",
+    "siteName": "金东区人民政府",
+    "url": "https://www.jindong.gov.cn/",
+    "sourceUrl": "https://www.jinhua.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330723",
     "regionName": "武义县",
     "level": "county",
     "parentCode": "330700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330723-government-www-zjwy-gov-cn-www-zjwy-gov",
+    "agencyName": "武义县人民政府",
+    "siteName": "武义县人民政府",
+    "url": "http://www.zjwy.gov.cn/",
+    "sourceUrl": "https://www.jinhua.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330726",
     "regionName": "浦江县",
     "level": "county",
     "parentCode": "330700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330726-government-www-pj-gov-cn-www-pj-gov",
+    "agencyName": "浦江县人民政府",
+    "siteName": "浦江县人民政府",
+    "url": "http://www.pj.gov.cn/",
+    "sourceUrl": "https://www.jinhua.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330727",
     "regionName": "磐安县",
     "level": "county",
     "parentCode": "330700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330727-government-www-panan-gov-cn-www-panan-gov",
+    "agencyName": "磐安县人民政府",
+    "siteName": "磐安县人民政府",
+    "url": "https://www.panan.gov.cn/",
+    "sourceUrl": "https://www.jinhua.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330781",
     "regionName": "兰溪市",
     "level": "county",
     "parentCode": "330700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330781-government-www-lanxi-gov-cn-www-lanxi-gov",
+    "agencyName": "兰溪市人民政府",
+    "siteName": "兰溪市人民政府",
+    "url": "http://www.lanxi.gov.cn/",
+    "sourceUrl": "https://www.jinhua.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330782",
     "regionName": "义乌市",
     "level": "county",
     "parentCode": "330700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330782-government-www-yw-gov-cn-www-yw-gov",
+    "agencyName": "义乌市人民政府",
+    "siteName": "义乌市人民政府",
+    "url": "https://www.yw.gov.cn/",
+    "sourceUrl": "https://www.jinhua.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "330783",
     "regionName": "东阳市",
     "level": "county",
     "parentCode": "330700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330783-government-www-dongyang-gov-cn-www-dongyang-gov",
+    "agencyName": "东阳市人民政府",
+    "siteName": "东阳市人民政府",
+    "url": "http://www.dongyang.gov.cn/",
+    "sourceUrl": "https://www.jinhua.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330784",
     "regionName": "永康市",
     "level": "county",
     "parentCode": "330700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330784-government-www-yk-gov-cn-www-yk-gov",
+    "agencyName": "永康市人民政府",
+    "siteName": "永康市人民政府",
+    "url": "https://www.yk.gov.cn/",
+    "sourceUrl": "https://www.jinhua.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330802",
@@ -1888,32 +2123,52 @@
     "regionName": "定海区",
     "level": "county",
     "parentCode": "330900",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330902-government-www-dinghai-gov-cn-www-dinghai-gov",
+    "agencyName": "定海区人民政府",
+    "siteName": "舟山市定海区人民政府",
+    "url": "http://www.dinghai.gov.cn/",
+    "sourceUrl": "https://www.zhoushan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330903",
     "regionName": "普陀区",
     "level": "county",
     "parentCode": "330900",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330903-government-www-putuo-gov-cn-www-putuo-gov",
+    "agencyName": "普陀区人民政府",
+    "siteName": "普陀区人民政府",
+    "url": "http://www.putuo.gov.cn/",
+    "sourceUrl": "https://www.zhoushan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330921",
     "regionName": "岱山县",
     "level": "county",
     "parentCode": "330900",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330921-government-www-daishan-gov-cn-www-daishan-gov",
+    "agencyName": "岱山县人民政府",
+    "siteName": "岱山县人民政府",
+    "url": "http://www.daishan.gov.cn/",
+    "sourceUrl": "https://www.zhoushan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "330922",
     "regionName": "嵊泗县",
     "level": "county",
     "parentCode": "330900",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "330922-government-www-shengsi-gov-cn-www-shengsi-gov",
+    "agencyName": "嵊泗县人民政府",
+    "siteName": "嵊泗县人民政府",
+    "url": "http://www.shengsi.gov.cn/",
+    "sourceUrl": "https://www.zhoushan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "331002",
@@ -2128,8 +2383,13 @@
     "regionName": "景宁畲族自治县",
     "level": "county",
     "parentCode": "331100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "331127-government-www-jingning-gov-cn-www-jingning-gov-cn",
+    "agencyName": "景宁畲族自治县人民政府",
+    "siteName": "景宁畲族自治县人民政府",
+    "url": "https://www.jingning.gov.cn/",
+    "sourceUrl": "https://www.lishui.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "331181",
@@ -2149,72 +2409,117 @@
     "regionName": "瑶海区",
     "level": "county",
     "parentCode": "340100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340102-government-www-hfyaohai-gov-cn",
+    "agencyName": "瑶海区人民政府",
+    "siteName": "瑶海区人民政府",
+    "url": "http://www.hfyaohai.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hfs/6785831.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340103",
     "regionName": "庐阳区",
     "level": "county",
     "parentCode": "340100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340103-government-www-ahhfly-gov-cn",
+    "agencyName": "庐阳区人民政府",
+    "siteName": "庐阳区人民政府",
+    "url": "http://www.ahhfly.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hfs/6785831.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340104",
     "regionName": "蜀山区",
     "level": "county",
     "parentCode": "340100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340104-government-www-hfss-gov-cn",
+    "agencyName": "蜀山区人民政府",
+    "siteName": "蜀山区人民政府",
+    "url": "http://www.hfss.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hfs/6785831.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340111",
     "regionName": "包河区",
     "level": "county",
     "parentCode": "340100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340111-government-www-baohe-gov-cn",
+    "agencyName": "包河区人民政府",
+    "siteName": "包河区人民政府",
+    "url": "http://www.baohe.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hfs/6785831.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340121",
     "regionName": "长丰县",
     "level": "county",
     "parentCode": "340100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340121-government-www-changfeng-gov-cn",
+    "agencyName": "长丰县人民政府",
+    "siteName": "长丰县人民政府",
+    "url": "http://www.changfeng.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hfs/6785831.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340122",
     "regionName": "肥东县",
     "level": "county",
     "parentCode": "340100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340122-government-www-feidong-gov-cn",
+    "agencyName": "肥东县人民政府",
+    "siteName": "肥东县人民政府",
+    "url": "http://www.feidong.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hfs/6785831.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340123",
     "regionName": "肥西县",
     "level": "county",
     "parentCode": "340100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340123-government-www-ahfeixi-gov-cn",
+    "agencyName": "肥西县人民政府",
+    "siteName": "肥西县人民政府",
+    "url": "http://www.ahfeixi.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hfs/6785831.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340124",
     "regionName": "庐江县",
     "level": "county",
     "parentCode": "340100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340124-government-www-lj-gov-cn",
+    "agencyName": "庐江县人民政府",
+    "siteName": "庐江县人民政府",
+    "url": "http://www.lj.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hfs/6785831.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340181",
     "regionName": "巢湖市",
     "level": "county",
     "parentCode": "340100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340181-government-www-chaohu-gov-cn",
+    "agencyName": "巢湖市人民政府",
+    "siteName": "巢湖市人民政府",
+    "url": "http://www.chaohu.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hfs/6785831.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340202",
@@ -2403,32 +2708,52 @@
     "regionName": "大通区",
     "level": "county",
     "parentCode": "340400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340402-government-www-hndt-gov-cn-www-hndt-gov",
+    "agencyName": "大通区人民政府",
+    "siteName": "淮南市大通区人民政府",
+    "url": "https://www.hndt.gov.cn/",
+    "sourceUrl": "https://www.huainan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340403",
     "regionName": "田家庵区",
     "level": "county",
     "parentCode": "340400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340403-government-www-tja-gov-cn-www-tja-gov",
+    "agencyName": "田家庵区人民政府",
+    "siteName": "淮南市田家庵区人民政府",
+    "url": "https://www.tja.gov.cn/",
+    "sourceUrl": "https://www.huainan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340404",
     "regionName": "谢家集区",
     "level": "county",
     "parentCode": "340400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340404-government-www-xiejiaji-gov-cn-www-xiejiaji-gov",
+    "agencyName": "谢家集区人民政府",
+    "siteName": "淮南市谢家集区人民政府",
+    "url": "https://www.xiejiaji.gov.cn/",
+    "sourceUrl": "https://www.huainan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340405",
     "regionName": "八公山区",
     "level": "county",
     "parentCode": "340400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340405-government-www-bagongshan-gov-cn-www-bagongshan-gov",
+    "agencyName": "八公山区人民政府",
+    "siteName": "淮南市八公山区人民政府网",
+    "url": "https://www.bagongshan.gov.cn/",
+    "sourceUrl": "https://www.huainan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340406",
@@ -2448,16 +2773,26 @@
     "regionName": "凤台县",
     "level": "county",
     "parentCode": "340400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340421-government-www-ft-gov-cn-www-ft-gov",
+    "agencyName": "凤台县人民政府",
+    "siteName": "凤台县人民政府",
+    "url": "https://www.ft.gov.cn/",
+    "sourceUrl": "https://www.huainan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340422",
     "regionName": "寿县",
     "level": "county",
     "parentCode": "340400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340422-government-www-shouxian-gov-cn-www-shouxian-gov",
+    "agencyName": "寿县人民政府",
+    "siteName": "寿县人民政府",
+    "url": "https://www.shouxian.gov.cn/",
+    "sourceUrl": "https://www.huainan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340503",
@@ -2542,8 +2877,13 @@
     "regionName": "杜集区",
     "level": "county",
     "parentCode": "340600",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340602-government-www-hbdj-gov-cn-www-hbdj-gov",
+    "agencyName": "杜集区人民政府",
+    "siteName": "杜集区人民政府",
+    "url": "http://www.hbdj.gov.cn/",
+    "sourceUrl": "https://www.huaibei.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340603",
@@ -2589,184 +2929,299 @@
     "regionName": "铜官区",
     "level": "county",
     "parentCode": "340700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340705-government-www-tltg-gov-cn-www-tltg-gov",
+    "agencyName": "铜官区人民政府",
+    "siteName": "铜官区人民政府",
+    "url": "https://www.tltg.gov.cn/",
+    "sourceUrl": "https://www.tl.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340706",
     "regionName": "义安区",
     "level": "county",
     "parentCode": "340700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340706-government-www-ahtlyaq-gov-cn-www-ahtlyaq-gov",
+    "agencyName": "义安区人民政府",
+    "siteName": "义安区人民政府",
+    "url": "https://www.ahtlyaq.gov.cn/",
+    "sourceUrl": "https://www.tl.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340711",
     "regionName": "郊区",
     "level": "county",
     "parentCode": "340700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340711-government-www-tljq-gov-cn-www-tljq-gov",
+    "agencyName": "郊区人民政府",
+    "siteName": "郊区人民政府",
+    "url": "https://www.tljq.gov.cn/",
+    "sourceUrl": "https://www.tl.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340722",
     "regionName": "枞阳县",
     "level": "county",
     "parentCode": "340700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340722-government-www-zongyang-gov-cn-www-zongyang-gov",
+    "agencyName": "枞阳县人民政府",
+    "siteName": "枞阳县人民政府",
+    "url": "https://www.zongyang.gov.cn/",
+    "sourceUrl": "https://www.tl.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340802",
     "regionName": "迎江区",
     "level": "county",
     "parentCode": "340800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340802-government-www-ahyingjiang-gov-cn-www-ahyingjiang-gov",
+    "agencyName": "迎江区人民政府",
+    "siteName": "安庆市迎江区人民政府",
+    "url": "https://www.ahyingjiang.gov.cn/",
+    "sourceUrl": "https://www.anqing.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340803",
     "regionName": "大观区",
     "level": "county",
     "parentCode": "340800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340803-government-www-aqdgq-gov-cn-www-aqdgq-gov",
+    "agencyName": "大观区人民政府",
+    "siteName": "安庆市大观区人民政府",
+    "url": "https://www.aqdgq.gov.cn/",
+    "sourceUrl": "https://www.anqing.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340811",
     "regionName": "宜秀区",
     "level": "county",
     "parentCode": "340800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340811-government-www-yixiu-gov-cn-www-yixiu-gov",
+    "agencyName": "宜秀区人民政府",
+    "siteName": "安庆市宜秀区人民政府",
+    "url": "https://www.yixiu.gov.cn/",
+    "sourceUrl": "https://www.anqing.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340822",
     "regionName": "怀宁县",
     "level": "county",
     "parentCode": "340800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340822-government-www-ahhn-gov-cn-www-ahhn-gov",
+    "agencyName": "怀宁县人民政府",
+    "siteName": "怀宁县人民政府",
+    "url": "https://www.ahhn.gov.cn/",
+    "sourceUrl": "https://www.anqing.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340825",
     "regionName": "太湖县",
     "level": "county",
     "parentCode": "340800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340825-government-www-thx-gov-cn-www-thx-gov",
+    "agencyName": "太湖县人民政府",
+    "siteName": "太湖县人民政府",
+    "url": "https://www.thx.gov.cn/",
+    "sourceUrl": "https://www.anqing.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "340826",
     "regionName": "宿松县",
     "level": "county",
     "parentCode": "340800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340826-government-www-susong-gov-cn-www-susong-gov",
+    "agencyName": "宿松县人民政府",
+    "siteName": "宿松县人民政府",
+    "url": "https://www.susong.gov.cn/",
+    "sourceUrl": "https://www.anqing.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340827",
     "regionName": "望江县",
     "level": "county",
     "parentCode": "340800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340827-government-www-wangjiang-gov-cn-www-wangjiang-gov",
+    "agencyName": "望江县人民政府",
+    "siteName": "望江县人民政府",
+    "url": "https://www.wangjiang.gov.cn/",
+    "sourceUrl": "https://www.anqing.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340828",
     "regionName": "岳西县",
     "level": "county",
     "parentCode": "340800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340828-government-www-yuexi-gov-cn-www-yuexi-gov",
+    "agencyName": "岳西县人民政府",
+    "siteName": "岳西县人民政府网",
+    "url": "https://www.yuexi.gov.cn/",
+    "sourceUrl": "https://www.anqing.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340881",
     "regionName": "桐城市",
     "level": "county",
     "parentCode": "340800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340881-government-www-tongcheng-gov-cn-www-tongcheng-gov",
+    "agencyName": "桐城市人民政府",
+    "siteName": "桐城市人民政府",
+    "url": "https://www.tongcheng.gov.cn/",
+    "sourceUrl": "https://www.anqing.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "340882",
     "regionName": "潜山市",
     "level": "county",
     "parentCode": "340800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "340882-government-www-qss-gov-cn-www-qss-gov",
+    "agencyName": "潜山市人民政府",
+    "siteName": "潜山市人民政府",
+    "url": "https://www.qss.gov.cn/",
+    "sourceUrl": "https://www.anqing.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341002",
     "regionName": "屯溪区",
     "level": "county",
     "parentCode": "341000",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341002-government-www-ahtxq-gov-cn",
+    "agencyName": "屯溪区人民政府",
+    "siteName": "屯溪区人民政府",
+    "url": "http://www.ahtxq.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hss/6785821.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341003",
     "regionName": "黄山区",
     "level": "county",
     "parentCode": "341000",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341003-government-www-hsq-gov-cn",
+    "agencyName": "黄山区人民政府",
+    "siteName": "黄山区人民政府",
+    "url": "http://www.hsq.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hss/6785821.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341004",
     "regionName": "徽州区",
     "level": "county",
     "parentCode": "341000",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341004-government-www-ahhz-gov-cn",
+    "agencyName": "徽州区人民政府",
+    "siteName": "徽州区人民政府",
+    "url": "http://www.ahhz.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hss/6785821.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341021",
     "regionName": "歙县",
     "level": "county",
     "parentCode": "341000",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341021-government-www-ahshx-gov-cn",
+    "agencyName": "歙县人民政府",
+    "siteName": "歙县人民政府",
+    "url": "http://www.ahshx.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hss/6785821.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341022",
     "regionName": "休宁县",
     "level": "county",
     "parentCode": "341000",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341022-government-www-xiuning-gov-cn",
+    "agencyName": "休宁县人民政府",
+    "siteName": "休宁县人民政府",
+    "url": "http://www.xiuning.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hss/6785821.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341023",
     "regionName": "黟县",
     "level": "county",
     "parentCode": "341000",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341023-government-www-yixian-gov-cn",
+    "agencyName": "黟县人民政府",
+    "siteName": "黟县人民政府",
+    "url": "http://www.yixian.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hss/6785821.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341024",
     "regionName": "祁门县",
     "level": "county",
     "parentCode": "341000",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341024-government-www-ahqimen-gov-cn",
+    "agencyName": "祁门县人民政府",
+    "siteName": "祁门县人民政府",
+    "url": "http://www.ahqimen.gov.cn/",
+    "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hss/6785821.js?num=20",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341102",
     "regionName": "琅琊区",
     "level": "county",
     "parentCode": "341100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341102-government-www-lyq-gov-cn-www-lyq-gov-cn",
+    "agencyName": "琅琊区人民政府",
+    "siteName": "琅琊区人民政府",
+    "url": "http://www.lyq.gov.cn/",
+    "sourceUrl": "https://www.chuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341103",
     "regionName": "南谯区",
     "level": "county",
     "parentCode": "341100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341103-government-www-cznq-gov-cn-www-cznq-gov-cn",
+    "agencyName": "南谯区人民政府",
+    "siteName": "南谯区人民政府",
+    "url": "http://www.cznq.gov.cn/",
+    "sourceUrl": "https://www.chuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341122",
@@ -3020,24 +3475,39 @@
     "regionName": "金安区",
     "level": "county",
     "parentCode": "341500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341502-government-www-ja-gov-cn-www-ja-gov-cn",
+    "agencyName": "金安区人民政府",
+    "siteName": "金安区人民政府",
+    "url": "https://www.ja.gov.cn/",
+    "sourceUrl": "https://www.luan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341503",
     "regionName": "裕安区",
     "level": "county",
     "parentCode": "341500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341503-government-www-yuan-gov-cn-www-yuan-gov",
+    "agencyName": "裕安区人民政府",
+    "siteName": "六安市裕安区人民政府",
+    "url": "https://www.yuan.gov.cn/",
+    "sourceUrl": "https://www.luan.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "341504",
     "regionName": "叶集区",
     "level": "county",
     "parentCode": "341500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341504-government-www-ahyeji-gov-cn-www-ahyeji-gov-cn",
+    "agencyName": "叶集区人民政府",
+    "siteName": "叶集区人民政府",
+    "url": "https://www.ahyeji.gov.cn/",
+    "sourceUrl": "https://www.luan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341522",
@@ -3148,16 +3618,26 @@
     "regionName": "贵池区",
     "level": "county",
     "parentCode": "341700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341702-government-www-ahgc-gov-cn-www-ahgc-gov",
+    "agencyName": "贵池区人民政府",
+    "siteName": "池州市贵池区人民政府",
+    "url": "http://www.ahgc.gov.cn/",
+    "sourceUrl": "https://www.chizhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341721",
     "regionName": "东至县",
     "level": "county",
     "parentCode": "341700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341721-government-www-dongzhi-gov-cn-www-dongzhi-gov",
+    "agencyName": "东至县人民政府",
+    "siteName": "东至县人民政府",
+    "url": "http://www.dongzhi.gov.cn/",
+    "sourceUrl": "https://www.chizhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341722",
@@ -3177,168 +3657,273 @@
     "regionName": "青阳县",
     "level": "county",
     "parentCode": "341700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341723-government-www-ahqy-gov-cn-www-ahqy-gov",
+    "agencyName": "青阳县人民政府",
+    "siteName": "青阳县人民政府",
+    "url": "http://www.ahqy.gov.cn/",
+    "sourceUrl": "https://www.chizhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341802",
     "regionName": "宣州区",
     "level": "county",
     "parentCode": "341800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341802-government-www-xuanzhou-gov-cn-www-xuanzhou-gov",
+    "agencyName": "宣州区人民政府",
+    "siteName": "宣城市宣州区人民政府",
+    "url": "http://www.xuanzhou.gov.cn/",
+    "sourceUrl": "https://www.xuancheng.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341821",
     "regionName": "郎溪县",
     "level": "county",
     "parentCode": "341800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341821-government-www-ahlx-gov-cn-www-ahlx-gov",
+    "agencyName": "郎溪县人民政府",
+    "siteName": "郎溪县人民政府",
+    "url": "http://www.ahlx.gov.cn/",
+    "sourceUrl": "https://www.xuancheng.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341823",
     "regionName": "泾县",
     "level": "county",
     "parentCode": "341800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341823-government-www-ahjx-gov-cn-www-ahjx-gov",
+    "agencyName": "泾县人民政府",
+    "siteName": "泾县人民政府",
+    "url": "http://www.ahjx.gov.cn/",
+    "sourceUrl": "https://www.xuancheng.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341824",
     "regionName": "绩溪县",
     "level": "county",
     "parentCode": "341800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341824-government-www-cnjx-gov-cn-www-cnjx-gov",
+    "agencyName": "绩溪县人民政府",
+    "siteName": "绩溪县人民政府",
+    "url": "http://www.cnjx.gov.cn/",
+    "sourceUrl": "https://www.xuancheng.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341825",
     "regionName": "旌德县",
     "level": "county",
     "parentCode": "341800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341825-government-www-ahjd-gov-cn-www-ahjd-gov",
+    "agencyName": "旌德县人民政府",
+    "siteName": "旌德县人民政府",
+    "url": "http://www.ahjd.gov.cn/",
+    "sourceUrl": "https://www.xuancheng.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "341881",
     "regionName": "宁国市",
     "level": "county",
     "parentCode": "341800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341881-government-www-ningguo-gov-cn-www-ningguo-gov",
+    "agencyName": "宁国市人民政府",
+    "siteName": "宁国市人民政府",
+    "url": "https://www.ningguo.gov.cn/",
+    "sourceUrl": "https://www.xuancheng.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "341882",
     "regionName": "广德市",
     "level": "county",
     "parentCode": "341800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "341882-government-www-guangde-gov-cn-www-guangde-gov",
+    "agencyName": "广德市人民政府",
+    "siteName": "广德市人民政府",
+    "url": "https://www.guangde.gov.cn/",
+    "sourceUrl": "https://www.xuancheng.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "350102",
     "regionName": "鼓楼区",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350102-government-www-gl-gov-cn-www-gl-gov",
+    "agencyName": "鼓楼区人民政府",
+    "siteName": "福州市鼓楼区人民政府",
+    "url": "http://www.gl.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350103",
     "regionName": "台江区",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350103-government-www-taijiang-gov-cn-www-taijiang-gov",
+    "agencyName": "台江区人民政府",
+    "siteName": "福州市台江区人民政府",
+    "url": "http://www.taijiang.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350104",
     "regionName": "仓山区",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350104-government-www-fzcangshan-gov-cn-www-fzcangshan-gov",
+    "agencyName": "仓山区人民政府",
+    "siteName": "福州市仓山区人民政府",
+    "url": "http://www.fzcangshan.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350105",
     "regionName": "马尾区",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350105-government-www-mawei-gov-cn-www-mawei-gov",
+    "agencyName": "马尾区人民政府",
+    "siteName": "福州市马尾区人民政府",
+    "url": "http://www.mawei.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350111",
     "regionName": "晋安区",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350111-government-www-fzja-gov-cn-www-fzja-gov",
+    "agencyName": "晋安区人民政府",
+    "siteName": "福州市晋安区人民政府",
+    "url": "http://www.fzja.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350112",
     "regionName": "长乐区",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350112-government-www-fzcl-gov-cn-www-fzcl-gov",
+    "agencyName": "长乐区人民政府",
+    "siteName": "福州市长乐区人民政府",
+    "url": "http://www.fzcl.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350121",
     "regionName": "闽侯县",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350121-government-www-minhou-gov-cn-www-minhou-gov",
+    "agencyName": "闽侯县人民政府",
+    "siteName": "闽侯县人民政府",
+    "url": "http://www.minhou.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350122",
     "regionName": "连江县",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350122-government-www-fzlj-gov-cn-www-fzlj-gov",
+    "agencyName": "连江县人民政府",
+    "siteName": "连江县人民政府",
+    "url": "http://www.fzlj.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350123",
     "regionName": "罗源县",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350123-government-www-luoyuan-gov-cn-www-luoyuan-gov",
+    "agencyName": "罗源县人民政府",
+    "siteName": "罗源县人民政府",
+    "url": "http://www.luoyuan.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350124",
     "regionName": "闽清县",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350124-government-www-fzmq-gov-cn-www-fzmq-gov",
+    "agencyName": "闽清县人民政府",
+    "siteName": "闽清县人民政府",
+    "url": "http://www.fzmq.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350125",
     "regionName": "永泰县",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350125-government-www-yongtai-gov-cn-www-yongtai-gov",
+    "agencyName": "永泰县人民政府",
+    "siteName": "永泰县人民政府",
+    "url": "http://www.yongtai.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350128",
     "regionName": "平潭县",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350128-government-www-pingtan-gov-cn-www-pingtan-gov",
+    "agencyName": "平潭县人民政府",
+    "siteName": "平潭县人民政府",
+    "url": "https://www.pingtan.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "350181",
     "regionName": "福清市",
     "level": "county",
     "parentCode": "350100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350181-government-www-fuqing-gov-cn-www-fuqing-gov",
+    "agencyName": "福清市人民政府",
+    "siteName": "福清市人民政府",
+    "url": "https://www.fuqing.gov.cn/",
+    "sourceUrl": "https://www.fuzhou.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "350203",
@@ -3488,88 +4073,143 @@
     "regionName": "三元区",
     "level": "county",
     "parentCode": "350400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350404-government-www-smsy-gov-cn-www-smsy-gov",
+    "agencyName": "三元区人民政府",
+    "siteName": "三元区人民政府门户网站",
+    "url": "http://www.smsy.gov.cn/",
+    "sourceUrl": "https://www.sm.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350405",
     "regionName": "沙县区",
     "level": "county",
     "parentCode": "350400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350405-government-www-fjsx-gov-cn-www-fjsx-gov",
+    "agencyName": "沙县区人民政府",
+    "siteName": "沙县区人民政府门户网站",
+    "url": "http://www.fjsx.gov.cn/",
+    "sourceUrl": "https://www.sm.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350421",
     "regionName": "明溪县",
     "level": "county",
     "parentCode": "350400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350421-government-www-fjmx-gov-cn-www-fjmx-gov",
+    "agencyName": "明溪县人民政府",
+    "siteName": "明溪县人民政府门户网站",
+    "url": "http://www.fjmx.gov.cn/",
+    "sourceUrl": "https://www.sm.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350423",
     "regionName": "清流县",
     "level": "county",
     "parentCode": "350400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350423-government-www-fjql-gov-cn-www-fjql-gov",
+    "agencyName": "清流县人民政府",
+    "siteName": "清流县人民政府门户网站",
+    "url": "http://www.fjql.gov.cn/",
+    "sourceUrl": "https://www.sm.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350424",
     "regionName": "宁化县",
     "level": "county",
     "parentCode": "350400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350424-government-www-fjnh-gov-cn-www-fjnh-gov",
+    "agencyName": "宁化县人民政府",
+    "siteName": "宁化县人民政府门户网站",
+    "url": "http://www.fjnh.gov.cn/",
+    "sourceUrl": "https://www.sm.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350425",
     "regionName": "大田县",
     "level": "county",
     "parentCode": "350400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350425-government-www-datian-gov-cn-www-datian-gov",
+    "agencyName": "大田县人民政府",
+    "siteName": "大田县人民政府门户网站",
+    "url": "http://www.datian.gov.cn/",
+    "sourceUrl": "https://www.sm.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350426",
     "regionName": "尤溪县",
     "level": "county",
     "parentCode": "350400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350426-government-www-fjyx-gov-cn-www-fjyx-gov",
+    "agencyName": "尤溪县人民政府",
+    "siteName": "尤溪县人民政府门户网站",
+    "url": "http://www.fjyx.gov.cn/",
+    "sourceUrl": "https://www.sm.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350428",
     "regionName": "将乐县",
     "level": "county",
     "parentCode": "350400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350428-government-www-jiangle-gov-cn-www-jiangle-gov",
+    "agencyName": "将乐县人民政府",
+    "siteName": "将乐县人民政府门户网站",
+    "url": "http://www.jiangle.gov.cn/",
+    "sourceUrl": "https://www.sm.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350429",
     "regionName": "泰宁县",
     "level": "county",
     "parentCode": "350400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350429-government-www-fjtn-gov-cn-www-fjtn-gov",
+    "agencyName": "泰宁县人民政府",
+    "siteName": "泰宁县人民政府门户网站",
+    "url": "http://www.fjtn.gov.cn/",
+    "sourceUrl": "https://www.sm.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350430",
     "regionName": "建宁县",
     "level": "county",
     "parentCode": "350400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350430-government-www-fjjn-gov-cn-www-fjjn-gov",
+    "agencyName": "建宁县人民政府",
+    "siteName": "建宁县人民政府门户网站",
+    "url": "http://www.fjjn.gov.cn/",
+    "sourceUrl": "https://www.sm.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350481",
     "regionName": "永安市",
     "level": "county",
     "parentCode": "350400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350481-government-www-ya-gov-cn-www-ya-gov",
+    "agencyName": "永安市人民政府",
+    "siteName": "永安市人民政府门户网站",
+    "url": "https://www.ya.gov.cn/",
+    "sourceUrl": "https://www.sm.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "350502",
@@ -3681,7 +4321,7 @@
     "level": "county",
     "parentCode": "350500",
     "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "reason": "金门县由台湾当局实际管辖，不属于中国大陆地方政府网站体系，无可收录的大陆县级政府门户。"
   },
   {
     "regionCode": "350581",
@@ -3870,136 +4510,221 @@
     "regionName": "延平区",
     "level": "county",
     "parentCode": "350700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350702-government-www-ypzf-gov-cn-www-ypzf-gov",
+    "agencyName": "延平区人民政府",
+    "siteName": "延平区人民政府",
+    "url": "https://www.ypzf.gov.cn/",
+    "sourceUrl": "https://www.np.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350703",
     "regionName": "建阳区",
     "level": "county",
     "parentCode": "350700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350703-government-www-fjjy-gov-cn-www-fjjy-gov",
+    "agencyName": "建阳区人民政府",
+    "siteName": "建阳区人民政府",
+    "url": "https://www.fjjy.gov.cn/",
+    "sourceUrl": "https://www.np.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350721",
     "regionName": "顺昌县",
     "level": "county",
     "parentCode": "350700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350721-government-www-fjsc-gov-cn-www-fjsc-gov",
+    "agencyName": "顺昌县人民政府",
+    "siteName": "顺昌县人民政府",
+    "url": "https://www.fjsc.gov.cn/",
+    "sourceUrl": "https://www.np.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350722",
     "regionName": "浦城县",
     "level": "county",
     "parentCode": "350700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350722-government-www-pc-gov-cn-www-pc-gov",
+    "agencyName": "浦城县人民政府",
+    "siteName": "浦城县人民政府",
+    "url": "https://www.pc.gov.cn/",
+    "sourceUrl": "https://www.np.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350723",
     "regionName": "光泽县",
     "level": "county",
     "parentCode": "350700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350723-government-www-guangze-gov-cn-www-guangze-gov",
+    "agencyName": "光泽县人民政府",
+    "siteName": "光泽县人民政府",
+    "url": "https://www.guangze.gov.cn/",
+    "sourceUrl": "https://www.np.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350724",
     "regionName": "松溪县",
     "level": "county",
     "parentCode": "350700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350724-government-www-songxi-gov-cn-www-songxi-gov",
+    "agencyName": "松溪县人民政府",
+    "siteName": "松溪县人民政府",
+    "url": "https://www.songxi.gov.cn/",
+    "sourceUrl": "https://www.np.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350725",
     "regionName": "政和县",
     "level": "county",
     "parentCode": "350700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350725-government-www-zhenghe-gov-cn-www-zhenghe-gov",
+    "agencyName": "政和县人民政府",
+    "siteName": "政和县人民政府",
+    "url": "https://www.zhenghe.gov.cn/",
+    "sourceUrl": "https://www.np.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350781",
     "regionName": "邵武市",
     "level": "county",
     "parentCode": "350700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350781-government-www-shaowu-gov-cn-www-shaowu-gov",
+    "agencyName": "邵武市人民政府",
+    "siteName": "邵武市人民政府",
+    "url": "https://www.shaowu.gov.cn/cms/html/swsrmzf/index.html",
+    "sourceUrl": "https://www.np.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "350782",
     "regionName": "武夷山市",
     "level": "county",
     "parentCode": "350700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350782-government-www-wys-gov-cn-www-wys-gov",
+    "agencyName": "武夷山市人民政府",
+    "siteName": "武夷山市人民政府",
+    "url": "https://www.wys.gov.cn/cms/html/wyssrmzf/index.html",
+    "sourceUrl": "https://www.np.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "350783",
     "regionName": "建瓯市",
     "level": "county",
     "parentCode": "350700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350783-government-www-jo-gov-cn-www-jo-gov",
+    "agencyName": "建瓯市人民政府",
+    "siteName": "建瓯市人民政府",
+    "url": "https://www.jo.gov.cn/",
+    "sourceUrl": "https://www.np.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350802",
     "regionName": "新罗区",
     "level": "county",
     "parentCode": "350800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350802-government-www-fjxinluo-gov-cn-www-fjxinluo-gov",
+    "agencyName": "新罗区人民政府",
+    "siteName": "龙岩市新罗区人民政府",
+    "url": "http://www.fjxinluo.gov.cn/",
+    "sourceUrl": "https://www.longyan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350803",
     "regionName": "永定区",
     "level": "county",
     "parentCode": "350800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350803-government-www-yongding-gov-cn-www-yongding-gov",
+    "agencyName": "永定区人民政府",
+    "siteName": "龙岩市永定区人民政府",
+    "url": "http://www.yongding.gov.cn/",
+    "sourceUrl": "https://www.longyan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350821",
     "regionName": "长汀县",
     "level": "county",
     "parentCode": "350800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350821-government-www-changting-gov-cn-www-changting-gov",
+    "agencyName": "长汀县人民政府",
+    "siteName": "长汀县人民政府",
+    "url": "http://www.changting.gov.cn/",
+    "sourceUrl": "https://www.longyan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350823",
     "regionName": "上杭县",
     "level": "county",
     "parentCode": "350800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350823-government-www-shanghang-gov-cn-www-shanghang-gov",
+    "agencyName": "上杭县人民政府",
+    "siteName": "上杭县人民政府",
+    "url": "http://www.shanghang.gov.cn/",
+    "sourceUrl": "https://www.longyan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350824",
     "regionName": "武平县",
     "level": "county",
     "parentCode": "350800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350824-government-www-wp-gov-cn-www-wp-gov",
+    "agencyName": "武平县人民政府",
+    "siteName": "武平县人民政府",
+    "url": "http://www.wp.gov.cn/",
+    "sourceUrl": "https://www.longyan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350825",
     "regionName": "连城县",
     "level": "county",
     "parentCode": "350800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350825-government-www-fjlylc-gov-cn-www-fjlylc-gov",
+    "agencyName": "连城县人民政府",
+    "siteName": "连城县人民政府",
+    "url": "http://www.fjlylc.gov.cn/",
+    "sourceUrl": "https://www.longyan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350881",
     "regionName": "漳平市",
     "level": "county",
     "parentCode": "350800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "350881-government-www-zp-gov-cn-www-zp-gov",
+    "agencyName": "漳平市人民政府",
+    "siteName": "漳平市人民政府",
+    "url": "http://www.zp.gov.cn/",
+    "sourceUrl": "https://www.longyan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "350902",
@@ -4240,72 +4965,117 @@
     "regionName": "昌江区",
     "level": "county",
     "parentCode": "360200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360202-government-www-jdzcjq-gov-cn",
+    "agencyName": "昌江区人民政府",
+    "siteName": "昌江区人民政府",
+    "url": "http://www.jdzcjq.gov.cn/",
+    "sourceUrl": "https://www.jdz.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "360203",
     "regionName": "珠山区",
     "level": "county",
     "parentCode": "360200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360203-government-www-jdzzsq-gov-cn",
+    "agencyName": "珠山区人民政府",
+    "siteName": "珠山区人民政府",
+    "url": "http://www.jdzzsq.gov.cn/",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "360222",
     "regionName": "浮梁县",
     "level": "county",
     "parentCode": "360200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360222-government-www-fuliang-gov-cn",
+    "agencyName": "浮梁县人民政府",
+    "siteName": "浮梁县人民政府",
+    "url": "https://www.fuliang.gov.cn/",
+    "sourceUrl": "https://www.jdz.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "360281",
     "regionName": "乐平市",
     "level": "county",
     "parentCode": "360200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360281-government-www-lep-gov-cn-www-lep-gov",
+    "agencyName": "乐平市人民政府",
+    "siteName": "乐平市人民政府",
+    "url": "http://www.lep.gov.cn/",
+    "sourceUrl": "https://www.jdz.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "360302",
     "regionName": "安源区",
     "level": "county",
     "parentCode": "360300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360302-government-www-jxay-gov-cn",
+    "agencyName": "安源区人民政府",
+    "siteName": "安源区人民政府",
+    "url": "http://www.jxay.gov.cn",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "360313",
     "regionName": "湘东区",
     "level": "county",
     "parentCode": "360300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360313-government-www-jxxd-gov-cn",
+    "agencyName": "湘东区人民政府",
+    "siteName": "湘东区人民政府",
+    "url": "http://www.jxxd.gov.cn",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "360321",
     "regionName": "莲花县",
     "level": "county",
     "parentCode": "360300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360321-government-www-zglh-gov-cn",
+    "agencyName": "莲花县人民政府",
+    "siteName": "莲花县人民政府",
+    "url": "http://www.zglh.gov.cn",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "360322",
     "regionName": "上栗县",
     "level": "county",
     "parentCode": "360300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360322-government-www-jxslx-gov-cn",
+    "agencyName": "上栗县人民政府",
+    "siteName": "上栗县人民政府",
+    "url": "http://www.jxslx.gov.cn",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "360323",
     "regionName": "芦溪县",
     "level": "county",
     "parentCode": "360300",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360323-government-www-luxi-gov-cn",
+    "agencyName": "芦溪县人民政府",
+    "siteName": "芦溪县人民政府",
+    "url": "http://www.luxi.gov.cn",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "360402",
@@ -4507,24 +5277,39 @@
     "regionName": "月湖区",
     "level": "county",
     "parentCode": "360600",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360602-government-www-yuehu-gov-cn-www-yuehu-gov",
+    "agencyName": "月湖区人民政府",
+    "siteName": "月湖区人民政府网站",
+    "url": "http://www.yuehu.gov.cn/",
+    "sourceUrl": "http://www.yingtan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "360603",
     "regionName": "余江区",
     "level": "county",
     "parentCode": "360600",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360603-government-www-yujiang-gov-cn-www-yujiang-gov",
+    "agencyName": "余江区人民政府",
+    "siteName": "余江区人民政府网站",
+    "url": "http://www.yujiang.gov.cn/",
+    "sourceUrl": "http://www.yingtan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "360681",
     "regionName": "贵溪市",
     "level": "county",
     "parentCode": "360600",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360681-government-www-guixi-gov-cn-www-guixi-gov",
+    "agencyName": "贵溪市人民政府",
+    "siteName": "贵溪市人民政府",
+    "url": "http://www.guixi.gov.cn/",
+    "sourceUrl": "http://www.yingtan.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "360702",
@@ -5012,8 +5797,13 @@
     "regionName": "铜鼓县",
     "level": "county",
     "parentCode": "360900",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "360926-government-www-tonggu-gov-cn-www-tonggu-gov",
+    "agencyName": "铜鼓县人民政府",
+    "siteName": "铜鼓县人民政府",
+    "url": "http://www.tonggu.gov.cn/",
+    "sourceUrl": "https://www.yichun.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "360981",
@@ -5202,80 +5992,130 @@
     "regionName": "信州区",
     "level": "county",
     "parentCode": "361100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "361102-government-www-jxxz-gov-cn",
+    "agencyName": "信州区人民政府",
+    "siteName": "信州区人民政府",
+    "url": "http://www.jxxz.gov.cn/",
+    "sourceUrl": "https://www.zgsr.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "361103",
     "regionName": "广丰区",
     "level": "county",
     "parentCode": "361100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "361103-government-www-gfx-gov-cn",
+    "agencyName": "广丰区人民政府",
+    "siteName": "广丰区人民政府",
+    "url": "http://www.gfx.gov.cn",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "361104",
     "regionName": "广信区",
     "level": "county",
     "parentCode": "361100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "361104-government-www-srx-gov-cn",
+    "agencyName": "广信区人民政府",
+    "siteName": "广信区人民政府",
+    "url": "http://www.srx.gov.cn/",
+    "sourceUrl": "https://www.zgsr.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "361123",
     "regionName": "玉山县",
     "level": "county",
     "parentCode": "361100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "361123-government-www-zgys-gov-cn",
+    "agencyName": "玉山县人民政府",
+    "siteName": "玉山县人民政府",
+    "url": "https://www.zgys.gov.cn/",
+    "sourceUrl": "https://www.zgsr.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "361124",
     "regionName": "铅山县",
     "level": "county",
     "parentCode": "361100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "361124-government-www-jxyanshan-gov-cn",
+    "agencyName": "铅山县人民政府",
+    "siteName": "铅山县人民政府",
+    "url": "http://www.jxyanshan.gov.cn",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "361125",
     "regionName": "横峰县",
     "level": "county",
     "parentCode": "361100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "361125-government-www-hfzf-gov-cn",
+    "agencyName": "横峰县人民政府",
+    "siteName": "横峰县人民政府",
+    "url": "http://www.hfzf.gov.cn",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "361126",
     "regionName": "弋阳县",
     "level": "county",
     "parentCode": "361100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "361126-government-www-jxyy-gov-cn",
+    "agencyName": "弋阳县人民政府",
+    "siteName": "弋阳县人民政府",
+    "url": "http://www.jxyy.gov.cn",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "361127",
     "regionName": "余干县",
     "level": "county",
     "parentCode": "361100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "361127-government-www-yugan-gov-cn-www-yugan-gov",
+    "agencyName": "余干县人民政府",
+    "siteName": "余干县人民政府",
+    "url": "https://www.yugan.gov.cn/",
+    "sourceUrl": "https://www.zgsr.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "361128",
     "regionName": "鄱阳县",
     "level": "county",
     "parentCode": "361100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "361128-government-www-poyang-gov-cn",
+    "agencyName": "鄱阳县人民政府",
+    "siteName": "鄱阳县人民政府",
+    "url": "http://www.poyang.gov.cn/",
+    "sourceUrl": "https://www.zgsr.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "361129",
     "regionName": "万年县",
     "level": "county",
     "parentCode": "361100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "361129-government-www-zgwn-gov-cn",
+    "agencyName": "万年县人民政府",
+    "siteName": "万年县人民政府",
+    "url": "http://www.zgwn.gov.cn",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "361130",
@@ -5287,7 +6127,7 @@
     "agencyName": "婺源县人民政府",
     "siteName": "婺源县人民政府",
     "url": "http://www.jxwy.gov.cn/",
-    "sourceUrl": "https://www.zgsr.gov.cn/",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
     "sourceKind": "desktop-search"
   },
   {
@@ -5295,184 +6135,299 @@
     "regionName": "德兴市",
     "level": "county",
     "parentCode": "361100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "361181-government-www-dxs-gov-cn-www-dxs-gov",
+    "agencyName": "德兴市人民政府",
+    "siteName": "德兴市人民政府",
+    "url": "https://www.dxs.gov.cn/",
+    "sourceUrl": "https://www.zgsr.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "370102",
     "regionName": "历下区",
     "level": "county",
     "parentCode": "370100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370102-government-www-lixia-gov-cn-www-lixia-gov",
+    "agencyName": "历下区人民政府",
+    "siteName": "济南市历下区人民政府",
+    "url": "http://www.lixia.gov.cn/",
+    "sourceUrl": "https://www.jinan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370103",
     "regionName": "市中区",
     "level": "county",
     "parentCode": "370100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370103-government-www-shizhong-gov-cn-www-shizhong-gov",
+    "agencyName": "市中区人民政府",
+    "siteName": "济南市市中区政府",
+    "url": "http://www.shizhong.gov.cn/",
+    "sourceUrl": "https://www.jinan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370104",
     "regionName": "槐荫区",
     "level": "county",
     "parentCode": "370100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370104-government-www-huaiyin-gov-cn-www-huaiyin-gov",
+    "agencyName": "槐荫区人民政府",
+    "siteName": "济南市槐荫区人民政府",
+    "url": "http://www.huaiyin.gov.cn/",
+    "sourceUrl": "https://www.jinan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370105",
     "regionName": "天桥区",
     "level": "county",
     "parentCode": "370100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370105-government-www-tianqiao-gov-cn-www-tianqiao-gov",
+    "agencyName": "天桥区人民政府",
+    "siteName": "济南市天桥区政府",
+    "url": "http://www.tianqiao.gov.cn/",
+    "sourceUrl": "https://www.jinan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370112",
     "regionName": "历城区",
     "level": "county",
     "parentCode": "370100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370112-government-www-licheng-gov-cn-www-licheng-gov",
+    "agencyName": "历城区人民政府",
+    "siteName": "济南市历城区人民政府",
+    "url": "http://www.licheng.gov.cn/",
+    "sourceUrl": "https://www.jinan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370113",
     "regionName": "长清区",
     "level": "county",
     "parentCode": "370100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370113-government-www-jncq-gov-cn-www-jncq-gov",
+    "agencyName": "长清区人民政府",
+    "siteName": "济南市长清区政府",
+    "url": "http://www.jncq.gov.cn/",
+    "sourceUrl": "https://www.jinan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370114",
     "regionName": "章丘区",
     "level": "county",
     "parentCode": "370100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370114-government-www-jnzq-gov-cn-www-jnzq-gov",
+    "agencyName": "章丘区人民政府",
+    "siteName": "济南市章丘区政府",
+    "url": "http://www.jnzq.gov.cn/",
+    "sourceUrl": "https://www.jinan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370115",
     "regionName": "济阳区",
     "level": "county",
     "parentCode": "370100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370115-government-www-jiyang-gov-cn-www-jiyang-gov",
+    "agencyName": "济阳区人民政府",
+    "siteName": "济南市济阳区政府",
+    "url": "http://www.jiyang.gov.cn/",
+    "sourceUrl": "https://www.jinan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370116",
     "regionName": "莱芜区",
     "level": "county",
     "parentCode": "370100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370116-government-www-laiwu-gov-cn-www-laiwu-gov",
+    "agencyName": "莱芜区人民政府",
+    "siteName": "济南市莱芜区人民政府",
+    "url": "http://www.laiwu.gov.cn/",
+    "sourceUrl": "https://www.jinan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370117",
     "regionName": "钢城区",
     "level": "county",
     "parentCode": "370100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370117-government-www-gangcheng-gov-cn-www-gangcheng-gov",
+    "agencyName": "钢城区人民政府",
+    "siteName": "济南市钢城区政府",
+    "url": "http://www.gangcheng.gov.cn/",
+    "sourceUrl": "https://www.jinan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370124",
     "regionName": "平阴县",
     "level": "county",
     "parentCode": "370100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370124-government-www-pingyin-gov-cn-www-pingyin-gov",
+    "agencyName": "平阴县人民政府",
+    "siteName": "济南市平阴县政府",
+    "url": "http://www.pingyin.gov.cn/",
+    "sourceUrl": "https://www.jinan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370126",
     "regionName": "商河县",
     "level": "county",
     "parentCode": "370100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370126-government-www-shanghe-gov-cn-www-shanghe-gov",
+    "agencyName": "商河县人民政府",
+    "siteName": "济南市商河县政府",
+    "url": "http://www.shanghe.gov.cn/",
+    "sourceUrl": "https://www.jinan.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370202",
     "regionName": "市南区",
     "level": "county",
     "parentCode": "370200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370202-government-www-qdsn-gov-cn",
+    "agencyName": "市南区人民政府",
+    "siteName": "市南区人民政府",
+    "url": "http://www.qdsn.gov.cn/",
+    "sourceUrl": "http://www.qingdao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370203",
     "regionName": "市北区",
     "level": "county",
     "parentCode": "370200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370203-government-www-qingdaoshibei-gov-cn",
+    "agencyName": "市北区人民政府",
+    "siteName": "市北区人民政府",
+    "url": "http://www.qingdaoshibei.gov.cn",
+    "sourceUrl": "http://www.qingdao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370211",
     "regionName": "黄岛区",
     "level": "county",
     "parentCode": "370200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370211-government-www-huangdao-gov-cn",
+    "agencyName": "黄岛区人民政府",
+    "siteName": "黄岛区人民政府",
+    "url": "http://www.huangdao.gov.cn/",
+    "sourceUrl": "http://www.qingdao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370212",
     "regionName": "崂山区",
     "level": "county",
     "parentCode": "370200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370212-government-www-laoshan-gov-cn",
+    "agencyName": "崂山区人民政府",
+    "siteName": "崂山区人民政府",
+    "url": "http://www.laoshan.gov.cn",
+    "sourceUrl": "http://www.qingdao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370213",
     "regionName": "李沧区",
     "level": "county",
     "parentCode": "370200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370213-government-www-qdlc-gov-cn",
+    "agencyName": "李沧区人民政府",
+    "siteName": "李沧区人民政府",
+    "url": "http://www.qdlc.gov.cn/",
+    "sourceUrl": "http://www.qingdao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370214",
     "regionName": "城阳区",
     "level": "county",
     "parentCode": "370200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370214-government-www-chengyang-gov-cn",
+    "agencyName": "城阳区人民政府",
+    "siteName": "城阳区人民政府",
+    "url": "http://www.chengyang.gov.cn/",
+    "sourceUrl": "http://www.qingdao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370215",
     "regionName": "即墨区",
     "level": "county",
     "parentCode": "370200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370215-government-www-jimo-gov-cn",
+    "agencyName": "即墨区人民政府",
+    "siteName": "即墨区人民政府",
+    "url": "http://www.jimo.gov.cn/",
+    "sourceUrl": "http://www.qingdao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370281",
     "regionName": "胶州市",
     "level": "county",
     "parentCode": "370200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370281-government-www-jiaozhou-gov-cn",
+    "agencyName": "胶州市人民政府",
+    "siteName": "胶州市人民政府",
+    "url": "http://www.jiaozhou.gov.cn/",
+    "sourceUrl": "http://www.qingdao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370283",
     "regionName": "平度市",
     "level": "county",
     "parentCode": "370200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370283-government-www-pingdu-gov-cn",
+    "agencyName": "平度市人民政府",
+    "siteName": "平度市人民政府",
+    "url": "http://www.pingdu.gov.cn/",
+    "sourceUrl": "http://www.qingdao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370285",
     "regionName": "莱西市",
     "level": "county",
     "parentCode": "370200",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370285-government-www-laixi-gov-cn",
+    "agencyName": "莱西市人民政府",
+    "siteName": "莱西市人民政府",
+    "url": "http://www.laixi.gov.cn/",
+    "sourceUrl": "http://www.qingdao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370302",
@@ -5583,48 +6538,78 @@
     "regionName": "市中区",
     "level": "county",
     "parentCode": "370400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370402-government-www-zzszq-gov-cn-www-zzszq-gov",
+    "agencyName": "市中区人民政府",
+    "siteName": "枣庄市市中区人民政府",
+    "url": "http://www.zzszq.gov.cn/",
+    "sourceUrl": "http://www.zaozhuang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370403",
     "regionName": "薛城区",
     "level": "county",
     "parentCode": "370400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370403-government-www-xuecheng-gov-cn-www-xuecheng-gov",
+    "agencyName": "薛城区人民政府",
+    "siteName": "薛城区人民政府",
+    "url": "http://www.xuecheng.gov.cn/",
+    "sourceUrl": "http://www.zaozhuang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370404",
     "regionName": "峄城区",
     "level": "county",
     "parentCode": "370400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370404-government-www-ycq-gov-cn-www-ycq-gov",
+    "agencyName": "峄城区人民政府",
+    "siteName": "峄城区人民政府",
+    "url": "http://www.ycq.gov.cn/",
+    "sourceUrl": "http://www.zaozhuang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370405",
     "regionName": "台儿庄区",
     "level": "county",
     "parentCode": "370400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370405-government-www-tez-gov-cn-www-tez-gov",
+    "agencyName": "台儿庄区人民政府",
+    "siteName": "台儿庄区政府门户网站",
+    "url": "http://www.tez.gov.cn/",
+    "sourceUrl": "http://www.zaozhuang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370406",
     "regionName": "山亭区",
     "level": "county",
     "parentCode": "370400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370406-government-www-shanting-gov-cn-www-shanting-gov",
+    "agencyName": "山亭区人民政府",
+    "siteName": "枣庄市山亭区人民政府",
+    "url": "http://www.shanting.gov.cn/",
+    "sourceUrl": "http://www.zaozhuang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370481",
     "regionName": "滕州市",
     "level": "county",
     "parentCode": "370400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370481-government-www-tengzhou-gov-cn-www-tengzhou-gov",
+    "agencyName": "滕州市人民政府",
+    "siteName": "滕州市人民政府官方网站",
+    "url": "http://www.tengzhou.gov.cn/",
+    "sourceUrl": "http://www.zaozhuang.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "370502",
@@ -5787,8 +6772,13 @@
     "regionName": "莱州市",
     "level": "county",
     "parentCode": "370600",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370683-government-www-laizhou-gov-cn-www-laizhou-gov",
+    "agencyName": "莱州市人民政府",
+    "siteName": "莱州市人民政府",
+    "url": "http://www.laizhou.gov.cn/",
+    "sourceUrl": "https://www.yantai.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370685",
@@ -5808,8 +6798,13 @@
     "regionName": "栖霞市",
     "level": "county",
     "parentCode": "370600",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370686-government-www-sdqixia-gov-cn-www-sdqixia-gov",
+    "agencyName": "栖霞市人民政府",
+    "siteName": "栖霞市人民政府",
+    "url": "http://www.sdqixia.gov.cn/",
+    "sourceUrl": "https://www.yantai.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370687",
@@ -5829,184 +6824,299 @@
     "regionName": "潍城区",
     "level": "county",
     "parentCode": "370700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370702-government-www-weicheng-gov-cn",
+    "agencyName": "潍城区人民政府",
+    "siteName": "潍城区人民政府",
+    "url": "http://www.weicheng.gov.cn/",
+    "sourceUrl": "https://www.weifang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370703",
     "regionName": "寒亭区",
     "level": "county",
     "parentCode": "370700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370703-government-www-hanting-gov-cn",
+    "agencyName": "寒亭区人民政府",
+    "siteName": "寒亭区人民政府",
+    "url": "http://www.hanting.gov.cn/",
+    "sourceUrl": "https://www.weifang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370704",
     "regionName": "坊子区",
     "level": "county",
     "parentCode": "370700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370704-government-www-fangzi-gov-cn",
+    "agencyName": "坊子区人民政府",
+    "siteName": "坊子区人民政府",
+    "url": "http://www.fangzi.gov.cn/",
+    "sourceUrl": "https://www.weifang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370705",
     "regionName": "奎文区",
     "level": "county",
     "parentCode": "370700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370705-government-www-kuiwen-gov-cn",
+    "agencyName": "奎文区人民政府",
+    "siteName": "奎文区人民政府",
+    "url": "https://www.kuiwen.gov.cn/",
+    "sourceUrl": "https://www.weifang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370724",
     "regionName": "临朐县",
     "level": "county",
     "parentCode": "370700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370724-government-www-linqu-gov-cn",
+    "agencyName": "临朐县人民政府",
+    "siteName": "临朐县人民政府",
+    "url": "http://www.linqu.gov.cn/",
+    "sourceUrl": "https://www.weifang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370725",
     "regionName": "昌乐县",
     "level": "county",
     "parentCode": "370700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370725-government-www-changle-gov-cn",
+    "agencyName": "昌乐县人民政府",
+    "siteName": "昌乐县人民政府",
+    "url": "http://www.changle.gov.cn/",
+    "sourceUrl": "https://www.weifang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370781",
     "regionName": "青州市",
     "level": "county",
     "parentCode": "370700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370781-government-www-qingzhou-gov-cn-www-qingzhou-gov",
+    "agencyName": "青州市人民政府",
+    "siteName": "青州市人民政府",
+    "url": "http://www.qingzhou.gov.cn/",
+    "sourceUrl": "https://www.weifang.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "370782",
     "regionName": "诸城市",
     "level": "county",
     "parentCode": "370700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370782-government-www-zhucheng-gov-cn-www-zhucheng-gov",
+    "agencyName": "诸城市人民政府",
+    "siteName": "诸城市门户网站",
+    "url": "http://www.zhucheng.gov.cn/",
+    "sourceUrl": "https://www.weifang.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "370783",
     "regionName": "寿光市",
     "level": "county",
     "parentCode": "370700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370783-government-www-shouguang-gov-cn-www-shouguang-gov",
+    "agencyName": "寿光市人民政府",
+    "siteName": "寿光市人民政府",
+    "url": "https://www.shouguang.gov.cn/",
+    "sourceUrl": "https://www.weifang.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "370784",
     "regionName": "安丘市",
     "level": "county",
     "parentCode": "370700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370784-government-www-anqiu-gov-cn",
+    "agencyName": "安丘市人民政府",
+    "siteName": "安丘市人民政府",
+    "url": "http://www.anqiu.gov.cn/",
+    "sourceUrl": "https://www.weifang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370785",
     "regionName": "高密市",
     "level": "county",
     "parentCode": "370700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370785-government-www-gaomi-gov-cn",
+    "agencyName": "高密市人民政府",
+    "siteName": "高密市人民政府",
+    "url": "http://www.gaomi.gov.cn/",
+    "sourceUrl": "https://www.weifang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370786",
     "regionName": "昌邑市",
     "level": "county",
     "parentCode": "370700",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370786-government-www-changyi-gov-cn",
+    "agencyName": "昌邑市人民政府",
+    "siteName": "昌邑市人民政府",
+    "url": "http://www.changyi.gov.cn/",
+    "sourceUrl": "https://www.weifang.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370811",
     "regionName": "任城区",
     "level": "county",
     "parentCode": "370800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370811-government-www-rencheng-gov-cn-www-rencheng-gov",
+    "agencyName": "任城区人民政府",
+    "siteName": "任城区政府门户网站",
+    "url": "http://www.rencheng.gov.cn/",
+    "sourceUrl": "https://www.jining.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370812",
     "regionName": "兖州区",
     "level": "county",
     "parentCode": "370800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370812-government-www-yanzhou-gov-cn-www-yanzhou-gov",
+    "agencyName": "兖州区人民政府",
+    "siteName": "兖州区人民政府",
+    "url": "http://www.yanzhou.gov.cn/",
+    "sourceUrl": "https://www.jining.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370826",
     "regionName": "微山县",
     "level": "county",
     "parentCode": "370800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370826-government-www-weishan-gov-cn-www-weishan-gov",
+    "agencyName": "微山县人民政府",
+    "siteName": "微山县人民政府",
+    "url": "http://www.weishan.gov.cn/",
+    "sourceUrl": "https://www.jining.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370827",
     "regionName": "鱼台县",
     "level": "county",
     "parentCode": "370800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370827-government-www-yutai-gov-cn-www-yutai-gov",
+    "agencyName": "鱼台县人民政府",
+    "siteName": "鱼台县人民政府",
+    "url": "http://www.yutai.gov.cn/",
+    "sourceUrl": "https://www.jining.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370828",
     "regionName": "金乡县",
     "level": "county",
     "parentCode": "370800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370828-government-www-jinxiang-gov-cn-www-jinxiang-gov",
+    "agencyName": "金乡县人民政府",
+    "siteName": "金乡县人民政府",
+    "url": "http://www.jinxiang.gov.cn/",
+    "sourceUrl": "https://www.jining.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370829",
     "regionName": "嘉祥县",
     "level": "county",
     "parentCode": "370800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370829-government-www-jiaxiang-gov-cn-www-jiaxiang-gov",
+    "agencyName": "嘉祥县人民政府",
+    "siteName": "嘉祥县人民政府",
+    "url": "http://www.jiaxiang.gov.cn/",
+    "sourceUrl": "https://www.jining.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370830",
     "regionName": "汶上县",
     "level": "county",
     "parentCode": "370800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370830-government-www-wenshang-gov-cn-www-wenshang-gov",
+    "agencyName": "汶上县人民政府",
+    "siteName": "汶上县人民政府",
+    "url": "http://www.wenshang.gov.cn/",
+    "sourceUrl": "https://www.jining.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370831",
     "regionName": "泗水县",
     "level": "county",
     "parentCode": "370800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370831-government-www-sishui-gov-cn-www-sishui-gov",
+    "agencyName": "泗水县人民政府",
+    "siteName": "泗水县人民政府",
+    "url": "http://www.sishui.gov.cn/",
+    "sourceUrl": "https://www.jining.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370832",
     "regionName": "梁山县",
     "level": "county",
     "parentCode": "370800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370832-government-www-liangshan-gov-cn-www-liangshan-gov",
+    "agencyName": "梁山县人民政府",
+    "siteName": "梁山县人民政府",
+    "url": "http://www.liangshan.gov.cn/",
+    "sourceUrl": "https://www.jining.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370881",
     "regionName": "曲阜市",
     "level": "county",
     "parentCode": "370800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370881-government-www-qufu-gov-cn-www-qufu-gov",
+    "agencyName": "曲阜市人民政府",
+    "siteName": "曲阜市人民政府",
+    "url": "http://www.qufu.gov.cn/",
+    "sourceUrl": "https://www.jining.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "370883",
     "regionName": "邹城市",
     "level": "county",
     "parentCode": "370800",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "370883-government-www-zoucheng-gov-cn-www-zoucheng-gov",
+    "agencyName": "邹城市人民政府",
+    "siteName": "邹城市人民政府",
+    "url": "http://www.zoucheng.gov.cn/",
+    "sourceUrl": "https://www.jining.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "370902",
@@ -6143,32 +7253,52 @@
     "regionName": "东港区",
     "level": "county",
     "parentCode": "371100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371102-government-www-rzdonggang-gov-cn-www-rzdonggang-gov",
+    "agencyName": "东港区人民政府",
+    "siteName": "日照市东港区人民政府",
+    "url": "http://www.rzdonggang.gov.cn/",
+    "sourceUrl": "http://www.rizhao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371103",
     "regionName": "岚山区",
     "level": "county",
     "parentCode": "371100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371103-government-www-rzlanshan-gov-cn-www-rzlanshan-gov",
+    "agencyName": "岚山区人民政府",
+    "siteName": "日照市岚山区人民政府",
+    "url": "http://www.rzlanshan.gov.cn/",
+    "sourceUrl": "http://www.rizhao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371121",
     "regionName": "五莲县",
     "level": "county",
     "parentCode": "371100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371121-government-www-wulian-gov-cn-www-wulian-gov",
+    "agencyName": "五莲县人民政府",
+    "siteName": "五莲县人民政府",
+    "url": "http://www.wulian.gov.cn/",
+    "sourceUrl": "http://www.rizhao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371122",
     "regionName": "莒县",
     "level": "county",
     "parentCode": "371100",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371122-government-www-juxian-gov-cn-www-juxian-gov",
+    "agencyName": "莒县人民政府",
+    "siteName": "莒县人民政府",
+    "url": "http://www.juxian.gov.cn/",
+    "sourceUrl": "http://www.rizhao.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371302",
@@ -6331,152 +7461,247 @@
     "regionName": "德城区",
     "level": "county",
     "parentCode": "371400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371402-government-www-decheng-gov-cn",
+    "agencyName": "德城区人民政府",
+    "siteName": "德城区人民政府",
+    "url": "http://www.decheng.gov.cn/",
+    "sourceUrl": "https://www.dezhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371403",
     "regionName": "陵城区",
     "level": "county",
     "parentCode": "371400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371403-government-www-lingcheng-gov-cn",
+    "agencyName": "陵城区人民政府",
+    "siteName": "陵城区人民政府",
+    "url": "http://www.lingcheng.gov.cn/",
+    "sourceUrl": "https://www.dezhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371422",
     "regionName": "宁津县",
     "level": "county",
     "parentCode": "371400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371422-government-www-sdningjin-gov-cn",
+    "agencyName": "宁津县人民政府",
+    "siteName": "宁津县人民政府",
+    "url": "http://www.sdningjin.gov.cn/",
+    "sourceUrl": "https://www.dezhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371423",
     "regionName": "庆云县",
     "level": "county",
     "parentCode": "371400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371423-government-www-qingyun-gov-cn",
+    "agencyName": "庆云县人民政府",
+    "siteName": "庆云县人民政府",
+    "url": "http://www.qingyun.gov.cn/",
+    "sourceUrl": "https://www.dezhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371424",
     "regionName": "临邑县",
     "level": "county",
     "parentCode": "371400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371424-government-www-linyixian-gov-cn",
+    "agencyName": "临邑县人民政府",
+    "siteName": "临邑县人民政府",
+    "url": "http://www.linyixian.gov.cn/",
+    "sourceUrl": "https://www.dezhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371425",
     "regionName": "齐河县",
     "level": "county",
     "parentCode": "371400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371425-government-www-qihe-gov-cn",
+    "agencyName": "齐河县人民政府",
+    "siteName": "齐河县人民政府",
+    "url": "http://www.qihe.gov.cn/",
+    "sourceUrl": "https://www.dezhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371426",
     "regionName": "平原县",
     "level": "county",
     "parentCode": "371400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371426-government-www-zgpingyuan-gov-cn",
+    "agencyName": "平原县人民政府",
+    "siteName": "平原县人民政府",
+    "url": "http://www.zgpingyuan.gov.cn/",
+    "sourceUrl": "https://www.dezhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371427",
     "regionName": "夏津县",
     "level": "county",
     "parentCode": "371400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371427-government-www-xiajin-gov-cn",
+    "agencyName": "夏津县人民政府",
+    "siteName": "夏津县人民政府",
+    "url": "http://www.xiajin.gov.cn/",
+    "sourceUrl": "https://www.dezhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371428",
     "regionName": "武城县",
     "level": "county",
     "parentCode": "371400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371428-government-www-wucheng-gov-cn",
+    "agencyName": "武城县人民政府",
+    "siteName": "武城县人民政府",
+    "url": "http://www.wucheng.gov.cn/",
+    "sourceUrl": "https://www.dezhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371481",
     "regionName": "乐陵市",
     "level": "county",
     "parentCode": "371400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371481-government-www-leling-gov-cn",
+    "agencyName": "乐陵市人民政府",
+    "siteName": "乐陵市人民政府",
+    "url": "http://www.leling.gov.cn/",
+    "sourceUrl": "https://www.dezhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371482",
     "regionName": "禹城市",
     "level": "county",
     "parentCode": "371400",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371482-government-www-yucheng-gov-cn",
+    "agencyName": "禹城市人民政府",
+    "siteName": "禹城市人民政府",
+    "url": "http://www.yucheng.gov.cn/",
+    "sourceUrl": "https://www.dezhou.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371502",
     "regionName": "东昌府区",
     "level": "county",
     "parentCode": "371500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371502-government-www-dongchangfu-gov-cn",
+    "agencyName": "东昌府区人民政府",
+    "siteName": "东昌府区人民政府",
+    "url": "http://www.dongchangfu.gov.cn/",
+    "sourceUrl": "http://www.liaocheng.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371503",
     "regionName": "茌平区",
     "level": "county",
     "parentCode": "371500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371503-government-www-chiping-gov-cn",
+    "agencyName": "茌平区人民政府",
+    "siteName": "茌平区人民政府",
+    "url": "http://www.chiping.gov.cn/",
+    "sourceUrl": "http://www.liaocheng.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371521",
     "regionName": "阳谷县",
     "level": "county",
     "parentCode": "371500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371521-government-www-yanggu-gov-cn",
+    "agencyName": "阳谷县人民政府",
+    "siteName": "阳谷县人民政府",
+    "url": "http://www.yanggu.gov.cn/",
+    "sourceUrl": "http://www.liaocheng.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371522",
     "regionName": "莘县",
     "level": "county",
     "parentCode": "371500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371522-government-www-sdsx-gov-cn",
+    "agencyName": "莘县人民政府",
+    "siteName": "莘县人民政府",
+    "url": "http://www.sdsx.gov.cn/",
+    "sourceUrl": "http://www.liaocheng.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371524",
     "regionName": "东阿县",
     "level": "county",
     "parentCode": "371500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371524-government-www-sdde-gov-cn",
+    "agencyName": "东阿县人民政府",
+    "siteName": "东阿县人民政府",
+    "url": "http://www.sdde.gov.cn/",
+    "sourceUrl": "http://www.liaocheng.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371525",
     "regionName": "冠县",
     "level": "county",
     "parentCode": "371500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371525-government-www-guanxian-gov-cn",
+    "agencyName": "冠县人民政府",
+    "siteName": "冠县人民政府",
+    "url": "http://www.guanxian.gov.cn/",
+    "sourceUrl": "http://www.liaocheng.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371526",
     "regionName": "高唐县",
     "level": "county",
     "parentCode": "371500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371526-government-www-gaotang-gov-cn",
+    "agencyName": "高唐县人民政府",
+    "siteName": "高唐县人民政府",
+    "url": "http://www.gaotang.gov.cn/",
+    "sourceUrl": "http://www.liaocheng.gov.cn/",
+    "sourceKind": "city-anchor"
   },
   {
     "regionCode": "371581",
     "regionName": "临清市",
     "level": "county",
     "parentCode": "371500",
-    "expected": false,
-    "reason": "未在本批官方来源调解中确认独立县级政府门户"
+    "expected": true,
+    "id": "371581-government-www-linqing-gov-cn-www-linqing-gov",
+    "agencyName": "临清市人民政府",
+    "siteName": "临清市人民政府",
+    "url": "http://www.linqing.gov.cn/",
+    "sourceUrl": "http://www.liaocheng.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "371602",

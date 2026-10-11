@@ -45,6 +45,15 @@
     "sourceUrl": "https://www.hangzhou.gov.cn/"
   },
   {
+    "id": "330108-government-www-hhtz-gov-cn-www-hhtz-gov-cn",
+    "regionCode": "330108",
+    "name": "滨江区人民政府",
+    "siteName": "滨江区人民政府",
+    "url": "https://www.hhtz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hangzhou.gov.cn/"
+  },
+  {
     "id": "330109-government-www-xiaoshan-gov-cn",
     "regionCode": "330109",
     "name": "萧山区人民政府",
@@ -72,6 +81,60 @@
     "sourceUrl": "https://www.hangzhou.gov.cn/"
   },
   {
+    "id": "330112-government-www-linan-gov-cn-www-linan-gov-cn",
+    "regionCode": "330112",
+    "name": "临安区人民政府",
+    "siteName": "临安区人民政府",
+    "url": "https://www.linan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hangzhou.gov.cn/"
+  },
+  {
+    "id": "330113-government-www-linping-gov-cn-www-linping-gov-cn",
+    "regionCode": "330113",
+    "name": "临平区人民政府",
+    "siteName": "临平区人民政府",
+    "url": "https://www.linping.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hangzhou.gov.cn/"
+  },
+  {
+    "id": "330114-government-www-qiantang-gov-cn-www-qiantang-gov-cn",
+    "regionCode": "330114",
+    "name": "钱塘区人民政府",
+    "siteName": "钱塘区人民政府",
+    "url": "https://www.qiantang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hangzhou.gov.cn/"
+  },
+  {
+    "id": "330122-government-www-tonglu-gov-cn-www-tonglu-gov-cn",
+    "regionCode": "330122",
+    "name": "桐庐县人民政府",
+    "siteName": "桐庐县人民政府",
+    "url": "http://www.tonglu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hangzhou.gov.cn/"
+  },
+  {
+    "id": "330127-government-www-qdh-gov-cn-www-qdh-gov-cn",
+    "regionCode": "330127",
+    "name": "淳安县人民政府",
+    "siteName": "淳安县人民政府",
+    "url": "https://www.qdh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hangzhou.gov.cn/"
+  },
+  {
+    "id": "330182-government-www-jiande-gov-cn-www-jiande-gov",
+    "regionCode": "330182",
+    "name": "建德市人民政府",
+    "siteName": "建德市人民政府",
+    "url": "https://www.jiande.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hangzhou.gov.cn/"
+  },
+  {
     "id": "330200-government-ningbo-gov-cn",
     "regionCode": "330200",
     "name": "宁波市人民政府",
@@ -81,6 +144,96 @@
     "sourceUrl": "http://www.jinhua.gov.cn/"
   },
   {
+    "id": "330203-government-www-haishu-gov-cn-www-haishu-gov",
+    "regionCode": "330203",
+    "name": "海曙区人民政府",
+    "siteName": "宁波市海曙区人民政府",
+    "url": "http://www.haishu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningbo.gov.cn/"
+  },
+  {
+    "id": "330205-government-www-nbjb-gov-cn-www-nbjb-gov",
+    "regionCode": "330205",
+    "name": "江北区人民政府",
+    "siteName": "宁波市江北区人民政府",
+    "url": "http://www.nbjb.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningbo.gov.cn/"
+  },
+  {
+    "id": "330206-government-www-bl-gov-cn-www-bl-gov",
+    "regionCode": "330206",
+    "name": "北仑区人民政府",
+    "siteName": "宁波市北仑区人民政府 宁波经济技术开发区管理委员会",
+    "url": "http://www.bl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningbo.gov.cn/"
+  },
+  {
+    "id": "330211-government-www-zh-gov-cn-www-zh-gov",
+    "regionCode": "330211",
+    "name": "镇海区人民政府",
+    "siteName": "宁波市镇海区人民政府",
+    "url": "http://www.zh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningbo.gov.cn/"
+  },
+  {
+    "id": "330212-government-www-nbyz-gov-cn-www-nbyz-gov",
+    "regionCode": "330212",
+    "name": "鄞州区人民政府",
+    "siteName": "鄞州区人民政府",
+    "url": "http://www.nbyz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningbo.gov.cn/"
+  },
+  {
+    "id": "330213-government-www-fh-gov-cn-www-fh-gov",
+    "regionCode": "330213",
+    "name": "奉化区人民政府",
+    "siteName": "宁波市奉化区人民政府",
+    "url": "http://www.fh.gov.cn/index.html",
+    "category": "government",
+    "sourceUrl": "https://www.ningbo.gov.cn/"
+  },
+  {
+    "id": "330225-government-www-xiangshan-gov-cn-www-xiangshan-gov",
+    "regionCode": "330225",
+    "name": "象山县人民政府",
+    "siteName": "象山县人民政府",
+    "url": "http://www.xiangshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningbo.gov.cn/"
+  },
+  {
+    "id": "330226-government-www-ninghai-gov-cn-www-ninghai-gov",
+    "regionCode": "330226",
+    "name": "宁海县人民政府",
+    "siteName": "宁海县人民政府",
+    "url": "http://www.ninghai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningbo.gov.cn/"
+  },
+  {
+    "id": "330281-government-www-yy-gov-cn-www-yy-gov",
+    "regionCode": "330281",
+    "name": "余姚市人民政府",
+    "siteName": "余姚市人民政府网站",
+    "url": "https://www.yy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningbo.gov.cn/"
+  },
+  {
+    "id": "330282-government-www-cixi-gov-cn-www-cixi-gov",
+    "regionCode": "330282",
+    "name": "慈溪市人民政府",
+    "siteName": "慈溪市人民政府网站",
+    "url": "http://www.cixi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningbo.gov.cn/"
+  },
+  {
     "id": "330300-government-wenzhou-gov-cn",
     "regionCode": "330300",
     "name": "温州市人民政府",
@@ -88,6 +241,114 @@
     "url": "https://www.wenzhou.gov.cn/",
     "category": "government",
     "sourceUrl": "http://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330302-government-www-lucheng-gov-cn-www-lucheng-gov",
+    "regionCode": "330302",
+    "name": "鹿城区人民政府",
+    "siteName": "鹿城区人民政府",
+    "url": "http://www.lucheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wenzhou.gov.cn/"
+  },
+  {
+    "id": "330303-government-www-longwan-gov-cn-www-longwan-gov",
+    "regionCode": "330303",
+    "name": "龙湾区人民政府",
+    "siteName": "龙湾区政府",
+    "url": "http://www.longwan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wenzhou.gov.cn/"
+  },
+  {
+    "id": "330304-government-www-ouhai-gov-cn-www-ouhai-gov",
+    "regionCode": "330304",
+    "name": "瓯海区人民政府",
+    "siteName": "瓯海区人民政府",
+    "url": "http://www.ouhai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wenzhou.gov.cn/"
+  },
+  {
+    "id": "330305-government-www-dongtou-gov-cn-www-dongtou-gov",
+    "regionCode": "330305",
+    "name": "洞头区人民政府",
+    "siteName": "洞头区人民政府",
+    "url": "http://www.dongtou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wenzhou.gov.cn/"
+  },
+  {
+    "id": "330324-government-www-yj-gov-cn-www-yj-gov",
+    "regionCode": "330324",
+    "name": "永嘉县人民政府",
+    "siteName": "永嘉县人民政府",
+    "url": "http://www.yj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wenzhou.gov.cn/"
+  },
+  {
+    "id": "330326-government-www-zjpy-gov-cn-www-zjpy-gov",
+    "regionCode": "330326",
+    "name": "平阳县人民政府",
+    "siteName": "平阳县政府门户网站",
+    "url": "http://www.zjpy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wenzhou.gov.cn/"
+  },
+  {
+    "id": "330327-government-www-cncn-gov-cn-www-cncn-gov",
+    "regionCode": "330327",
+    "name": "苍南县人民政府",
+    "siteName": "苍南县人民政府",
+    "url": "http://www.cncn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wenzhou.gov.cn/"
+  },
+  {
+    "id": "330328-government-www-wencheng-gov-cn-www-wencheng-gov",
+    "regionCode": "330328",
+    "name": "文成县人民政府",
+    "siteName": "文成县人民政府",
+    "url": "http://www.wencheng.gov.cn/?rxLoad=1&_rand=1500863764203",
+    "category": "government",
+    "sourceUrl": "https://www.wenzhou.gov.cn/"
+  },
+  {
+    "id": "330329-government-www-ts-gov-cn-www-ts-gov",
+    "regionCode": "330329",
+    "name": "泰顺县人民政府",
+    "siteName": "泰顺县人民政府-首页",
+    "url": "http://www.ts.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wenzhou.gov.cn/"
+  },
+  {
+    "id": "330381-government-www-ruian-gov-cn-www-ruian-gov",
+    "regionCode": "330381",
+    "name": "瑞安市人民政府",
+    "siteName": "瑞安市人民政府",
+    "url": "http://www.ruian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wenzhou.gov.cn/"
+  },
+  {
+    "id": "330382-government-www-yueqing-gov-cn-www-yueqing-gov",
+    "regionCode": "330382",
+    "name": "乐清市人民政府",
+    "siteName": "乐清市人民政府",
+    "url": "http://www.yueqing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wenzhou.gov.cn/"
+  },
+  {
+    "id": "330383-government-www-zjlg-gov-cn-www-zjlg-gov",
+    "regionCode": "330383",
+    "name": "龙港市人民政府",
+    "siteName": "龙港市人民政府",
+    "url": "http://www.zjlg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wenzhou.gov.cn/"
   },
   {
     "id": "330400-government-jiaxing-gov-cn",
@@ -171,6 +432,51 @@
     "sourceUrl": "http://www.jinhua.gov.cn/"
   },
   {
+    "id": "330502-government-www-wuxing-gov-cn-www-wuxing-gov",
+    "regionCode": "330502",
+    "name": "吴兴区人民政府",
+    "siteName": "吴兴区人民政府",
+    "url": "http://www.wuxing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huzhou.gov.cn/"
+  },
+  {
+    "id": "330503-government-www-nanxun-gov-cn-www-nanxun-gov",
+    "regionCode": "330503",
+    "name": "南浔区人民政府",
+    "siteName": "南浔区人民政府",
+    "url": "http://www.nanxun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huzhou.gov.cn/"
+  },
+  {
+    "id": "330521-government-www-deqing-gov-cn-www-deqing-gov",
+    "regionCode": "330521",
+    "name": "德清县人民政府",
+    "siteName": "德清县人民政府",
+    "url": "http://www.deqing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huzhou.gov.cn/"
+  },
+  {
+    "id": "330522-government-www-zjcx-gov-cn-www-zjcx-gov",
+    "regionCode": "330522",
+    "name": "长兴县人民政府",
+    "siteName": "长兴县人民政府网",
+    "url": "http://www.zjcx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huzhou.gov.cn/"
+  },
+  {
+    "id": "330523-government-www-anji-gov-cn-www-anji-gov",
+    "regionCode": "330523",
+    "name": "安吉县人民政府",
+    "siteName": "安吉县人民政府",
+    "url": "http://www.anji.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huzhou.gov.cn/"
+  },
+  {
     "id": "330600-government-sx-gov-cn",
     "regionCode": "330600",
     "name": "绍兴市人民政府",
@@ -243,6 +549,87 @@
     "sourceUrl": "http://www.jinhua.gov.cn/"
   },
   {
+    "id": "330702-government-www-wuch-gov-cn-www-wuch-gov",
+    "regionCode": "330702",
+    "name": "婺城区人民政府",
+    "siteName": "金华市婺城区人民政府",
+    "url": "http://www.wuch.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330703-government-www-jindong-gov-cn-www-jindong-gov-cn",
+    "regionCode": "330703",
+    "name": "金东区人民政府",
+    "siteName": "金东区人民政府",
+    "url": "https://www.jindong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330723-government-www-zjwy-gov-cn-www-zjwy-gov",
+    "regionCode": "330723",
+    "name": "武义县人民政府",
+    "siteName": "武义县人民政府",
+    "url": "http://www.zjwy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330726-government-www-pj-gov-cn-www-pj-gov",
+    "regionCode": "330726",
+    "name": "浦江县人民政府",
+    "siteName": "浦江县人民政府",
+    "url": "http://www.pj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330727-government-www-panan-gov-cn-www-panan-gov",
+    "regionCode": "330727",
+    "name": "磐安县人民政府",
+    "siteName": "磐安县人民政府",
+    "url": "https://www.panan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330781-government-www-lanxi-gov-cn-www-lanxi-gov",
+    "regionCode": "330781",
+    "name": "兰溪市人民政府",
+    "siteName": "兰溪市人民政府",
+    "url": "http://www.lanxi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330782-government-www-yw-gov-cn-www-yw-gov",
+    "regionCode": "330782",
+    "name": "义乌市人民政府",
+    "siteName": "义乌市人民政府",
+    "url": "https://www.yw.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330783-government-www-dongyang-gov-cn-www-dongyang-gov",
+    "regionCode": "330783",
+    "name": "东阳市人民政府",
+    "siteName": "东阳市人民政府",
+    "url": "http://www.dongyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330784-government-www-yk-gov-cn-www-yk-gov",
+    "regionCode": "330784",
+    "name": "永康市人民政府",
+    "siteName": "永康市人民政府",
+    "url": "https://www.yk.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinhua.gov.cn/"
+  },
+  {
     "id": "330800-government-qz-gov-cn",
     "regionCode": "330800",
     "name": "衢州市人民政府",
@@ -313,6 +700,42 @@
     "url": "https://www.zhoushan.gov.cn/",
     "category": "government",
     "sourceUrl": "http://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330902-government-www-dinghai-gov-cn-www-dinghai-gov",
+    "regionCode": "330902",
+    "name": "定海区人民政府",
+    "siteName": "舟山市定海区人民政府",
+    "url": "http://www.dinghai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhoushan.gov.cn/"
+  },
+  {
+    "id": "330903-government-www-putuo-gov-cn-www-putuo-gov",
+    "regionCode": "330903",
+    "name": "普陀区人民政府",
+    "siteName": "普陀区人民政府",
+    "url": "http://www.putuo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhoushan.gov.cn/"
+  },
+  {
+    "id": "330921-government-www-daishan-gov-cn-www-daishan-gov",
+    "regionCode": "330921",
+    "name": "岱山县人民政府",
+    "siteName": "岱山县人民政府",
+    "url": "http://www.daishan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhoushan.gov.cn/"
+  },
+  {
+    "id": "330922-government-www-shengsi-gov-cn-www-shengsi-gov",
+    "regionCode": "330922",
+    "name": "嵊泗县人民政府",
+    "siteName": "嵊泗县人民政府",
+    "url": "http://www.shengsi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhoushan.gov.cn/"
   },
   {
     "id": "331000-government-zjtz-gov-cn",
@@ -473,6 +896,15 @@
     "name": "庆元县人民政府",
     "siteName": "庆元县人民政府",
     "url": "http://www.zjqy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.lishui.gov.cn/"
+  },
+  {
+    "id": "331127-government-www-jingning-gov-cn-www-jingning-gov-cn",
+    "regionCode": "331127",
+    "name": "景宁畲族自治县人民政府",
+    "siteName": "景宁畲族自治县人民政府",
+    "url": "https://www.jingning.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.lishui.gov.cn/"
   },

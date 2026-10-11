@@ -90,6 +90,15 @@
     "sourceUrl": "https://www.nanjing.gov.cn/"
   },
   {
+    "id": "320116-government-www-njlh-gov-cn-www-njlh-gov",
+    "regionCode": "320116",
+    "name": "六合区人民政府",
+    "siteName": "南京市六合区人民政府",
+    "url": "http://www.njlh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nanjing.gov.cn/"
+  },
+  {
     "id": "320117-government-www-njls-gov-cn",
     "regionCode": "320117",
     "name": "溧水区人民政府",
@@ -666,6 +675,15 @@
     "sourceUrl": "https://www.yancheng.gov.cn/"
   },
   {
+    "id": "320904-government-www-dafeng-gov-cn-www-dafeng-gov",
+    "regionCode": "320904",
+    "name": "大丰区人民政府",
+    "siteName": "大丰区人民政府",
+    "url": "https://www.dafeng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yancheng.gov.cn/"
+  },
+  {
     "id": "320921-government-www-xiangshui-gov-cn",
     "regionCode": "320921",
     "name": "响水县人民政府",
@@ -837,6 +855,15 @@
     "sourceUrl": "https://www.zhenjiang.gov.cn/"
   },
   {
+    "id": "321183-government-www-jurong-gov-cn-www-jurong-gov",
+    "regionCode": "321183",
+    "name": "句容市人民政府",
+    "siteName": "句容市人民政府",
+    "url": "https://www.jurong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhenjiang.gov.cn/"
+  },
+  {
     "id": "321200-government-taizhou-gov-cn",
     "regionCode": "321200",
     "name": "泰州市人民政府",
@@ -851,6 +878,15 @@
     "name": "海陵区人民政府",
     "siteName": "泰州市海陵区人民政府",
     "url": "http://www.tzhl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.taizhou.gov.cn/"
+  },
+  {
+    "id": "321203-government-www-cmc-gov-cn-www-cmc-gov",
+    "regionCode": "321203",
+    "name": "高港区人民政府",
+    "siteName": "泰州医药高新区管委会（高港区人民政府）",
+    "url": "https://www.cmc.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.taizhou.gov.cn/"
   },
