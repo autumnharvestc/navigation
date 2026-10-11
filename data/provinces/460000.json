@@ -7,5 +7,176 @@
     "url": "https://www.hainan.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.hainan.gov.cn/"
+  },
+  {
+    "id": "460100-government-www-haikou-gov-cn",
+    "regionCode": "460100",
+    "name": "海口市人民政府",
+    "siteName": "海口市人民政府",
+    "url": "http://www.haikou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "460200-government-www-sanya-gov-cn",
+    "regionCode": "460200",
+    "name": "三亚市人民政府",
+    "siteName": "三亚市人民政府",
+    "url": "https://www.sanya.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "460300-government-www-sansha-gov-cn",
+    "regionCode": "460300",
+    "name": "三沙市人民政府",
+    "siteName": "三沙市人民政府",
+    "url": "http://www.sansha.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "460400-government-www-danzhou-gov-cn",
+    "regionCode": "460400",
+    "name": "儋州市人民政府",
+    "siteName": "儋州市人民政府",
+    "url": "https://www.danzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469001-government-wzs-hainan-gov-cn",
+    "regionCode": "469001",
+    "name": "五指山市人民政府",
+    "siteName": "五指山市人民政府",
+    "url": "http://wzs.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469002-government-qionghai-hainan-gov-cn",
+    "regionCode": "469002",
+    "name": "琼海市人民政府",
+    "siteName": "琼海市人民政府",
+    "url": "https://qionghai.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469005-government-wenchang-hainan-gov-cn",
+    "regionCode": "469005",
+    "name": "文昌市人民政府",
+    "siteName": "文昌市人民政府",
+    "url": "http://wenchang.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469006-government-wanning-hainan-gov-cn",
+    "regionCode": "469006",
+    "name": "万宁市人民政府",
+    "siteName": "万宁市人民政府",
+    "url": "https://wanning.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469007-government-dongfang-hainan-gov-cn",
+    "regionCode": "469007",
+    "name": "东方市人民政府",
+    "siteName": "东方市人民政府",
+    "url": "http://dongfang.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469021-government-dingan-hainan-gov-cn",
+    "regionCode": "469021",
+    "name": "定安县人民政府",
+    "siteName": "定安县人民政府",
+    "url": "https://dingan.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469022-government-tunchang-hainan-gov-cn",
+    "regionCode": "469022",
+    "name": "屯昌县人民政府",
+    "siteName": "屯昌县人民政府",
+    "url": "https://tunchang.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469023-government-chengmai-hainan-gov-cn",
+    "regionCode": "469023",
+    "name": "澄迈县人民政府",
+    "siteName": "澄迈县人民政府",
+    "url": "http://chengmai.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469024-government-lingao-hainan-gov-cn",
+    "regionCode": "469024",
+    "name": "临高县人民政府",
+    "siteName": "临高县人民政府",
+    "url": "http://lingao.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469025-government-baisha-hainan-gov-cn",
+    "regionCode": "469025",
+    "name": "白沙黎族自治县人民政府",
+    "siteName": "白沙黎族自治县人民政府",
+    "url": "https://baisha.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469026-government-changjiang-hainan-gov-cn",
+    "regionCode": "469026",
+    "name": "昌江黎族自治县人民政府",
+    "siteName": "昌江黎族自治县人民政府",
+    "url": "http://changjiang.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469027-government-ledong-hainan-gov-cn",
+    "regionCode": "469027",
+    "name": "乐东黎族自治县人民政府",
+    "siteName": "乐东黎族自治县人民政府",
+    "url": "http://ledong.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469028-government-lingshui-hainan-gov-cn",
+    "regionCode": "469028",
+    "name": "陵水黎族自治县人民政府",
+    "siteName": "陵水黎族自治县人民政府",
+    "url": "http://lingshui.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469029-government-baoting-hainan-gov-cn",
+    "regionCode": "469029",
+    "name": "保亭黎族苗族自治县人民政府",
+    "siteName": "保亭黎族苗族自治县人民政府",
+    "url": "https://baoting.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "469030-government-qiongzhong-hainan-gov-cn",
+    "regionCode": "469030",
+    "name": "琼中黎族苗族自治县人民政府",
+    "siteName": "琼中黎族苗族自治县人民政府",
+    "url": "http://qiongzhong.hainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainan.gov.cn/hainan/"
   }
 ]

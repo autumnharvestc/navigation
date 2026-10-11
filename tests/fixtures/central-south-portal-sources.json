@@ -1,0 +1,227 @@
+{
+  "checkedAt": "2026-10-11T10:56:26+08:00",
+  "maintenance": "人工联网核验后的静态证据快照；测试不发起网络请求。",
+  "sources": [
+    {
+      "sourceUrl": "https://www.henan.gov.cn/",
+      "sourceTitle": "河南省人民政府",
+      "evidence": "官方门户加载的 file.henan.gov.cn/4500000001/js/link.js 列出河南 17 个地级市及济源示范区入口；逐个核对目标 host 与页面标题。",
+      "checkedAt": "2026-10-11T10:56:26+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.henan.gov.cn/",
+      "targetHosts": [
+        "www.anyang.gov.cn",
+        "www.hebi.gov.cn",
+        "www.jiaozuo.gov.cn",
+        "www.jiyuan.gov.cn",
+        "www.kaifeng.gov.cn",
+        "www.luohe.gov.cn",
+        "www.ly.gov.cn",
+        "www.nanyang.gov.cn",
+        "www.pds.gov.cn",
+        "www.puyang.gov.cn",
+        "www.shangqiu.gov.cn",
+        "www.smx.gov.cn",
+        "www.xinxiang.gov.cn",
+        "www.xinyang.gov.cn",
+        "www.xuchang.gov.cn",
+        "www.zhengzhou.gov.cn",
+        "www.zhoukou.gov.cn",
+        "www.zhumadian.gov.cn"
+      ],
+      "intermediateEvidence": [
+        {
+          "url": "https://file.henan.gov.cn/4500000001/js/link.js",
+          "note": "河南省政府门户页面加载的官方市县区网站链接脚本。"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/",
+      "sourceTitle": "湖北省人民政府门户网站“市、州、林区网站”",
+      "evidence": "湖北省政府官方目录直接列出 13 个市州及 4 个省直辖县级单位入口；目录当前对自动化直连返回 WAF 412，已通过只读文本镜像读取目录内容并逐项核对目标 host。",
+      "checkedAt": "2026-10-11T10:56:26+08:00",
+      "httpStatus": 412,
+      "finalUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/",
+      "targetHosts": [
+        "www.enshi.gov.cn",
+        "www.ezhou.gov.cn",
+        "www.hbqj.gov.cn",
+        "www.hg.gov.cn",
+        "www.huangshi.gov.cn",
+        "www.jingmen.gov.cn",
+        "www.jingzhou.gov.cn",
+        "www.shiyan.gov.cn",
+        "www.snj.gov.cn",
+        "www.suizhou.gov.cn",
+        "www.tianmen.gov.cn",
+        "www.wuhan.gov.cn",
+        "www.xiangyang.gov.cn",
+        "www.xianning.gov.cn",
+        "www.xiantao.gov.cn",
+        "www.xiaogan.gov.cn",
+        "www.yichang.gov.cn"
+      ],
+      "intermediateEvidence": [
+        {
+          "url": "https://r.jina.ai/http://www.hubei.gov.cn/2019/zqdh/szwz/",
+          "note": "官方目录的只读文本镜像；仅用于当前环境绕过 WAF 读取页面内容。"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html",
+      "sourceTitle": "湖南省人民政府门户网站“市州县区网站”",
+      "evidence": "湖南省政府官方目录直接列出 14 个市州政府门户；逐个核对目标 host 与目标页面。",
+      "checkedAt": "2026-10-11T10:56:26+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html",
+      "targetHosts": [
+        "www.changde.gov.cn",
+        "www.changsha.gov.cn",
+        "www.czs.gov.cn",
+        "www.hengyang.gov.cn",
+        "www.hnloudi.gov.cn",
+        "www.huaihua.gov.cn",
+        "www.shaoyang.gov.cn",
+        "www.xiangtan.gov.cn",
+        "www.xxz.gov.cn",
+        "www.yiyang.gov.cn",
+        "www.yueyang.gov.cn",
+        "www.yzcity.gov.cn",
+        "www.zhuzhou.gov.cn",
+        "www.zjj.gov.cn"
+      ],
+      "intermediateEvidence": []
+    },
+    {
+      "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html",
+      "sourceTitle": "广东省人民政府门户网站“地级以上市网站”",
+      "evidence": "广东省政府官方目录直接列出 21 个地级以上市政府门户；逐个核对目标 host，HTTPS 不可用时保留官方目录中的 HTTP 地址。",
+      "checkedAt": "2026-10-11T10:56:26+08:00",
+      "httpStatus": 200,
+      "finalUrl": "http://www.gd.gov.cn/yw/ds/index.html",
+      "targetHosts": [
+        "www.chaozhou.gov.cn",
+        "www.dg.gov.cn",
+        "www.foshan.gov.cn",
+        "www.gdqy.gov.cn",
+        "www.gz.gov.cn",
+        "www.heyuan.gov.cn",
+        "www.huizhou.gov.cn",
+        "www.jiangmen.gov.cn",
+        "www.jieyang.gov.cn",
+        "www.maoming.gov.cn",
+        "www.meizhou.gov.cn",
+        "www.sg.gov.cn",
+        "www.shantou.gov.cn",
+        "www.shanwei.gov.cn",
+        "www.sz.gov.cn",
+        "www.yangjiang.gov.cn",
+        "www.yunfu.gov.cn",
+        "www.zhanjiang.gov.cn",
+        "www.zhaoqing.gov.cn",
+        "www.zhuhai.gov.cn",
+        "www.zs.gov.cn"
+      ],
+      "intermediateEvidence": []
+    },
+    {
+      "sourceUrl": "http://www.gxzf.gov.cn/",
+      "sourceTitle": "广西壮族自治区人民政府门户网站",
+      "evidence": "广西壮族自治区政府门户首页“城市”导航直接列出 14 个地级市政府门户；逐个核对目标 host 与页面标题。",
+      "checkedAt": "2026-10-11T10:56:26+08:00",
+      "httpStatus": 200,
+      "finalUrl": "http://www.gxzf.gov.cn/",
+      "targetHosts": [
+        "www.baise.gov.cn",
+        "www.beihai.gov.cn",
+        "www.chongzuo.gov.cn",
+        "www.fcgs.gov.cn",
+        "www.guilin.gov.cn",
+        "www.gxgg.gov.cn",
+        "www.gxhz.gov.cn",
+        "www.hechi.gov.cn",
+        "www.laibin.gov.cn",
+        "www.liuzhou.gov.cn",
+        "www.nanning.gov.cn",
+        "www.qinzhou.gov.cn",
+        "www.wuzhou.gov.cn",
+        "www.yulin.gov.cn"
+      ],
+      "intermediateEvidence": []
+    },
+    {
+      "sourceUrl": "https://www.hainan.gov.cn/hainan/",
+      "sourceTitle": "海南省人民政府门户网站",
+      "evidence": "海南省政府门户首页直接列出 4 个地级市和 15 个省直辖县级单位政府网站；逐个核对目标 host，HTTPS 不可用时保留官方页面中的 HTTP 地址。",
+      "checkedAt": "2026-10-11T10:56:26+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.hainan.gov.cn/hainan/",
+      "targetHosts": [
+        "baisha.hainan.gov.cn",
+        "baoting.hainan.gov.cn",
+        "changjiang.hainan.gov.cn",
+        "chengmai.hainan.gov.cn",
+        "dingan.hainan.gov.cn",
+        "dongfang.hainan.gov.cn",
+        "ledong.hainan.gov.cn",
+        "lingao.hainan.gov.cn",
+        "lingshui.hainan.gov.cn",
+        "qionghai.hainan.gov.cn",
+        "qiongzhong.hainan.gov.cn",
+        "tunchang.hainan.gov.cn",
+        "wanning.hainan.gov.cn",
+        "wenchang.hainan.gov.cn",
+        "www.danzhou.gov.cn",
+        "www.haikou.gov.cn",
+        "www.sansha.gov.cn",
+        "www.sanya.gov.cn",
+        "wzs.hainan.gov.cn"
+      ],
+      "intermediateEvidence": []
+    }
+  ],
+  "anomalies": [
+    {
+      "regionCode": "411400",
+      "kind": "waf_403",
+      "detail": "河南省商丘市人民政府门户 HTTPS/HTTP 均返回 WAF 403，状态未知。"
+    },
+    {
+      "regionCode": "430400",
+      "kind": "http_412",
+      "detail": "湖南省衡阳市人民政府门户 HTTPS/HTTP 均返回 412，状态未知。"
+    },
+    {
+      "regionCode": "431000",
+      "kind": "http_412",
+      "detail": "湖南省郴州市人民政府门户 HTTPS/HTTP 均返回 412，状态未知。"
+    },
+    {
+      "regionCode": "431200",
+      "kind": "http_502",
+      "detail": "湖南省怀化市人民政府门户 HTTPS 返回 403，HTTP 返回 502。"
+    },
+    {
+      "regionCode": "433100",
+      "kind": "http_412",
+      "detail": "湖南省湘西土家族苗族自治州人民政府门户 HTTPS/HTTP 均返回 412，状态未知。"
+    },
+    {
+      "regionCode": "440600",
+      "kind": "waf_403",
+      "detail": "广东省韶关市人民政府门户 HTTPS/HTTP 均返回 403，状态未知。"
+    },
+    {
+      "regionCode": "441400",
+      "kind": "http_521",
+      "detail": "广东省梅州市人民政府门户 HTTPS/HTTP 均返回 521，状态未知。"
+    },
+    {
+      "regionCode": "441800",
+      "kind": "http_412",
+      "detail": "广东省清远市人民政府门户 HTTPS/HTTP 均返回 412，状态未知。"
+    }
+  ]
+}

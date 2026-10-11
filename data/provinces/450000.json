@@ -7,5 +7,131 @@
     "url": "https://www.gxzf.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "450100-government-www-nanning-gov-cn",
+    "regionCode": "450100",
+    "name": "南宁市人民政府",
+    "siteName": "南宁市人民政府",
+    "url": "https://www.nanning.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "450200-government-www-liuzhou-gov-cn",
+    "regionCode": "450200",
+    "name": "柳州市人民政府",
+    "siteName": "柳州市人民政府",
+    "url": "http://www.liuzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "450300-government-www-guilin-gov-cn",
+    "regionCode": "450300",
+    "name": "桂林市人民政府",
+    "siteName": "桂林市人民政府",
+    "url": "http://www.guilin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "450400-government-www-wuzhou-gov-cn",
+    "regionCode": "450400",
+    "name": "梧州市人民政府",
+    "siteName": "梧州市人民政府",
+    "url": "http://www.wuzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "450500-government-www-beihai-gov-cn",
+    "regionCode": "450500",
+    "name": "北海市人民政府",
+    "siteName": "北海市人民政府",
+    "url": "http://www.beihai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "450600-government-www-fcgs-gov-cn",
+    "regionCode": "450600",
+    "name": "防城港市人民政府",
+    "siteName": "防城港市人民政府",
+    "url": "http://www.fcgs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "450700-government-www-qinzhou-gov-cn",
+    "regionCode": "450700",
+    "name": "钦州市人民政府",
+    "siteName": "钦州市人民政府",
+    "url": "http://www.qinzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "450800-government-www-gxgg-gov-cn",
+    "regionCode": "450800",
+    "name": "贵港市人民政府",
+    "siteName": "贵港市人民政府",
+    "url": "http://www.gxgg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "450900-government-www-yulin-gov-cn",
+    "regionCode": "450900",
+    "name": "玉林市人民政府",
+    "siteName": "玉林市人民政府",
+    "url": "http://www.yulin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "451000-government-www-baise-gov-cn",
+    "regionCode": "451000",
+    "name": "百色市人民政府",
+    "siteName": "百色市人民政府",
+    "url": "http://www.baise.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "451100-government-www-gxhz-gov-cn",
+    "regionCode": "451100",
+    "name": "贺州市人民政府",
+    "siteName": "贺州市人民政府",
+    "url": "http://www.gxhz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "451200-government-www-hechi-gov-cn",
+    "regionCode": "451200",
+    "name": "河池市人民政府",
+    "siteName": "河池市人民政府",
+    "url": "http://www.hechi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "451300-government-www-laibin-gov-cn",
+    "regionCode": "451300",
+    "name": "来宾市人民政府",
+    "siteName": "来宾市人民政府",
+    "url": "http://www.laibin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
+  },
+  {
+    "id": "451400-government-www-chongzuo-gov-cn",
+    "regionCode": "451400",
+    "name": "崇左市人民政府",
+    "siteName": "崇左市人民政府",
+    "url": "http://www.chongzuo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gxzf.gov.cn/"
   }
 ]

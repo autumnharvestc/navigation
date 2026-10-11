@@ -7,5 +7,194 @@
     "url": "https://www.gd.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.gd.gov.cn/"
+  },
+  {
+    "id": "440100-government-www-gz-gov-cn",
+    "regionCode": "440100",
+    "name": "广州市人民政府",
+    "siteName": "广州市人民政府",
+    "url": "https://www.gz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "440200-government-www-sz-gov-cn",
+    "regionCode": "440200",
+    "name": "韶关市人民政府",
+    "siteName": "韶关市人民政府",
+    "url": "https://www.sz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "440300-government-www-zhuhai-gov-cn",
+    "regionCode": "440300",
+    "name": "深圳市人民政府",
+    "siteName": "深圳市人民政府",
+    "url": "https://www.zhuhai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "440400-government-www-shantou-gov-cn",
+    "regionCode": "440400",
+    "name": "珠海市人民政府",
+    "siteName": "珠海市人民政府",
+    "url": "https://www.shantou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "440500-government-www-foshan-gov-cn",
+    "regionCode": "440500",
+    "name": "汕头市人民政府",
+    "siteName": "汕头市人民政府",
+    "url": "https://www.foshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "440600-government-www-sg-gov-cn",
+    "regionCode": "440600",
+    "name": "佛山市人民政府",
+    "siteName": "佛山市人民政府",
+    "url": "http://www.sg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "440700-government-www-jiangmen-gov-cn",
+    "regionCode": "440700",
+    "name": "江门市人民政府",
+    "siteName": "江门市人民政府",
+    "url": "https://www.jiangmen.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "440800-government-www-zhanjiang-gov-cn",
+    "regionCode": "440800",
+    "name": "湛江市人民政府",
+    "siteName": "湛江市人民政府",
+    "url": "https://www.zhanjiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "440900-government-www-maoming-gov-cn",
+    "regionCode": "440900",
+    "name": "茂名市人民政府",
+    "siteName": "茂名市人民政府",
+    "url": "http://www.maoming.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "441200-government-www-zhaoqing-gov-cn",
+    "regionCode": "441200",
+    "name": "肇庆市人民政府",
+    "siteName": "肇庆市人民政府",
+    "url": "https://www.zhaoqing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "441300-government-www-huizhou-gov-cn",
+    "regionCode": "441300",
+    "name": "惠州市人民政府",
+    "siteName": "惠州市人民政府",
+    "url": "https://www.huizhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "441400-government-www-meizhou-gov-cn",
+    "regionCode": "441400",
+    "name": "梅州市人民政府",
+    "siteName": "梅州市人民政府",
+    "url": "http://www.meizhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "441500-government-www-shanwei-gov-cn",
+    "regionCode": "441500",
+    "name": "汕尾市人民政府",
+    "siteName": "汕尾市人民政府",
+    "url": "https://www.shanwei.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "441600-government-www-heyuan-gov-cn",
+    "regionCode": "441600",
+    "name": "河源市人民政府",
+    "siteName": "河源市人民政府",
+    "url": "http://www.heyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "441700-government-www-yangjiang-gov-cn",
+    "regionCode": "441700",
+    "name": "阳江市人民政府",
+    "siteName": "阳江市人民政府",
+    "url": "https://www.yangjiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "441800-government-www-gdqy-gov-cn",
+    "regionCode": "441800",
+    "name": "清远市人民政府",
+    "siteName": "清远市人民政府",
+    "url": "http://www.gdqy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "441900-government-www-dg-gov-cn",
+    "regionCode": "441900",
+    "name": "东莞市人民政府",
+    "siteName": "东莞市人民政府",
+    "url": "https://www.dg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "442000-government-www-zs-gov-cn",
+    "regionCode": "442000",
+    "name": "中山市人民政府",
+    "siteName": "中山市人民政府",
+    "url": "https://www.zs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "445100-government-www-chaozhou-gov-cn",
+    "regionCode": "445100",
+    "name": "潮州市人民政府",
+    "siteName": "潮州市人民政府",
+    "url": "https://www.chaozhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "445200-government-www-jieyang-gov-cn",
+    "regionCode": "445200",
+    "name": "揭阳市人民政府",
+    "siteName": "揭阳市人民政府",
+    "url": "http://www.jieyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "445300-government-www-yunfu-gov-cn",
+    "regionCode": "445300",
+    "name": "云浮市人民政府",
+    "siteName": "云浮市人民政府",
+    "url": "https://www.yunfu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
   }
 ]

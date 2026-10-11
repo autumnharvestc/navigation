@@ -7,5 +7,131 @@
     "url": "https://www.hunan.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.hunan.gov.cn/"
+  },
+  {
+    "id": "430100-government-www-changsha-gov-cn",
+    "regionCode": "430100",
+    "name": "长沙市人民政府",
+    "siteName": "长沙市人民政府",
+    "url": "https://www.changsha.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "430200-government-www-zhuzhou-gov-cn",
+    "regionCode": "430200",
+    "name": "株洲市人民政府",
+    "siteName": "株洲市人民政府",
+    "url": "https://www.zhuzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "430300-government-www-xiangtan-gov-cn",
+    "regionCode": "430300",
+    "name": "湘潭市人民政府",
+    "siteName": "湘潭市人民政府",
+    "url": "https://www.xiangtan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "430400-government-www-hengyang-gov-cn",
+    "regionCode": "430400",
+    "name": "衡阳市人民政府",
+    "siteName": "衡阳市人民政府",
+    "url": "http://www.hengyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "430500-government-www-shaoyang-gov-cn",
+    "regionCode": "430500",
+    "name": "邵阳市人民政府",
+    "siteName": "邵阳市人民政府",
+    "url": "https://www.shaoyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "430600-government-www-yueyang-gov-cn",
+    "regionCode": "430600",
+    "name": "岳阳市人民政府",
+    "siteName": "岳阳市人民政府",
+    "url": "https://www.yueyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "430700-government-www-changde-gov-cn",
+    "regionCode": "430700",
+    "name": "常德市人民政府",
+    "siteName": "常德市人民政府",
+    "url": "https://www.changde.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "430800-government-www-zjj-gov-cn",
+    "regionCode": "430800",
+    "name": "张家界市人民政府",
+    "siteName": "张家界市人民政府",
+    "url": "https://www.zjj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "430900-government-www-yiyang-gov-cn",
+    "regionCode": "430900",
+    "name": "益阳市人民政府",
+    "siteName": "益阳市人民政府",
+    "url": "https://www.yiyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "431000-government-www-czs-gov-cn",
+    "regionCode": "431000",
+    "name": "郴州市人民政府",
+    "siteName": "郴州市人民政府",
+    "url": "http://www.czs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "431100-government-www-yzcity-gov-cn",
+    "regionCode": "431100",
+    "name": "永州市人民政府",
+    "siteName": "永州市人民政府",
+    "url": "https://www.yzcity.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "431200-government-www-huaihua-gov-cn",
+    "regionCode": "431200",
+    "name": "怀化市人民政府",
+    "siteName": "怀化市人民政府",
+    "url": "http://www.huaihua.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "431300-government-www-hnloudi-gov-cn",
+    "regionCode": "431300",
+    "name": "娄底市人民政府",
+    "siteName": "娄底市人民政府",
+    "url": "https://www.hnloudi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
+  },
+  {
+    "id": "433100-government-www-xxz-gov-cn",
+    "regionCode": "433100",
+    "name": "湘西土家族苗族自治州人民政府",
+    "siteName": "湘西土家族苗族自治州人民政府",
+    "url": "http://www.xxz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hunan.gov.cn/hnszf/fzlm/wzdh/szxq/sxdh.html"
   }
 ]

@@ -7,5 +7,158 @@
     "url": "https://www.hubei.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.hubei.gov.cn/"
+  },
+  {
+    "id": "420100-government-www-wuhan-gov-cn",
+    "regionCode": "420100",
+    "name": "武汉市人民政府",
+    "siteName": "武汉市人民政府",
+    "url": "https://www.wuhan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "420200-government-www-huangshi-gov-cn",
+    "regionCode": "420200",
+    "name": "黄石市人民政府",
+    "siteName": "黄石市人民政府",
+    "url": "http://www.huangshi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "420300-government-www-shiyan-gov-cn",
+    "regionCode": "420300",
+    "name": "十堰市人民政府",
+    "siteName": "十堰市人民政府",
+    "url": "http://www.shiyan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "420500-government-www-yichang-gov-cn",
+    "regionCode": "420500",
+    "name": "宜昌市人民政府",
+    "siteName": "宜昌市人民政府",
+    "url": "http://www.yichang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "420600-government-www-xiangyang-gov-cn",
+    "regionCode": "420600",
+    "name": "襄阳市人民政府",
+    "siteName": "襄阳市人民政府",
+    "url": "http://www.xiangyang.gov.cn/wzsy/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "420700-government-www-ezhou-gov-cn",
+    "regionCode": "420700",
+    "name": "鄂州市人民政府",
+    "siteName": "鄂州市人民政府",
+    "url": "http://www.ezhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "420800-government-www-jingmen-gov-cn",
+    "regionCode": "420800",
+    "name": "荆门市人民政府",
+    "siteName": "荆门市人民政府",
+    "url": "http://www.jingmen.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "420900-government-www-xiaogan-gov-cn",
+    "regionCode": "420900",
+    "name": "孝感市人民政府",
+    "siteName": "孝感市人民政府",
+    "url": "https://www.xiaogan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "421000-government-www-jingzhou-gov-cn",
+    "regionCode": "421000",
+    "name": "荆州市人民政府",
+    "siteName": "荆州市人民政府",
+    "url": "http://www.jingzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "421100-government-www-hg-gov-cn",
+    "regionCode": "421100",
+    "name": "黄冈市人民政府",
+    "siteName": "黄冈市人民政府",
+    "url": "https://www.hg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "421200-government-www-xianning-gov-cn",
+    "regionCode": "421200",
+    "name": "咸宁市人民政府",
+    "siteName": "咸宁市人民政府",
+    "url": "http://www.xianning.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "421300-government-www-suizhou-gov-cn",
+    "regionCode": "421300",
+    "name": "随州市人民政府",
+    "siteName": "随州市人民政府",
+    "url": "http://www.suizhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "422800-government-www-enshi-gov-cn",
+    "regionCode": "422800",
+    "name": "恩施土家族苗族自治州人民政府",
+    "siteName": "恩施土家族苗族自治州人民政府",
+    "url": "http://www.enshi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "429004-government-www-xiantao-gov-cn",
+    "regionCode": "429004",
+    "name": "仙桃市人民政府",
+    "siteName": "仙桃市人民政府",
+    "url": "https://www.xiantao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "429005-government-www-hbqj-gov-cn",
+    "regionCode": "429005",
+    "name": "潜江市人民政府",
+    "siteName": "潜江市人民政府",
+    "url": "https://www.hbqj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "429006-government-www-tianmen-gov-cn",
+    "regionCode": "429006",
+    "name": "天门市人民政府",
+    "siteName": "天门市人民政府",
+    "url": "https://www.tianmen.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
+  },
+  {
+    "id": "429021-government-www-snj-gov-cn",
+    "regionCode": "429021",
+    "name": "神农架林区人民政府",
+    "siteName": "神农架林区人民政府",
+    "url": "http://www.snj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.hubei.gov.cn/2019/zqdh/szwz/"
   }
 ]
