@@ -7,5 +7,86 @@
     "url": "https://www.fj.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.fj.gov.cn/"
+  },
+  {
+    "id": "350100-government-fuzhou-gov-cn",
+    "regionCode": "350100",
+    "name": "福州市人民政府",
+    "siteName": "福州市人民政府",
+    "url": "https://www.fuzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350200-government-xm-gov-cn",
+    "regionCode": "350200",
+    "name": "厦门市人民政府",
+    "siteName": "厦门市人民政府",
+    "url": "https://www.xm.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350300-government-putian-gov-cn",
+    "regionCode": "350300",
+    "name": "莆田市人民政府",
+    "siteName": "莆田市人民政府",
+    "url": "https://www.putian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350400-government-sm-gov-cn",
+    "regionCode": "350400",
+    "name": "三明市人民政府",
+    "siteName": "三明市人民政府",
+    "url": "https://www.sm.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350500-government-quanzhou-gov-cn",
+    "regionCode": "350500",
+    "name": "泉州市人民政府",
+    "siteName": "泉州市人民政府",
+    "url": "https://www.quanzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350600-government-zhangzhou-gov-cn",
+    "regionCode": "350600",
+    "name": "漳州市人民政府",
+    "siteName": "漳州市人民政府",
+    "url": "https://www.zhangzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350700-government-np-gov-cn",
+    "regionCode": "350700",
+    "name": "南平市人民政府",
+    "siteName": "南平市人民政府",
+    "url": "https://www.np.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350800-government-longyan-gov-cn",
+    "regionCode": "350800",
+    "name": "龙岩市人民政府",
+    "siteName": "龙岩市人民政府",
+    "url": "https://www.longyan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350900-government-ningde-gov-cn",
+    "regionCode": "350900",
+    "name": "宁德市人民政府",
+    "siteName": "宁德市人民政府",
+    "url": "https://www.ningde.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fujian.gov.cn/"
   }
 ]

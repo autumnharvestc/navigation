@@ -7,5 +7,149 @@
     "url": "https://www.shandong.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.shandong.gov.cn/"
+  },
+  {
+    "id": "370100-government-jinan-gov-cn",
+    "regionCode": "370100",
+    "name": "济南市人民政府",
+    "siteName": "济南市人民政府",
+    "url": "https://www.jinan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "370200-government-qingdao-gov-cn",
+    "regionCode": "370200",
+    "name": "青岛市人民政府",
+    "siteName": "青岛市人民政府",
+    "url": "http://www.qingdao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "370300-government-zibo-gov-cn",
+    "regionCode": "370300",
+    "name": "淄博市人民政府",
+    "siteName": "淄博市人民政府",
+    "url": "https://www.zibo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "370400-government-zaozhuang-gov-cn",
+    "regionCode": "370400",
+    "name": "枣庄市人民政府",
+    "siteName": "枣庄市人民政府",
+    "url": "http://www.zaozhuang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "370500-government-dongying-gov-cn",
+    "regionCode": "370500",
+    "name": "东营市人民政府",
+    "siteName": "东营市人民政府",
+    "url": "http://www.dongying.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "370600-government-yantai-gov-cn",
+    "regionCode": "370600",
+    "name": "烟台市人民政府",
+    "siteName": "烟台市人民政府",
+    "url": "https://www.yantai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "370700-government-weifang-gov-cn",
+    "regionCode": "370700",
+    "name": "潍坊市人民政府",
+    "siteName": "潍坊市人民政府",
+    "url": "https://www.weifang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "370800-government-jining-gov-cn",
+    "regionCode": "370800",
+    "name": "济宁市人民政府",
+    "siteName": "济宁市人民政府",
+    "url": "https://www.jining.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "370900-government-taian-gov-cn",
+    "regionCode": "370900",
+    "name": "泰安市人民政府",
+    "siteName": "泰安市人民政府",
+    "url": "https://www.taian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "371000-government-weihai-gov-cn",
+    "regionCode": "371000",
+    "name": "威海市人民政府",
+    "siteName": "威海市人民政府",
+    "url": "https://www.weihai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "371100-government-rizhao-gov-cn",
+    "regionCode": "371100",
+    "name": "日照市人民政府",
+    "siteName": "日照市人民政府",
+    "url": "http://www.rizhao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "371300-government-linyi-gov-cn",
+    "regionCode": "371300",
+    "name": "临沂市人民政府",
+    "siteName": "临沂市人民政府",
+    "url": "https://www.linyi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "371400-government-dezhou-gov-cn",
+    "regionCode": "371400",
+    "name": "德州市人民政府",
+    "siteName": "德州市人民政府",
+    "url": "https://www.dezhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "371500-government-liaocheng-gov-cn",
+    "regionCode": "371500",
+    "name": "聊城市人民政府",
+    "siteName": "聊城市人民政府",
+    "url": "http://www.liaocheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "371600-government-binzhou-gov-cn",
+    "regionCode": "371600",
+    "name": "滨州市人民政府",
+    "siteName": "滨州市人民政府",
+    "url": "http://www.binzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
+  },
+  {
+    "id": "371700-government-heze-gov-cn",
+    "regionCode": "371700",
+    "name": "菏泽市人民政府",
+    "siteName": "菏泽市人民政府",
+    "url": "http://www.heze.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jinan.gov.cn/"
   }
 ]

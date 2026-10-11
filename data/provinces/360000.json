@@ -7,5 +7,104 @@
     "url": "https://www.jiangxi.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360100-government-nc-gov-cn",
+    "regionCode": "360100",
+    "name": "南昌市人民政府",
+    "siteName": "南昌市人民政府",
+    "url": "https://www.nc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360200-government-jdz-gov-cn",
+    "regionCode": "360200",
+    "name": "景德镇市人民政府",
+    "siteName": "景德镇市人民政府",
+    "url": "https://www.jdz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360300-government-pingxiang-gov-cn",
+    "regionCode": "360300",
+    "name": "萍乡市人民政府",
+    "siteName": "萍乡市人民政府",
+    "url": "https://www.pingxiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360400-government-jiujiang-gov-cn",
+    "regionCode": "360400",
+    "name": "九江市人民政府",
+    "siteName": "九江市人民政府",
+    "url": "https://www.jiujiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360500-government-xinyu-gov-cn",
+    "regionCode": "360500",
+    "name": "新余市人民政府",
+    "siteName": "新余市人民政府",
+    "url": "https://www.xinyu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360600-government-yingtan-gov-cn",
+    "regionCode": "360600",
+    "name": "鹰潭市人民政府",
+    "siteName": "鹰潭市人民政府",
+    "url": "http://www.yingtan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360700-government-ganzhou-gov-cn",
+    "regionCode": "360700",
+    "name": "赣州市人民政府",
+    "siteName": "赣州市人民政府",
+    "url": "https://www.ganzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360800-government-jian-gov-cn",
+    "regionCode": "360800",
+    "name": "吉安市人民政府",
+    "siteName": "吉安市人民政府",
+    "url": "https://www.jian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "360900-government-yichun-gov-cn",
+    "regionCode": "360900",
+    "name": "宜春市人民政府",
+    "siteName": "宜春市人民政府",
+    "url": "https://www.yichun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "361000-government-jxfz-gov-cn",
+    "regionCode": "361000",
+    "name": "抚州市人民政府",
+    "siteName": "抚州市人民政府",
+    "url": "https://www.jxfz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jiangxi.gov.cn/"
+  },
+  {
+    "id": "361100-government-zgsr-gov-cn",
+    "regionCode": "361100",
+    "name": "上饶市人民政府",
+    "siteName": "上饶市人民政府",
+    "url": "https://www.zgsr.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jiangxi.gov.cn/"
   }
 ]

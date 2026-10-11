@@ -7,5 +7,149 @@
     "url": "https://www.ah.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "340100-government-hefei-gov-cn",
+    "regionCode": "340100",
+    "name": "合肥市人民政府",
+    "siteName": "合肥市人民政府",
+    "url": "https://www.hefei.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "340200-government-wuhu-gov-cn",
+    "regionCode": "340200",
+    "name": "芜湖市人民政府",
+    "siteName": "芜湖市人民政府",
+    "url": "https://www.wuhu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "340300-government-bengbu-gov-cn",
+    "regionCode": "340300",
+    "name": "蚌埠市人民政府",
+    "siteName": "蚌埠市人民政府",
+    "url": "https://www.bengbu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "340400-government-huainan-gov-cn",
+    "regionCode": "340400",
+    "name": "淮南市人民政府",
+    "siteName": "淮南市人民政府",
+    "url": "https://www.huainan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "340500-government-mas-gov-cn",
+    "regionCode": "340500",
+    "name": "马鞍山市人民政府",
+    "siteName": "马鞍山市人民政府",
+    "url": "https://www.mas.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "340600-government-huaibei-gov-cn",
+    "regionCode": "340600",
+    "name": "淮北市人民政府",
+    "siteName": "淮北市人民政府",
+    "url": "https://www.huaibei.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "340700-government-tl-gov-cn",
+    "regionCode": "340700",
+    "name": "铜陵市人民政府",
+    "siteName": "铜陵市人民政府",
+    "url": "https://www.tl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "340800-government-anqing-gov-cn",
+    "regionCode": "340800",
+    "name": "安庆市人民政府",
+    "siteName": "安庆市人民政府",
+    "url": "https://www.anqing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "341000-government-huangshan-gov-cn",
+    "regionCode": "341000",
+    "name": "黄山市人民政府",
+    "siteName": "黄山市人民政府",
+    "url": "https://www.huangshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "341100-government-chuzhou-gov-cn",
+    "regionCode": "341100",
+    "name": "滁州市人民政府",
+    "siteName": "滁州市人民政府",
+    "url": "https://www.chuzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "341200-government-fy-gov-cn",
+    "regionCode": "341200",
+    "name": "阜阳市人民政府",
+    "siteName": "阜阳市人民政府",
+    "url": "https://www.fy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "341300-government-ahsz-gov-cn",
+    "regionCode": "341300",
+    "name": "宿州市人民政府",
+    "siteName": "宿州市人民政府",
+    "url": "https://www.ahsz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "341500-government-luan-gov-cn",
+    "regionCode": "341500",
+    "name": "六安市人民政府",
+    "siteName": "六安市人民政府",
+    "url": "https://www.luan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "341600-government-bozhou-gov-cn",
+    "regionCode": "341600",
+    "name": "亳州市人民政府",
+    "siteName": "亳州市人民政府",
+    "url": "https://www.bozhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "341700-government-chizhou-gov-cn",
+    "regionCode": "341700",
+    "name": "池州市人民政府",
+    "siteName": "池州市人民政府",
+    "url": "https://www.chizhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "341800-government-xuancheng-gov-cn",
+    "regionCode": "341800",
+    "name": "宣城市人民政府",
+    "siteName": "宣城市人民政府",
+    "url": "https://www.xuancheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ah.gov.cn/"
   }
 ]

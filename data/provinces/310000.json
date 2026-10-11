@@ -7,5 +7,149 @@
     "url": "https://www.sh.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.sh.gov.cn/"
+  },
+  {
+    "id": "310101-government-shhuangpu-gov-cn",
+    "regionCode": "310101",
+    "name": "上海市黄浦区人民政府",
+    "siteName": "上海市黄浦区人民政府",
+    "url": "https://www.shhuangpu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310104-government-xuhui-gov-cn",
+    "regionCode": "310104",
+    "name": "上海市徐汇区人民政府",
+    "siteName": "上海市徐汇区人民政府",
+    "url": "https://www.xuhui.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310105-government-shcn-gov-cn",
+    "regionCode": "310105",
+    "name": "上海市长宁区人民政府",
+    "siteName": "上海市长宁区人民政府",
+    "url": "https://www.shcn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310106-government-jingan-gov-cn",
+    "regionCode": "310106",
+    "name": "上海市静安区人民政府",
+    "siteName": "上海市静安区人民政府",
+    "url": "https://www.jingan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310107-government-shpt-gov-cn",
+    "regionCode": "310107",
+    "name": "上海市普陀区人民政府",
+    "siteName": "上海市普陀区人民政府",
+    "url": "https://www.shpt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310109-government-shhk-gov-cn",
+    "regionCode": "310109",
+    "name": "上海市虹口区人民政府",
+    "siteName": "上海市虹口区人民政府",
+    "url": "https://www.shhk.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310110-government-shyp-gov-cn",
+    "regionCode": "310110",
+    "name": "上海市杨浦区人民政府",
+    "siteName": "上海市杨浦区人民政府",
+    "url": "https://www.shyp.gov.cn/shypq/index.html",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310112-government-shmh-gov-cn",
+    "regionCode": "310112",
+    "name": "上海市闵行区人民政府",
+    "siteName": "上海市闵行区人民政府",
+    "url": "https://www.shmh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310113-government-shbsq-gov-cn",
+    "regionCode": "310113",
+    "name": "上海市宝山区人民政府",
+    "siteName": "上海市宝山区人民政府",
+    "url": "https://www.shbsq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310114-government-jiading-gov-cn",
+    "regionCode": "310114",
+    "name": "上海市嘉定区人民政府",
+    "siteName": "上海市嘉定区人民政府",
+    "url": "http://www.jiading.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310115-government-pudong-gov-cn",
+    "regionCode": "310115",
+    "name": "上海市浦东新区人民政府",
+    "siteName": "上海市浦东新区人民政府",
+    "url": "https://www.pudong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310116-government-jinshan-gov-cn",
+    "regionCode": "310116",
+    "name": "上海市金山区人民政府",
+    "siteName": "上海市金山区人民政府",
+    "url": "https://www.jinshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310117-government-songjiang-gov-cn",
+    "regionCode": "310117",
+    "name": "上海市松江区人民政府",
+    "siteName": "上海市松江区人民政府",
+    "url": "https://www.songjiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310118-government-shqp-gov-cn",
+    "regionCode": "310118",
+    "name": "上海市青浦区人民政府",
+    "siteName": "上海市青浦区人民政府",
+    "url": "https://www.shqp.gov.cn/shqp/index.html",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310120-government-fengxian-gov-cn",
+    "regionCode": "310120",
+    "name": "上海市奉贤区人民政府",
+    "siteName": "上海市奉贤区人民政府",
+    "url": "https://www.fengxian.gov.cn/shfx/",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
+  },
+  {
+    "id": "310151-government-shcm-gov-cn",
+    "regionCode": "310151",
+    "name": "上海市崇明区人民政府",
+    "siteName": "上海市崇明区人民政府",
+    "url": "https://www.shcm.gov.cn/index.html",
+    "category": "government",
+    "sourceUrl": "https://www.shanghai.gov.cn/"
   }
 ]

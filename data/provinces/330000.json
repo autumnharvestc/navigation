@@ -7,5 +7,104 @@
     "url": "https://www.zj.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.zj.gov.cn/"
+  },
+  {
+    "id": "330100-government-hangzhou-gov-cn",
+    "regionCode": "330100",
+    "name": "杭州市人民政府",
+    "siteName": "杭州市人民政府",
+    "url": "https://www.hangzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330200-government-ningbo-gov-cn",
+    "regionCode": "330200",
+    "name": "宁波市人民政府",
+    "siteName": "宁波市人民政府",
+    "url": "https://www.ningbo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330300-government-wenzhou-gov-cn",
+    "regionCode": "330300",
+    "name": "温州市人民政府",
+    "siteName": "温州市人民政府",
+    "url": "https://www.wenzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330400-government-jiaxing-gov-cn",
+    "regionCode": "330400",
+    "name": "嘉兴市人民政府",
+    "siteName": "嘉兴市人民政府",
+    "url": "https://www.jiaxing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330500-government-huzhou-gov-cn",
+    "regionCode": "330500",
+    "name": "湖州市人民政府",
+    "siteName": "湖州市人民政府",
+    "url": "https://www.huzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330600-government-sx-gov-cn",
+    "regionCode": "330600",
+    "name": "绍兴市人民政府",
+    "siteName": "绍兴市人民政府",
+    "url": "https://www.sx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330700-government-jinhua-gov-cn",
+    "regionCode": "330700",
+    "name": "金华市人民政府",
+    "siteName": "金华市人民政府",
+    "url": "https://www.jinhua.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330800-government-qz-gov-cn",
+    "regionCode": "330800",
+    "name": "衢州市人民政府",
+    "siteName": "衢州市人民政府",
+    "url": "https://www.qz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "330900-government-zhoushan-gov-cn",
+    "regionCode": "330900",
+    "name": "舟山市人民政府",
+    "siteName": "舟山市人民政府",
+    "url": "https://www.zhoushan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "331000-government-zjtz-gov-cn",
+    "regionCode": "331000",
+    "name": "台州市人民政府",
+    "siteName": "台州市人民政府",
+    "url": "https://www.zjtz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jinhua.gov.cn/"
+  },
+  {
+    "id": "331100-government-lishui-gov-cn",
+    "regionCode": "331100",
+    "name": "丽水市人民政府",
+    "siteName": "丽水市人民政府",
+    "url": "https://www.lishui.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jinhua.gov.cn/"
   }
 ]

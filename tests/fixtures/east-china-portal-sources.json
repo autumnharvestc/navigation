@@ -1,0 +1,235 @@
+{
+  "checkedAt": "2026-10-11T10:32:16+08:00",
+  "maintenance": "人工联网核验后的静态证据快照；测试不发起网络请求。",
+  "sources": [
+    {
+      "sourceUrl": "https://www.shanghai.gov.cn/",
+      "sourceTitle": "上海市人民政府",
+      "evidence": "上海市政府门户首页“区政府网站”栏目直接列出 16 个区政府门户；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:32:16+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.shanghai.gov.cn/",
+      "targetHosts": [
+        "www.fengxian.gov.cn",
+        "www.jiading.gov.cn",
+        "www.jingan.gov.cn",
+        "www.jinshan.gov.cn",
+        "www.pudong.gov.cn",
+        "www.shbsq.gov.cn",
+        "www.shcm.gov.cn",
+        "www.shcn.gov.cn",
+        "www.shhk.gov.cn",
+        "www.shhuangpu.gov.cn",
+        "www.shmh.gov.cn",
+        "www.shpt.gov.cn",
+        "www.shqp.gov.cn",
+        "www.shyp.gov.cn",
+        "www.songjiang.gov.cn",
+        "www.xuhui.gov.cn"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.nantong.gov.cn/",
+      "sourceTitle": "南通市人民政府（江苏省设区市网站目录）",
+      "evidence": "南通市政府门户的“省内设区市网站”栏目列出江苏 13 个设区市政府门户，包括南通市政府自身；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:32:16+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nantong.gov.cn/",
+      "targetHosts": [
+        "www.changzhou.gov.cn",
+        "www.huaian.gov.cn",
+        "www.lyg.gov.cn",
+        "www.nanjing.gov.cn",
+        "www.nantong.gov.cn",
+        "www.suqian.gov.cn",
+        "www.suzhou.gov.cn",
+        "www.taizhou.gov.cn",
+        "www.wuxi.gov.cn",
+        "www.xz.gov.cn",
+        "www.yancheng.gov.cn",
+        "www.yangzhou.gov.cn",
+        "www.zhenjiang.gov.cn"
+      ]
+    },
+    {
+      "sourceUrl": "http://www.jinhua.gov.cn/",
+      "sourceTitle": "金华市人民政府（浙江省市政府网站目录）",
+      "evidence": "金华市政府门户的省内市政府网站栏目列出浙江 11 个设区市政府门户，包括金华市政府自身；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:32:16+08:00",
+      "httpStatus": 200,
+      "finalUrl": "http://www.jinhua.gov.cn/",
+      "targetHosts": [
+        "www.hangzhou.gov.cn",
+        "www.huzhou.gov.cn",
+        "www.jiaxing.gov.cn",
+        "www.jinhua.gov.cn",
+        "www.lishui.gov.cn",
+        "www.ningbo.gov.cn",
+        "www.qz.gov.cn",
+        "www.sx.gov.cn",
+        "www.wenzhou.gov.cn",
+        "www.zhoushan.gov.cn",
+        "www.zjtz.gov.cn"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ah.gov.cn/",
+      "sourceTitle": "安徽省人民政府",
+      "evidence": "安徽省政府门户“市县政府”网站导航列出 16 个设区市政府门户；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:32:16+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ah.gov.cn/",
+      "targetHosts": [
+        "www.ahsz.gov.cn",
+        "www.anqing.gov.cn",
+        "www.bengbu.gov.cn",
+        "www.bozhou.gov.cn",
+        "www.chizhou.gov.cn",
+        "www.chuzhou.gov.cn",
+        "www.fy.gov.cn",
+        "www.hefei.gov.cn",
+        "www.huaibei.gov.cn",
+        "www.huainan.gov.cn",
+        "www.huangshan.gov.cn",
+        "www.luan.gov.cn",
+        "www.mas.gov.cn",
+        "www.tl.gov.cn",
+        "www.wuhu.gov.cn",
+        "www.xuancheng.gov.cn"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.fujian.gov.cn/",
+      "sourceTitle": "福建省人民政府门户网站",
+      "evidence": "福建省政府门户的设区市政府网站栏目列出 9 个设区市政府门户；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:32:16+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.fujian.gov.cn/",
+      "targetHosts": [
+        "www.fuzhou.gov.cn",
+        "www.longyan.gov.cn",
+        "www.ningde.gov.cn",
+        "www.np.gov.cn",
+        "www.putian.gov.cn",
+        "www.quanzhou.gov.cn",
+        "www.sm.gov.cn",
+        "www.xm.gov.cn",
+        "www.zhangzhou.gov.cn"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.jiangxi.gov.cn/",
+      "sourceTitle": "江西省人民政府",
+      "evidence": "江西省政府门户的设区市政府网站栏目列出 11 个设区市政府门户；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:32:16+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.jiangxi.gov.cn/",
+      "targetHosts": [
+        "www.ganzhou.gov.cn",
+        "www.jdz.gov.cn",
+        "www.jian.gov.cn",
+        "www.jiujiang.gov.cn",
+        "www.jxfz.gov.cn",
+        "www.nc.gov.cn",
+        "www.pingxiang.gov.cn",
+        "www.xinyu.gov.cn",
+        "www.yichun.gov.cn",
+        "www.yingtan.gov.cn",
+        "www.zgsr.gov.cn"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.jinan.gov.cn/",
+      "sourceTitle": "济南市人民政府（山东省市政府网站目录）",
+      "evidence": "济南市政府门户的省内市政府网站栏目列出山东 16 个设区市政府门户，包括济南市政府自身；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:32:16+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.jinan.gov.cn/",
+      "targetHosts": [
+        "www.binzhou.gov.cn",
+        "www.dezhou.gov.cn",
+        "www.dongying.gov.cn",
+        "www.heze.gov.cn",
+        "www.jinan.gov.cn",
+        "www.jining.gov.cn",
+        "www.liaocheng.gov.cn",
+        "www.linyi.gov.cn",
+        "www.qingdao.gov.cn",
+        "www.rizhao.gov.cn",
+        "www.taian.gov.cn",
+        "www.weifang.gov.cn",
+        "www.weihai.gov.cn",
+        "www.yantai.gov.cn",
+        "www.zaozhuang.gov.cn",
+        "www.zibo.gov.cn"
+      ]
+    }
+  ],
+  "anomalies": [
+    {
+      "regionCode": "310114",
+      "kind": "tls-and-http",
+      "detail": "HTTPS TLS 握手失败；HTTP 探测返回 502，不能判定为有效或失效。"
+    },
+    {
+      "regionCode": "310115",
+      "kind": "waf",
+      "detail": "HTTPS 返回 412，属于环境校验/WAF 未知状态。"
+    },
+    {
+      "regionCode": "340100",
+      "kind": "server-error",
+      "detail": "HTTPS 与 HTTP 均返回 521，来源页链接可追溯，但当前探测为未知状态。"
+    },
+    {
+      "regionCode": "341000",
+      "kind": "server-response",
+      "detail": "HTTPS 返回 405、HTTP 返回 412，不能判定为有效或失效。"
+    },
+    {
+      "regionCode": "360200",
+      "kind": "timeout",
+      "detail": "HTTPS 与 HTTP 连接均超时，不能判定为有效或失效。"
+    },
+    {
+      "regionCode": "360600",
+      "kind": "tls-fallback",
+      "detail": "HTTPS TLS 握手失败，HTTP 返回 200，最终采用官方 HTTP 地址。"
+    },
+    {
+      "regionCode": "370200",
+      "kind": "https-downgrade",
+      "detail": "HTTPS 最终 301 降级到 HTTP，最终采用官方 HTTP 地址。"
+    },
+    {
+      "regionCode": "370400",
+      "kind": "tls-fallback",
+      "detail": "HTTPS 证书主机名不匹配，HTTP 返回 200，最终采用官方 HTTP 地址。"
+    },
+    {
+      "regionCode": "370500",
+      "kind": "tls-fallback",
+      "detail": "HTTPS 证书主机名不匹配，HTTP 返回 200，最终采用官方 HTTP 地址。"
+    },
+    {
+      "regionCode": "371100",
+      "kind": "tls-fallback",
+      "detail": "HTTPS 证书主机名不匹配，HTTP 返回 200，最终采用官方 HTTP 地址。"
+    },
+    {
+      "regionCode": "371500",
+      "kind": "tls-fallback",
+      "detail": "HTTPS 证书已过期，HTTP 返回 200，最终采用官方 HTTP 地址。"
+    },
+    {
+      "regionCode": "371600",
+      "kind": "tls-fallback",
+      "detail": "HTTPS TLS 握手失败，HTTP 返回 200，最终采用官方 HTTP 地址。"
+    },
+    {
+      "regionCode": "371700",
+      "kind": "tls-fallback",
+      "detail": "HTTPS TLS 告警导致握手失败，HTTP 返回 200，最终采用官方 HTTP 地址。"
+    }
+  ]
+}

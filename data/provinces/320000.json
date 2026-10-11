@@ -7,5 +7,122 @@
     "url": "https://www.jiangsu.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.jiangsu.gov.cn/"
+  },
+  {
+    "id": "320100-government-nanjing-gov-cn",
+    "regionCode": "320100",
+    "name": "南京市人民政府",
+    "siteName": "南京市人民政府",
+    "url": "https://www.nanjing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320200-government-wuxi-gov-cn",
+    "regionCode": "320200",
+    "name": "无锡市人民政府",
+    "siteName": "无锡市人民政府",
+    "url": "https://www.wuxi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320300-government-xz-gov-cn",
+    "regionCode": "320300",
+    "name": "徐州市人民政府",
+    "siteName": "徐州市人民政府",
+    "url": "https://www.xz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320400-government-changzhou-gov-cn",
+    "regionCode": "320400",
+    "name": "常州市人民政府",
+    "siteName": "常州市人民政府",
+    "url": "https://www.changzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320500-government-suzhou-gov-cn",
+    "regionCode": "320500",
+    "name": "苏州市人民政府",
+    "siteName": "苏州市人民政府",
+    "url": "https://www.suzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320600-government-nantong-gov-cn",
+    "regionCode": "320600",
+    "name": "南通市人民政府",
+    "siteName": "南通市人民政府",
+    "url": "https://www.nantong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320700-government-lyg-gov-cn",
+    "regionCode": "320700",
+    "name": "连云港市人民政府",
+    "siteName": "连云港市人民政府",
+    "url": "https://www.lyg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320800-government-huaian-gov-cn",
+    "regionCode": "320800",
+    "name": "淮安市人民政府",
+    "siteName": "淮安市人民政府",
+    "url": "https://www.huaian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320900-government-yancheng-gov-cn",
+    "regionCode": "320900",
+    "name": "盐城市人民政府",
+    "siteName": "盐城市人民政府",
+    "url": "https://www.yancheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "321000-government-yangzhou-gov-cn",
+    "regionCode": "321000",
+    "name": "扬州市人民政府",
+    "siteName": "扬州市人民政府",
+    "url": "https://www.yangzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "321100-government-zhenjiang-gov-cn",
+    "regionCode": "321100",
+    "name": "镇江市人民政府",
+    "siteName": "镇江市人民政府",
+    "url": "https://www.zhenjiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "321200-government-taizhou-gov-cn",
+    "regionCode": "321200",
+    "name": "泰州市人民政府",
+    "siteName": "泰州市人民政府",
+    "url": "https://www.taizhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "321300-government-suqian-gov-cn",
+    "regionCode": "321300",
+    "name": "宿迁市人民政府",
+    "siteName": "宿迁市人民政府",
+    "url": "https://www.suqian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
   }
 ]
