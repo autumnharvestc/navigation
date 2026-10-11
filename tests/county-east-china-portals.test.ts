@@ -23,8 +23,10 @@ type TargetMapping = {
   regionName: string;
   targetUrl: string;
   targetHost: string;
-  sourceKind: string;
+  sourceKind: 'city-anchor' | 'desktop-search' | 'mobile-search';
   verifiedTitle: string;
+  verificationQuery?: string;
+  verificationUrl?: string;
 };
 
 type SourceEvidence = {
@@ -173,9 +175,9 @@ describe('east china county portals', () => {
     const expectedEntries = golden.filter((entry) => entry.expected);
     const expectedByUrl = new Map(expectedEntries.map((entry) => [entry.sourceUrl, entry]));
 
-    expect(fixture.checkedAt).toBe('2026-10-11T17:25:07+08:00');
+    expect(fixture.checkedAt).toBe('2026-10-11T17:32:37+08:00');
     expect(fixture.maintenance).toContain('expected=false');
-    expect(fixture.sources).toHaveLength(76);
+    expect(fixture.sources).toHaveLength(75);
     expect(duplicateValues(fixture.sources.map((source) => source.sourceUrl))).toEqual([]);
     expect(new Set(fixture.sources.map((source) => source.sourceUrl))).toEqual(
       new Set(expectedEntries.map((entry) => entry.sourceUrl)),
@@ -203,6 +205,11 @@ describe('east china county portals', () => {
         expect(entry?.url).toBe(mapping.targetUrl);
         expect(new URL(entry?.url ?? '').hostname).toBe(mapping.targetHost);
         expect(mapping.regionName).toBe(entry?.regionName);
+        expect(mapping.sourceKind).toBe(entry?.sourceKind);
+        if (mapping.sourceKind !== 'city-anchor') {
+          expect(mapping.verificationQuery?.trim()).toBeTruthy();
+          expect(mapping.verificationUrl).toMatch(/^https?:\/\//);
+        }
       }
     }
 
@@ -212,6 +219,68 @@ describe('east china county portals', () => {
       expect(anomaly.kind).not.toBe('');
       expect(anomaly.detail).not.toBe('');
       expect(expectedEntries.some((entry) => entry.regionCode === anomaly.regionCode)).toBe(true);
+    }
+  });
+
+  it('locks corrected portals and reviewed search evidence', async () => {
+    const golden = await loadGolden();
+    const fixture = await loadSources();
+    const reviewed = [
+      {
+        regionCode: '371403',
+        id: '371403-government-www-dzlc-gov-cn',
+        url: 'http://www.dzlc.gov.cn/',
+        host: 'www.dzlc.gov.cn',
+      },
+      {
+        regionCode: '371481',
+        id: '371481-government-www-laoling-gov-cn',
+        url: 'http://www.laoling.gov.cn/',
+        host: 'www.laoling.gov.cn',
+      },
+      {
+        regionCode: '371482',
+        id: '371482-government-www-yuchengshi-gov-cn',
+        url: 'http://www.yuchengshi.gov.cn/',
+        host: 'www.yuchengshi.gov.cn',
+      },
+    ];
+
+    for (const expected of reviewed) {
+      const entry = golden.find((candidate) => candidate.regionCode === expected.regionCode);
+      expect(entry).toMatchObject({
+        id: expected.id,
+        url: expected.url,
+        expected: true,
+      });
+      expect(new URL(entry?.url ?? '').hostname).toBe(expected.host);
+
+      const mappings = fixture.sources.flatMap((source) => source.targetMappings);
+      const mapping = mappings.find((candidate) => candidate.regionCode === expected.regionCode);
+      expect(mapping).toMatchObject({ targetUrl: expected.url, targetHost: expected.host });
+    }
+
+    const sixhe = fixture.sources
+      .flatMap((source) => source.targetMappings)
+      .find((mapping) => mapping.regionCode === '320116');
+    expect(sixhe?.sourceKind).toBe('mobile-search');
+    expect(sixhe?.verificationQuery).toBeTruthy();
+    expect(sixhe?.verificationUrl).toMatch(/^https?:\/\//);
+
+    for (const regionCode of [
+      '321012',
+      '361102',
+      '361104',
+      '361123',
+      '361127',
+      '361128',
+      '361181',
+    ]) {
+      const mapping = fixture.sources
+        .flatMap((source) => source.targetMappings)
+        .find((candidate) => candidate.regionCode === regionCode);
+      expect(mapping?.verificationQuery).toBeTruthy();
+      expect(mapping?.verificationUrl).toMatch(/^https?:\/\//);
     }
   });
 

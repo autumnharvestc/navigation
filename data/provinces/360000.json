@@ -906,7 +906,7 @@
     "siteName": "信州区人民政府",
     "url": "http://www.jxxz.gov.cn/",
     "category": "government",
-    "sourceUrl": "https://www.zgsr.gov.cn/"
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
   },
   {
     "id": "361103-government-www-gfx-gov-cn",
@@ -924,7 +924,7 @@
     "siteName": "广信区人民政府",
     "url": "http://www.srx.gov.cn/",
     "category": "government",
-    "sourceUrl": "https://www.zgsr.gov.cn/"
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
   },
   {
     "id": "361123-government-www-zgys-gov-cn",
@@ -933,7 +933,7 @@
     "siteName": "玉山县人民政府",
     "url": "https://www.zgys.gov.cn/",
     "category": "government",
-    "sourceUrl": "https://www.zgsr.gov.cn/"
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
   },
   {
     "id": "361124-government-www-jxyanshan-gov-cn",
@@ -969,7 +969,7 @@
     "siteName": "余干县人民政府",
     "url": "https://www.yugan.gov.cn/",
     "category": "government",
-    "sourceUrl": "https://www.zgsr.gov.cn/"
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
   },
   {
     "id": "361128-government-www-poyang-gov-cn",
@@ -978,7 +978,7 @@
     "siteName": "鄱阳县人民政府",
     "url": "http://www.poyang.gov.cn/",
     "category": "government",
-    "sourceUrl": "https://www.zgsr.gov.cn/"
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
   },
   {
     "id": "361129-government-www-zgwn-gov-cn",
@@ -1005,6 +1005,6 @@
     "siteName": "德兴市人民政府",
     "url": "https://www.dxs.gov.cn/",
     "category": "government",
-    "sourceUrl": "https://www.zgsr.gov.cn/"
+    "sourceUrl": "http://www.jiangxi.gov.cn/"
   }
 ]

@@ -1044,11 +1044,11 @@
     "sourceUrl": "https://www.dezhou.gov.cn/"
   },
   {
-    "id": "371403-government-www-lingcheng-gov-cn",
+    "id": "371403-government-www-dzlc-gov-cn",
     "regionCode": "371403",
     "name": "陵城区人民政府",
-    "siteName": "陵城区人民政府",
-    "url": "http://www.lingcheng.gov.cn/",
+    "siteName": "中国·陵城区--陵城区政府门户网站",
+    "url": "http://www.dzlc.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.dezhou.gov.cn/"
   },
@@ -1116,20 +1116,20 @@
     "sourceUrl": "https://www.dezhou.gov.cn/"
   },
   {
-    "id": "371481-government-www-leling-gov-cn",
+    "id": "371481-government-www-laoling-gov-cn",
     "regionCode": "371481",
     "name": "乐陵市人民政府",
     "siteName": "乐陵市人民政府",
-    "url": "http://www.leling.gov.cn/",
+    "url": "http://www.laoling.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.dezhou.gov.cn/"
   },
   {
-    "id": "371482-government-www-yucheng-gov-cn",
+    "id": "371482-government-www-yuchengshi-gov-cn",
     "regionCode": "371482",
     "name": "禹城市人民政府",
     "siteName": "禹城市人民政府",
-    "url": "http://www.yucheng.gov.cn/",
+    "url": "http://www.yuchengshi.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.dezhou.gov.cn/"
   },

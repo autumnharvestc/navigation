@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-11T17:25:07+08:00",
-  "maintenance": "人工联网核验后的静态证据快照；来源页和实时页面均为官方政府网站；无法确认的县级目标在 golden 中 expected=false。",
+  "checkedAt": "2026-10-11T17:32:37+08:00",
+  "maintenance": "人工联网核验后的静态证据快照；来源页和实时页面均为官方政府网站；expected=false 仅用于无法进入中国大陆政府网站体系的特殊目标；搜索型映射必须保存可复现 verificationQuery 和 verificationUrl。",
   "sources": [
     {
       "sourceUrl": "http://www.binzhou.gov.cn/",
       "sourceTitle": "滨州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "http://www.binzhou.gov.cn/",
       "targetHosts": [
@@ -81,7 +81,7 @@
       "sourceUrl": "http://www.dongying.gov.cn/",
       "sourceTitle": "东营市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "http://www.dongying.gov.cn/",
       "targetHosts": [
@@ -138,7 +138,7 @@
       "sourceUrl": "http://www.heze.gov.cn/",
       "sourceTitle": "菏泽市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "http://www.heze.gov.cn/",
       "targetHosts": [
@@ -230,8 +230,8 @@
     {
       "sourceUrl": "http://www.jiangxi.gov.cn/",
       "sourceTitle": "江西省人民政府",
-      "evidence": "省政府/市政府门户官方县级政府网站导航；逐项锁定标题与地址。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "evidence": "江西省人民政府官方“市县政府网站”目录，直接列出上饶等县区官方 host；每条记录保存可复现查询。",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "http://www.jiangxi.gov.cn/",
       "targetHosts": [
@@ -241,12 +241,18 @@
         "www.zglh.gov.cn",
         "www.jxslx.gov.cn",
         "www.luxi.gov.cn",
+        "www.jxxz.gov.cn",
         "www.gfx.gov.cn",
+        "www.srx.gov.cn",
+        "www.zgys.gov.cn",
         "www.jxyanshan.gov.cn",
         "www.hfzf.gov.cn",
         "www.jxyy.gov.cn",
+        "www.yugan.gov.cn",
+        "www.poyang.gov.cn",
         "www.zgwn.gov.cn",
-        "www.jxwy.gov.cn"
+        "www.jxwy.gov.cn",
+        "www.dxs.gov.cn"
       ],
       "targetMappings": [
         {
@@ -298,12 +304,42 @@
           "verifiedTitle": "芦溪县人民政府"
         },
         {
+          "regionCode": "361102",
+          "regionName": "信州区",
+          "targetUrl": "http://www.jxxz.gov.cn/",
+          "targetHost": "www.jxxz.gov.cn",
+          "sourceKind": "desktop-search",
+          "verifiedTitle": "信州区人民政府",
+          "verificationQuery": "信州区 信州区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%BF%A1%E5%B7%9E%E5%8C%BA%20%E4%BF%A1%E5%B7%9E%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+        },
+        {
           "regionCode": "361103",
           "regionName": "广丰区",
           "targetUrl": "http://www.gfx.gov.cn",
           "targetHost": "www.gfx.gov.cn",
           "sourceKind": "city-anchor",
           "verifiedTitle": "广丰区人民政府"
+        },
+        {
+          "regionCode": "361104",
+          "regionName": "广信区",
+          "targetUrl": "http://www.srx.gov.cn/",
+          "targetHost": "www.srx.gov.cn",
+          "sourceKind": "desktop-search",
+          "verifiedTitle": "广信区人民政府",
+          "verificationQuery": "广信区 广信区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%B9%BF%E4%BF%A1%E5%8C%BA%20%E5%B9%BF%E4%BF%A1%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+        },
+        {
+          "regionCode": "361123",
+          "regionName": "玉山县",
+          "targetUrl": "https://www.zgys.gov.cn/",
+          "targetHost": "www.zgys.gov.cn",
+          "sourceKind": "desktop-search",
+          "verifiedTitle": "玉山县人民政府",
+          "verificationQuery": "玉山县 玉山县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%8E%89%E5%B1%B1%E5%8E%BF%20%E7%8E%89%E5%B1%B1%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "361124",
@@ -330,6 +366,26 @@
           "verifiedTitle": "弋阳县人民政府"
         },
         {
+          "regionCode": "361127",
+          "regionName": "余干县",
+          "targetUrl": "https://www.yugan.gov.cn/",
+          "targetHost": "www.yugan.gov.cn",
+          "sourceKind": "desktop-search",
+          "verifiedTitle": "余干县人民政府",
+          "verificationQuery": "余干县 余干县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%BD%99%E5%B9%B2%E5%8E%BF%20%E4%BD%99%E5%B9%B2%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+        },
+        {
+          "regionCode": "361128",
+          "regionName": "鄱阳县",
+          "targetUrl": "http://www.poyang.gov.cn/",
+          "targetHost": "www.poyang.gov.cn",
+          "sourceKind": "desktop-search",
+          "verifiedTitle": "鄱阳县人民政府",
+          "verificationQuery": "鄱阳县 鄱阳县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%84%B1%E9%98%B3%E5%8E%BF%20%E9%84%B1%E9%98%B3%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+        },
+        {
           "regionCode": "361129",
           "regionName": "万年县",
           "targetUrl": "http://www.zgwn.gov.cn",
@@ -343,7 +399,19 @@
           "targetUrl": "http://www.jxwy.gov.cn/",
           "targetHost": "www.jxwy.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "婺源县人民政府"
+          "verifiedTitle": "婺源县人民政府",
+          "verificationQuery": "婺源县 婺源县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%A9%BA%E6%BA%90%E5%8E%BF%20%E5%A9%BA%E6%BA%90%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+        },
+        {
+          "regionCode": "361181",
+          "regionName": "德兴市",
+          "targetUrl": "https://www.dxs.gov.cn/",
+          "targetHost": "www.dxs.gov.cn",
+          "sourceKind": "desktop-search",
+          "verifiedTitle": "德兴市人民政府",
+          "verificationQuery": "德兴市 德兴市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%BE%B7%E5%85%B4%E5%B8%82%20%E5%BE%B7%E5%85%B4%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -351,7 +419,7 @@
       "sourceUrl": "http://www.liaocheng.gov.cn/",
       "sourceTitle": "www.liaocheng.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "http://www.liaocheng.gov.cn/",
       "targetHosts": [
@@ -427,7 +495,9 @@
           "targetUrl": "http://www.linqing.gov.cn/",
           "targetHost": "www.linqing.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "临清市人民政府"
+          "verifiedTitle": "临清市人民政府",
+          "verificationQuery": "临清市 临清市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%B8%B4%E6%B8%85%E5%B8%82%20%E4%B8%B4%E6%B8%85%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -435,7 +505,7 @@
       "sourceUrl": "http://www.qingdao.gov.cn/",
       "sourceTitle": "青岛市人民政府",
       "evidence": "青岛市政府门户“区市政府网站”官方下拉导航；逐项锁定县级官网地址。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "http://www.qingdao.gov.cn/",
       "targetHosts": [
@@ -537,7 +607,7 @@
       "sourceUrl": "http://www.rizhao.gov.cn/",
       "sourceTitle": "www.rizhao.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "http://www.rizhao.gov.cn/",
       "targetHosts": [
@@ -585,7 +655,7 @@
       "sourceUrl": "http://www.yingtan.gov.cn/",
       "sourceTitle": "www.yingtan.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "http://www.yingtan.gov.cn/",
       "targetHosts": ["www.yuehu.gov.cn", "www.yujiang.gov.cn", "www.guixi.gov.cn"],
@@ -612,7 +682,9 @@
           "targetUrl": "http://www.guixi.gov.cn/",
           "targetHost": "www.guixi.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "贵溪市人民政府"
+          "verifiedTitle": "贵溪市人民政府",
+          "verificationQuery": "贵溪市 贵溪市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E8%B4%B5%E6%BA%AA%E5%B8%82%20%E8%B4%B5%E6%BA%AA%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -620,7 +692,7 @@
       "sourceUrl": "http://www.zaozhuang.gov.cn/",
       "sourceTitle": "www.zaozhuang.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "http://www.zaozhuang.gov.cn/",
       "targetHosts": [
@@ -678,7 +750,9 @@
           "targetUrl": "http://www.tengzhou.gov.cn/",
           "targetHost": "www.tengzhou.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "滕州市人民政府官方网站"
+          "verifiedTitle": "滕州市人民政府官方网站",
+          "verificationQuery": "滕州市 滕州市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%BB%95%E5%B7%9E%E5%B8%82%20%E6%BB%95%E5%B7%9E%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -686,7 +760,7 @@
       "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hfs/6785831.js?num=20",
       "sourceTitle": "安徽省人民政府门户县级网站导航",
       "evidence": "安徽省政府门户官方县级网站导航脚本；逐项锁定标题与官方地址。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hfs/6785831.js?num=20",
       "targetHosts": [
@@ -779,7 +853,7 @@
       "sourceUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hss/6785821.js?num=20",
       "sourceTitle": "安徽省人民政府门户县级网站导航",
       "evidence": "安徽省政府门户官方县级网站导航脚本；逐项锁定标题与官方地址。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.ah.gov.cn/ljgl/zy/db-wzdh/hss/6785821.js?num=20",
       "targetHosts": [
@@ -854,7 +928,7 @@
       "sourceUrl": "https://www.ahsz.gov.cn/",
       "sourceTitle": "宿州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.ahsz.gov.cn/",
       "targetHosts": [
@@ -911,7 +985,7 @@
       "sourceUrl": "https://www.anqing.gov.cn/",
       "sourceTitle": "www.anqing.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 403,
       "finalUrl": "https://www.anqing.gov.cn/",
       "targetHosts": [
@@ -965,7 +1039,9 @@
           "targetUrl": "https://www.thx.gov.cn/",
           "targetHost": "www.thx.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "太湖县人民政府"
+          "verifiedTitle": "太湖县人民政府",
+          "verificationQuery": "太湖县 太湖县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%A4%AA%E6%B9%96%E5%8E%BF%20%E5%A4%AA%E6%B9%96%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "340826",
@@ -1013,7 +1089,7 @@
       "sourceUrl": "https://www.bengbu.gov.cn/",
       "sourceTitle": "蚌埠市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.bengbu.gov.cn/",
       "targetHosts": [
@@ -1088,7 +1164,7 @@
       "sourceUrl": "https://www.bozhou.gov.cn/",
       "sourceTitle": "亳州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.bozhou.gov.cn/",
       "targetHosts": [
@@ -1136,7 +1212,7 @@
       "sourceUrl": "https://www.changzhou.gov.cn/",
       "sourceTitle": "常州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.changzhou.gov.cn/",
       "targetHosts": [
@@ -1154,7 +1230,9 @@
           "targetUrl": "https://www.cztn.gov.cn/",
           "targetHost": "www.cztn.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "常州市天宁区人民政府"
+          "verifiedTitle": "常州市天宁区人民政府",
+          "verificationQuery": "天宁区 天宁区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%A4%A9%E5%AE%81%E5%8C%BA%20%E5%A4%A9%E5%AE%81%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320404",
@@ -1170,7 +1248,9 @@
           "targetUrl": "https://www.cznd.gov.cn/",
           "targetHost": "www.cznd.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "常州国家高新区管委会（新北区人民政府）"
+          "verifiedTitle": "常州国家高新区管委会（新北区人民政府）",
+          "verificationQuery": "新北区 新北区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%96%B0%E5%8C%97%E5%8C%BA%20%E6%96%B0%E5%8C%97%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320412",
@@ -1178,7 +1258,9 @@
           "targetUrl": "https://www.wj.gov.cn/",
           "targetHost": "www.wj.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "常州市武进区人民政府"
+          "verifiedTitle": "常州市武进区人民政府",
+          "verificationQuery": "武进区 武进区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%AD%A6%E8%BF%9B%E5%8C%BA%20%E6%AD%A6%E8%BF%9B%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320413",
@@ -1186,7 +1268,9 @@
           "targetUrl": "https://www.jintan.gov.cn/",
           "targetHost": "www.jintan.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "常州市金坛区人民政府"
+          "verifiedTitle": "常州市金坛区人民政府",
+          "verificationQuery": "金坛区 金坛区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%87%91%E5%9D%9B%E5%8C%BA%20%E9%87%91%E5%9D%9B%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320481",
@@ -1194,7 +1278,9 @@
           "targetUrl": "https://www.liyang.gov.cn/",
           "targetHost": "www.liyang.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "溧阳市人民政府"
+          "verifiedTitle": "溧阳市人民政府",
+          "verificationQuery": "溧阳市 溧阳市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%BA%A7%E9%98%B3%E5%B8%82%20%E6%BA%A7%E9%98%B3%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -1202,7 +1288,7 @@
       "sourceUrl": "https://www.chizhou.gov.cn/",
       "sourceTitle": "池州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.chizhou.gov.cn/",
       "targetHosts": [
@@ -1234,7 +1320,9 @@
           "targetUrl": "https://www.ahshitai.gov.cn/",
           "targetHost": "www.ahshitai.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "石台县人民政府"
+          "verifiedTitle": "石台县人民政府",
+          "verificationQuery": "石台县 石台县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%9F%B3%E5%8F%B0%E5%8E%BF%20%E7%9F%B3%E5%8F%B0%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "341723",
@@ -1250,7 +1338,7 @@
       "sourceUrl": "https://www.chuzhou.gov.cn/",
       "sourceTitle": "滁州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.chuzhou.gov.cn/",
       "targetHosts": [
@@ -1334,12 +1422,12 @@
       "sourceUrl": "https://www.dezhou.gov.cn/",
       "sourceTitle": "德州市人民政府",
       "evidence": "市级政府门户官方站群/导航脚本；逐项锁定县级官网标题和地址。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.dezhou.gov.cn/",
       "targetHosts": [
         "www.decheng.gov.cn",
-        "www.lingcheng.gov.cn",
+        "www.dzlc.gov.cn",
         "www.sdningjin.gov.cn",
         "www.qingyun.gov.cn",
         "www.linyixian.gov.cn",
@@ -1347,8 +1435,8 @@
         "www.zgpingyuan.gov.cn",
         "www.xiajin.gov.cn",
         "www.wucheng.gov.cn",
-        "www.leling.gov.cn",
-        "www.yucheng.gov.cn"
+        "www.laoling.gov.cn",
+        "www.yuchengshi.gov.cn"
       ],
       "targetMappings": [
         {
@@ -1362,10 +1450,12 @@
         {
           "regionCode": "371403",
           "regionName": "陵城区",
-          "targetUrl": "http://www.lingcheng.gov.cn/",
-          "targetHost": "www.lingcheng.gov.cn",
-          "sourceKind": "city-anchor",
-          "verifiedTitle": "陵城区人民政府"
+          "targetUrl": "http://www.dzlc.gov.cn/",
+          "targetHost": "www.dzlc.gov.cn",
+          "sourceKind": "desktop-search",
+          "verifiedTitle": "中国·陵城区--陵城区政府门户网站",
+          "verificationQuery": "陵城区 陵城区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%99%B5%E5%9F%8E%E5%8C%BA%20%E9%99%B5%E5%9F%8E%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "371422",
@@ -1426,18 +1516,22 @@
         {
           "regionCode": "371481",
           "regionName": "乐陵市",
-          "targetUrl": "http://www.leling.gov.cn/",
-          "targetHost": "www.leling.gov.cn",
-          "sourceKind": "city-anchor",
-          "verifiedTitle": "乐陵市人民政府"
+          "targetUrl": "http://www.laoling.gov.cn/",
+          "targetHost": "www.laoling.gov.cn",
+          "sourceKind": "desktop-search",
+          "verifiedTitle": "乐陵市人民政府",
+          "verificationQuery": "乐陵市 乐陵市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%B9%90%E9%99%B5%E5%B8%82%20%E4%B9%90%E9%99%B5%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "371482",
           "regionName": "禹城市",
-          "targetUrl": "http://www.yucheng.gov.cn/",
-          "targetHost": "www.yucheng.gov.cn",
-          "sourceKind": "city-anchor",
-          "verifiedTitle": "禹城市人民政府"
+          "targetUrl": "http://www.yuchengshi.gov.cn/",
+          "targetHost": "www.yuchengshi.gov.cn",
+          "sourceKind": "desktop-search",
+          "verifiedTitle": "禹城市人民政府",
+          "verificationQuery": "禹城市 禹城市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%A6%B9%E5%9F%8E%E5%B8%82%20%E7%A6%B9%E5%9F%8E%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -1445,7 +1539,7 @@
       "sourceUrl": "https://www.fuzhou.gov.cn/",
       "sourceTitle": "www.fuzhou.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.fuzhou.gov.cn/",
       "targetHosts": [
@@ -1558,7 +1652,9 @@
           "targetUrl": "https://www.pingtan.gov.cn/",
           "targetHost": "www.pingtan.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "平潭县人民政府"
+          "verifiedTitle": "平潭县人民政府",
+          "verificationQuery": "平潭县 平潭县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%B9%B3%E6%BD%AD%E5%8E%BF%20%E5%B9%B3%E6%BD%AD%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "350181",
@@ -1566,7 +1662,9 @@
           "targetUrl": "https://www.fuqing.gov.cn/",
           "targetHost": "www.fuqing.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "福清市人民政府"
+          "verifiedTitle": "福清市人民政府",
+          "verificationQuery": "福清市 福清市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%A6%8F%E6%B8%85%E5%B8%82%20%E7%A6%8F%E6%B8%85%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -1574,7 +1672,7 @@
       "sourceUrl": "https://www.fy.gov.cn/",
       "sourceTitle": "阜阳市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.fy.gov.cn/",
       "targetHosts": [
@@ -1658,7 +1756,7 @@
       "sourceUrl": "https://www.ganzhou.gov.cn/",
       "sourceTitle": "赣州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.ganzhou.gov.cn/",
       "targetHosts": [
@@ -1832,7 +1930,7 @@
       "sourceUrl": "https://www.hangzhou.gov.cn/",
       "sourceTitle": "杭州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.hangzhou.gov.cn/",
       "targetHosts": [
@@ -1857,7 +1955,9 @@
           "targetUrl": "https://www.hzsc.gov.cn/",
           "targetHost": "www.hzsc.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "杭州市上城区人民政府"
+          "verifiedTitle": "杭州市上城区人民政府",
+          "verificationQuery": "上城区 上城区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%B8%8A%E5%9F%8E%E5%8C%BA%20%E4%B8%8A%E5%9F%8E%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "330105",
@@ -1865,7 +1965,9 @@
           "targetUrl": "http://www.gongshu.gov.cn/",
           "targetHost": "www.gongshu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "杭州市拱墅区人民政府"
+          "verifiedTitle": "杭州市拱墅区人民政府",
+          "verificationQuery": "拱墅区 拱墅区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%8B%B1%E5%A2%85%E5%8C%BA%20%E6%8B%B1%E5%A2%85%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "330106",
@@ -1873,7 +1975,9 @@
           "targetUrl": "http://www.hzxh.gov.cn/",
           "targetHost": "www.hzxh.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "杭州市西湖区人民政府"
+          "verifiedTitle": "杭州市西湖区人民政府",
+          "verificationQuery": "西湖区 西湖区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E8%A5%BF%E6%B9%96%E5%8C%BA%20%E8%A5%BF%E6%B9%96%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "330108",
@@ -1889,7 +1993,9 @@
           "targetUrl": "https://www.xiaoshan.gov.cn/",
           "targetHost": "www.xiaoshan.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "杭州市萧山区人民政府"
+          "verifiedTitle": "杭州市萧山区人民政府",
+          "verificationQuery": "萧山区 萧山区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E8%90%A7%E5%B1%B1%E5%8C%BA%20%E8%90%A7%E5%B1%B1%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "330110",
@@ -1897,7 +2003,9 @@
           "targetUrl": "http://www.yuhang.gov.cn/",
           "targetHost": "www.yuhang.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "杭州市余杭区人民政府"
+          "verifiedTitle": "杭州市余杭区人民政府",
+          "verificationQuery": "余杭区 余杭区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%BD%99%E6%9D%AD%E5%8C%BA%20%E4%BD%99%E6%9D%AD%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "330111",
@@ -1905,7 +2013,9 @@
           "targetUrl": "https://www.fuyang.gov.cn/",
           "targetHost": "www.fuyang.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "杭州市富阳区人民政府"
+          "verifiedTitle": "杭州市富阳区人民政府",
+          "verificationQuery": "富阳区 富阳区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%AF%8C%E9%98%B3%E5%8C%BA%20%E5%AF%8C%E9%98%B3%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "330112",
@@ -1953,7 +2063,9 @@
           "targetUrl": "https://www.jiande.gov.cn/",
           "targetHost": "www.jiande.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "建德市人民政府"
+          "verifiedTitle": "建德市人民政府",
+          "verificationQuery": "建德市 建德市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%BB%BA%E5%BE%B7%E5%B8%82%20%E5%BB%BA%E5%BE%B7%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -1961,7 +2073,7 @@
       "sourceUrl": "https://www.huaian.gov.cn/",
       "sourceTitle": "淮安市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.huaian.gov.cn/",
       "targetHosts": [
@@ -1980,7 +2092,9 @@
           "targetUrl": "http://www.zghaq.gov.cn/",
           "targetHost": "www.zghaq.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "淮安区人民政府"
+          "verifiedTitle": "淮安区人民政府",
+          "verificationQuery": "淮安区 淮安区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B7%AE%E5%AE%89%E5%8C%BA%20%E6%B7%AE%E5%AE%89%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320804",
@@ -1988,7 +2102,9 @@
           "targetUrl": "http://www.zghy.gov.cn/",
           "targetHost": "www.zghy.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "淮阴区人民政府"
+          "verifiedTitle": "淮阴区人民政府",
+          "verificationQuery": "淮阴区 淮阴区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B7%AE%E9%98%B4%E5%8C%BA%20%E6%B7%AE%E9%98%B4%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320812",
@@ -1996,7 +2112,9 @@
           "targetUrl": "http://www.haqjp.gov.cn/",
           "targetHost": "www.haqjp.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "清江浦区人民政府"
+          "verifiedTitle": "清江浦区人民政府",
+          "verificationQuery": "清江浦区 清江浦区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B8%85%E6%B1%9F%E6%B5%A6%E5%8C%BA%20%E6%B8%85%E6%B1%9F%E6%B5%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320813",
@@ -2004,7 +2122,9 @@
           "targetUrl": "http://www.hongze.gov.cn/",
           "targetHost": "www.hongze.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "淮安市洪泽区人民政府"
+          "verifiedTitle": "淮安市洪泽区人民政府",
+          "verificationQuery": "洪泽区 洪泽区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B4%AA%E6%B3%BD%E5%8C%BA%20%E6%B4%AA%E6%B3%BD%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320826",
@@ -2012,7 +2132,9 @@
           "targetUrl": "http://www.lianshui.gov.cn/",
           "targetHost": "www.lianshui.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "涟水县人民政府"
+          "verifiedTitle": "涟水县人民政府",
+          "verificationQuery": "涟水县 涟水县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B6%9F%E6%B0%B4%E5%8E%BF%20%E6%B6%9F%E6%B0%B4%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320830",
@@ -2020,7 +2142,9 @@
           "targetUrl": "http://www.xuyi.gov.cn/",
           "targetHost": "www.xuyi.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "盱眙县人民政府"
+          "verifiedTitle": "盱眙县人民政府",
+          "verificationQuery": "盱眙县 盱眙县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%9B%B1%E7%9C%99%E5%8E%BF%20%E7%9B%B1%E7%9C%99%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320831",
@@ -2028,7 +2152,9 @@
           "targetUrl": "http://www.jinhu.gov.cn/",
           "targetHost": "www.jinhu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "金湖县人民政府"
+          "verifiedTitle": "金湖县人民政府",
+          "verificationQuery": "金湖县 金湖县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%87%91%E6%B9%96%E5%8E%BF%20%E9%87%91%E6%B9%96%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -2036,7 +2162,7 @@
       "sourceUrl": "https://www.huaibei.gov.cn/",
       "sourceTitle": "淮北市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.huaibei.gov.cn/",
       "targetHosts": ["www.hbdj.gov.cn", "www.hbxs.gov.cn", "www.lieshan.gov.cn", "www.sxx.gov.cn"],
@@ -2079,7 +2205,7 @@
       "sourceUrl": "https://www.huainan.gov.cn/",
       "sourceTitle": "淮南市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.huainan.gov.cn/",
       "targetHosts": [
@@ -2130,7 +2256,9 @@
           "targetUrl": "http://www.panji.gov.cn/",
           "targetHost": "www.panji.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "淮南市潘集区人民政府"
+          "verifiedTitle": "淮南市潘集区人民政府",
+          "verificationQuery": "潘集区 潘集区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%BD%98%E9%9B%86%E5%8C%BA%20%E6%BD%98%E9%9B%86%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "340421",
@@ -2154,7 +2282,7 @@
       "sourceUrl": "https://www.huzhou.gov.cn/",
       "sourceTitle": "www.huzhou.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.huzhou.gov.cn/",
       "targetHosts": [
@@ -2211,7 +2339,7 @@
       "sourceUrl": "https://www.jdz.gov.cn/",
       "sourceTitle": "www.jdz.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.jdz.gov.cn/",
       "targetHosts": ["www.jdzcjq.gov.cn", "www.fuliang.gov.cn", "www.lep.gov.cn"],
@@ -2238,7 +2366,9 @@
           "targetUrl": "http://www.lep.gov.cn/",
           "targetHost": "www.lep.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "乐平市人民政府"
+          "verifiedTitle": "乐平市人民政府",
+          "verificationQuery": "乐平市 乐平市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%B9%90%E5%B9%B3%E5%B8%82%20%E4%B9%90%E5%B9%B3%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -2246,7 +2376,7 @@
       "sourceUrl": "https://www.jian.gov.cn/",
       "sourceTitle": "吉安市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.jian.gov.cn/",
       "targetHosts": [
@@ -2375,7 +2505,7 @@
       "sourceUrl": "https://www.jiaxing.gov.cn/",
       "sourceTitle": "嘉兴市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.jiaxing.gov.cn/",
       "targetHosts": [
@@ -2450,7 +2580,7 @@
       "sourceUrl": "https://www.jinan.gov.cn/",
       "sourceTitle": "www.jinan.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.jinan.gov.cn/",
       "targetHosts": [
@@ -2570,7 +2700,7 @@
       "sourceUrl": "https://www.jinhua.gov.cn/",
       "sourceTitle": "www.jinhua.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.jinhua.gov.cn/",
       "targetHosts": [
@@ -2639,7 +2769,9 @@
           "targetUrl": "https://www.yw.gov.cn/",
           "targetHost": "www.yw.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "义乌市人民政府"
+          "verifiedTitle": "义乌市人民政府",
+          "verificationQuery": "义乌市 义乌市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%B9%89%E4%B9%8C%E5%B8%82%20%E4%B9%89%E4%B9%8C%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "330783",
@@ -2663,7 +2795,7 @@
       "sourceUrl": "https://www.jining.gov.cn/",
       "sourceTitle": "www.jining.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.jining.gov.cn/",
       "targetHosts": [
@@ -2758,7 +2890,9 @@
           "targetUrl": "http://www.qufu.gov.cn/",
           "targetHost": "www.qufu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "曲阜市人民政府"
+          "verifiedTitle": "曲阜市人民政府",
+          "verificationQuery": "曲阜市 曲阜市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%9B%B2%E9%98%9C%E5%B8%82%20%E6%9B%B2%E9%98%9C%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "370883",
@@ -2774,7 +2908,7 @@
       "sourceUrl": "https://www.jiujiang.gov.cn/",
       "sourceTitle": "九江市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.jiujiang.gov.cn/",
       "targetHosts": [
@@ -2863,7 +2997,9 @@
           "targetUrl": "https://www.hukou.gov.cn/",
           "targetHost": "www.hukou.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "湖口县人民政府门户网站"
+          "verifiedTitle": "湖口县人民政府门户网站",
+          "verificationQuery": "湖口县 湖口县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B9%96%E5%8F%A3%E5%8E%BF%20%E6%B9%96%E5%8F%A3%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "360430",
@@ -2903,7 +3039,7 @@
       "sourceUrl": "https://www.jxfz.gov.cn/",
       "sourceTitle": "抚州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.jxfz.gov.cn/",
       "targetHosts": [
@@ -3014,7 +3150,7 @@
       "sourceUrl": "https://www.linyi.gov.cn/",
       "sourceTitle": "临沂市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.linyi.gov.cn/",
       "targetHosts": [
@@ -3134,7 +3270,7 @@
       "sourceUrl": "https://www.lishui.gov.cn/",
       "sourceTitle": "丽水市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.lishui.gov.cn/",
       "targetHosts": [
@@ -3227,7 +3363,7 @@
       "sourceUrl": "https://www.longyan.gov.cn/",
       "sourceTitle": "www.longyan.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.longyan.gov.cn/",
       "targetHosts": [
@@ -3302,7 +3438,7 @@
       "sourceUrl": "https://www.luan.gov.cn/",
       "sourceTitle": "六安市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.luan.gov.cn/",
       "targetHosts": [
@@ -3329,7 +3465,9 @@
           "targetUrl": "https://www.yuan.gov.cn/",
           "targetHost": "www.yuan.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "六安市裕安区人民政府"
+          "verifiedTitle": "六安市裕安区人民政府",
+          "verificationQuery": "裕安区 裕安区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E8%A3%95%E5%AE%89%E5%8C%BA%20%E8%A3%95%E5%AE%89%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "341504",
@@ -3377,7 +3515,7 @@
       "sourceUrl": "https://www.lyg.gov.cn/",
       "sourceTitle": "连云港市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 403,
       "finalUrl": "https://www.lyg.gov.cn/",
       "targetHosts": [
@@ -3395,7 +3533,9 @@
           "targetUrl": "http://www.lianyun.gov.cn/",
           "targetHost": "www.lianyun.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "连云区人民政府"
+          "verifiedTitle": "连云区人民政府",
+          "verificationQuery": "连云区 连云区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E8%BF%9E%E4%BA%91%E5%8C%BA%20%E8%BF%9E%E4%BA%91%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320706",
@@ -3403,7 +3543,9 @@
           "targetUrl": "http://www.lyghz.gov.cn/",
           "targetHost": "www.lyghz.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "连云港海州区人民政府"
+          "verifiedTitle": "连云港海州区人民政府",
+          "verificationQuery": "海州区 海州区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B5%B7%E5%B7%9E%E5%8C%BA%20%E6%B5%B7%E5%B7%9E%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320707",
@@ -3411,7 +3553,9 @@
           "targetUrl": "http://www.ganyu.gov.cn/",
           "targetHost": "www.ganyu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "赣榆区人民政府"
+          "verifiedTitle": "赣榆区人民政府",
+          "verificationQuery": "赣榆区 赣榆区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E8%B5%A3%E6%A6%86%E5%8C%BA%20%E8%B5%A3%E6%A6%86%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320722",
@@ -3419,7 +3563,9 @@
           "targetUrl": "http://www.jsdh.gov.cn/",
           "targetHost": "www.jsdh.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "东海县人民政府"
+          "verifiedTitle": "东海县人民政府",
+          "verificationQuery": "东海县 东海县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%B8%9C%E6%B5%B7%E5%8E%BF%20%E4%B8%9C%E6%B5%B7%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320723",
@@ -3427,7 +3573,9 @@
           "targetUrl": "http://www.guanyun.gov.cn/",
           "targetHost": "www.guanyun.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "灌云县人民政府"
+          "verifiedTitle": "灌云县人民政府",
+          "verificationQuery": "灌云县 灌云县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%81%8C%E4%BA%91%E5%8E%BF%20%E7%81%8C%E4%BA%91%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320724",
@@ -3435,7 +3583,9 @@
           "targetUrl": "http://www.guannan.gov.cn/",
           "targetHost": "www.guannan.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "灌南县人民政府"
+          "verifiedTitle": "灌南县人民政府",
+          "verificationQuery": "灌南县 灌南县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%81%8C%E5%8D%97%E5%8E%BF%20%E7%81%8C%E5%8D%97%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -3443,7 +3593,7 @@
       "sourceUrl": "https://www.mas.gov.cn/",
       "sourceTitle": "马鞍山市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.mas.gov.cn/",
       "targetHosts": [
@@ -3508,8 +3658,8 @@
     {
       "sourceUrl": "https://www.nanjing.gov.cn/",
       "sourceTitle": "南京市人民政府",
-      "evidence": "官方门户移动端站点导航与 360 公开搜索结果逐项交叉核验；每条 mapping 保存可复现搜索查询、搜索 URL 与已验证标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "evidence": "南京市人民政府官方门户移动站点导航；11 条映射均保存独立搜索查询和可复现搜索 URL，并用目标页标题与官方域名交叉核验。",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 403,
       "finalUrl": "https://www.nanjing.gov.cn/",
       "targetHosts": [
@@ -3533,8 +3683,8 @@
           "targetHost": "www.xwzf.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "南京市玄武区人民政府",
-          "verificationQuery": "玄武区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E7%8E%84%E6%AD%A6%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "玄武区 玄武区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%8E%84%E6%AD%A6%E5%8C%BA%20%E7%8E%84%E6%AD%A6%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320104",
@@ -3543,8 +3693,8 @@
           "targetHost": "www.njqh.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "南京市秦淮区人民政府",
-          "verificationQuery": "秦淮区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E7%A7%A6%E6%B7%AE%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "秦淮区 秦淮区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%A7%A6%E6%B7%AE%E5%8C%BA%20%E7%A7%A6%E6%B7%AE%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320105",
@@ -3553,8 +3703,8 @@
           "targetHost": "www.njjy.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "南京市建邺区人民政府",
-          "verificationQuery": "建邺区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E5%BB%BA%E9%82%BA%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "建邺区 建邺区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%BB%BA%E9%82%BA%E5%8C%BA%20%E5%BB%BA%E9%82%BA%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320106",
@@ -3563,8 +3713,8 @@
           "targetHost": "www.njgl.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "鼓楼区人民政府",
-          "verificationQuery": "鼓楼区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E9%BC%93%E6%A5%BC%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "鼓楼区 鼓楼区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%BC%93%E6%A5%BC%E5%8C%BA%20%E9%BC%93%E6%A5%BC%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320111",
@@ -3573,8 +3723,8 @@
           "targetHost": "njna.nanjing.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "南京江北新区管理委员会 南京市浦口区人民政府",
-          "verificationQuery": "浦口区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E6%B5%A6%E5%8F%A3%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "浦口区 浦口区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B5%A6%E5%8F%A3%E5%8C%BA%20%E6%B5%A6%E5%8F%A3%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320113",
@@ -3583,8 +3733,8 @@
           "targetHost": "www.njqxq.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "南京市栖霞区人民政府",
-          "verificationQuery": "栖霞区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E6%A0%96%E9%9C%9E%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "栖霞区 栖霞区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%A0%96%E9%9C%9E%E5%8C%BA%20%E6%A0%96%E9%9C%9E%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320114",
@@ -3593,8 +3743,8 @@
           "targetHost": "www.njyh.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "南京市雨花台区人民政府",
-          "verificationQuery": "雨花台区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E9%9B%A8%E8%8A%B1%E5%8F%B0%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "雨花台区 雨花台区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%9B%A8%E8%8A%B1%E5%8F%B0%E5%8C%BA%20%E9%9B%A8%E8%8A%B1%E5%8F%B0%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320115",
@@ -3603,16 +3753,18 @@
           "targetHost": "www.jiangning.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "南京市江宁区人民政府",
-          "verificationQuery": "江宁区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E6%B1%9F%E5%AE%81%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "江宁区 江宁区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B1%9F%E5%AE%81%E5%8C%BA%20%E6%B1%9F%E5%AE%81%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320116",
           "regionName": "六合区",
           "targetUrl": "http://www.njlh.gov.cn/",
           "targetHost": "www.njlh.gov.cn",
-          "sourceKind": "desktop-search",
-          "verifiedTitle": "南京市六合区人民政府"
+          "sourceKind": "mobile-search",
+          "verifiedTitle": "南京市六合区人民政府",
+          "verificationQuery": "六合区 六合区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%85%AD%E5%90%88%E5%8C%BA%20%E5%85%AD%E5%90%88%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320117",
@@ -3621,8 +3773,8 @@
           "targetHost": "www.njls.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "南京市溧水区人民政府",
-          "verificationQuery": "溧水区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E6%BA%A7%E6%B0%B4%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "溧水区 溧水区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%BA%A7%E6%B0%B4%E5%8C%BA%20%E6%BA%A7%E6%B0%B4%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320118",
@@ -3631,8 +3783,8 @@
           "targetHost": "www.njgc.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "高淳区政府门户网站",
-          "verificationQuery": "高淳区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E9%AB%98%E6%B7%B3%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "高淳区 高淳区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%AB%98%E6%B7%B3%E5%8C%BA%20%E9%AB%98%E6%B7%B3%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -3640,7 +3792,7 @@
       "sourceUrl": "https://www.nantong.gov.cn/",
       "sourceTitle": "南通市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.nantong.gov.cn/",
       "targetHosts": [
@@ -3659,7 +3811,9 @@
           "targetUrl": "http://www.tongzhou.gov.cn/",
           "targetHost": "www.tongzhou.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "南通市通州区人民政府"
+          "verifiedTitle": "南通市通州区人民政府",
+          "verificationQuery": "通州区 通州区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%80%9A%E5%B7%9E%E5%8C%BA%20%E9%80%9A%E5%B7%9E%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320613",
@@ -3667,7 +3821,9 @@
           "targetUrl": "https://www.chongchuan.gov.cn/",
           "targetHost": "www.chongchuan.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "南通市崇川区人民政府"
+          "verifiedTitle": "南通市崇川区人民政府",
+          "verificationQuery": "崇川区 崇川区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%B4%87%E5%B7%9D%E5%8C%BA%20%E5%B4%87%E5%B7%9D%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320614",
@@ -3675,7 +3831,9 @@
           "targetUrl": "https://www.haimen.gov.cn/",
           "targetHost": "www.haimen.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "南通市海门区人民政府"
+          "verifiedTitle": "南通市海门区人民政府",
+          "verificationQuery": "海门区 海门区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B5%B7%E9%97%A8%E5%8C%BA%20%E6%B5%B7%E9%97%A8%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320623",
@@ -3683,7 +3841,9 @@
           "targetUrl": "https://www.rudong.gov.cn/",
           "targetHost": "www.rudong.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "如东县人民政府"
+          "verifiedTitle": "如东县人民政府",
+          "verificationQuery": "如东县 如东县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%A6%82%E4%B8%9C%E5%8E%BF%20%E5%A6%82%E4%B8%9C%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320681",
@@ -3691,7 +3851,9 @@
           "targetUrl": "http://www.qidong.gov.cn/",
           "targetHost": "www.qidong.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "启东市人民政府"
+          "verifiedTitle": "启东市人民政府",
+          "verificationQuery": "启东市 启东市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%90%AF%E4%B8%9C%E5%B8%82%20%E5%90%AF%E4%B8%9C%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320682",
@@ -3699,7 +3861,9 @@
           "targetUrl": "https://www.rugao.gov.cn/",
           "targetHost": "www.rugao.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "如皋市人民政府"
+          "verifiedTitle": "如皋市人民政府",
+          "verificationQuery": "如皋市 如皋市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%A6%82%E7%9A%8B%E5%B8%82%20%E5%A6%82%E7%9A%8B%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320685",
@@ -3707,7 +3871,9 @@
           "targetUrl": "https://www.haian.gov.cn/",
           "targetHost": "www.haian.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "海安市人民政府"
+          "verifiedTitle": "海安市人民政府",
+          "verificationQuery": "海安市 海安市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B5%B7%E5%AE%89%E5%B8%82%20%E6%B5%B7%E5%AE%89%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -3715,7 +3881,7 @@
       "sourceUrl": "https://www.nc.gov.cn/",
       "sourceTitle": "南昌市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.nc.gov.cn/",
       "targetHosts": [
@@ -3808,7 +3974,7 @@
       "sourceUrl": "https://www.ningbo.gov.cn/",
       "sourceTitle": "www.ningbo.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.ningbo.gov.cn/",
       "targetHosts": [
@@ -3878,7 +4044,9 @@
           "targetUrl": "http://www.xiangshan.gov.cn/",
           "targetHost": "www.xiangshan.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "象山县人民政府"
+          "verifiedTitle": "象山县人民政府",
+          "verificationQuery": "象山县 象山县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E8%B1%A1%E5%B1%B1%E5%8E%BF%20%E8%B1%A1%E5%B1%B1%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "330226",
@@ -3894,7 +4062,9 @@
           "targetUrl": "https://www.yy.gov.cn/",
           "targetHost": "www.yy.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "余姚市人民政府网站"
+          "verifiedTitle": "余姚市人民政府网站",
+          "verificationQuery": "余姚市 余姚市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%BD%99%E5%A7%9A%E5%B8%82%20%E4%BD%99%E5%A7%9A%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "330282",
@@ -3910,7 +4080,7 @@
       "sourceUrl": "https://www.ningde.gov.cn/",
       "sourceTitle": "宁德市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.ningde.gov.cn/",
       "targetHosts": [
@@ -4003,7 +4173,7 @@
       "sourceUrl": "https://www.np.gov.cn/",
       "sourceTitle": "www.np.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.np.gov.cn/cms/html/npszf/index.html",
       "targetHosts": [
@@ -4081,7 +4251,9 @@
           "targetUrl": "https://www.shaowu.gov.cn/cms/html/swsrmzf/index.html",
           "targetHost": "www.shaowu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "邵武市人民政府"
+          "verifiedTitle": "邵武市人民政府",
+          "verificationQuery": "邵武市 邵武市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%82%B5%E6%AD%A6%E5%B8%82%20%E9%82%B5%E6%AD%A6%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "350782",
@@ -4089,7 +4261,9 @@
           "targetUrl": "https://www.wys.gov.cn/cms/html/wyssrmzf/index.html",
           "targetHost": "www.wys.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "武夷山市人民政府"
+          "verifiedTitle": "武夷山市人民政府",
+          "verificationQuery": "武夷山市 武夷山市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%AD%A6%E5%A4%B7%E5%B1%B1%E5%B8%82%20%E6%AD%A6%E5%A4%B7%E5%B1%B1%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "350783",
@@ -4105,7 +4279,7 @@
       "sourceUrl": "https://www.putian.gov.cn/",
       "sourceTitle": "莆田市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.putian.gov.cn/",
       "targetHosts": [
@@ -4162,7 +4336,7 @@
       "sourceUrl": "https://www.quanzhou.gov.cn/",
       "sourceTitle": "泉州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.quanzhou.gov.cn/",
       "targetHosts": [
@@ -4273,7 +4447,7 @@
       "sourceUrl": "https://www.qz.gov.cn/",
       "sourceTitle": "衢州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.qz.gov.cn/",
       "targetHosts": [
@@ -4339,7 +4513,7 @@
       "sourceUrl": "https://www.sm.gov.cn/",
       "sourceTitle": "www.sm.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.sm.gov.cn/",
       "targetHosts": [
@@ -4442,7 +4616,9 @@
           "targetUrl": "https://www.ya.gov.cn/",
           "targetHost": "www.ya.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "永安市人民政府门户网站"
+          "verifiedTitle": "永安市人民政府门户网站",
+          "verificationQuery": "永安市 永安市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B0%B8%E5%AE%89%E5%B8%82%20%E6%B0%B8%E5%AE%89%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -4450,7 +4626,7 @@
       "sourceUrl": "https://www.suqian.gov.cn/",
       "sourceTitle": "宿迁市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.suqian.gov.cn/",
       "targetHosts": [
@@ -4467,7 +4643,9 @@
           "targetUrl": "https://www.sqsc.gov.cn/",
           "targetHost": "www.sqsc.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "宿城区人民政府"
+          "verifiedTitle": "宿城区人民政府",
+          "verificationQuery": "宿城区 宿城区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%AE%BF%E5%9F%8E%E5%8C%BA%20%E5%AE%BF%E5%9F%8E%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321311",
@@ -4475,7 +4653,9 @@
           "targetUrl": "http://www.suyu.gov.cn/",
           "targetHost": "www.suyu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "宿豫区人民政府"
+          "verifiedTitle": "宿豫区人民政府",
+          "verificationQuery": "宿豫区 宿豫区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%AE%BF%E8%B1%AB%E5%8C%BA%20%E5%AE%BF%E8%B1%AB%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321322",
@@ -4483,7 +4663,9 @@
           "targetUrl": "http://www.shuyang.gov.cn/",
           "targetHost": "www.shuyang.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "沭阳县人民政府"
+          "verifiedTitle": "沭阳县人民政府",
+          "verificationQuery": "沭阳县 沭阳县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B2%AD%E9%98%B3%E5%8E%BF%20%E6%B2%AD%E9%98%B3%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321323",
@@ -4491,7 +4673,9 @@
           "targetUrl": "http://www.siyang.gov.cn/",
           "targetHost": "www.siyang.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "泗阳县人民政府"
+          "verifiedTitle": "泗阳县人民政府",
+          "verificationQuery": "泗阳县 泗阳县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B3%97%E9%98%B3%E5%8E%BF%20%E6%B3%97%E9%98%B3%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321324",
@@ -4499,7 +4683,9 @@
           "targetUrl": "http://www.sihong.gov.cn/",
           "targetHost": "www.sihong.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "泗洪县人民政府"
+          "verifiedTitle": "泗洪县人民政府",
+          "verificationQuery": "泗洪县 泗洪县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B3%97%E6%B4%AA%E5%8E%BF%20%E6%B3%97%E6%B4%AA%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -4507,7 +4693,7 @@
       "sourceUrl": "https://www.suzhou.gov.cn/",
       "sourceTitle": "苏州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.suzhou.gov.cn/",
       "targetHosts": [
@@ -4528,7 +4714,9 @@
           "targetUrl": "http://www.snd.gov.cn/",
           "targetHost": "www.snd.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "苏州高新区管委会（虎丘区人民政府）"
+          "verifiedTitle": "苏州高新区管委会（虎丘区人民政府）",
+          "verificationQuery": "虎丘区 虎丘区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E8%99%8E%E4%B8%98%E5%8C%BA%20%E8%99%8E%E4%B8%98%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320506",
@@ -4536,7 +4724,9 @@
           "targetUrl": "http://www.szwz.gov.cn/",
           "targetHost": "www.szwz.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "苏州市吴中区人民政府"
+          "verifiedTitle": "苏州市吴中区人民政府",
+          "verificationQuery": "吴中区 吴中区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%90%B4%E4%B8%AD%E5%8C%BA%20%E5%90%B4%E4%B8%AD%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320507",
@@ -4544,7 +4734,9 @@
           "targetUrl": "http://www.szxc.gov.cn/",
           "targetHost": "www.szxc.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "苏州市相城区人民政府"
+          "verifiedTitle": "苏州市相城区人民政府",
+          "verificationQuery": "相城区 相城区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%9B%B8%E5%9F%8E%E5%8C%BA%20%E7%9B%B8%E5%9F%8E%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320508",
@@ -4552,7 +4744,9 @@
           "targetUrl": "http://www.gusu.gov.cn/",
           "targetHost": "www.gusu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "苏州市姑苏区人民政府"
+          "verifiedTitle": "苏州市姑苏区人民政府",
+          "verificationQuery": "姑苏区 姑苏区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%A7%91%E8%8B%8F%E5%8C%BA%20%E5%A7%91%E8%8B%8F%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320509",
@@ -4560,7 +4754,9 @@
           "targetUrl": "https://www.wujiang.gov.cn/",
           "targetHost": "www.wujiang.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "苏州市吴江区人民政府"
+          "verifiedTitle": "苏州市吴江区人民政府",
+          "verificationQuery": "吴江区 吴江区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%90%B4%E6%B1%9F%E5%8C%BA%20%E5%90%B4%E6%B1%9F%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320581",
@@ -4568,7 +4764,9 @@
           "targetUrl": "http://www.changshu.gov.cn/",
           "targetHost": "www.changshu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "常熟市人民政府"
+          "verifiedTitle": "常熟市人民政府",
+          "verificationQuery": "常熟市 常熟市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%B8%B8%E7%86%9F%E5%B8%82%20%E5%B8%B8%E7%86%9F%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320582",
@@ -4576,7 +4774,9 @@
           "targetUrl": "https://www.zjg.gov.cn/",
           "targetHost": "www.zjg.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "张家港市人民政府"
+          "verifiedTitle": "张家港市人民政府",
+          "verificationQuery": "张家港市 张家港市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%BC%A0%E5%AE%B6%E6%B8%AF%E5%B8%82%20%E5%BC%A0%E5%AE%B6%E6%B8%AF%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320583",
@@ -4584,7 +4784,9 @@
           "targetUrl": "http://www.ks.gov.cn/",
           "targetHost": "www.ks.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "昆山市人民政府"
+          "verifiedTitle": "昆山市人民政府",
+          "verificationQuery": "昆山市 昆山市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%98%86%E5%B1%B1%E5%B8%82%20%E6%98%86%E5%B1%B1%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320585",
@@ -4592,7 +4794,9 @@
           "targetUrl": "http://www.taicang.gov.cn/",
           "targetHost": "www.taicang.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "太仓市人民政府"
+          "verifiedTitle": "太仓市人民政府",
+          "verificationQuery": "太仓市 太仓市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%A4%AA%E4%BB%93%E5%B8%82%20%E5%A4%AA%E4%BB%93%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -4600,7 +4804,7 @@
       "sourceUrl": "https://www.sx.gov.cn/",
       "sourceTitle": "绍兴市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.sx.gov.cn/",
       "targetHosts": [
@@ -4666,7 +4870,7 @@
       "sourceUrl": "https://www.taian.gov.cn/",
       "sourceTitle": "泰安市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.taian.gov.cn/",
       "targetHosts": [
@@ -4732,7 +4936,7 @@
       "sourceUrl": "https://www.taizhou.gov.cn/",
       "sourceTitle": "泰州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.taizhou.gov.cn/",
       "targetHosts": [
@@ -4750,7 +4954,9 @@
           "targetUrl": "http://www.tzhl.gov.cn/",
           "targetHost": "www.tzhl.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "泰州市海陵区人民政府"
+          "verifiedTitle": "泰州市海陵区人民政府",
+          "verificationQuery": "海陵区 海陵区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B5%B7%E9%99%B5%E5%8C%BA%20%E6%B5%B7%E9%99%B5%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321203",
@@ -4758,7 +4964,9 @@
           "targetUrl": "https://www.cmc.gov.cn/",
           "targetHost": "www.cmc.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "泰州医药高新区管委会（高港区人民政府）"
+          "verifiedTitle": "泰州医药高新区管委会（高港区人民政府）",
+          "verificationQuery": "高港区 高港区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%AB%98%E6%B8%AF%E5%8C%BA%20%E9%AB%98%E6%B8%AF%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321204",
@@ -4766,7 +4974,9 @@
           "targetUrl": "http://www.jiangyan.gov.cn/",
           "targetHost": "www.jiangyan.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "泰州市姜堰区人民政府"
+          "verifiedTitle": "泰州市姜堰区人民政府",
+          "verificationQuery": "姜堰区 姜堰区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%A7%9C%E5%A0%B0%E5%8C%BA%20%E5%A7%9C%E5%A0%B0%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321281",
@@ -4774,7 +4984,9 @@
           "targetUrl": "https://www.xinghua.gov.cn/",
           "targetHost": "www.xinghua.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "兴化市人民政府"
+          "verifiedTitle": "兴化市人民政府",
+          "verificationQuery": "兴化市 兴化市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%85%B4%E5%8C%96%E5%B8%82%20%E5%85%B4%E5%8C%96%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321282",
@@ -4790,7 +5002,9 @@
           "targetUrl": "https://www.taixing.gov.cn/",
           "targetHost": "www.taixing.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "泰兴市人民政府"
+          "verifiedTitle": "泰兴市人民政府",
+          "verificationQuery": "泰兴市 泰兴市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B3%B0%E5%85%B4%E5%B8%82%20%E6%B3%B0%E5%85%B4%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -4798,7 +5012,7 @@
       "sourceUrl": "https://www.tl.gov.cn/",
       "sourceTitle": "www.tl.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.tl.gov.cn/",
       "targetHosts": [
@@ -4846,7 +5060,7 @@
       "sourceUrl": "https://www.weifang.gov.cn/",
       "sourceTitle": "www.weifang.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.weifang.gov.cn/",
       "targetHosts": [
@@ -4918,7 +5132,9 @@
           "targetUrl": "http://www.qingzhou.gov.cn/",
           "targetHost": "www.qingzhou.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "青州市人民政府"
+          "verifiedTitle": "青州市人民政府",
+          "verificationQuery": "青州市 青州市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%9D%92%E5%B7%9E%E5%B8%82%20%E9%9D%92%E5%B7%9E%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "370782",
@@ -4926,7 +5142,9 @@
           "targetUrl": "http://www.zhucheng.gov.cn/",
           "targetHost": "www.zhucheng.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "诸城市门户网站"
+          "verifiedTitle": "诸城市门户网站",
+          "verificationQuery": "诸城市 诸城市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E8%AF%B8%E5%9F%8E%E5%B8%82%20%E8%AF%B8%E5%9F%8E%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "370783",
@@ -4934,7 +5152,9 @@
           "targetUrl": "https://www.shouguang.gov.cn/",
           "targetHost": "www.shouguang.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "寿光市人民政府"
+          "verifiedTitle": "寿光市人民政府",
+          "verificationQuery": "寿光市 寿光市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%AF%BF%E5%85%89%E5%B8%82%20%E5%AF%BF%E5%85%89%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "370784",
@@ -4966,7 +5186,7 @@
       "sourceUrl": "https://www.weihai.gov.cn/",
       "sourceTitle": "威海市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.weihai.gov.cn/",
       "targetHosts": [
@@ -5014,7 +5234,7 @@
       "sourceUrl": "https://www.wenzhou.gov.cn/",
       "sourceTitle": "www.wenzhou.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.wenzhou.gov.cn/",
       "targetHosts": [
@@ -5110,7 +5330,9 @@
           "targetUrl": "http://www.ruian.gov.cn/",
           "targetHost": "www.ruian.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "瑞安市人民政府"
+          "verifiedTitle": "瑞安市人民政府",
+          "verificationQuery": "瑞安市 瑞安市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%91%9E%E5%AE%89%E5%B8%82%20%E7%91%9E%E5%AE%89%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "330382",
@@ -5134,7 +5356,7 @@
       "sourceUrl": "https://www.wuhu.gov.cn/",
       "sourceTitle": "芜湖市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.wuhu.gov.cn/",
       "targetHosts": [
@@ -5209,7 +5431,7 @@
       "sourceUrl": "https://www.wuxi.gov.cn/",
       "sourceTitle": "无锡市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.wuxi.gov.cn/",
       "targetHosts": [
@@ -5229,8 +5451,8 @@
           "targetHost": "www.jsxishan.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "无锡市锡山区人民政府",
-          "verificationQuery": "锡山区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E9%94%A1%E5%B1%B1%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "锡山区 锡山区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%94%A1%E5%B1%B1%E5%8C%BA%20%E9%94%A1%E5%B1%B1%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320206",
@@ -5239,8 +5461,8 @@
           "targetHost": "www.huishan.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "无锡市惠山区人民政府",
-          "verificationQuery": "惠山区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E6%83%A0%E5%B1%B1%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "惠山区 惠山区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%83%A0%E5%B1%B1%E5%8C%BA%20%E6%83%A0%E5%B1%B1%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320211",
@@ -5249,8 +5471,8 @@
           "targetHost": "www.wxbh.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "无锡市滨湖区人民政府",
-          "verificationQuery": "滨湖区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E6%BB%A8%E6%B9%96%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "滨湖区 滨湖区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%BB%A8%E6%B9%96%E5%8C%BA%20%E6%BB%A8%E6%B9%96%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320213",
@@ -5259,8 +5481,8 @@
           "targetHost": "www.wxlx.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "无锡市梁溪区人民政府",
-          "verificationQuery": "梁溪区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E6%A2%81%E6%BA%AA%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "梁溪区 梁溪区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%A2%81%E6%BA%AA%E5%8C%BA%20%E6%A2%81%E6%BA%AA%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320214",
@@ -5269,8 +5491,8 @@
           "targetHost": "www.wnd.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "无锡高新区管委会新吴区人民政府",
-          "verificationQuery": "新吴区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E6%96%B0%E5%90%B4%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "新吴区 新吴区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%96%B0%E5%90%B4%E5%8C%BA%20%E6%96%B0%E5%90%B4%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320281",
@@ -5279,8 +5501,8 @@
           "targetHost": "www.jiangyin.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "江阴市人民政府门户网",
-          "verificationQuery": "江阴市 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E6%B1%9F%E9%98%B4%E5%B8%82%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "江阴市 江阴市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B1%9F%E9%98%B4%E5%B8%82%20%E6%B1%9F%E9%98%B4%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320282",
@@ -5289,8 +5511,8 @@
           "targetHost": "www.yixing.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "宜兴市人民政府",
-          "verificationQuery": "宜兴市 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E5%AE%9C%E5%85%B4%E5%B8%82%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "宜兴市 宜兴市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%AE%9C%E5%85%B4%E5%B8%82%20%E5%AE%9C%E5%85%B4%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -5298,7 +5520,7 @@
       "sourceUrl": "https://www.xinyu.gov.cn/",
       "sourceTitle": "新余市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.xinyu.gov.cn/",
       "targetHosts": ["www.yushui.gov.cn", "www.fenyi.gov.cn"],
@@ -5325,7 +5547,7 @@
       "sourceUrl": "https://www.xm.gov.cn/",
       "sourceTitle": "厦门市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.xm.gov.cn/",
       "targetHosts": [
@@ -5391,7 +5613,7 @@
       "sourceUrl": "https://www.xuancheng.gov.cn/",
       "sourceTitle": "www.xuancheng.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.xuancheng.gov.cn/",
       "targetHosts": [
@@ -5450,7 +5672,9 @@
           "targetUrl": "https://www.ningguo.gov.cn/",
           "targetHost": "www.ningguo.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "宁国市人民政府"
+          "verifiedTitle": "宁国市人民政府",
+          "verificationQuery": "宁国市 宁国市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%AE%81%E5%9B%BD%E5%B8%82%20%E5%AE%81%E5%9B%BD%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "341882",
@@ -5458,7 +5682,9 @@
           "targetUrl": "https://www.guangde.gov.cn/",
           "targetHost": "www.guangde.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "广德市人民政府"
+          "verifiedTitle": "广德市人民政府",
+          "verificationQuery": "广德市 广德市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%B9%BF%E5%BE%B7%E5%B8%82%20%E5%B9%BF%E5%BE%B7%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -5466,7 +5692,7 @@
       "sourceUrl": "https://www.xz.gov.cn/",
       "sourceTitle": "徐州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.xz.gov.cn/",
       "targetHosts": [
@@ -5489,8 +5715,8 @@
           "targetHost": "www.xzgl.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "徐州市鼓楼区人民政府",
-          "verificationQuery": "鼓楼区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E9%BC%93%E6%A5%BC%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "鼓楼区 鼓楼区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%BC%93%E6%A5%BC%E5%8C%BA%20%E9%BC%93%E6%A5%BC%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320303",
@@ -5499,8 +5725,8 @@
           "targetHost": "www.xzyl.gov.cn",
           "sourceKind": "mobile-search",
           "verifiedTitle": "徐州市云龙区人民政府",
-          "verificationQuery": "云龙区 人民政府 官网",
-          "verificationUrl": "https://www.so.com/s?q=%E4%BA%91%E9%BE%99%E5%8C%BA%20%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
+          "verificationQuery": "云龙区 云龙区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%BA%91%E9%BE%99%E5%8C%BA%20%E4%BA%91%E9%BE%99%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320305",
@@ -5508,7 +5734,9 @@
           "targetUrl": "http://www.xzjw.gov.cn/",
           "targetHost": "www.xzjw.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "徐州市贾汪区人民政府"
+          "verifiedTitle": "徐州市贾汪区人民政府",
+          "verificationQuery": "贾汪区 贾汪区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E8%B4%BE%E6%B1%AA%E5%8C%BA%20%E8%B4%BE%E6%B1%AA%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320311",
@@ -5516,7 +5744,9 @@
           "targetUrl": "http://www.xzqs.gov.cn/",
           "targetHost": "www.xzqs.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "徐州市泉山区人民政府"
+          "verifiedTitle": "徐州市泉山区人民政府",
+          "verificationQuery": "泉山区 泉山区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B3%89%E5%B1%B1%E5%8C%BA%20%E6%B3%89%E5%B1%B1%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320312",
@@ -5524,7 +5754,9 @@
           "targetUrl": "http://www.zgts.gov.cn/",
           "targetHost": "www.zgts.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "徐州市铜山区人民政府"
+          "verifiedTitle": "徐州市铜山区人民政府",
+          "verificationQuery": "铜山区 铜山区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%93%9C%E5%B1%B1%E5%8C%BA%20%E9%93%9C%E5%B1%B1%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320321",
@@ -5532,7 +5764,9 @@
           "targetUrl": "http://www.chinafx.gov.cn/",
           "targetHost": "www.chinafx.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "丰县人民政府"
+          "verifiedTitle": "丰县人民政府",
+          "verificationQuery": "丰县 丰县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%B8%B0%E5%8E%BF%20%E4%B8%B0%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320322",
@@ -5540,7 +5774,9 @@
           "targetUrl": "http://www.px.gov.cn/",
           "targetHost": "www.px.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "沛县人民政府"
+          "verifiedTitle": "沛县人民政府",
+          "verificationQuery": "沛县 沛县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B2%9B%E5%8E%BF%20%E6%B2%9B%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320324",
@@ -5548,7 +5784,9 @@
           "targetUrl": "http://www.cnsn.gov.cn/",
           "targetHost": "www.cnsn.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "睢宁县人民政府"
+          "verifiedTitle": "睢宁县人民政府",
+          "verificationQuery": "睢宁县 睢宁县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%9D%A2%E5%AE%81%E5%8E%BF%20%E7%9D%A2%E5%AE%81%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320381",
@@ -5556,7 +5794,9 @@
           "targetUrl": "http://www.xy.gov.cn/",
           "targetHost": "www.xy.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "新沂市人民政府"
+          "verifiedTitle": "新沂市人民政府",
+          "verificationQuery": "新沂市 新沂市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%96%B0%E6%B2%82%E5%B8%82%20%E6%96%B0%E6%B2%82%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320382",
@@ -5564,7 +5804,9 @@
           "targetUrl": "http://www.pz.gov.cn/",
           "targetHost": "www.pz.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "邳州市人民政府"
+          "verifiedTitle": "邳州市人民政府",
+          "verificationQuery": "邳州市 邳州市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%82%B3%E5%B7%9E%E5%B8%82%20%E9%82%B3%E5%B7%9E%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -5572,7 +5814,7 @@
       "sourceUrl": "https://www.yancheng.gov.cn/",
       "sourceTitle": "盐城市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 403,
       "finalUrl": "https://www.yancheng.gov.cn/",
       "targetHosts": [
@@ -5593,7 +5835,9 @@
           "targetUrl": "https://www.tinghu.gov.cn/",
           "targetHost": "www.tinghu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "盐城市亭湖区人民政府"
+          "verifiedTitle": "盐城市亭湖区人民政府",
+          "verificationQuery": "亭湖区 亭湖区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%BA%AD%E6%B9%96%E5%8C%BA%20%E4%BA%AD%E6%B9%96%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320903",
@@ -5601,7 +5845,9 @@
           "targetUrl": "https://www.yandu.gov.cn/",
           "targetHost": "www.yandu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "盐城市盐都区人民政府"
+          "verifiedTitle": "盐城市盐都区人民政府",
+          "verificationQuery": "盐都区 盐都区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E7%9B%90%E9%83%BD%E5%8C%BA%20%E7%9B%90%E9%83%BD%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320904",
@@ -5609,7 +5855,9 @@
           "targetUrl": "https://www.dafeng.gov.cn/",
           "targetHost": "www.dafeng.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "大丰区人民政府"
+          "verifiedTitle": "大丰区人民政府",
+          "verificationQuery": "大丰区 大丰区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%A4%A7%E4%B8%B0%E5%8C%BA%20%E5%A4%A7%E4%B8%B0%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320921",
@@ -5617,7 +5865,9 @@
           "targetUrl": "http://www.xiangshui.gov.cn/",
           "targetHost": "www.xiangshui.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "响水县人民政府"
+          "verifiedTitle": "响水县人民政府",
+          "verificationQuery": "响水县 响水县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%93%8D%E6%B0%B4%E5%8E%BF%20%E5%93%8D%E6%B0%B4%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320922",
@@ -5625,7 +5875,9 @@
           "targetUrl": "http://www.binhai.gov.cn/",
           "targetHost": "www.binhai.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "滨海县人民政府"
+          "verifiedTitle": "滨海县人民政府",
+          "verificationQuery": "滨海县 滨海县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%BB%A8%E6%B5%B7%E5%8E%BF%20%E6%BB%A8%E6%B5%B7%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320923",
@@ -5633,7 +5885,9 @@
           "targetUrl": "http://www.funing.gov.cn/",
           "targetHost": "www.funing.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "阜宁县人民政府"
+          "verifiedTitle": "阜宁县人民政府",
+          "verificationQuery": "阜宁县 阜宁县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%98%9C%E5%AE%81%E5%8E%BF%20%E9%98%9C%E5%AE%81%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320924",
@@ -5641,7 +5895,9 @@
           "targetUrl": "http://www.sheyang.gov.cn/",
           "targetHost": "www.sheyang.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "射阳县人民政府"
+          "verifiedTitle": "射阳县人民政府",
+          "verificationQuery": "射阳县 射阳县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%B0%84%E9%98%B3%E5%8E%BF%20%E5%B0%84%E9%98%B3%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320925",
@@ -5649,7 +5905,9 @@
           "targetUrl": "https://www.jianhu.gov.cn/",
           "targetHost": "www.jianhu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "建湖县人民政府"
+          "verifiedTitle": "建湖县人民政府",
+          "verificationQuery": "建湖县 建湖县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%BB%BA%E6%B9%96%E5%8E%BF%20%E5%BB%BA%E6%B9%96%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "320981",
@@ -5657,15 +5915,17 @@
           "targetUrl": "https://www.dongtai.gov.cn/",
           "targetHost": "www.dongtai.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "东台市人民政府"
+          "verifiedTitle": "东台市人民政府",
+          "verificationQuery": "东台市 东台市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%B8%9C%E5%8F%B0%E5%B8%82%20%E4%B8%9C%E5%8F%B0%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
     {
       "sourceUrl": "https://www.yangzhou.gov.cn/",
       "sourceTitle": "扬州市人民政府",
-      "evidence": "官方门户移动端站点导航与 360 公开搜索结果逐项交叉核验；每条 mapping 保存可复现搜索查询、搜索 URL 与已验证标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "evidence": "扬州市人民政府官方门户及公开搜索交叉核验；每条搜索型映射保存独立查询词和可复现搜索 URL。",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.yangzhou.gov.cn/",
       "targetHosts": [
@@ -5683,7 +5943,9 @@
           "targetUrl": "http://www.yzglq.gov.cn/",
           "targetHost": "www.yzglq.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "广陵区人民政府"
+          "verifiedTitle": "广陵区人民政府",
+          "verificationQuery": "广陵区 广陵区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%B9%BF%E9%99%B5%E5%8C%BA%20%E5%B9%BF%E9%99%B5%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321003",
@@ -5691,7 +5953,9 @@
           "targetUrl": "http://www.hj.gov.cn/",
           "targetHost": "www.hj.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "邗江区人民政府"
+          "verifiedTitle": "邗江区人民政府",
+          "verificationQuery": "邗江区 邗江区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%82%97%E6%B1%9F%E5%8C%BA%20%E9%82%97%E6%B1%9F%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321012",
@@ -5699,7 +5963,9 @@
           "targetUrl": "http://jd.yangzhou.gov.cn/",
           "targetHost": "jd.yangzhou.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "江都区人民政府"
+          "verifiedTitle": "江都区人民政府",
+          "verificationQuery": "江都区 江都区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B1%9F%E9%83%BD%E5%8C%BA%20%E6%B1%9F%E9%83%BD%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321023",
@@ -5707,7 +5973,9 @@
           "targetUrl": "https://baoying.yangzhou.gov.cn/",
           "targetHost": "baoying.yangzhou.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "宝应县人民政府"
+          "verifiedTitle": "宝应县人民政府",
+          "verificationQuery": "宝应县 宝应县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%AE%9D%E5%BA%94%E5%8E%BF%20%E5%AE%9D%E5%BA%94%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321081",
@@ -5715,7 +5983,9 @@
           "targetUrl": "http://www.yizheng.gov.cn/",
           "targetHost": "www.yizheng.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "仪征市人民政府"
+          "verifiedTitle": "仪征市人民政府",
+          "verificationQuery": "仪征市 仪征市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%BB%AA%E5%BE%81%E5%B8%82%20%E4%BB%AA%E5%BE%81%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321084",
@@ -5723,7 +5993,9 @@
           "targetUrl": "http://gaoyou.yangzhou.gov.cn/",
           "targetHost": "gaoyou.yangzhou.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "高邮市人民政府"
+          "verifiedTitle": "高邮市人民政府",
+          "verificationQuery": "高邮市 高邮市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%AB%98%E9%82%AE%E5%B8%82%20%E9%AB%98%E9%82%AE%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -5731,7 +6003,7 @@
       "sourceUrl": "https://www.yantai.gov.cn/",
       "sourceTitle": "烟台市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.yantai.gov.cn/",
       "targetHosts": [
@@ -5842,7 +6114,7 @@
       "sourceUrl": "https://www.yichun.gov.cn/",
       "sourceTitle": "宜春市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.yichun.gov.cn/",
       "targetHosts": [
@@ -5872,7 +6144,9 @@
           "targetUrl": "https://www.fengxin.gov.cn/",
           "targetHost": "www.fengxin.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "奉新县人民政府"
+          "verifiedTitle": "奉新县人民政府",
+          "verificationQuery": "奉新县 奉新县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%A5%89%E6%96%B0%E5%8E%BF%20%E5%A5%89%E6%96%B0%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "360922",
@@ -5912,7 +6186,9 @@
           "targetUrl": "http://www.tonggu.gov.cn/",
           "targetHost": "www.tonggu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "铜鼓县人民政府"
+          "verifiedTitle": "铜鼓县人民政府",
+          "verificationQuery": "铜鼓县 铜鼓县人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E9%93%9C%E9%BC%93%E5%8E%BF%20%E9%93%9C%E9%BC%93%E5%8E%BF%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "360981",
@@ -5920,7 +6196,9 @@
           "targetUrl": "https://www.jxfc.gov.cn/",
           "targetHost": "www.jxfc.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "首页 - 丰城市人民政府"
+          "verifiedTitle": "首页 - 丰城市人民政府",
+          "verificationQuery": "丰城市 丰城市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%B8%B0%E5%9F%8E%E5%B8%82%20%E4%B8%B0%E5%9F%8E%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "360982",
@@ -5941,76 +6219,10 @@
       ]
     },
     {
-      "sourceUrl": "https://www.zgsr.gov.cn/",
-      "sourceTitle": "上饶市人民政府",
-      "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
-      "httpStatus": 200,
-      "finalUrl": "https://www.zgsr.gov.cn/",
-      "targetHosts": [
-        "www.jxxz.gov.cn",
-        "www.srx.gov.cn",
-        "www.zgys.gov.cn",
-        "www.yugan.gov.cn",
-        "www.poyang.gov.cn",
-        "www.dxs.gov.cn"
-      ],
-      "targetMappings": [
-        {
-          "regionCode": "361102",
-          "regionName": "信州区",
-          "targetUrl": "http://www.jxxz.gov.cn/",
-          "targetHost": "www.jxxz.gov.cn",
-          "sourceKind": "city-anchor",
-          "verifiedTitle": "信州区人民政府"
-        },
-        {
-          "regionCode": "361104",
-          "regionName": "广信区",
-          "targetUrl": "http://www.srx.gov.cn/",
-          "targetHost": "www.srx.gov.cn",
-          "sourceKind": "city-anchor",
-          "verifiedTitle": "广信区人民政府"
-        },
-        {
-          "regionCode": "361123",
-          "regionName": "玉山县",
-          "targetUrl": "https://www.zgys.gov.cn/",
-          "targetHost": "www.zgys.gov.cn",
-          "sourceKind": "city-anchor",
-          "verifiedTitle": "玉山县人民政府"
-        },
-        {
-          "regionCode": "361127",
-          "regionName": "余干县",
-          "targetUrl": "https://www.yugan.gov.cn/",
-          "targetHost": "www.yugan.gov.cn",
-          "sourceKind": "desktop-search",
-          "verifiedTitle": "余干县人民政府"
-        },
-        {
-          "regionCode": "361128",
-          "regionName": "鄱阳县",
-          "targetUrl": "http://www.poyang.gov.cn/",
-          "targetHost": "www.poyang.gov.cn",
-          "sourceKind": "city-anchor",
-          "verifiedTitle": "鄱阳县人民政府"
-        },
-        {
-          "regionCode": "361181",
-          "regionName": "德兴市",
-          "targetUrl": "https://www.dxs.gov.cn/",
-          "targetHost": "www.dxs.gov.cn",
-          "sourceKind": "desktop-search",
-          "verifiedTitle": "德兴市人民政府"
-        }
-      ]
-    },
-    {
       "sourceUrl": "https://www.zhangzhou.gov.cn/",
       "sourceTitle": "漳州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.zhangzhou.gov.cn/cms/html/zzsrmzf/index.html",
       "targetHosts": [
@@ -6121,7 +6333,7 @@
       "sourceUrl": "https://www.zhenjiang.gov.cn/",
       "sourceTitle": "镇江市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.zhenjiang.gov.cn/",
       "targetHosts": [
@@ -6139,7 +6351,9 @@
           "targetUrl": "http://www.jingkou.gov.cn/",
           "targetHost": "www.jingkou.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "京口区人民政府"
+          "verifiedTitle": "京口区人民政府",
+          "verificationQuery": "京口区 京口区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%BA%AC%E5%8F%A3%E5%8C%BA%20%E4%BA%AC%E5%8F%A3%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321111",
@@ -6147,7 +6361,9 @@
           "targetUrl": "http://www.runzhou.gov.cn/",
           "targetHost": "www.runzhou.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "润州区人民政府"
+          "verifiedTitle": "润州区人民政府",
+          "verificationQuery": "润州区 润州区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%B6%A6%E5%B7%9E%E5%8C%BA%20%E6%B6%A6%E5%B7%9E%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321112",
@@ -6155,7 +6371,9 @@
           "targetUrl": "http://www.dantu.gov.cn/",
           "targetHost": "www.dantu.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "丹徒区人民政府"
+          "verifiedTitle": "丹徒区人民政府",
+          "verificationQuery": "丹徒区 丹徒区人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%B8%B9%E5%BE%92%E5%8C%BA%20%E4%B8%B9%E5%BE%92%E5%8C%BA%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321181",
@@ -6163,7 +6381,9 @@
           "targetUrl": "https://www.danyang.gov.cn/",
           "targetHost": "www.danyang.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "丹阳市人民政府"
+          "verifiedTitle": "丹阳市人民政府",
+          "verificationQuery": "丹阳市 丹阳市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E4%B8%B9%E9%98%B3%E5%B8%82%20%E4%B8%B9%E9%98%B3%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321182",
@@ -6171,7 +6391,9 @@
           "targetUrl": "http://www.yz.gov.cn/",
           "targetHost": "www.yz.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "扬中市人民政府"
+          "verifiedTitle": "扬中市人民政府",
+          "verificationQuery": "扬中市 扬中市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E6%89%AC%E4%B8%AD%E5%B8%82%20%E6%89%AC%E4%B8%AD%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         },
         {
           "regionCode": "321183",
@@ -6179,7 +6401,9 @@
           "targetUrl": "https://www.jurong.gov.cn/",
           "targetHost": "www.jurong.gov.cn",
           "sourceKind": "desktop-search",
-          "verifiedTitle": "句容市人民政府"
+          "verifiedTitle": "句容市人民政府",
+          "verificationQuery": "句容市 句容市人民政府 官网",
+          "verificationUrl": "https://www.baidu.com/s?wd=%E5%8F%A5%E5%AE%B9%E5%B8%82%20%E5%8F%A5%E5%AE%B9%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%20%E5%AE%98%E7%BD%91"
         }
       ]
     },
@@ -6187,7 +6411,7 @@
       "sourceUrl": "https://www.zhoushan.gov.cn/",
       "sourceTitle": "www.zhoushan.gov.cn 政府门户",
       "evidence": "城市政府门户站群中的县级政府链接；逐条打开目标网站并核验页面标题。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.zhoushan.gov.cn/",
       "targetHosts": [
@@ -6235,7 +6459,7 @@
       "sourceUrl": "https://www.zibo.gov.cn/",
       "sourceTitle": "淄博市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.zibo.gov.cn/",
       "targetHosts": [
@@ -6319,7 +6543,7 @@
       "sourceUrl": "https://www.zjtz.gov.cn/",
       "sourceTitle": "台州市人民政府",
       "evidence": "市级政府门户官方站点导航/公开搜索结果交叉核验；仅收录独立县级政府门户，目标页面实访标题匹配。",
-      "checkedAt": "2026-10-11T17:25:07+08:00",
+      "checkedAt": "2026-10-11T17:32:37+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.zjtz.gov.cn/",
       "targetHosts": [

@@ -114,7 +114,7 @@
     "siteName": "南京市六合区人民政府",
     "url": "http://www.njlh.gov.cn/",
     "sourceUrl": "https://www.nanjing.gov.cn/",
-    "sourceKind": "desktop-search"
+    "sourceKind": "mobile-search"
   },
   {
     "regionCode": "320117",
@@ -5997,8 +5997,8 @@
     "agencyName": "信州区人民政府",
     "siteName": "信州区人民政府",
     "url": "http://www.jxxz.gov.cn/",
-    "sourceUrl": "https://www.zgsr.gov.cn/",
-    "sourceKind": "city-anchor"
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "361103",
@@ -6023,8 +6023,8 @@
     "agencyName": "广信区人民政府",
     "siteName": "广信区人民政府",
     "url": "http://www.srx.gov.cn/",
-    "sourceUrl": "https://www.zgsr.gov.cn/",
-    "sourceKind": "city-anchor"
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "361123",
@@ -6036,8 +6036,8 @@
     "agencyName": "玉山县人民政府",
     "siteName": "玉山县人民政府",
     "url": "https://www.zgys.gov.cn/",
-    "sourceUrl": "https://www.zgsr.gov.cn/",
-    "sourceKind": "city-anchor"
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "361124",
@@ -6088,7 +6088,7 @@
     "agencyName": "余干县人民政府",
     "siteName": "余干县人民政府",
     "url": "https://www.yugan.gov.cn/",
-    "sourceUrl": "https://www.zgsr.gov.cn/",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
     "sourceKind": "desktop-search"
   },
   {
@@ -6101,8 +6101,8 @@
     "agencyName": "鄱阳县人民政府",
     "siteName": "鄱阳县人民政府",
     "url": "http://www.poyang.gov.cn/",
-    "sourceUrl": "https://www.zgsr.gov.cn/",
-    "sourceKind": "city-anchor"
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "361129",
@@ -6140,7 +6140,7 @@
     "agencyName": "德兴市人民政府",
     "siteName": "德兴市人民政府",
     "url": "https://www.dxs.gov.cn/",
-    "sourceUrl": "https://www.zgsr.gov.cn/",
+    "sourceUrl": "http://www.jiangxi.gov.cn/",
     "sourceKind": "desktop-search"
   },
   {
@@ -7475,12 +7475,12 @@
     "level": "county",
     "parentCode": "371400",
     "expected": true,
-    "id": "371403-government-www-lingcheng-gov-cn",
+    "id": "371403-government-www-dzlc-gov-cn",
     "agencyName": "陵城区人民政府",
-    "siteName": "陵城区人民政府",
-    "url": "http://www.lingcheng.gov.cn/",
+    "siteName": "中国·陵城区--陵城区政府门户网站",
+    "url": "http://www.dzlc.gov.cn/",
     "sourceUrl": "https://www.dezhou.gov.cn/",
-    "sourceKind": "city-anchor"
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "371422",
@@ -7579,12 +7579,12 @@
     "level": "county",
     "parentCode": "371400",
     "expected": true,
-    "id": "371481-government-www-leling-gov-cn",
+    "id": "371481-government-www-laoling-gov-cn",
     "agencyName": "乐陵市人民政府",
     "siteName": "乐陵市人民政府",
-    "url": "http://www.leling.gov.cn/",
+    "url": "http://www.laoling.gov.cn/",
     "sourceUrl": "https://www.dezhou.gov.cn/",
-    "sourceKind": "city-anchor"
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "371482",
@@ -7592,12 +7592,12 @@
     "level": "county",
     "parentCode": "371400",
     "expected": true,
-    "id": "371482-government-www-yucheng-gov-cn",
+    "id": "371482-government-www-yuchengshi-gov-cn",
     "agencyName": "禹城市人民政府",
     "siteName": "禹城市人民政府",
-    "url": "http://www.yucheng.gov.cn/",
+    "url": "http://www.yuchengshi.gov.cn/",
     "sourceUrl": "https://www.dezhou.gov.cn/",
-    "sourceKind": "city-anchor"
+    "sourceKind": "desktop-search"
   },
   {
     "regionCode": "371502",
