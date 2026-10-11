@@ -7,5 +7,86 @@
     "url": "https://www.jl.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.jl.gov.cn/"
+  },
+  {
+    "id": "220100-government-changchun-gov-cn",
+    "regionCode": "220100",
+    "name": "长春市人民政府",
+    "siteName": "长春市人民政府",
+    "url": "http://www.changchun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "id": "220200-government-jlcity-gov-cn",
+    "regionCode": "220200",
+    "name": "吉林市人民政府",
+    "siteName": "吉林市人民政府",
+    "url": "https://www.jlcity.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "id": "220300-government-siping-gov-cn",
+    "regionCode": "220300",
+    "name": "四平市人民政府",
+    "siteName": "四平市人民政府",
+    "url": "http://www.siping.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "id": "220400-government-liaoyuan-gov-cn",
+    "regionCode": "220400",
+    "name": "辽源市人民政府",
+    "siteName": "辽源市人民政府",
+    "url": "https://www.liaoyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "id": "220500-government-tonghua-gov-cn",
+    "regionCode": "220500",
+    "name": "通化市人民政府",
+    "siteName": "通化市人民政府",
+    "url": "https://www.tonghua.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "id": "220600-government-cbs-gov-cn",
+    "regionCode": "220600",
+    "name": "白山市人民政府",
+    "siteName": "白山市人民政府",
+    "url": "https://www.cbs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "id": "220700-government-jlsy-gov-cn",
+    "regionCode": "220700",
+    "name": "松原市人民政府",
+    "siteName": "松原市人民政府",
+    "url": "https://www.jlsy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "id": "220800-government-jlbc-gov-cn",
+    "regionCode": "220800",
+    "name": "白城市人民政府",
+    "siteName": "白城市人民政府",
+    "url": "http://www.jlbc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "id": "222400-government-yanbian-gov-cn",
+    "regionCode": "222400",
+    "name": "延边朝鲜族自治州人民政府",
+    "siteName": "延边朝鲜族自治州人民政府",
+    "url": "http://www.yanbian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
   }
 ]

@@ -7,5 +7,149 @@
     "url": "https://www.tj.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120101-government-tjhp-gov-cn",
+    "regionCode": "120101",
+    "name": "天津市和平区人民政府",
+    "siteName": "天津市和平区人民政府",
+    "url": "https://www.tjhp.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120102-government-tjhd-gov-cn",
+    "regionCode": "120102",
+    "name": "天津市河东区人民政府",
+    "siteName": "天津市河东区人民政府",
+    "url": "https://www.tjhd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120103-government-tjhx-gov-cn",
+    "regionCode": "120103",
+    "name": "天津市河西区人民政府",
+    "siteName": "天津市河西区人民政府",
+    "url": "https://www.tjhx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120104-government-tjnk-gov-cn",
+    "regionCode": "120104",
+    "name": "天津市南开区人民政府",
+    "siteName": "天津市南开区人民政府",
+    "url": "https://www.tjnk.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120105-government-tjhb-gov-cn",
+    "regionCode": "120105",
+    "name": "天津市河北区人民政府",
+    "siteName": "天津市河北区人民政府",
+    "url": "http://www.tjhb.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120106-government-tjhq-gov-cn",
+    "regionCode": "120106",
+    "name": "天津市红桥区人民政府",
+    "siteName": "天津市红桥区人民政府",
+    "url": "http://www.tjhq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120110-government-tjdl-gov-cn",
+    "regionCode": "120110",
+    "name": "天津市东丽区人民政府",
+    "siteName": "天津市东丽区人民政府",
+    "url": "https://www.tjdl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120111-government-tjxq-gov-cn",
+    "regionCode": "120111",
+    "name": "天津市西青区人民政府",
+    "siteName": "天津市西青区人民政府",
+    "url": "https://www.tjxq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120112-government-tjjn-gov-cn",
+    "regionCode": "120112",
+    "name": "天津市津南区人民政府",
+    "siteName": "天津市津南区人民政府",
+    "url": "https://www.tjjn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120113-government-tjbc-gov-cn",
+    "regionCode": "120113",
+    "name": "天津市北辰区人民政府",
+    "siteName": "天津市北辰区人民政府",
+    "url": "https://www.tjbc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120114-government-tjwq-gov-cn",
+    "regionCode": "120114",
+    "name": "天津市武清区人民政府",
+    "siteName": "天津市武清区人民政府",
+    "url": "https://www.tjwq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120115-government-tjbd-gov-cn",
+    "regionCode": "120115",
+    "name": "天津市宝坻区人民政府",
+    "siteName": "天津市宝坻区人民政府",
+    "url": "https://www.tjbd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120116-government-tjbh-gov-cn",
+    "regionCode": "120116",
+    "name": "天津市滨海新区人民政府",
+    "siteName": "天津市滨海新区人民政府",
+    "url": "https://www.tjbh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120117-government-tjnh-gov-cn",
+    "regionCode": "120117",
+    "name": "天津市宁河区人民政府",
+    "siteName": "天津市宁河区人民政府",
+    "url": "https://www.tjnh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120118-government-tjjh-gov-cn",
+    "regionCode": "120118",
+    "name": "天津市静海区人民政府",
+    "siteName": "天津市静海区人民政府",
+    "url": "http://www.tjjh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "id": "120119-government-tjjz-gov-cn",
+    "regionCode": "120119",
+    "name": "天津市蓟州区人民政府",
+    "siteName": "天津市蓟州区人民政府",
+    "url": "https://www.tjjz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tj.gov.cn/"
   }
 ]

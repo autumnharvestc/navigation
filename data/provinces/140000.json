@@ -7,5 +7,104 @@
     "url": "https://www.shanxi.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "id": "140100-government-taiyuan-gov-cn",
+    "regionCode": "140100",
+    "name": "太原市人民政府",
+    "siteName": "太原市人民政府",
+    "url": "https://www.taiyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "id": "140200-government-dt-gov-cn",
+    "regionCode": "140200",
+    "name": "大同市人民政府",
+    "siteName": "大同市人民政府",
+    "url": "https://www.dt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "id": "140300-government-yq-gov-cn",
+    "regionCode": "140300",
+    "name": "阳泉市人民政府",
+    "siteName": "阳泉市人民政府",
+    "url": "https://www.yq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "id": "140400-government-changzhi-gov-cn",
+    "regionCode": "140400",
+    "name": "长治市人民政府",
+    "siteName": "长治市人民政府",
+    "url": "https://www.changzhi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "id": "140500-government-jcgov-gov-cn",
+    "regionCode": "140500",
+    "name": "晋城市人民政府",
+    "siteName": "晋城市人民政府",
+    "url": "https://www.jcgov.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "id": "140600-government-shuozhou-gov-cn",
+    "regionCode": "140600",
+    "name": "朔州市人民政府",
+    "siteName": "朔州市人民政府",
+    "url": "http://www.shuozhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "id": "140700-government-sxjz-gov-cn",
+    "regionCode": "140700",
+    "name": "晋中市人民政府",
+    "siteName": "晋中市人民政府",
+    "url": "https://www.sxjz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "id": "140800-government-yuncheng-gov-cn",
+    "regionCode": "140800",
+    "name": "运城市人民政府",
+    "siteName": "运城市人民政府",
+    "url": "https://www.yuncheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "id": "140900-government-sxxz-gov-cn",
+    "regionCode": "140900",
+    "name": "忻州市人民政府",
+    "siteName": "忻州市人民政府",
+    "url": "https://www.sxxz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "id": "141000-government-linfen-gov-cn",
+    "regionCode": "141000",
+    "name": "临汾市人民政府",
+    "siteName": "临汾市人民政府",
+    "url": "http://www.linfen.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "id": "141100-government-lvliang-gov-cn",
+    "regionCode": "141100",
+    "name": "吕梁市人民政府",
+    "siteName": "吕梁市人民政府",
+    "url": "https://www.lvliang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
   }
 ]

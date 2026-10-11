@@ -7,5 +7,113 @@
     "url": "https://www.nmg.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "id": "150100-government-huhhot-gov-cn",
+    "regionCode": "150100",
+    "name": "呼和浩特市人民政府",
+    "siteName": "呼和浩特市人民政府",
+    "url": "http://www.huhhot.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "id": "150200-government-baotou-gov-cn",
+    "regionCode": "150200",
+    "name": "包头市人民政府",
+    "siteName": "包头市人民政府",
+    "url": "https://www.baotou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "id": "150300-government-wuhai-gov-cn",
+    "regionCode": "150300",
+    "name": "乌海市人民政府",
+    "siteName": "乌海市人民政府",
+    "url": "http://www.wuhai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "id": "150400-government-chifeng-gov-cn",
+    "regionCode": "150400",
+    "name": "赤峰市人民政府",
+    "siteName": "赤峰市人民政府",
+    "url": "https://www.chifeng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "id": "150500-government-tongliao-gov-cn",
+    "regionCode": "150500",
+    "name": "通辽市人民政府",
+    "siteName": "通辽市人民政府",
+    "url": "https://www.tongliao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "id": "150600-government-ordos-gov-cn",
+    "regionCode": "150600",
+    "name": "鄂尔多斯市人民政府",
+    "siteName": "鄂尔多斯市人民政府",
+    "url": "https://www.ordos.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "id": "150700-government-hlbe-gov-cn",
+    "regionCode": "150700",
+    "name": "呼伦贝尔市人民政府",
+    "siteName": "呼伦贝尔市人民政府",
+    "url": "https://www.hlbe.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "id": "150800-government-bynr-gov-cn",
+    "regionCode": "150800",
+    "name": "巴彦淖尔市人民政府",
+    "siteName": "巴彦淖尔市人民政府",
+    "url": "https://www.bynr.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "id": "150900-government-wulanchabu-gov-cn",
+    "regionCode": "150900",
+    "name": "乌兰察布市人民政府",
+    "siteName": "乌兰察布市人民政府",
+    "url": "https://www.wulanchabu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "id": "152200-government-xam-gov-cn",
+    "regionCode": "152200",
+    "name": "兴安盟行政公署",
+    "siteName": "兴安盟行政公署",
+    "url": "https://www.xam.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "id": "152500-government-xlgl-gov-cn",
+    "regionCode": "152500",
+    "name": "锡林郭勒盟行政公署",
+    "siteName": "锡林郭勒盟行政公署",
+    "url": "https://www.xlgl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "id": "152900-government-als-gov-cn",
+    "regionCode": "152900",
+    "name": "阿拉善盟行政公署",
+    "siteName": "阿拉善盟行政公署",
+    "url": "http://www.als.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nmg.gov.cn/"
   }
 ]

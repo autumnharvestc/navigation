@@ -7,5 +7,104 @@
     "url": "https://www.hebei.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "id": "130100-government-sjz-gov-cn",
+    "regionCode": "130100",
+    "name": "石家庄市人民政府",
+    "siteName": "石家庄市人民政府",
+    "url": "https://www.sjz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "id": "130200-government-tangshan-gov-cn",
+    "regionCode": "130200",
+    "name": "唐山市人民政府",
+    "siteName": "唐山市人民政府",
+    "url": "http://www.tangshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "id": "130300-government-qhd-gov-cn",
+    "regionCode": "130300",
+    "name": "秦皇岛市人民政府",
+    "siteName": "秦皇岛市人民政府",
+    "url": "https://www.qhd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "id": "130400-government-hd-gov-cn",
+    "regionCode": "130400",
+    "name": "邯郸市人民政府",
+    "siteName": "邯郸市人民政府",
+    "url": "https://www.hd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "id": "130500-government-xingtai-gov-cn",
+    "regionCode": "130500",
+    "name": "邢台市人民政府",
+    "siteName": "邢台市人民政府",
+    "url": "http://www.xingtai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "id": "130600-government-baoding-gov-cn",
+    "regionCode": "130600",
+    "name": "保定市人民政府",
+    "siteName": "保定市人民政府",
+    "url": "https://www.baoding.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "id": "130700-government-zjk-gov-cn",
+    "regionCode": "130700",
+    "name": "张家口市人民政府",
+    "siteName": "张家口市人民政府",
+    "url": "https://www.zjk.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "id": "130800-government-chengde-gov-cn",
+    "regionCode": "130800",
+    "name": "承德市人民政府",
+    "siteName": "承德市人民政府",
+    "url": "https://www.chengde.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "id": "130900-government-cangzhou-gov-cn",
+    "regionCode": "130900",
+    "name": "沧州市人民政府",
+    "siteName": "沧州市人民政府",
+    "url": "https://www.cangzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "id": "131000-government-lf-gov-cn",
+    "regionCode": "131000",
+    "name": "廊坊市人民政府",
+    "siteName": "廊坊市人民政府",
+    "url": "https://www.lf.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "id": "131100-government-hengshui-gov-cn",
+    "regionCode": "131100",
+    "name": "衡水市人民政府",
+    "siteName": "衡水市人民政府",
+    "url": "https://www.hengshui.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hebei.gov.cn/"
   }
 ]

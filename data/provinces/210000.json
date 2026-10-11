@@ -7,5 +7,131 @@
     "url": "https://www.ln.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "210100-government-shenyang-gov-cn",
+    "regionCode": "210100",
+    "name": "沈阳市人民政府",
+    "siteName": "沈阳市人民政府",
+    "url": "https://www.shenyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "210200-government-dl-gov-cn",
+    "regionCode": "210200",
+    "name": "大连市人民政府",
+    "siteName": "大连市人民政府",
+    "url": "https://www.dl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "210300-government-anshan-gov-cn",
+    "regionCode": "210300",
+    "name": "鞍山市人民政府",
+    "siteName": "鞍山市人民政府",
+    "url": "http://www.anshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "210400-government-fushun-gov-cn",
+    "regionCode": "210400",
+    "name": "抚顺市人民政府",
+    "siteName": "抚顺市人民政府",
+    "url": "https://www.fushun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "210500-government-benxi-gov-cn",
+    "regionCode": "210500",
+    "name": "本溪市人民政府",
+    "siteName": "本溪市人民政府",
+    "url": "https://www.benxi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "210600-government-dandong-gov-cn",
+    "regionCode": "210600",
+    "name": "丹东市人民政府",
+    "siteName": "丹东市人民政府",
+    "url": "https://www.dandong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "210700-government-jz-gov-cn",
+    "regionCode": "210700",
+    "name": "锦州市人民政府",
+    "siteName": "锦州市人民政府",
+    "url": "https://www.jz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "210800-government-yingkou-gov-cn",
+    "regionCode": "210800",
+    "name": "营口市人民政府",
+    "siteName": "营口市人民政府",
+    "url": "https://www.yingkou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "210900-government-fuxin-gov-cn",
+    "regionCode": "210900",
+    "name": "阜新市人民政府",
+    "siteName": "阜新市人民政府",
+    "url": "https://www.fuxin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "211000-government-liaoyang-gov-cn",
+    "regionCode": "211000",
+    "name": "辽阳市人民政府",
+    "siteName": "辽阳市人民政府",
+    "url": "http://www.liaoyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "211100-government-panjin-gov-cn",
+    "regionCode": "211100",
+    "name": "盘锦市人民政府",
+    "siteName": "盘锦市人民政府",
+    "url": "https://www.panjin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "211200-government-tieling-gov-cn",
+    "regionCode": "211200",
+    "name": "铁岭市人民政府",
+    "siteName": "铁岭市人民政府",
+    "url": "https://www.tieling.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "211300-government-chaoyang-gov-cn",
+    "regionCode": "211300",
+    "name": "朝阳市人民政府",
+    "siteName": "朝阳市人民政府",
+    "url": "https://www.chaoyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "id": "211400-government-hld-gov-cn",
+    "regionCode": "211400",
+    "name": "葫芦岛市人民政府",
+    "siteName": "葫芦岛市人民政府",
+    "url": "https://www.hld.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ln.gov.cn/"
   }
 ]

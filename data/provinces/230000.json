@@ -7,5 +7,122 @@
     "url": "https://www.hlj.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "230100-government-harbin-gov-cn",
+    "regionCode": "230100",
+    "name": "哈尔滨市人民政府",
+    "siteName": "哈尔滨市人民政府",
+    "url": "https://www.harbin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "230200-government-qqhr-gov-cn",
+    "regionCode": "230200",
+    "name": "齐齐哈尔市人民政府",
+    "siteName": "齐齐哈尔市人民政府",
+    "url": "https://www.qqhr.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "230300-government-jixi-gov-cn",
+    "regionCode": "230300",
+    "name": "鸡西市人民政府",
+    "siteName": "鸡西市人民政府",
+    "url": "https://www.jixi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "230400-government-hegang-gov-cn",
+    "regionCode": "230400",
+    "name": "鹤岗市人民政府",
+    "siteName": "鹤岗市人民政府",
+    "url": "https://www.hegang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "230500-government-shuangyashan-gov-cn",
+    "regionCode": "230500",
+    "name": "双鸭山市人民政府",
+    "siteName": "双鸭山市人民政府",
+    "url": "http://www.shuangyashan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "230600-government-daqing-gov-cn",
+    "regionCode": "230600",
+    "name": "大庆市人民政府",
+    "siteName": "大庆市人民政府",
+    "url": "https://www.daqing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "230700-government-yc-gov-cn",
+    "regionCode": "230700",
+    "name": "伊春市人民政府",
+    "siteName": "伊春市人民政府",
+    "url": "https://www.yc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "230800-government-jms-gov-cn",
+    "regionCode": "230800",
+    "name": "佳木斯市人民政府",
+    "siteName": "佳木斯市人民政府",
+    "url": "https://www.jms.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "230900-government-qth-gov-cn",
+    "regionCode": "230900",
+    "name": "七台河市人民政府",
+    "siteName": "七台河市人民政府",
+    "url": "https://www.qth.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "231000-government-mdj-gov-cn",
+    "regionCode": "231000",
+    "name": "牡丹江市人民政府",
+    "siteName": "牡丹江市人民政府",
+    "url": "https://www.mdj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "231100-government-heihe-gov-cn",
+    "regionCode": "231100",
+    "name": "黑河市人民政府",
+    "siteName": "黑河市人民政府",
+    "url": "https://www.heihe.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "231200-government-suihua-gov-cn",
+    "regionCode": "231200",
+    "name": "绥化市人民政府",
+    "siteName": "绥化市人民政府",
+    "url": "https://www.suihua.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "id": "232700-government-dxal-gov-cn",
+    "regionCode": "232700",
+    "name": "大兴安岭地区行政公署",
+    "siteName": "大兴安岭地区行政公署",
+    "url": "https://www.dxal.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hlj.gov.cn/"
   }
 ]
