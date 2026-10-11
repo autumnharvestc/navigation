@@ -76,12 +76,13 @@ describe('national region tree data', () => {
     expect(regions.some((region) => region.name === '台湾省')).toBe(false);
   });
 
-  it('contains at least 2800 counties and every county has a city parent', async () => {
+  it('contains exactly 341 cities and 2847 counties with valid city parents', async () => {
     const regions = await readJson<Region[]>('regions.json');
     const byCode = new Map(regions.map((region) => [region.code, region]));
     const counties = regions.filter((region) => region.level === 'county');
 
-    expect(counties.length).toBeGreaterThanOrEqual(2800);
+    expect(regions.filter((region) => region.level === 'city')).toHaveLength(341);
+    expect(counties).toHaveLength(2847);
     for (const county of counties) {
       expect(byCode.get(county.parentCode as string)?.level, `${county.code} city parent`).toBe(
         'city',

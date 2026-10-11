@@ -1,10 +1,16 @@
+import { mkdtemp, readdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import {
   buildRegionTree,
+  createOfficialListFetcher,
   createRegionsMeta,
   parseOfficialListResponse,
+  writeRegionData,
   type OfficialRegionNode,
 } from '../scripts/import-regions';
+import { MAINLAND_PROVINCE_CODES } from '../scripts/region-import-lib';
 
 function node(
   code: string,
@@ -148,5 +154,114 @@ describe('prefecture-level cities without county records', () => {
     });
     expect(result.regions.filter((region) => region.parentCode === '441900')).toEqual([]);
     expect(result.counts.county).toBe(0);
+  });
+});
+
+describe('region import validation failures', () => {
+  it('rejects empty county-level children for ordinary prefecture-level cities', () => {
+    const ordinaryRoot = node('00', null, 0, [
+      node('130000000000', '河北省', 1, [node('130100000000', '石家庄市', 2)]),
+    ]);
+
+    expect(() =>
+      buildRegionTree(
+        parseOfficialListResponse({ data: ordinaryRoot, status: 200 }),
+        new Map([['130100000000', []]]),
+        { requireAllProvinces: false },
+      ),
+    ).toThrow(/no county-level data|county-level/i);
+  });
+
+  it('requires every stable grouping when all provinces are required', () => {
+    const groupedCountyCodes = new Map([
+      ['110000000000', ['110101000000']],
+      ['120000000000', ['120101000000']],
+      ['310000000000', ['310101000000']],
+      ['500000000000', ['500101000000']],
+      ['410000000000', ['419001000000']],
+      ['420000000000', ['429004000000']],
+      ['460000000000', ['469001000000']],
+    ]);
+    const completeProvinceRoot = node(
+      '00',
+      null,
+      0,
+      Array.from(MAINLAND_PROVINCE_CODES, (code) =>
+        node(
+          `${code}000000`,
+          `测试省${code.slice(0, 2)}`,
+          1,
+          (groupedCountyCodes.get(`${code}000000`) ?? []).map((countyCode) =>
+            node(countyCode, `测试县${countyCode.slice(4, 6)}`, 3),
+          ),
+        ),
+      ),
+    );
+
+    expect(() =>
+      buildRegionTree(
+        parseOfficialListResponse({ data: completeProvinceRoot, status: 200 }),
+        new Map(),
+      ),
+    ).toThrow(/missing required grouping 659000/);
+  });
+
+  it('fails after retry attempts are exhausted', async () => {
+    let calls = 0;
+    const fetchImpl: typeof fetch = async () => {
+      calls += 1;
+      throw new Error('network down');
+    };
+
+    await expect(
+      createOfficialListFetcher(fetchImpl)('https://example.test/regions', 2),
+    ).rejects.toThrow('network down');
+    expect(calls).toBe(2);
+  });
+});
+
+describe('region data file transaction', () => {
+  const tree = {
+    regions: [
+      { code: 'CN', name: '中国大陆', level: 'country' as const, parentCode: null, sort: 0 },
+      { code: '110000', name: '北京市', level: 'province' as const, parentCode: 'CN', sort: 1 },
+    ],
+    counts: { country: 1, province: 1, city: 0, county: 0 },
+  };
+
+  it('rolls both files back when the second publish rename fails', async () => {
+    const rootDir = await mkdtemp(join(tmpdir(), 'gov-nav-region-write-'));
+    const regionsPath = join(rootDir, 'regions.json');
+    const metaPath = join(rootDir, 'regions.meta.json');
+    const oldRegions = 'old regions\n';
+    const oldMeta = 'old meta\n';
+    let renameCalls = 0;
+
+    try {
+      await writeFile(regionsPath, oldRegions, 'utf8');
+      await writeFile(metaPath, oldMeta, 'utf8');
+
+      await expect(
+        writeRegionData(tree, '2026-10-11T01:43:07.000Z', {
+          dataDir: rootDir,
+          operations: {
+            rename: async (from, to) => {
+              renameCalls += 1;
+              if (renameCalls === 2) throw new Error('simulated second rename failure');
+              await rename(from, to);
+            },
+          },
+        }),
+      ).rejects.toThrow('simulated second rename failure');
+
+      expect(await readFile(regionsPath, 'utf8')).toBe(oldRegions);
+      expect(await readFile(metaPath, 'utf8')).toBe(oldMeta);
+      const leftovers = (await readdir(rootDir)).filter(
+        (file) => file.endsWith('.new') || file.endsWith('.bak'),
+      );
+      expect(leftovers).toEqual([]);
+    } finally {
+      await rm(rootDir, { recursive: true, force: true });
+    }
   });
 });

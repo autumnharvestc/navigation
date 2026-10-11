@@ -1,11 +1,10 @@
-import { mkdir, rename, rm, writeFile } from 'node:fs/promises';
-import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
+import { writeRegionData as writeRegionDataImpl } from './region-write-transaction';
+export { writeRegionDataImpl as writeRegionData };
 import {
   MAINLAND_PROVINCE_CODES,
   SOURCE_URL,
   buildRegionTree,
-  createRegionsMeta,
   parseOfficialListResponse,
   type OfficialRegionNode,
   type RegionTree,
@@ -111,35 +110,9 @@ export async function retrieveRegionTree(
   return buildRegionTree(root, cityChildrenByCode);
 }
 
-async function writeRegionData(tree: RegionTree, retrievedAt: string): Promise<void> {
-  const dataDir = join(process.cwd(), 'data');
-  const regionsPath = join(dataDir, 'regions.json');
-  const metaPath = join(dataDir, 'regions.meta.json');
-  const regionsTemporaryPath = `${regionsPath}.${process.pid}.new`;
-  const metaTemporaryPath = `${metaPath}.${process.pid}.new`;
-  await mkdir(dataDir, { recursive: true });
-
-  try {
-    await writeFile(regionsTemporaryPath, `${JSON.stringify(tree.regions, null, 2)}\n`, 'utf8');
-    await writeFile(
-      metaTemporaryPath,
-      `${JSON.stringify(createRegionsMeta(tree.counts, retrievedAt), null, 2)}\n`,
-      'utf8',
-    );
-    await rename(regionsTemporaryPath, regionsPath);
-    await rename(metaTemporaryPath, metaPath);
-  } catch (error) {
-    await Promise.all([
-      rm(regionsTemporaryPath, { force: true }),
-      rm(metaTemporaryPath, { force: true }),
-    ]);
-    throw error;
-  }
-}
-
 export async function importRegions(fetchImpl: typeof fetch = fetch): Promise<RegionTree> {
   const tree = await retrieveRegionTree(createOfficialListFetcher(fetchImpl));
-  await writeRegionData(tree, new Date().toISOString());
+  await writeRegionDataImpl(tree, new Date().toISOString());
   console.log(
     `imported regions: country=${tree.counts.country}, province=${tree.counts.province}, city=${tree.counts.city}, county=${tree.counts.county}`,
   );

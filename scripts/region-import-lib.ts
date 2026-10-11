@@ -54,6 +54,8 @@ export const DIRECT_COUNTY_GROUPS = new Map([
   ['650000', { code: '659000', name: '自治区直辖县级行政区划' }],
 ]);
 
+export const DIRECT_ADMIN_CITY_CODES = new Set(['441900', '442000', '460400', '620200']);
+
 export type OfficialRegionNode = {
   code: string;
   name: string | null;
@@ -156,6 +158,7 @@ export function buildRegionTree(
 ): RegionTree {
   const regions: Region[] = [];
   const seenCodes = new Set<string>();
+  const createdGroupingCodes = new Set<string>();
   appendRegion(regions, seenCodes, {
     code: 'CN',
     name: COVERAGE,
@@ -210,11 +213,14 @@ export function buildRegionTree(
       });
 
       const fetchedChildren = cityChildrenByCode.get(cityNode.code);
-      const childNodes = fetchedChildren ?? cityNode.children ?? [];
-      if (!fetchedChildren && !cityNode.children?.length) {
-        throw new Error(`missing county-level data for city ${cityNode.code}`);
+      const childNodes = [...(fetchedChildren ?? cityNode.children ?? [])];
+      if (
+        childNodes.every((child) => child.level !== 3) &&
+        !DIRECT_ADMIN_CITY_CODES.has(cityCode)
+      ) {
+        throw new Error(`city ${cityCode} has no county-level data`);
       }
-      appendCountyNodes(regions, seenCodes, [...childNodes], cityCode);
+      appendCountyNodes(regions, seenCodes, childNodes, cityCode);
     }
 
     const grouping =
@@ -230,9 +236,22 @@ export function buildRegionTree(
         parentCode: provinceCode,
         sort: citySort,
       });
+      createdGroupingCodes.add(grouping.code);
       appendCountyNodes(regions, seenCodes, directCountyNodes, grouping.code);
     } else if (grouping && MUNICIPALITY_GROUPS.has(provinceCode)) {
       throw new Error(`municipality ${provinceCode} has no county-level districts`);
+    }
+  }
+
+  if (options.requireAllProvinces !== false) {
+    const requiredGroupingCodes = [
+      ...MUNICIPALITY_GROUPS.values(),
+      ...DIRECT_COUNTY_GROUPS.values(),
+    ].map((grouping) => grouping.code);
+    for (const requiredCode of requiredGroupingCodes) {
+      if (!createdGroupingCodes.has(requiredCode)) {
+        throw new Error(`missing required grouping ${requiredCode}`);
+      }
     }
   }
 
