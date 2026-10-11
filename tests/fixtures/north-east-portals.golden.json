@@ -1,0 +1,776 @@
+[
+  {
+    "regionCode": "120101",
+    "regionName": "和平区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市和平区人民政府",
+    "url": "https://www.tjhp.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120102",
+    "regionName": "河东区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市河东区人民政府",
+    "url": "https://www.tjhd.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120103",
+    "regionName": "河西区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市河西区人民政府",
+    "url": "https://www.tjhx.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120104",
+    "regionName": "南开区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市南开区人民政府",
+    "url": "https://www.tjnk.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120105",
+    "regionName": "河北区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市河北区人民政府",
+    "url": "http://www.tjhb.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120106",
+    "regionName": "红桥区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市红桥区人民政府",
+    "url": "http://www.tjhq.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120110",
+    "regionName": "东丽区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市东丽区人民政府",
+    "url": "https://www.tjdl.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120111",
+    "regionName": "西青区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市西青区人民政府",
+    "url": "https://www.tjxq.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120112",
+    "regionName": "津南区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市津南区人民政府",
+    "url": "https://www.tjjn.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120113",
+    "regionName": "北辰区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市北辰区人民政府",
+    "url": "https://www.tjbc.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120114",
+    "regionName": "武清区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市武清区人民政府",
+    "url": "https://www.tjwq.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120115",
+    "regionName": "宝坻区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市宝坻区人民政府",
+    "url": "https://www.tjbd.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120116",
+    "regionName": "滨海新区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市滨海新区人民政府",
+    "url": "https://www.tjbh.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120117",
+    "regionName": "宁河区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市宁河区人民政府",
+    "url": "https://www.tjnh.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120118",
+    "regionName": "静海区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市静海区人民政府",
+    "url": "http://www.tjjh.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "120119",
+    "regionName": "蓟州区",
+    "level": "county",
+    "parentCode": "120100",
+    "agencyName": "天津市蓟州区人民政府",
+    "url": "https://www.tjjz.gov.cn/",
+    "sourceUrl": "https://www.tj.gov.cn/"
+  },
+  {
+    "regionCode": "130100",
+    "regionName": "石家庄市",
+    "level": "city",
+    "parentCode": "130000",
+    "agencyName": "石家庄市人民政府",
+    "url": "https://www.sjz.gov.cn/",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "regionCode": "130200",
+    "regionName": "唐山市",
+    "level": "city",
+    "parentCode": "130000",
+    "agencyName": "唐山市人民政府",
+    "url": "http://www.tangshan.gov.cn/",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "regionCode": "130300",
+    "regionName": "秦皇岛市",
+    "level": "city",
+    "parentCode": "130000",
+    "agencyName": "秦皇岛市人民政府",
+    "url": "https://www.qhd.gov.cn/",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "regionCode": "130400",
+    "regionName": "邯郸市",
+    "level": "city",
+    "parentCode": "130000",
+    "agencyName": "邯郸市人民政府",
+    "url": "https://www.hd.gov.cn/",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "regionCode": "130500",
+    "regionName": "邢台市",
+    "level": "city",
+    "parentCode": "130000",
+    "agencyName": "邢台市人民政府",
+    "url": "http://www.xingtai.gov.cn/",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "regionCode": "130600",
+    "regionName": "保定市",
+    "level": "city",
+    "parentCode": "130000",
+    "agencyName": "保定市人民政府",
+    "url": "https://www.baoding.gov.cn/",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "regionCode": "130700",
+    "regionName": "张家口市",
+    "level": "city",
+    "parentCode": "130000",
+    "agencyName": "张家口市人民政府",
+    "url": "https://www.zjk.gov.cn/",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "regionCode": "130800",
+    "regionName": "承德市",
+    "level": "city",
+    "parentCode": "130000",
+    "agencyName": "承德市人民政府",
+    "url": "https://www.chengde.gov.cn/",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "regionCode": "130900",
+    "regionName": "沧州市",
+    "level": "city",
+    "parentCode": "130000",
+    "agencyName": "沧州市人民政府",
+    "url": "https://www.cangzhou.gov.cn/",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "regionCode": "131000",
+    "regionName": "廊坊市",
+    "level": "city",
+    "parentCode": "130000",
+    "agencyName": "廊坊市人民政府",
+    "url": "https://www.lf.gov.cn/",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "regionCode": "131100",
+    "regionName": "衡水市",
+    "level": "city",
+    "parentCode": "130000",
+    "agencyName": "衡水市人民政府",
+    "url": "https://www.hengshui.gov.cn/",
+    "sourceUrl": "https://www.hebei.gov.cn/"
+  },
+  {
+    "regionCode": "140100",
+    "regionName": "太原市",
+    "level": "city",
+    "parentCode": "140000",
+    "agencyName": "太原市人民政府",
+    "url": "https://www.taiyuan.gov.cn/",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "regionCode": "140200",
+    "regionName": "大同市",
+    "level": "city",
+    "parentCode": "140000",
+    "agencyName": "大同市人民政府",
+    "url": "https://www.dt.gov.cn/",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "regionCode": "140300",
+    "regionName": "阳泉市",
+    "level": "city",
+    "parentCode": "140000",
+    "agencyName": "阳泉市人民政府",
+    "url": "https://www.yq.gov.cn/",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "regionCode": "140400",
+    "regionName": "长治市",
+    "level": "city",
+    "parentCode": "140000",
+    "agencyName": "长治市人民政府",
+    "url": "https://www.changzhi.gov.cn/",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "regionCode": "140500",
+    "regionName": "晋城市",
+    "level": "city",
+    "parentCode": "140000",
+    "agencyName": "晋城市人民政府",
+    "url": "https://www.jcgov.gov.cn/",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "regionCode": "140600",
+    "regionName": "朔州市",
+    "level": "city",
+    "parentCode": "140000",
+    "agencyName": "朔州市人民政府",
+    "url": "http://www.shuozhou.gov.cn/",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "regionCode": "140700",
+    "regionName": "晋中市",
+    "level": "city",
+    "parentCode": "140000",
+    "agencyName": "晋中市人民政府",
+    "url": "https://www.sxjz.gov.cn/",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "regionCode": "140800",
+    "regionName": "运城市",
+    "level": "city",
+    "parentCode": "140000",
+    "agencyName": "运城市人民政府",
+    "url": "https://www.yuncheng.gov.cn/",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "regionCode": "140900",
+    "regionName": "忻州市",
+    "level": "city",
+    "parentCode": "140000",
+    "agencyName": "忻州市人民政府",
+    "url": "https://www.sxxz.gov.cn/",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "regionCode": "141000",
+    "regionName": "临汾市",
+    "level": "city",
+    "parentCode": "140000",
+    "agencyName": "临汾市人民政府",
+    "url": "http://www.linfen.gov.cn/",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "regionCode": "141100",
+    "regionName": "吕梁市",
+    "level": "city",
+    "parentCode": "140000",
+    "agencyName": "吕梁市人民政府",
+    "url": "https://www.lvliang.gov.cn/",
+    "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "regionCode": "150100",
+    "regionName": "呼和浩特市",
+    "level": "city",
+    "parentCode": "150000",
+    "agencyName": "呼和浩特市人民政府",
+    "url": "http://www.huhhot.gov.cn/",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "regionCode": "150200",
+    "regionName": "包头市",
+    "level": "city",
+    "parentCode": "150000",
+    "agencyName": "包头市人民政府",
+    "url": "https://www.baotou.gov.cn/",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "regionCode": "150300",
+    "regionName": "乌海市",
+    "level": "city",
+    "parentCode": "150000",
+    "agencyName": "乌海市人民政府",
+    "url": "http://www.wuhai.gov.cn/",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "regionCode": "150400",
+    "regionName": "赤峰市",
+    "level": "city",
+    "parentCode": "150000",
+    "agencyName": "赤峰市人民政府",
+    "url": "https://www.chifeng.gov.cn/",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "regionCode": "150500",
+    "regionName": "通辽市",
+    "level": "city",
+    "parentCode": "150000",
+    "agencyName": "通辽市人民政府",
+    "url": "https://www.tongliao.gov.cn/",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "regionCode": "150600",
+    "regionName": "鄂尔多斯市",
+    "level": "city",
+    "parentCode": "150000",
+    "agencyName": "鄂尔多斯市人民政府",
+    "url": "https://www.ordos.gov.cn/",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "regionCode": "150700",
+    "regionName": "呼伦贝尔市",
+    "level": "city",
+    "parentCode": "150000",
+    "agencyName": "呼伦贝尔市人民政府",
+    "url": "https://www.hlbe.gov.cn/",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "regionCode": "150800",
+    "regionName": "巴彦淖尔市",
+    "level": "city",
+    "parentCode": "150000",
+    "agencyName": "巴彦淖尔市人民政府",
+    "url": "https://www.bynr.gov.cn/",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "regionCode": "150900",
+    "regionName": "乌兰察布市",
+    "level": "city",
+    "parentCode": "150000",
+    "agencyName": "乌兰察布市人民政府",
+    "url": "https://www.wulanchabu.gov.cn/",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "regionCode": "152200",
+    "regionName": "兴安盟",
+    "level": "city",
+    "parentCode": "150000",
+    "agencyName": "兴安盟行政公署",
+    "url": "https://www.xam.gov.cn/",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "regionCode": "152500",
+    "regionName": "锡林郭勒盟",
+    "level": "city",
+    "parentCode": "150000",
+    "agencyName": "锡林郭勒盟行政公署",
+    "url": "https://www.xlgl.gov.cn/",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "regionCode": "152900",
+    "regionName": "阿拉善盟",
+    "level": "city",
+    "parentCode": "150000",
+    "agencyName": "阿拉善盟行政公署",
+    "url": "http://www.als.gov.cn/",
+    "sourceUrl": "https://www.nmg.gov.cn/"
+  },
+  {
+    "regionCode": "210100",
+    "regionName": "沈阳市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "沈阳市人民政府",
+    "url": "https://www.shenyang.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "210200",
+    "regionName": "大连市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "大连市人民政府",
+    "url": "https://www.dl.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "210300",
+    "regionName": "鞍山市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "鞍山市人民政府",
+    "url": "http://www.anshan.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "210400",
+    "regionName": "抚顺市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "抚顺市人民政府",
+    "url": "https://www.fushun.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "210500",
+    "regionName": "本溪市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "本溪市人民政府",
+    "url": "https://www.benxi.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "210600",
+    "regionName": "丹东市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "丹东市人民政府",
+    "url": "https://www.dandong.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "210700",
+    "regionName": "锦州市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "锦州市人民政府",
+    "url": "https://www.jz.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "210800",
+    "regionName": "营口市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "营口市人民政府",
+    "url": "https://www.yingkou.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "210900",
+    "regionName": "阜新市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "阜新市人民政府",
+    "url": "https://www.fuxin.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "211000",
+    "regionName": "辽阳市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "辽阳市人民政府",
+    "url": "http://www.liaoyang.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "211100",
+    "regionName": "盘锦市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "盘锦市人民政府",
+    "url": "https://www.panjin.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "211200",
+    "regionName": "铁岭市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "铁岭市人民政府",
+    "url": "https://www.tieling.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "211300",
+    "regionName": "朝阳市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "朝阳市人民政府",
+    "url": "https://www.chaoyang.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "211400",
+    "regionName": "葫芦岛市",
+    "level": "city",
+    "parentCode": "210000",
+    "agencyName": "葫芦岛市人民政府",
+    "url": "https://www.hld.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/"
+  },
+  {
+    "regionCode": "220100",
+    "regionName": "长春市",
+    "level": "city",
+    "parentCode": "220000",
+    "agencyName": "长春市人民政府",
+    "url": "http://www.changchun.gov.cn/",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "regionCode": "220200",
+    "regionName": "吉林市",
+    "level": "city",
+    "parentCode": "220000",
+    "agencyName": "吉林市人民政府",
+    "url": "https://www.jlcity.gov.cn/",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "regionCode": "220300",
+    "regionName": "四平市",
+    "level": "city",
+    "parentCode": "220000",
+    "agencyName": "四平市人民政府",
+    "url": "http://www.siping.gov.cn/",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "regionCode": "220400",
+    "regionName": "辽源市",
+    "level": "city",
+    "parentCode": "220000",
+    "agencyName": "辽源市人民政府",
+    "url": "https://www.liaoyuan.gov.cn/",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "regionCode": "220500",
+    "regionName": "通化市",
+    "level": "city",
+    "parentCode": "220000",
+    "agencyName": "通化市人民政府",
+    "url": "https://www.tonghua.gov.cn/",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "regionCode": "220600",
+    "regionName": "白山市",
+    "level": "city",
+    "parentCode": "220000",
+    "agencyName": "白山市人民政府",
+    "url": "https://www.cbs.gov.cn/",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "regionCode": "220700",
+    "regionName": "松原市",
+    "level": "city",
+    "parentCode": "220000",
+    "agencyName": "松原市人民政府",
+    "url": "https://www.jlsy.gov.cn/",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "regionCode": "220800",
+    "regionName": "白城市",
+    "level": "city",
+    "parentCode": "220000",
+    "agencyName": "白城市人民政府",
+    "url": "http://www.jlbc.gov.cn/",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "regionCode": "222400",
+    "regionName": "延边朝鲜族自治州",
+    "level": "city",
+    "parentCode": "220000",
+    "agencyName": "延边朝鲜族自治州人民政府",
+    "url": "http://www.yanbian.gov.cn/",
+    "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "regionCode": "230100",
+    "regionName": "哈尔滨市",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "哈尔滨市人民政府",
+    "url": "https://www.harbin.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "regionCode": "230200",
+    "regionName": "齐齐哈尔市",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "齐齐哈尔市人民政府",
+    "url": "https://www.qqhr.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "regionCode": "230300",
+    "regionName": "鸡西市",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "鸡西市人民政府",
+    "url": "https://www.jixi.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "regionCode": "230400",
+    "regionName": "鹤岗市",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "鹤岗市人民政府",
+    "url": "https://www.hegang.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "regionCode": "230500",
+    "regionName": "双鸭山市",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "双鸭山市人民政府",
+    "url": "http://www.shuangyashan.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "regionCode": "230600",
+    "regionName": "大庆市",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "大庆市人民政府",
+    "url": "https://www.daqing.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "regionCode": "230700",
+    "regionName": "伊春市",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "伊春市人民政府",
+    "url": "https://www.yc.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "regionCode": "230800",
+    "regionName": "佳木斯市",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "佳木斯市人民政府",
+    "url": "https://www.jms.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "regionCode": "230900",
+    "regionName": "七台河市",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "七台河市人民政府",
+    "url": "https://www.qth.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "regionCode": "231000",
+    "regionName": "牡丹江市",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "牡丹江市人民政府",
+    "url": "https://www.mdj.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "regionCode": "231100",
+    "regionName": "黑河市",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "黑河市人民政府",
+    "url": "https://www.heihe.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "regionCode": "231200",
+    "regionName": "绥化市",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "绥化市人民政府",
+    "url": "https://www.suihua.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  },
+  {
+    "regionCode": "232700",
+    "regionName": "大兴安岭地区",
+    "level": "city",
+    "parentCode": "230000",
+    "agencyName": "大兴安岭地区行政公署",
+    "url": "https://www.dxal.gov.cn/",
+    "sourceUrl": "https://www.hlj.gov.cn/"
+  }
+]

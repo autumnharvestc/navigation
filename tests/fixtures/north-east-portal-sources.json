@@ -1,0 +1,202 @@
+{
+  "checkedAt": "2026-10-11T10:18:16+08:00",
+  "maintenance": "本文件是人工联网核验后的静态证据快照，测试不得发起网络请求。新增、删除或修改门户 URL/sourceUrl 时，必须重新核验来源页并同步更新 golden、targetHosts 和中间跳转证据。",
+  "sources": [
+    {
+      "sourceUrl": "https://www.tj.gov.cn/",
+      "sourceTitle": "天津政务网_天津市人民政府",
+      "evidence": "天津市政府门户首页的区政府网站导航列出天津 16 个区人民政府入口；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:18:16+08:00",
+      "httpStatus": 200,
+      "targetHosts": [
+        "www.tjbc.gov.cn",
+        "www.tjbd.gov.cn",
+        "www.tjbh.gov.cn",
+        "www.tjdl.gov.cn",
+        "www.tjhb.gov.cn",
+        "www.tjhd.gov.cn",
+        "www.tjhp.gov.cn",
+        "www.tjhq.gov.cn",
+        "www.tjhx.gov.cn",
+        "www.tjjh.gov.cn",
+        "www.tjjn.gov.cn",
+        "www.tjjz.gov.cn",
+        "www.tjnh.gov.cn",
+        "www.tjnk.gov.cn",
+        "www.tjwq.gov.cn",
+        "www.tjxq.gov.cn"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.hebei.gov.cn/",
+      "sourceTitle": "河北省人民政府",
+      "evidence": "河北省政府门户首页的市级政府链接列出河北 11 个地级市政府入口；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:18:16+08:00",
+      "httpStatus": 200,
+      "targetHosts": [
+        "www.baoding.gov.cn",
+        "www.cangzhou.gov.cn",
+        "www.chengde.gov.cn",
+        "www.hd.gov.cn",
+        "www.hengshui.gov.cn",
+        "www.lf.gov.cn",
+        "www.qhd.gov.cn",
+        "www.sjz.gov.cn",
+        "www.tangshan.gov.cn",
+        "www.xingtai.gov.cn",
+        "www.zjk.gov.cn"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.shanxi.gov.cn/",
+      "sourceTitle": "山西省人民政府",
+      "evidence": "山西省政府门户首页的市级政府链接列出山西 11 个地级市政府入口；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:18:16+08:00",
+      "httpStatus": 200,
+      "targetHosts": [
+        "www.changzhi.gov.cn",
+        "www.dt.gov.cn",
+        "www.jcgov.gov.cn",
+        "www.linfen.gov.cn",
+        "www.lvliang.gov.cn",
+        "www.shuozhou.gov.cn",
+        "www.sxjz.gov.cn",
+        "www.sxxz.gov.cn",
+        "www.taiyuan.gov.cn",
+        "www.yq.gov.cn",
+        "www.yuncheng.gov.cn"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.nmg.gov.cn/",
+      "sourceTitle": "内蒙古自治区人民政府",
+      "evidence": "内蒙古自治区政府门户首页的盟市政府链接列出 12 个地级行政区入口；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:18:16+08:00",
+      "httpStatus": 200,
+      "targetHosts": [
+        "www.als.gov.cn",
+        "www.baotou.gov.cn",
+        "www.bynr.gov.cn",
+        "www.chifeng.gov.cn",
+        "www.hlbe.gov.cn",
+        "www.huhhot.gov.cn",
+        "www.ordos.gov.cn",
+        "www.tongliao.gov.cn",
+        "www.wuhai.gov.cn",
+        "www.wulanchabu.gov.cn",
+        "www.xam.gov.cn",
+        "www.xlgl.gov.cn"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ln.gov.cn/",
+      "sourceTitle": "辽宁省人民政府",
+      "evidence": "辽宁省政府门户首页的市级政府链接列出辽宁 14 个地级市政府入口；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:18:16+08:00",
+      "httpStatus": 200,
+      "targetHosts": [
+        "www.anshan.gov.cn",
+        "www.benxi.gov.cn",
+        "www.chaoyang.gov.cn",
+        "www.dandong.gov.cn",
+        "www.dl.gov.cn",
+        "www.fushun.gov.cn",
+        "www.fuxin.gov.cn",
+        "www.hld.gov.cn",
+        "www.jz.gov.cn",
+        "www.liaoyang.gov.cn",
+        "www.panjin.gov.cn",
+        "www.shenyang.gov.cn",
+        "www.tieling.gov.cn",
+        "www.yingkou.gov.cn"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/",
+      "sourceTitle": "吉林省人民政府_市（州）、县（市、区）政府",
+      "evidence": "吉林省政府市州目录页列出 9 个市州入口；目录项先进入 jl.gov.cn 下的二级跳转页，再由跳转页指向目标政府站点，已核验两级来源链路。",
+      "intermediateEvidence": [
+        {
+          "regionCode": "220100",
+          "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/zcs_162154/",
+          "targetHost": "www.changchun.gov.cn"
+        },
+        {
+          "regionCode": "220200",
+          "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/jls_162155/",
+          "targetHost": "www.jlcity.gov.cn"
+        },
+        {
+          "regionCode": "220300",
+          "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/sps_162156/",
+          "targetHost": "www.siping.gov.cn"
+        },
+        {
+          "regionCode": "220400",
+          "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/lys_162157/",
+          "targetHost": "www.liaoyuan.gov.cn"
+        },
+        {
+          "regionCode": "220500",
+          "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/ths_162158/",
+          "targetHost": "www.tonghua.gov.cn"
+        },
+        {
+          "regionCode": "220600",
+          "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/bss_162159/",
+          "targetHost": "www.cbs.gov.cn"
+        },
+        {
+          "regionCode": "220700",
+          "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/sys_162160/",
+          "targetHost": "www.jlsy.gov.cn"
+        },
+        {
+          "regionCode": "220800",
+          "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/bcs_162161/",
+          "targetHost": "www.jlbc.gov.cn"
+        },
+        {
+          "regionCode": "222400",
+          "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/ybz_162162/",
+          "targetHost": "www.yanbian.gov.cn"
+        }
+      ],
+      "checkedAt": "2026-10-11T10:18:16+08:00",
+      "httpStatus": 200,
+      "targetHosts": [
+        "www.cbs.gov.cn",
+        "www.changchun.gov.cn",
+        "www.jlbc.gov.cn",
+        "www.jlcity.gov.cn",
+        "www.jlsy.gov.cn",
+        "www.liaoyuan.gov.cn",
+        "www.siping.gov.cn",
+        "www.tonghua.gov.cn",
+        "www.yanbian.gov.cn"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.hlj.gov.cn/",
+      "sourceTitle": "黑龙江省人民政府",
+      "evidence": "黑龙江省政府门户首页的市级政府链接列出 13 个地级行政区入口；逐个打开目标 host 并核对页面标题。",
+      "checkedAt": "2026-10-11T10:18:16+08:00",
+      "httpStatus": 200,
+      "targetHosts": [
+        "www.daqing.gov.cn",
+        "www.dxal.gov.cn",
+        "www.harbin.gov.cn",
+        "www.hegang.gov.cn",
+        "www.heihe.gov.cn",
+        "www.jixi.gov.cn",
+        "www.jms.gov.cn",
+        "www.mdj.gov.cn",
+        "www.qqhr.gov.cn",
+        "www.qth.gov.cn",
+        "www.shuangyashan.gov.cn",
+        "www.suihua.gov.cn",
+        "www.yc.gov.cn"
+      ]
+    }
+  ]
+}

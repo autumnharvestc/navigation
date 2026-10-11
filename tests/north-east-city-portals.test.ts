@@ -3,34 +3,46 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import type { AgencyRecord, Region } from '../src/domain/schema';
 
-const cityProvinceCodeSet = new Set(['130000', '140000', '150000', '210000', '220000', '230000']);
-const sourceByProvince = new Map<string, string>([
-  ['120000', 'https://www.tj.gov.cn/'],
-  ['130000', 'https://www.hebei.gov.cn/'],
-  ['140000', 'https://www.shanxi.gov.cn/'],
-  ['150000', 'https://www.nmg.gov.cn/'],
-  ['210000', 'https://www.ln.gov.cn/'],
-  ['220000', 'https://www.jl.gov.cn/xglj/szfbmszxszf/'],
-  ['230000', 'https://www.hlj.gov.cn/'],
-]);
+type GoldenPortal = {
+  regionCode: string;
+  regionName: string;
+  level: Region['level'];
+  parentCode: string | null;
+  agencyName: string;
+  url: string;
+  sourceUrl: string;
+};
+
+type IntermediateSourceEvidence = {
+  regionCode: string;
+  sourceUrl: string;
+  targetHost: string;
+};
+
+type SourceEvidence = {
+  sourceUrl: string;
+  sourceTitle: string;
+  evidence: string;
+  checkedAt: string;
+  httpStatus: number;
+  targetHosts: string[];
+  intermediateEvidence?: IntermediateSourceEvidence[];
+};
+
+type SourceEvidenceFixture = {
+  checkedAt: string;
+  maintenance: string;
+  sources: SourceEvidence[];
+};
 
 async function readData<T>(path: string): Promise<T> {
   const content = await readFile(join(process.cwd(), 'data', path), 'utf8');
   return JSON.parse(content) as T;
 }
 
-function provinceCode(regionCode: string): string {
-  return `${regionCode.slice(0, 2)}0000`;
-}
-
-function expectedGovernmentName(region: Region): string {
-  if (region.name.endsWith('盟') || region.name.endsWith('地区')) {
-    return `${region.name}行政公署`;
-  }
-  if (region.parentCode === '120100') {
-    return `天津市${region.name}人民政府`;
-  }
-  return `${region.name}人民政府`;
+async function readFixture<T>(name: string): Promise<T> {
+  const content = await readFile(join(process.cwd(), 'tests', 'fixtures', name), 'utf8');
+  return JSON.parse(content) as T;
 }
 
 function duplicateValues(values: string[]): string[] {
@@ -43,119 +55,122 @@ function duplicateValues(values: string[]): string[] {
   return [...duplicates].sort();
 }
 
+function uniqueSorted(values: string[]): string[] {
+  return [...new Set(values)].sort();
+}
+
 describe('north and northeast city portals', () => {
-  it('provides exactly one government record for each of the 86 target regions', async () => {
+  it('matches the fixed 86-entry golden snapshot exactly', async () => {
+    const golden = await readFixture<GoldenPortal[]>('north-east-portals.golden.json');
     const regions = await readData<Region[]>('regions.json');
-    const batchCities = regions.filter(
-      (region) => region.level === 'city' && cityProvinceCodeSet.has(region.parentCode ?? ''),
-    );
-    const tianjinDistricts = regions.filter(
-      (region) => region.level === 'county' && region.parentCode === '120100',
-    );
-    const expectedRegions = [...batchCities, ...tianjinDistricts];
-
-    expect(batchCities, 'expected 70 prefecture-level regions').toHaveLength(70);
-    expect(tianjinDistricts, 'expected 16 Tianjin districts').toHaveLength(16);
-    expect(expectedRegions, 'expected 86 target regions').toHaveLength(86);
-
+    const files = ['120000', '130000', '140000', '150000', '210000', '220000', '230000'];
     const agencies = (
-      await Promise.all(
-        ['120000', '130000', '140000', '150000', '210000', '220000', '230000'].map((code) =>
-          readData<AgencyRecord[]>(`provinces/${code}.json`),
-        ),
-      )
+      await Promise.all(files.map((file) => readData<AgencyRecord[]>(`provinces/${file}.json`)))
     ).flat();
-    const batchAgencies = agencies.filter((agency) =>
-      expectedRegions.some((region) => region.code === agency.regionCode),
-    );
 
-    expect(batchAgencies, 'expected 86 government portal records').toHaveLength(86);
-
-    const missing = expectedRegions
-      .filter((region) => !batchAgencies.some((agency) => agency.regionCode === region.code))
-      .map((region) => region.code);
-    expect(missing, `missing government records: ${missing.join(', ')}`).toEqual([]);
-
-    const wrongCounts = expectedRegions
-      .map((region) => ({
-        code: region.code,
-        count: batchAgencies.filter((agency) => agency.regionCode === region.code).length,
-      }))
-      .filter(({ count }) => count !== 1);
+    expect(golden, 'golden snapshot must contain the 86 verified portals').toHaveLength(86);
     expect(
-      wrongCounts,
-      `regions without exactly one record: ${JSON.stringify(wrongCounts)}`,
+      duplicateValues(golden.map((entry) => entry.regionCode)),
+      'golden region codes must be unique',
     ).toEqual([]);
 
+    const goldenCodes = new Set(golden.map((entry) => entry.regionCode));
+    const actualByRegion = new Map<string, AgencyRecord[]>();
+    for (const agency of agencies) {
+      if (!goldenCodes.has(agency.regionCode)) continue;
+      const records = actualByRegion.get(agency.regionCode) ?? [];
+      records.push(agency);
+      actualByRegion.set(agency.regionCode, records);
+    }
+
     expect(
-      batchAgencies.filter((agency) => agency.category !== 'government').map((agency) => agency.id),
-    ).toEqual([]);
-  });
+      [...actualByRegion.keys()].sort(),
+      'published regions must match the golden region set exactly',
+    ).toEqual([...goldenCodes].sort());
 
-  it('matches the required per-province counts', async () => {
-    const expectedCounts = new Map<string, number>([
-      ['120000', 16],
-      ['130000', 11],
-      ['140000', 11],
-      ['150000', 12],
-      ['210000', 14],
-      ['220000', 9],
-      ['230000', 13],
-    ]);
-    const regions = await readData<Region[]>('regions.json');
-    const targetCodes = new Set(
-      regions
-        .filter(
-          (region) =>
-            (region.level === 'city' && cityProvinceCodeSet.has(region.parentCode ?? '')) ||
-            (region.level === 'county' && region.parentCode === '120100'),
-        )
-        .map((region) => region.code),
-    );
-
-    for (const [code, expected] of expectedCounts) {
-      const agencies = await readData<AgencyRecord[]>(`provinces/${code}.json`);
-      const targetAgencies = agencies.filter(
-        (agency) => targetCodes.has(agency.regionCode) && provinceCode(agency.regionCode) === code,
+    for (const expected of golden) {
+      const actual = actualByRegion.get(expected.regionCode) ?? [];
+      expect(actual, `${expected.regionCode} must have exactly one published record`).toHaveLength(
+        1,
       );
-      expect(targetAgencies, `${code} should have ${expected} records`).toHaveLength(expected);
+      expect(actual[0]).toMatchObject({
+        regionCode: expected.regionCode,
+        name: expected.agencyName,
+        url: expected.url,
+        sourceUrl: expected.sourceUrl,
+        category: 'government',
+      });
+
+      const region = regions.find((candidate) => candidate.code === expected.regionCode);
+      expect(region, `missing region ${expected.regionCode}`).toMatchObject({
+        name: expected.regionName,
+        level: expected.level,
+        parentCode: expected.parentCode,
+      });
     }
   });
 
-  it('uses region-appropriate names and traceable URL fields', async () => {
-    const regions = await readData<Region[]>('regions.json');
-    const batchCities = regions.filter(
-      (region) => region.level === 'city' && cityProvinceCodeSet.has(region.parentCode ?? ''),
-    );
-    const tianjinDistricts = regions.filter(
-      (region) => region.level === 'county' && region.parentCode === '120100',
-    );
-    const expectedRegions = [...batchCities, ...tianjinDistricts];
-    const agencies = (
-      await Promise.all(
-        ['120000', '130000', '140000', '150000', '210000', '220000', '230000'].map((code) =>
-          readData<AgencyRecord[]>(`provinces/${code}.json`),
-        ),
-      )
-    ).flat();
-    const recordsByCode = new Map(
-      agencies
-        .filter((agency) => expectedRegions.some((region) => region.code === agency.regionCode))
-        .map((agency) => [agency.regionCode, agency]),
-    );
+  it('locks the verified source pages to the exact target host mapping', async () => {
+    const golden = await readFixture<GoldenPortal[]>('north-east-portals.golden.json');
+    const fixture = await readFixture<SourceEvidenceFixture>('north-east-portal-sources.json');
+    const sourceByUrl = new Map(fixture.sources.map((source) => [source.sourceUrl, source]));
 
-    for (const region of expectedRegions) {
-      const record = recordsByCode.get(region.code);
-      expect(record, `missing record for ${region.code}`).toBeDefined();
-      expect(record?.name, `wrong name for ${region.code}`).toBe(expectedGovernmentName(region));
-      expect(record?.url, `invalid url for ${region.code}`).toMatch(/^https?:\/\//);
-      expect(record?.sourceUrl, `invalid sourceUrl for ${region.code}`).toMatch(/^https?:\/\//);
+    expect(fixture.checkedAt).toBe('2026-10-11T10:18:16+08:00');
+    expect(fixture.maintenance).toContain('人工联网核验后的静态证据快照');
+    expect(fixture.sources).toHaveLength(7);
+    expect(
+      duplicateValues(fixture.sources.map((source) => source.sourceUrl)),
+      'source URLs must be unique',
+    ).toEqual([]);
+    expect(
+      [...sourceByUrl.keys()].sort(),
+      'source fixture must cover exactly the golden source URLs',
+    ).toEqual(uniqueSorted(golden.map((entry) => entry.sourceUrl)));
+
+    for (const source of fixture.sources) {
+      expect(source.sourceTitle, `${source.sourceUrl} must record the verified title`).not.toBe('');
+      expect(source.evidence, `${source.sourceUrl} must record verification evidence`).not.toBe('');
+      expect(source.checkedAt, `${source.sourceUrl} must record its verification time`).toBe(
+        fixture.checkedAt,
+      );
+      expect(source.httpStatus, `${source.sourceUrl} must be a successful source page`).toBe(200);
       expect(
-        record?.sourceUrl,
-        `source does not identify the parent government portal for ${region.code}`,
-      ).toBe(sourceByProvince.get(provinceCode(region.code)));
-      expect(() => new URL(record?.url ?? '')).not.toThrow();
-      expect(() => new URL(record?.sourceUrl ?? '')).not.toThrow();
+        duplicateValues(source.targetHosts),
+        `${source.sourceUrl} target hosts must be unique`,
+      ).toEqual([]);
+
+      const expectedHosts = uniqueSorted(
+        golden
+          .filter((entry) => entry.sourceUrl === source.sourceUrl)
+          .map((entry) => new URL(entry.url).hostname),
+      );
+      expect(source.targetHosts, `${source.sourceUrl} target hosts changed`).toEqual(expectedHosts);
+    }
+
+    for (const entry of golden) {
+      const source = sourceByUrl.get(entry.sourceUrl);
+      expect(source, `no source evidence for ${entry.sourceUrl}`).toBeDefined();
+      expect(source?.targetHosts, `${entry.regionCode} host must match source evidence`).toContain(
+        new URL(entry.url).hostname,
+      );
+    }
+
+    const jilinSource = sourceByUrl.get('https://www.jl.gov.cn/xglj/szfbmszxszf/');
+    expect(
+      jilinSource?.intermediateEvidence,
+      'Jilin source must preserve its two-level trace',
+    ).toHaveLength(9);
+    for (const intermediate of jilinSource?.intermediateEvidence ?? []) {
+      const goldenEntry = golden.find((entry) => entry.regionCode === intermediate.regionCode);
+      expect(
+        goldenEntry,
+        `missing golden entry for intermediate ${intermediate.regionCode}`,
+      ).toBeDefined();
+      expect(intermediate.sourceUrl).toMatch(
+        /^https:\/\/www\.jl\.gov\.cn\/xglj\/szfbmszxszf\/[a-z]{3}_\d+\/$/,
+      );
+      expect(intermediate.sourceUrl).not.toBe(goldenEntry?.sourceUrl);
+      expect(intermediate.targetHost).toBe(new URL(goldenEntry?.url ?? '').hostname);
     }
   });
 
@@ -163,9 +178,12 @@ describe('north and northeast city portals', () => {
     const files = (await readdir(join(process.cwd(), 'data', 'provinces')))
       .filter((file) => file.endsWith('.json'))
       .sort();
-    const records = (
-      await Promise.all(files.map((file) => readData<AgencyRecord[]>(`provinces/${file}`)))
-    ).flat();
+    const records = [
+      ...(await readData<AgencyRecord[]>('national.json')),
+      ...(
+        await Promise.all(files.map((file) => readData<AgencyRecord[]>(`provinces/${file}`)))
+      ).flat(),
+    ];
 
     expect(duplicateValues(records.map((record) => record.id)), 'duplicate IDs').toEqual([]);
     expect(
