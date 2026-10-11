@@ -7,5 +7,194 @@
     "url": "https://www.sc.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "510100-government-www-chengdu-gov-cn",
+    "regionCode": "510100",
+    "name": "成都市人民政府",
+    "siteName": "成都市人民政府",
+    "url": "http://www.chengdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "510300-government-www-zg-gov-cn",
+    "regionCode": "510300",
+    "name": "自贡市人民政府",
+    "siteName": "自贡市人民政府",
+    "url": "https://www.zg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "510400-government-www-panzhihua-gov-cn",
+    "regionCode": "510400",
+    "name": "攀枝花市人民政府",
+    "siteName": "攀枝花市人民政府",
+    "url": "http://www.panzhihua.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "510500-government-www-luzhou-gov-cn",
+    "regionCode": "510500",
+    "name": "泸州市人民政府",
+    "siteName": "泸州市人民政府",
+    "url": "https://www.luzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "510600-government-www-deyang-gov-cn",
+    "regionCode": "510600",
+    "name": "德阳市人民政府",
+    "siteName": "德阳市人民政府",
+    "url": "https://www.deyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "510700-government-www-my-gov-cn",
+    "regionCode": "510700",
+    "name": "绵阳市人民政府",
+    "siteName": "绵阳市人民政府",
+    "url": "https://www.my.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "510800-government-www-cngy-gov-cn",
+    "regionCode": "510800",
+    "name": "广元市人民政府",
+    "siteName": "广元市人民政府",
+    "url": "https://www.cngy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "510900-government-www-suining-gov-cn",
+    "regionCode": "510900",
+    "name": "遂宁市人民政府",
+    "siteName": "遂宁市人民政府",
+    "url": "https://www.suining.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "511000-government-www-neijiang-gov-cn",
+    "regionCode": "511000",
+    "name": "内江市人民政府",
+    "siteName": "内江市人民政府",
+    "url": "http://www.neijiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "511100-government-www-leshan-gov-cn",
+    "regionCode": "511100",
+    "name": "乐山市人民政府",
+    "siteName": "乐山市人民政府",
+    "url": "https://www.leshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "511300-government-www-nanchong-gov-cn",
+    "regionCode": "511300",
+    "name": "南充市人民政府",
+    "siteName": "南充市人民政府",
+    "url": "https://www.nanchong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "511400-government-www-ms-gov-cn",
+    "regionCode": "511400",
+    "name": "眉山市人民政府",
+    "siteName": "眉山市人民政府",
+    "url": "https://www.ms.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "511500-government-www-yibin-gov-cn",
+    "regionCode": "511500",
+    "name": "宜宾市人民政府",
+    "siteName": "宜宾市人民政府",
+    "url": "http://www.yibin.gov.cn/index.html",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "511600-government-www-guang-an-gov-cn",
+    "regionCode": "511600",
+    "name": "广安市人民政府",
+    "siteName": "广安市人民政府",
+    "url": "https://www.guang-an.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "511700-government-www-dazhou-gov-cn",
+    "regionCode": "511700",
+    "name": "达州市人民政府",
+    "siteName": "达州市人民政府",
+    "url": "http://www.dazhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "511800-government-www-yaan-gov-cn",
+    "regionCode": "511800",
+    "name": "雅安市人民政府",
+    "siteName": "雅安市人民政府",
+    "url": "https://www.yaan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "511900-government-www-cnbz-gov-cn",
+    "regionCode": "511900",
+    "name": "巴中市人民政府",
+    "siteName": "巴中市人民政府",
+    "url": "https://www.cnbz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "512000-government-www-ziyang-gov-cn",
+    "regionCode": "512000",
+    "name": "资阳市人民政府",
+    "siteName": "资阳市人民政府",
+    "url": "http://www.ziyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "513200-government-www-abazhou-gov-cn",
+    "regionCode": "513200",
+    "name": "阿坝藏族羌族自治州人民政府",
+    "siteName": "阿坝藏族羌族自治州人民政府",
+    "url": "http://www.abazhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "513300-government-www-gzz-gov-cn",
+    "regionCode": "513300",
+    "name": "甘孜藏族自治州人民政府",
+    "siteName": "甘孜藏族自治州人民政府",
+    "url": "http://www.gzz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
+  },
+  {
+    "id": "513400-government-www-lsz-gov-cn",
+    "regionCode": "513400",
+    "name": "凉山彝族自治州人民政府",
+    "siteName": "凉山彝族自治州人民政府",
+    "url": "http://www.lsz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sc.gov.cn/"
   }
 ]

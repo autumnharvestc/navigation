@@ -7,5 +7,149 @@
     "url": "https://www.yn.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "530100-government-www-km-gov-cn",
+    "regionCode": "530100",
+    "name": "昆明市人民政府",
+    "siteName": "昆明市人民政府",
+    "url": "https://www.km.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "530300-government-www-qj-gov-cn",
+    "regionCode": "530300",
+    "name": "曲靖市人民政府",
+    "siteName": "曲靖市人民政府",
+    "url": "http://www.qj.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "530400-government-www-yuxi-gov-cn",
+    "regionCode": "530400",
+    "name": "玉溪市人民政府",
+    "siteName": "玉溪市人民政府",
+    "url": "https://www.yuxi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "530500-government-www-baoshan-gov-cn",
+    "regionCode": "530500",
+    "name": "保山市人民政府",
+    "siteName": "保山市人民政府",
+    "url": "https://www.baoshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "530600-government-www-zt-gov-cn",
+    "regionCode": "530600",
+    "name": "昭通市人民政府",
+    "siteName": "昭通市人民政府",
+    "url": "https://www.zt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "530700-government-www-lijiang-gov-cn",
+    "regionCode": "530700",
+    "name": "丽江市人民政府",
+    "siteName": "丽江市人民政府",
+    "url": "https://www.lijiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "530800-government-www-puershi-gov-cn",
+    "regionCode": "530800",
+    "name": "普洱市人民政府",
+    "siteName": "普洱市人民政府",
+    "url": "https://www.puershi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "530900-government-www-lincang-gov-cn",
+    "regionCode": "530900",
+    "name": "临沧市人民政府",
+    "siteName": "临沧市人民政府",
+    "url": "https://www.lincang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "532300-government-www-cxz-gov-cn",
+    "regionCode": "532300",
+    "name": "楚雄彝族自治州人民政府",
+    "siteName": "楚雄彝族自治州人民政府",
+    "url": "http://www.cxz.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "532500-government-www-hh-gov-cn",
+    "regionCode": "532500",
+    "name": "红河哈尼族彝族自治州人民政府",
+    "siteName": "红河哈尼族彝族自治州人民政府",
+    "url": "https://www.hh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "532600-government-www-ynws-gov-cn",
+    "regionCode": "532600",
+    "name": "文山壮族苗族自治州人民政府",
+    "siteName": "文山壮族苗族自治州人民政府",
+    "url": "https://www.ynws.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "532800-government-www-xsbn-gov-cn",
+    "regionCode": "532800",
+    "name": "西双版纳傣族自治州人民政府",
+    "siteName": "西双版纳傣族自治州人民政府",
+    "url": "https://www.xsbn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "532900-government-www-dali-gov-cn",
+    "regionCode": "532900",
+    "name": "大理白族自治州人民政府",
+    "siteName": "大理白族自治州人民政府",
+    "url": "https://www.dali.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "533100-government-www-dh-gov-cn",
+    "regionCode": "533100",
+    "name": "德宏傣族景颇族自治州人民政府",
+    "siteName": "德宏傣族景颇族自治州人民政府",
+    "url": "http://www.dh.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "533300-government-www-nujiang-gov-cn",
+    "regionCode": "533300",
+    "name": "怒江傈僳族自治州人民政府",
+    "siteName": "怒江傈僳族自治州人民政府",
+    "url": "https://www.nujiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
+  },
+  {
+    "id": "533400-government-www-diqing-gov-cn",
+    "regionCode": "533400",
+    "name": "迪庆藏族自治州人民政府",
+    "siteName": "迪庆藏族自治州人民政府",
+    "url": "https://www.diqing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yn.gov.cn/"
   }
 ]

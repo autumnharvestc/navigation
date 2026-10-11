@@ -7,5 +7,77 @@
     "url": "https://www.qinghai.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.qinghai.gov.cn/"
+  },
+  {
+    "id": "630100-government-www-xining-gov-cn",
+    "regionCode": "630100",
+    "name": "西宁市人民政府",
+    "siteName": "西宁市人民政府",
+    "url": "http://www.xining.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.qinghai.gov.cn/"
+  },
+  {
+    "id": "630200-government-www-haidong-gov-cn",
+    "regionCode": "630200",
+    "name": "海东市人民政府",
+    "siteName": "海东市人民政府",
+    "url": "https://www.haidong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.qinghai.gov.cn/"
+  },
+  {
+    "id": "632200-government-www-haibei-gov-cn",
+    "regionCode": "632200",
+    "name": "海北藏族自治州人民政府",
+    "siteName": "海北藏族自治州人民政府",
+    "url": "https://www.haibei.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.qinghai.gov.cn/"
+  },
+  {
+    "id": "632300-government-www-huangnan-gov-cn",
+    "regionCode": "632300",
+    "name": "黄南藏族自治州人民政府",
+    "siteName": "黄南藏族自治州人民政府",
+    "url": "http://www.huangnan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.qinghai.gov.cn/"
+  },
+  {
+    "id": "632500-government-www-hainanzhou-gov-cn",
+    "regionCode": "632500",
+    "name": "海南藏族自治州人民政府",
+    "siteName": "海南藏族自治州人民政府",
+    "url": "https://www.hainanzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.qinghai.gov.cn/"
+  },
+  {
+    "id": "632600-government-www-guoluo-gov-cn",
+    "regionCode": "632600",
+    "name": "果洛藏族自治州人民政府",
+    "siteName": "果洛藏族自治州人民政府",
+    "url": "http://www.guoluo.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.qinghai.gov.cn/"
+  },
+  {
+    "id": "632700-government-www-yushuzhou-gov-cn",
+    "regionCode": "632700",
+    "name": "玉树藏族自治州人民政府",
+    "siteName": "玉树藏族自治州人民政府",
+    "url": "https://www.yushuzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.qinghai.gov.cn/"
+  },
+  {
+    "id": "632800-government-www-haixi-gov-cn",
+    "regionCode": "632800",
+    "name": "海西蒙古族藏族自治州人民政府",
+    "siteName": "海西蒙古族藏族自治州人民政府",
+    "url": "https://www.haixi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.qinghai.gov.cn/"
   }
 ]

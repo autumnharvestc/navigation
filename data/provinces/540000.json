@@ -7,5 +7,68 @@
     "url": "https://www.xizang.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.xizang.gov.cn/"
+  },
+  {
+    "id": "540100-government-www-lasa-gov-cn",
+    "regionCode": "540100",
+    "name": "拉萨市人民政府",
+    "siteName": "拉萨市人民政府",
+    "url": "https://www.lasa.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xizang.gov.cn/"
+  },
+  {
+    "id": "540200-government-www-rikaze-gov-cn",
+    "regionCode": "540200",
+    "name": "日喀则市人民政府",
+    "siteName": "日喀则市人民政府",
+    "url": "http://www.rikaze.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xizang.gov.cn/"
+  },
+  {
+    "id": "540300-government-www-changdu-gov-cn",
+    "regionCode": "540300",
+    "name": "昌都市人民政府",
+    "siteName": "昌都市人民政府",
+    "url": "https://www.changdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xizang.gov.cn/"
+  },
+  {
+    "id": "540400-government-www-linzhi-gov-cn",
+    "regionCode": "540400",
+    "name": "林芝市人民政府",
+    "siteName": "林芝市人民政府",
+    "url": "https://www.linzhi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xizang.gov.cn/"
+  },
+  {
+    "id": "540500-government-www-shannan-gov-cn",
+    "regionCode": "540500",
+    "name": "山南市人民政府",
+    "siteName": "山南市人民政府",
+    "url": "https://www.shannan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xizang.gov.cn/"
+  },
+  {
+    "id": "540600-government-www-naqu-gov-cn",
+    "regionCode": "540600",
+    "name": "那曲市人民政府",
+    "siteName": "那曲市人民政府",
+    "url": "http://www.naqu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xizang.gov.cn/"
+  },
+  {
+    "id": "542500-government-www-al-gov-cn",
+    "regionCode": "542500",
+    "name": "阿里地区行政公署",
+    "siteName": "阿里地区行政公署",
+    "url": "https://www.al.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xizang.gov.cn/"
   }
 ]

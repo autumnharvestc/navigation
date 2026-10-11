@@ -7,5 +7,338 @@
     "url": "https://www.cq.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500101-government-www-wz-gov-cn",
+    "regionCode": "500101",
+    "name": "重庆市万州区人民政府",
+    "siteName": "重庆市万州区人民政府",
+    "url": "http://www.wz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500102-government-www-fl-gov-cn",
+    "regionCode": "500102",
+    "name": "重庆市涪陵区人民政府",
+    "siteName": "重庆市涪陵区人民政府",
+    "url": "http://www.fl.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500103-government-www-cqyz-gov-cn",
+    "regionCode": "500103",
+    "name": "重庆市渝中区人民政府",
+    "siteName": "重庆市渝中区人民政府",
+    "url": "http://www.cqyz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500104-government-www-ddk-gov-cn",
+    "regionCode": "500104",
+    "name": "重庆市大渡口区人民政府",
+    "siteName": "重庆市大渡口区人民政府",
+    "url": "http://www.ddk.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500106-government-cqspb-gov-cn",
+    "regionCode": "500106",
+    "name": "重庆市沙坪坝区人民政府",
+    "siteName": "重庆市沙坪坝区人民政府",
+    "url": "http://cqspb.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500107-government-www-cqjlp-gov-cn",
+    "regionCode": "500107",
+    "name": "重庆市九龙坡区人民政府",
+    "siteName": "重庆市九龙坡区人民政府",
+    "url": "http://www.cqjlp.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500108-government-www-cqna-gov-cn",
+    "regionCode": "500108",
+    "name": "重庆市南岸区人民政府",
+    "siteName": "重庆市南岸区人民政府",
+    "url": "http://www.cqna.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500109-government-www-beibei-gov-cn",
+    "regionCode": "500109",
+    "name": "重庆市北碚区人民政府",
+    "siteName": "重庆市北碚区人民政府",
+    "url": "http://www.beibei.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500110-government-www-cqqj-gov-cn",
+    "regionCode": "500110",
+    "name": "重庆市綦江区人民政府",
+    "siteName": "重庆市綦江区人民政府",
+    "url": "http://www.cqqj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500111-government-www-dazu-gov-cn",
+    "regionCode": "500111",
+    "name": "重庆市大足区人民政府",
+    "siteName": "重庆市大足区人民政府",
+    "url": "http://www.dazu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500113-government-www-cqbn-gov-cn",
+    "regionCode": "500113",
+    "name": "重庆市巴南区人民政府",
+    "siteName": "重庆市巴南区人民政府",
+    "url": "https://www.cqbn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500114-government-www-qianjiang-gov-cn",
+    "regionCode": "500114",
+    "name": "重庆市黔江区人民政府",
+    "siteName": "重庆市黔江区人民政府",
+    "url": "https://www.qianjiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500115-government-www-cqcs-gov-cn",
+    "regionCode": "500115",
+    "name": "重庆市长寿区人民政府",
+    "siteName": "重庆市长寿区人民政府",
+    "url": "http://www.cqcs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500116-government-www-jiangjin-gov-cn",
+    "regionCode": "500116",
+    "name": "重庆市江津区人民政府",
+    "siteName": "重庆市江津区人民政府",
+    "url": "http://www.jiangjin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500117-government-www-hc-gov-cn",
+    "regionCode": "500117",
+    "name": "重庆市合川区人民政府",
+    "siteName": "重庆市合川区人民政府",
+    "url": "https://www.hc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500118-government-www-cqyc-gov-cn",
+    "regionCode": "500118",
+    "name": "重庆市永川区人民政府",
+    "siteName": "重庆市永川区人民政府",
+    "url": "https://www.cqyc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500119-government-www-cqnc-gov-cn",
+    "regionCode": "500119",
+    "name": "重庆市南川区人民政府",
+    "siteName": "重庆市南川区人民政府",
+    "url": "http://www.cqnc.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500120-government-www-bishan-gov-cn",
+    "regionCode": "500120",
+    "name": "重庆市璧山区人民政府",
+    "siteName": "重庆市璧山区人民政府",
+    "url": "http://www.bishan.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500151-government-www-cqstl-gov-cn",
+    "regionCode": "500151",
+    "name": "重庆市铜梁区人民政府",
+    "siteName": "重庆市铜梁区人民政府",
+    "url": "https://www.cqstl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500152-government-www-cqtn-gov-cn",
+    "regionCode": "500152",
+    "name": "重庆市潼南区人民政府",
+    "siteName": "重庆市潼南区人民政府",
+    "url": "http://www.cqtn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500153-government-www-rongchang-gov-cn",
+    "regionCode": "500153",
+    "name": "重庆市荣昌区人民政府",
+    "siteName": "重庆市荣昌区人民政府",
+    "url": "http://www.rongchang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500154-government-www-cqkz-gov-cn",
+    "regionCode": "500154",
+    "name": "重庆市开州区人民政府",
+    "siteName": "重庆市开州区人民政府",
+    "url": "http://www.cqkz.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500155-government-www-cqlp-gov-cn",
+    "regionCode": "500155",
+    "name": "重庆市梁平区人民政府",
+    "siteName": "重庆市梁平区人民政府",
+    "url": "http://www.cqlp.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500156-government-www-cqwl-gov-cn",
+    "regionCode": "500156",
+    "name": "重庆市武隆区人民政府",
+    "siteName": "重庆市武隆区人民政府",
+    "url": "http://www.cqwl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500157-government-www-ljxq-gov-cn",
+    "regionCode": "500157",
+    "name": "重庆市两江新区人民政府",
+    "siteName": "重庆市两江新区人民政府",
+    "url": "https://www.ljxq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500229-government-www-cqck-gov-cn",
+    "regionCode": "500229",
+    "name": "重庆市城口县人民政府",
+    "siteName": "重庆市城口县人民政府",
+    "url": "http://www.cqck.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500230-government-www-cqfd-gov-cn",
+    "regionCode": "500230",
+    "name": "重庆市丰都县人民政府",
+    "siteName": "重庆市丰都县人民政府",
+    "url": "http://www.cqfd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500231-government-www-cqsdj-gov-cn",
+    "regionCode": "500231",
+    "name": "重庆市垫江县人民政府",
+    "siteName": "重庆市垫江县人民政府",
+    "url": "http://www.cqsdj.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500233-government-www-zhongxian-gov-cn",
+    "regionCode": "500233",
+    "name": "重庆市忠县人民政府",
+    "siteName": "重庆市忠县人民政府",
+    "url": "http://www.zhongxian.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500235-government-www-yunyang-gov-cn",
+    "regionCode": "500235",
+    "name": "重庆市云阳县人民政府",
+    "siteName": "重庆市云阳县人民政府",
+    "url": "https://www.yunyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500236-government-www-cqfj-gov-cn",
+    "regionCode": "500236",
+    "name": "重庆市奉节县人民政府",
+    "siteName": "重庆市奉节县人民政府",
+    "url": "http://www.cqfj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500237-government-www-cqws-gov-cn",
+    "regionCode": "500237",
+    "name": "重庆市巫山县人民政府",
+    "siteName": "重庆市巫山县人民政府",
+    "url": "http://www.cqws.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500238-government-www-cqwx-gov-cn",
+    "regionCode": "500238",
+    "name": "重庆市巫溪县人民政府",
+    "siteName": "重庆市巫溪县人民政府",
+    "url": "http://www.cqwx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500240-government-www-cqszx-gov-cn",
+    "regionCode": "500240",
+    "name": "重庆市石柱土家族自治县人民政府",
+    "siteName": "重庆市石柱土家族自治县人民政府",
+    "url": "http://www.cqszx.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500241-government-www-cqxs-gov-cn",
+    "regionCode": "500241",
+    "name": "重庆市秀山土家族苗族自治县人民政府",
+    "siteName": "重庆市秀山土家族苗族自治县人民政府",
+    "url": "http://www.cqxs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500242-government-www-youyang-gov-cn",
+    "regionCode": "500242",
+    "name": "重庆市酉阳土家族苗族自治县人民政府",
+    "siteName": "重庆市酉阳土家族苗族自治县人民政府",
+    "url": "http://www.youyang.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
+  },
+  {
+    "id": "500243-government-www-psx-gov-cn",
+    "regionCode": "500243",
+    "name": "重庆市彭水苗族土家族自治县人民政府",
+    "siteName": "重庆市彭水苗族土家族自治县人民政府",
+    "url": "http://www.psx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cq.gov.cn/"
   }
 ]

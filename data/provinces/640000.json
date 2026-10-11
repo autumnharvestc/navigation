@@ -7,5 +7,50 @@
     "url": "https://www.nx.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.nx.gov.cn/"
+  },
+  {
+    "id": "640100-government-www-yinchuan-gov-cn",
+    "regionCode": "640100",
+    "name": "银川市人民政府",
+    "siteName": "银川市人民政府",
+    "url": "https://www.yinchuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nx.gov.cn/"
+  },
+  {
+    "id": "640200-government-www-shizuishan-gov-cn",
+    "regionCode": "640200",
+    "name": "石嘴山市人民政府",
+    "siteName": "石嘴山市人民政府",
+    "url": "https://www.shizuishan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nx.gov.cn/"
+  },
+  {
+    "id": "640300-government-www-wuzhong-gov-cn",
+    "regionCode": "640300",
+    "name": "吴忠市人民政府",
+    "siteName": "吴忠市人民政府",
+    "url": "https://www.wuzhong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nx.gov.cn/"
+  },
+  {
+    "id": "640400-government-www-nxgy-gov-cn",
+    "regionCode": "640400",
+    "name": "固原市人民政府",
+    "siteName": "固原市人民政府",
+    "url": "https://www.nxgy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nx.gov.cn/"
+  },
+  {
+    "id": "640500-government-www-nxzw-gov-cn",
+    "regionCode": "640500",
+    "name": "中卫市人民政府",
+    "siteName": "中卫市人民政府",
+    "url": "https://www.nxzw.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nx.gov.cn/"
   }
 ]

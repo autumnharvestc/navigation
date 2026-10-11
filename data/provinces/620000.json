@@ -7,5 +7,131 @@
     "url": "https://www.gansu.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "620100-government-www-lanzhou-gov-cn",
+    "regionCode": "620100",
+    "name": "兰州市人民政府",
+    "siteName": "兰州市人民政府",
+    "url": "http://www.lanzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "620200-government-www-jyg-gov-cn",
+    "regionCode": "620200",
+    "name": "嘉峪关市人民政府",
+    "siteName": "嘉峪关市人民政府",
+    "url": "http://www.jyg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "620300-government-www-jcs-gov-cn",
+    "regionCode": "620300",
+    "name": "金昌市人民政府",
+    "siteName": "金昌市人民政府",
+    "url": "http://www.jcs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "620400-government-www-baiyin-gov-cn",
+    "regionCode": "620400",
+    "name": "白银市人民政府",
+    "siteName": "白银市人民政府",
+    "url": "https://www.baiyin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "620500-government-www-tianshui-gov-cn",
+    "regionCode": "620500",
+    "name": "天水市人民政府",
+    "siteName": "天水市人民政府",
+    "url": "http://www.tianshui.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "620600-government-www-gswuwei-gov-cn",
+    "regionCode": "620600",
+    "name": "武威市人民政府",
+    "siteName": "武威市人民政府",
+    "url": "https://www.gswuwei.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "620700-government-www-zhangye-gov-cn",
+    "regionCode": "620700",
+    "name": "张掖市人民政府",
+    "siteName": "张掖市人民政府",
+    "url": "https://www.zhangye.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "620800-government-www-pingliang-gov-cn",
+    "regionCode": "620800",
+    "name": "平凉市人民政府",
+    "siteName": "平凉市人民政府",
+    "url": "https://www.pingliang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "620900-government-www-jiuquan-gov-cn",
+    "regionCode": "620900",
+    "name": "酒泉市人民政府",
+    "siteName": "酒泉市人民政府",
+    "url": "https://www.jiuquan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "621000-government-www-zgqingyang-gov-cn",
+    "regionCode": "621000",
+    "name": "庆阳市人民政府",
+    "siteName": "庆阳市人民政府",
+    "url": "https://www.zgqingyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "621100-government-www-dingxi-gov-cn",
+    "regionCode": "621100",
+    "name": "定西市人民政府",
+    "siteName": "定西市人民政府",
+    "url": "http://www.dingxi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "621200-government-www-longnan-gov-cn",
+    "regionCode": "621200",
+    "name": "陇南市人民政府",
+    "siteName": "陇南市人民政府",
+    "url": "https://www.longnan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "622900-government-www-linxia-gov-cn",
+    "regionCode": "622900",
+    "name": "临夏回族自治州人民政府",
+    "siteName": "临夏回族自治州人民政府",
+    "url": "https://www.linxia.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
+  },
+  {
+    "id": "623000-government-www-gnzrmzf-gov-cn",
+    "regionCode": "623000",
+    "name": "甘南藏族自治州人民政府",
+    "siteName": "甘南藏族自治州人民政府",
+    "url": "http://www.gnzrmzf.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.gansu.gov.cn/"
   }
 ]

@@ -1,0 +1,1413 @@
+{
+  "checkedAt": "2026-10-11T14:50:00+08:00",
+  "maintenance": "人工联网核验快照；测试不发起网络请求。未知状态不写入 valid 或 invalid。",
+  "sources": [
+    {
+      "sourceUrl": "https://www.cq.gov.cn/",
+      "sourceTitle": "重庆市人民政府门户网站",
+      "evidence": "首页“区县政府网站”导航直接列出全部 37 个区县入口，逐项锚文本与目标区域一致。",
+      "checkedAt": "2026-10-11T14:50:00+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.cq.gov.cn/",
+      "targetHosts": [
+        "cqspb.gov.cn",
+        "www.beibei.gov.cn",
+        "www.bishan.gov.cn",
+        "www.cqbn.gov.cn",
+        "www.cqck.gov.cn",
+        "www.cqcs.gov.cn",
+        "www.cqfd.gov.cn",
+        "www.cqfj.gov.cn",
+        "www.cqjlp.gov.cn",
+        "www.cqkz.gov.cn",
+        "www.cqlp.gov.cn",
+        "www.cqna.gov.cn",
+        "www.cqnc.gov.cn",
+        "www.cqqj.gov.cn",
+        "www.cqsdj.gov.cn",
+        "www.cqstl.gov.cn",
+        "www.cqszx.gov.cn",
+        "www.cqtn.gov.cn",
+        "www.cqwl.gov.cn",
+        "www.cqws.gov.cn",
+        "www.cqwx.gov.cn",
+        "www.cqxs.gov.cn",
+        "www.cqyc.gov.cn",
+        "www.cqyz.gov.cn",
+        "www.dazu.gov.cn",
+        "www.ddk.gov.cn",
+        "www.fl.gov.cn",
+        "www.hc.gov.cn",
+        "www.jiangjin.gov.cn",
+        "www.ljxq.gov.cn",
+        "www.psx.gov.cn",
+        "www.qianjiang.gov.cn",
+        "www.rongchang.gov.cn",
+        "www.wz.gov.cn",
+        "www.youyang.gov.cn",
+        "www.yunyang.gov.cn",
+        "www.zhongxian.gov.cn"
+      ],
+      "targetMappings": [
+        {
+          "regionCode": "500101",
+          "url": "http://www.wz.gov.cn/",
+          "host": "www.wz.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.wz.gov.cn/"
+        },
+        {
+          "regionCode": "500102",
+          "url": "http://www.fl.gov.cn",
+          "host": "www.fl.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.fl.gov.cn/"
+        },
+        {
+          "regionCode": "500103",
+          "url": "http://www.cqyz.gov.cn/",
+          "host": "www.cqyz.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqyz.gov.cn/"
+        },
+        {
+          "regionCode": "500104",
+          "url": "http://www.ddk.gov.cn/",
+          "host": "www.ddk.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.ddk.gov.cn/"
+        },
+        {
+          "regionCode": "500106",
+          "url": "http://cqspb.gov.cn/",
+          "host": "cqspb.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://cqspb.gov.cn/"
+        },
+        {
+          "regionCode": "500107",
+          "url": "http://www.cqjlp.gov.cn",
+          "host": "www.cqjlp.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqjlp.gov.cn/"
+        },
+        {
+          "regionCode": "500108",
+          "url": "http://www.cqna.gov.cn/",
+          "host": "www.cqna.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqna.gov.cn/"
+        },
+        {
+          "regionCode": "500109",
+          "url": "http://www.beibei.gov.cn/",
+          "host": "www.beibei.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.beibei.gov.cn/"
+        },
+        {
+          "regionCode": "500110",
+          "url": "http://www.cqqj.gov.cn/",
+          "host": "www.cqqj.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqqj.gov.cn/"
+        },
+        {
+          "regionCode": "500111",
+          "url": "http://www.dazu.gov.cn/",
+          "host": "www.dazu.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.dazu.gov.cn/"
+        },
+        {
+          "regionCode": "500113",
+          "url": "https://www.cqbn.gov.cn/",
+          "host": "www.cqbn.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cqbn.gov.cn/"
+        },
+        {
+          "regionCode": "500114",
+          "url": "https://www.qianjiang.gov.cn/",
+          "host": "www.qianjiang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.qianjiang.gov.cn/"
+        },
+        {
+          "regionCode": "500115",
+          "url": "http://www.cqcs.gov.cn/",
+          "host": "www.cqcs.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqcs.gov.cn/"
+        },
+        {
+          "regionCode": "500116",
+          "url": "http://www.jiangjin.gov.cn/",
+          "host": "www.jiangjin.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.jiangjin.gov.cn/"
+        },
+        {
+          "regionCode": "500117",
+          "url": "https://www.hc.gov.cn/",
+          "host": "www.hc.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hc.gov.cn/"
+        },
+        {
+          "regionCode": "500118",
+          "url": "https://www.cqyc.gov.cn/",
+          "host": "www.cqyc.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cqyc.gov.cn/"
+        },
+        {
+          "regionCode": "500119",
+          "url": "http://www.cqnc.gov.cn",
+          "host": "www.cqnc.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqnc.gov.cn/"
+        },
+        {
+          "regionCode": "500120",
+          "url": "http://www.bishan.gov.cn",
+          "host": "www.bishan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.bishan.gov.cn/"
+        },
+        {
+          "regionCode": "500151",
+          "url": "https://www.cqstl.gov.cn/",
+          "host": "www.cqstl.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cqstl.gov.cn/"
+        },
+        {
+          "regionCode": "500152",
+          "url": "http://www.cqtn.gov.cn/",
+          "host": "www.cqtn.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqtn.gov.cn/"
+        },
+        {
+          "regionCode": "500153",
+          "url": "http://www.rongchang.gov.cn/",
+          "host": "www.rongchang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.rongchang.gov.cn/"
+        },
+        {
+          "regionCode": "500154",
+          "url": "http://www.cqkz.gov.cn",
+          "host": "www.cqkz.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqkz.gov.cn/"
+        },
+        {
+          "regionCode": "500155",
+          "url": "http://www.cqlp.gov.cn/",
+          "host": "www.cqlp.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqlp.gov.cn/"
+        },
+        {
+          "regionCode": "500156",
+          "url": "http://www.cqwl.gov.cn/",
+          "host": "www.cqwl.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://cqwl.gov.cn/"
+        },
+        {
+          "regionCode": "500157",
+          "url": "https://www.ljxq.gov.cn/",
+          "host": "www.ljxq.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ljxq.gov.cn/"
+        },
+        {
+          "regionCode": "500229",
+          "url": "http://www.cqck.gov.cn/",
+          "host": "www.cqck.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqck.gov.cn/"
+        },
+        {
+          "regionCode": "500230",
+          "url": "http://www.cqfd.gov.cn/",
+          "host": "www.cqfd.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqfd.gov.cn/"
+        },
+        {
+          "regionCode": "500231",
+          "url": "http://www.cqsdj.gov.cn",
+          "host": "www.cqsdj.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqsdj.gov.cn/"
+        },
+        {
+          "regionCode": "500233",
+          "url": "http://www.zhongxian.gov.cn",
+          "host": "www.zhongxian.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.zhongxian.gov.cn/"
+        },
+        {
+          "regionCode": "500235",
+          "url": "https://www.yunyang.gov.cn/",
+          "host": "www.yunyang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.yunyang.gov.cn/"
+        },
+        {
+          "regionCode": "500236",
+          "url": "http://www.cqfj.gov.cn/",
+          "host": "www.cqfj.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqfj.gov.cn/"
+        },
+        {
+          "regionCode": "500237",
+          "url": "http://www.cqws.gov.cn/",
+          "host": "www.cqws.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqws.gov.cn/"
+        },
+        {
+          "regionCode": "500238",
+          "url": "http://www.cqwx.gov.cn/",
+          "host": "www.cqwx.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqwx.gov.cn/"
+        },
+        {
+          "regionCode": "500240",
+          "url": "http://www.cqszx.gov.cn",
+          "host": "www.cqszx.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://cqszx.gov.cn/"
+        },
+        {
+          "regionCode": "500241",
+          "url": "http://www.cqxs.gov.cn/",
+          "host": "www.cqxs.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cqxs.gov.cn/"
+        },
+        {
+          "regionCode": "500242",
+          "url": "http://www.youyang.gov.cn",
+          "host": "www.youyang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.youyang.gov.cn/"
+        },
+        {
+          "regionCode": "500243",
+          "url": "http://www.psx.gov.cn/",
+          "host": "www.psx.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.psx.gov.cn/"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.sc.gov.cn/",
+      "sourceTitle": "四川省人民政府门户网站",
+      "evidence": "首页“市州政府网站”导航直接列出 21 个市州入口，逐项锚文本与目标区域一致。",
+      "checkedAt": "2026-10-11T14:50:00+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.sc.gov.cn/",
+      "targetHosts": [
+        "www.abazhou.gov.cn",
+        "www.chengdu.gov.cn",
+        "www.cnbz.gov.cn",
+        "www.cngy.gov.cn",
+        "www.dazhou.gov.cn",
+        "www.deyang.gov.cn",
+        "www.guang-an.gov.cn",
+        "www.gzz.gov.cn",
+        "www.leshan.gov.cn",
+        "www.lsz.gov.cn",
+        "www.luzhou.gov.cn",
+        "www.ms.gov.cn",
+        "www.my.gov.cn",
+        "www.nanchong.gov.cn",
+        "www.neijiang.gov.cn",
+        "www.panzhihua.gov.cn",
+        "www.suining.gov.cn",
+        "www.yaan.gov.cn",
+        "www.yibin.gov.cn",
+        "www.zg.gov.cn",
+        "www.ziyang.gov.cn"
+      ],
+      "targetMappings": [
+        {
+          "regionCode": "510100",
+          "url": "http://www.chengdu.gov.cn/",
+          "host": "www.chengdu.gov.cn",
+          "httpStatus": 412,
+          "finalUrl": "https://www.chengdu.gov.cn/"
+        },
+        {
+          "regionCode": "510300",
+          "url": "https://www.zg.gov.cn/",
+          "host": "www.zg.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.zg.gov.cn/"
+        },
+        {
+          "regionCode": "510400",
+          "url": "http://www.panzhihua.gov.cn/",
+          "host": "www.panzhihua.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.panzhihua.gov.cn/"
+        },
+        {
+          "regionCode": "510500",
+          "url": "https://www.luzhou.gov.cn/",
+          "host": "www.luzhou.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.luzhou.gov.cn/"
+        },
+        {
+          "regionCode": "510600",
+          "url": "https://www.deyang.gov.cn/",
+          "host": "www.deyang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.deyang.gov.cn/"
+        },
+        {
+          "regionCode": "510700",
+          "url": "https://www.my.gov.cn/",
+          "host": "www.my.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.my.gov.cn/"
+        },
+        {
+          "regionCode": "510800",
+          "url": "https://www.cngy.gov.cn/",
+          "host": "www.cngy.gov.cn",
+          "httpStatus": 412,
+          "finalUrl": "https://www.cngy.gov.cn/"
+        },
+        {
+          "regionCode": "510900",
+          "url": "https://www.suining.gov.cn/",
+          "host": "www.suining.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.suining.gov.cn/"
+        },
+        {
+          "regionCode": "511000",
+          "url": "http://www.neijiang.gov.cn/",
+          "host": "www.neijiang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.neijiang.gov.cn/"
+        },
+        {
+          "regionCode": "511100",
+          "url": "https://www.leshan.gov.cn/",
+          "host": "www.leshan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.leshan.gov.cn/"
+        },
+        {
+          "regionCode": "511300",
+          "url": "https://www.nanchong.gov.cn/",
+          "host": "www.nanchong.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nanchong.gov.cn/"
+        },
+        {
+          "regionCode": "511400",
+          "url": "https://www.ms.gov.cn/",
+          "host": "www.ms.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ms.gov.cn/"
+        },
+        {
+          "regionCode": "511500",
+          "url": "http://www.yibin.gov.cn/index.html",
+          "host": "www.yibin.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.yibin.gov.cn/index.html"
+        },
+        {
+          "regionCode": "511600",
+          "url": "https://www.guang-an.gov.cn/",
+          "host": "www.guang-an.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.guang-an.gov.cn/"
+        },
+        {
+          "regionCode": "511700",
+          "url": "http://www.dazhou.gov.cn/",
+          "host": "www.dazhou.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.dazhou.gov.cn/"
+        },
+        {
+          "regionCode": "511800",
+          "url": "https://www.yaan.gov.cn/",
+          "host": "www.yaan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.yaan.gov.cn/"
+        },
+        {
+          "regionCode": "511900",
+          "url": "https://www.cnbz.gov.cn/",
+          "host": "www.cnbz.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cnbz.gov.cn/"
+        },
+        {
+          "regionCode": "512000",
+          "url": "http://www.ziyang.gov.cn/",
+          "host": "www.ziyang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ziyang.gov.cn/"
+        },
+        {
+          "regionCode": "513200",
+          "url": "http://www.abazhou.gov.cn/",
+          "host": "www.abazhou.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.abazhou.gov.cn/"
+        },
+        {
+          "regionCode": "513300",
+          "url": "http://www.gzz.gov.cn/",
+          "host": "www.gzz.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.gzz.gov.cn/"
+        },
+        {
+          "regionCode": "513400",
+          "url": "http://www.lsz.gov.cn/",
+          "host": "www.lsz.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.lsz.gov.cn/"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.guizhou.gov.cn/",
+      "sourceTitle": "贵州省人民政府门户网站",
+      "evidence": "首页“市州政府网站”导航直接列出 9 个市州入口，逐项锚文本与目标区域一致。",
+      "checkedAt": "2026-10-11T14:50:00+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.guizhou.gov.cn/",
+      "targetHosts": [
+        "www.anshun.gov.cn",
+        "www.bijie.gov.cn",
+        "www.guiyang.gov.cn",
+        "www.gzlps.gov.cn",
+        "www.qdn.gov.cn",
+        "www.qiannan.gov.cn",
+        "www.qxn.gov.cn",
+        "www.trs.gov.cn",
+        "www.zunyi.gov.cn"
+      ],
+      "targetMappings": [
+        {
+          "regionCode": "520100",
+          "url": "https://www.guiyang.gov.cn/",
+          "host": "www.guiyang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.guiyang.gov.cn/"
+        },
+        {
+          "regionCode": "520200",
+          "url": "http://www.gzlps.gov.cn/",
+          "host": "www.gzlps.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.gzlps.gov.cn/"
+        },
+        {
+          "regionCode": "520300",
+          "url": "https://www.zunyi.gov.cn/",
+          "host": "www.zunyi.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.zunyi.gov.cn/"
+        },
+        {
+          "regionCode": "520400",
+          "url": "http://www.anshun.gov.cn/",
+          "host": "www.anshun.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.anshun.gov.cn/"
+        },
+        {
+          "regionCode": "520500",
+          "url": "https://www.bijie.gov.cn/",
+          "host": "www.bijie.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bijie.gov.cn/"
+        },
+        {
+          "regionCode": "520600",
+          "url": "http://www.trs.gov.cn/",
+          "host": "www.trs.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.trs.gov.cn/"
+        },
+        {
+          "regionCode": "522300",
+          "url": "https://www.qxn.gov.cn/",
+          "host": "www.qxn.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.qxn.gov.cn/"
+        },
+        {
+          "regionCode": "522600",
+          "url": "https://www.qdn.gov.cn/",
+          "host": "www.qdn.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.qdn.gov.cn/"
+        },
+        {
+          "regionCode": "522700",
+          "url": "https://www.qiannan.gov.cn/",
+          "host": "www.qiannan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.qiannan.gov.cn/"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.yn.gov.cn/",
+      "sourceTitle": "云南省人民政府门户网站",
+      "evidence": "首页“州市政府网站”导航直接列出 16 个州市入口，逐项锚文本与目标区域一致。",
+      "checkedAt": "2026-10-11T14:50:00+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.yn.gov.cn/",
+      "targetHosts": [
+        "www.baoshan.gov.cn",
+        "www.cxz.gov.cn",
+        "www.dali.gov.cn",
+        "www.dh.gov.cn",
+        "www.diqing.gov.cn",
+        "www.hh.gov.cn",
+        "www.km.gov.cn",
+        "www.lijiang.gov.cn",
+        "www.lincang.gov.cn",
+        "www.nujiang.gov.cn",
+        "www.puershi.gov.cn",
+        "www.qj.gov.cn",
+        "www.xsbn.gov.cn",
+        "www.ynws.gov.cn",
+        "www.yuxi.gov.cn",
+        "www.zt.gov.cn"
+      ],
+      "targetMappings": [
+        {
+          "regionCode": "530100",
+          "url": "https://www.km.gov.cn/",
+          "host": "www.km.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.km.gov.cn/"
+        },
+        {
+          "regionCode": "530300",
+          "url": "http://www.qj.gov.cn",
+          "host": "www.qj.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.qj.gov.cn/"
+        },
+        {
+          "regionCode": "530400",
+          "url": "https://www.yuxi.gov.cn/",
+          "host": "www.yuxi.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.yuxi.gov.cn/"
+        },
+        {
+          "regionCode": "530500",
+          "url": "https://www.baoshan.gov.cn/",
+          "host": "www.baoshan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.baoshan.gov.cn/"
+        },
+        {
+          "regionCode": "530600",
+          "url": "https://www.zt.gov.cn/",
+          "host": "www.zt.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.zt.gov.cn/"
+        },
+        {
+          "regionCode": "530700",
+          "url": "https://www.lijiang.gov.cn/",
+          "host": "www.lijiang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lijiang.gov.cn/"
+        },
+        {
+          "regionCode": "530800",
+          "url": "https://www.puershi.gov.cn/",
+          "host": "www.puershi.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.puershi.gov.cn/"
+        },
+        {
+          "regionCode": "530900",
+          "url": "https://www.lincang.gov.cn/",
+          "host": "www.lincang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lincang.gov.cn/"
+        },
+        {
+          "regionCode": "532300",
+          "url": "http://www.cxz.gov.cn",
+          "host": "www.cxz.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cxz.gov.cn/"
+        },
+        {
+          "regionCode": "532500",
+          "url": "https://www.hh.gov.cn/",
+          "host": "www.hh.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hh.gov.cn/"
+        },
+        {
+          "regionCode": "532600",
+          "url": "https://www.ynws.gov.cn/",
+          "host": "www.ynws.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ynws.gov.cn/"
+        },
+        {
+          "regionCode": "532800",
+          "url": "https://www.xsbn.gov.cn/",
+          "host": "www.xsbn.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.xsbn.gov.cn/"
+        },
+        {
+          "regionCode": "532900",
+          "url": "https://www.dali.gov.cn/",
+          "host": "www.dali.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.dali.gov.cn/"
+        },
+        {
+          "regionCode": "533100",
+          "url": "http://www.dh.gov.cn",
+          "host": "www.dh.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.dh.gov.cn/Web/index.do"
+        },
+        {
+          "regionCode": "533300",
+          "url": "https://www.nujiang.gov.cn/",
+          "host": "www.nujiang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nujiang.gov.cn/"
+        },
+        {
+          "regionCode": "533400",
+          "url": "https://www.diqing.gov.cn/",
+          "host": "www.diqing.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.diqing.gov.cn/"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.xizang.gov.cn/",
+      "sourceTitle": "西藏自治区人民政府门户网站",
+      "evidence": "首页“地市政府网站”导航直接列出 7 个地市入口，逐项锚文本与目标区域一致。",
+      "checkedAt": "2026-10-11T14:50:00+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.xizang.gov.cn/",
+      "targetHosts": [
+        "www.al.gov.cn",
+        "www.changdu.gov.cn",
+        "www.lasa.gov.cn",
+        "www.linzhi.gov.cn",
+        "www.naqu.gov.cn",
+        "www.rikaze.gov.cn",
+        "www.shannan.gov.cn"
+      ],
+      "targetMappings": [
+        {
+          "regionCode": "540100",
+          "url": "https://www.lasa.gov.cn/",
+          "host": "www.lasa.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lasa.gov.cn/"
+        },
+        {
+          "regionCode": "540200",
+          "url": "http://www.rikaze.gov.cn/",
+          "host": "www.rikaze.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.rikaze.gov.cn/"
+        },
+        {
+          "regionCode": "540300",
+          "url": "https://www.changdu.gov.cn/",
+          "host": "www.changdu.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.changdu.gov.cn/"
+        },
+        {
+          "regionCode": "540400",
+          "url": "https://www.linzhi.gov.cn/",
+          "host": "www.linzhi.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.linzhi.gov.cn/"
+        },
+        {
+          "regionCode": "540500",
+          "url": "https://www.shannan.gov.cn/",
+          "host": "www.shannan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.shannan.gov.cn/"
+        },
+        {
+          "regionCode": "540600",
+          "url": "http://www.naqu.gov.cn/",
+          "host": "www.naqu.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.naqu.gov.cn/"
+        },
+        {
+          "regionCode": "542500",
+          "url": "https://www.al.gov.cn/",
+          "host": "www.al.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.al.gov.cn/"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.shaanxi.gov.cn/",
+      "sourceTitle": "陕西省人民政府门户网站",
+      "evidence": "首页“地市政府网站”导航直接列出 10 个地市入口，逐项锚文本与目标区域一致。",
+      "checkedAt": "2026-10-11T14:50:00+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.shaanxi.gov.cn/",
+      "targetHosts": [
+        "www.ankang.gov.cn",
+        "www.baoji.gov.cn",
+        "www.hanzhong.gov.cn",
+        "www.shangluo.gov.cn",
+        "www.tongchuan.gov.cn",
+        "www.weinan.gov.cn",
+        "www.xa.gov.cn",
+        "www.xianyang.gov.cn",
+        "www.yanan.gov.cn",
+        "www.yl.gov.cn"
+      ],
+      "targetMappings": [
+        {
+          "regionCode": "610100",
+          "url": "http://www.xa.gov.cn/",
+          "host": "www.xa.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.xa.gov.cn/"
+        },
+        {
+          "regionCode": "610200",
+          "url": "https://www.tongchuan.gov.cn/",
+          "host": "www.tongchuan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tongchuan.gov.cn/"
+        },
+        {
+          "regionCode": "610300",
+          "url": "https://www.baoji.gov.cn/",
+          "host": "www.baoji.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.baoji.gov.cn/"
+        },
+        {
+          "regionCode": "610400",
+          "url": "https://www.xianyang.gov.cn/",
+          "host": "www.xianyang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.xianyang.gov.cn/"
+        },
+        {
+          "regionCode": "610500",
+          "url": "https://www.weinan.gov.cn/",
+          "host": "www.weinan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.weinan.gov.cn/"
+        },
+        {
+          "regionCode": "610600",
+          "url": "https://www.yanan.gov.cn/",
+          "host": "www.yanan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.yanan.gov.cn/"
+        },
+        {
+          "regionCode": "610700",
+          "url": "http://www.hanzhong.gov.cn/",
+          "host": "www.hanzhong.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.hanzhong.gov.cn/"
+        },
+        {
+          "regionCode": "610800",
+          "url": "https://www.yl.gov.cn/",
+          "host": "www.yl.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.yl.gov.cn/"
+        },
+        {
+          "regionCode": "610900",
+          "url": "https://www.ankang.gov.cn/",
+          "host": "www.ankang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ankang.gov.cn/"
+        },
+        {
+          "regionCode": "611000",
+          "url": "https://www.shangluo.gov.cn/",
+          "host": "www.shangluo.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.shangluo.gov.cn/"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.gansu.gov.cn/",
+      "sourceTitle": "甘肃省人民政府门户网站",
+      "evidence": "“市州（县区）政府网站”目录直接列出 14 个市州入口；直连有 WAF 412，Chromium 完成环境校验后成功渲染官方目录。",
+      "checkedAt": "2026-10-11T14:50:00+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.gansu.gov.cn/",
+      "targetHosts": [
+        "www.baiyin.gov.cn",
+        "www.dingxi.gov.cn",
+        "www.gnzrmzf.gov.cn",
+        "www.gswuwei.gov.cn",
+        "www.jcs.gov.cn",
+        "www.jiuquan.gov.cn",
+        "www.jyg.gov.cn",
+        "www.lanzhou.gov.cn",
+        "www.linxia.gov.cn",
+        "www.longnan.gov.cn",
+        "www.pingliang.gov.cn",
+        "www.tianshui.gov.cn",
+        "www.zgqingyang.gov.cn",
+        "www.zhangye.gov.cn"
+      ],
+      "targetMappings": [
+        {
+          "regionCode": "620100",
+          "url": "http://www.lanzhou.gov.cn/",
+          "host": "www.lanzhou.gov.cn",
+          "httpStatus": 412,
+          "finalUrl": "http://www.lanzhou.gov.cn/"
+        },
+        {
+          "regionCode": "620200",
+          "url": "http://www.jyg.gov.cn/",
+          "host": "www.jyg.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.jyg.gov.cn/"
+        },
+        {
+          "regionCode": "620300",
+          "url": "http://www.jcs.gov.cn/",
+          "host": "www.jcs.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.jcs.gov.cn/"
+        },
+        {
+          "regionCode": "620400",
+          "url": "https://www.baiyin.gov.cn/",
+          "host": "www.baiyin.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.baiyin.gov.cn/"
+        },
+        {
+          "regionCode": "620500",
+          "url": "http://www.tianshui.gov.cn/",
+          "host": "www.tianshui.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.tianshui.gov.cn/"
+        },
+        {
+          "regionCode": "620600",
+          "url": "https://www.gswuwei.gov.cn/",
+          "host": "www.gswuwei.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.gswuwei.gov.cn/"
+        },
+        {
+          "regionCode": "620700",
+          "url": "https://www.zhangye.gov.cn/",
+          "host": "www.zhangye.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.zhangye.gov.cn/"
+        },
+        {
+          "regionCode": "620800",
+          "url": "https://www.pingliang.gov.cn/",
+          "host": "www.pingliang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pingliang.gov.cn/"
+        },
+        {
+          "regionCode": "620900",
+          "url": "https://www.jiuquan.gov.cn/",
+          "host": "www.jiuquan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.jiuquan.gov.cn/"
+        },
+        {
+          "regionCode": "621000",
+          "url": "https://www.zgqingyang.gov.cn/",
+          "host": "www.zgqingyang.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.zgqingyang.gov.cn/"
+        },
+        {
+          "regionCode": "621100",
+          "url": "http://www.dingxi.gov.cn/",
+          "host": "www.dingxi.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.dingxi.gov.cn/"
+        },
+        {
+          "regionCode": "621200",
+          "url": "https://www.longnan.gov.cn/",
+          "host": "www.longnan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.longnan.gov.cn/"
+        },
+        {
+          "regionCode": "622900",
+          "url": "https://www.linxia.gov.cn/",
+          "host": "www.linxia.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.linxia.gov.cn/"
+        },
+        {
+          "regionCode": "623000",
+          "url": "http://www.gnzrmzf.gov.cn/",
+          "host": "www.gnzrmzf.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.gnzrmzf.gov.cn/"
+        }
+      ],
+      "directHttpStatus": 412,
+      "verificationMethod": "Chromium after WAF challenge"
+    },
+    {
+      "sourceUrl": "http://www.qinghai.gov.cn/",
+      "sourceTitle": "青海省人民政府门户网站",
+      "evidence": "首页“市州政府网站”导航直接列出 8 个市州入口；HTTPS TLS 握手失败，采用官方 HTTP 首页并实测 200。",
+      "checkedAt": "2026-10-11T14:50:00+08:00",
+      "httpStatus": 200,
+      "finalUrl": "http://www.qinghai.gov.cn/",
+      "targetHosts": [
+        "www.guoluo.gov.cn",
+        "www.haibei.gov.cn",
+        "www.haidong.gov.cn",
+        "www.hainanzhou.gov.cn",
+        "www.haixi.gov.cn",
+        "www.huangnan.gov.cn",
+        "www.xining.gov.cn",
+        "www.yushuzhou.gov.cn"
+      ],
+      "targetMappings": [
+        {
+          "regionCode": "630100",
+          "url": "http://www.xining.gov.cn",
+          "host": "www.xining.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.xining.gov.cn/"
+        },
+        {
+          "regionCode": "630200",
+          "url": "https://www.haidong.gov.cn/",
+          "host": "www.haidong.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.haidong.gov.cn/"
+        },
+        {
+          "regionCode": "632200",
+          "url": "https://www.haibei.gov.cn/",
+          "host": "www.haibei.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.haibei.gov.cn/"
+        },
+        {
+          "regionCode": "632300",
+          "url": "http://www.huangnan.gov.cn/",
+          "host": "www.huangnan.gov.cn",
+          "httpStatus": 412,
+          "finalUrl": "http://www.huangnan.gov.cn/"
+        },
+        {
+          "regionCode": "632500",
+          "url": "https://www.hainanzhou.gov.cn/",
+          "host": "www.hainanzhou.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hainanzhou.gov.cn/"
+        },
+        {
+          "regionCode": "632600",
+          "url": "http://www.guoluo.gov.cn",
+          "host": "www.guoluo.gov.cn",
+          "httpStatus": 412,
+          "finalUrl": "http://www.guoluo.gov.cn"
+        },
+        {
+          "regionCode": "632700",
+          "url": "https://www.yushuzhou.gov.cn/",
+          "host": "www.yushuzhou.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.yushuzhou.gov.cn/"
+        },
+        {
+          "regionCode": "632800",
+          "url": "https://www.haixi.gov.cn/",
+          "host": "www.haixi.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.haixi.gov.cn/"
+        }
+      ],
+      "verificationMethod": "curl HTTP"
+    },
+    {
+      "sourceUrl": "https://www.nx.gov.cn/",
+      "sourceTitle": "宁夏回族自治区人民政府门户网站",
+      "evidence": "首页“市县政府网站”导航直接列出 5 个地级市入口，逐项锚文本与目标区域一致。",
+      "checkedAt": "2026-10-11T14:50:00+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.nx.gov.cn/",
+      "targetHosts": [
+        "www.nxgy.gov.cn",
+        "www.nxzw.gov.cn",
+        "www.shizuishan.gov.cn",
+        "www.wuzhong.gov.cn",
+        "www.yinchuan.gov.cn"
+      ],
+      "targetMappings": [
+        {
+          "regionCode": "640100",
+          "url": "https://www.yinchuan.gov.cn/",
+          "host": "www.yinchuan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.yinchuan.gov.cn/"
+        },
+        {
+          "regionCode": "640200",
+          "url": "https://www.shizuishan.gov.cn/",
+          "host": "www.shizuishan.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.shizuishan.gov.cn/"
+        },
+        {
+          "regionCode": "640300",
+          "url": "https://www.wuzhong.gov.cn/",
+          "host": "www.wuzhong.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wuzhong.gov.cn/"
+        },
+        {
+          "regionCode": "640400",
+          "url": "https://www.nxgy.gov.cn/",
+          "host": "www.nxgy.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nxgy.gov.cn/"
+        },
+        {
+          "regionCode": "640500",
+          "url": "https://www.nxzw.gov.cn/",
+          "host": "www.nxzw.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nxzw.gov.cn/"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.xinjiang.gov.cn/",
+      "sourceTitle": "新疆维吾尔自治区人民政府门户网站",
+      "evidence": "首页“地州市政府网站”与“自治区直辖县级市”导航直接列出 14 个地州和 13 个省直辖县级单位；草湖市无独立可解析官网，使用第三师图木舒克市官方门户草湖项目区页面作为临时入口。",
+      "checkedAt": "2026-10-11T14:50:00+08:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.xinjiang.gov.cn/",
+      "targetHosts": [
+        "www.aks.gov.cn",
+        "www.ale.gov.cn",
+        "www.btdjs.gov.cn",
+        "www.btdsss.gov.cn",
+        "www.btnsss.gov.cn",
+        "www.bts.gov.cn",
+        "www.cj.gov.cn",
+        "www.cocodala.gov.cn",
+        "www.hami.gov.cn",
+        "www.kashi.gov.cn",
+        "www.klmy.gov.cn",
+        "www.nqs.gov.cn",
+        "www.shz.gov.cn",
+        "www.tlf.gov.cn",
+        "www.tmg.gov.cn",
+        "www.wjq.gov.cn",
+        "www.wlmq.gov.cn",
+        "www.xjalt.gov.cn",
+        "www.xjboz.gov.cn",
+        "www.xjbtnss.gov.cn",
+        "www.xjbz.gov.cn",
+        "www.xjht.gov.cn",
+        "www.xjkz.gov.cn",
+        "www.xjshs.gov.cn",
+        "www.xjtc.gov.cn",
+        "www.xjyl.gov.cn"
+      ],
+      "targetMappings": [
+        {
+          "regionCode": "650100",
+          "url": "http://www.wlmq.gov.cn/",
+          "host": "www.wlmq.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.wlmq.gov.cn/"
+        },
+        {
+          "regionCode": "650200",
+          "url": "https://www.klmy.gov.cn/",
+          "host": "www.klmy.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.klmy.gov.cn/"
+        },
+        {
+          "regionCode": "650400",
+          "url": "https://www.tlf.gov.cn/",
+          "host": "www.tlf.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tlf.gov.cn/"
+        },
+        {
+          "regionCode": "650500",
+          "url": "https://www.hami.gov.cn/",
+          "host": "www.hami.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hami.gov.cn/"
+        },
+        {
+          "regionCode": "652300",
+          "url": "https://www.cj.gov.cn/",
+          "host": "www.cj.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cj.gov.cn/"
+        },
+        {
+          "regionCode": "652700",
+          "url": "https://www.xjboz.gov.cn/",
+          "host": "www.xjboz.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.xjboz.gov.cn/"
+        },
+        {
+          "regionCode": "652800",
+          "url": "http://www.xjbz.gov.cn/",
+          "host": "www.xjbz.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.xjbz.gov.cn/"
+        },
+        {
+          "regionCode": "652900",
+          "url": "https://www.aks.gov.cn/",
+          "host": "www.aks.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.aks.gov.cn/"
+        },
+        {
+          "regionCode": "653000",
+          "url": "https://www.xjkz.gov.cn/",
+          "host": "www.xjkz.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.xjkz.gov.cn/"
+        },
+        {
+          "regionCode": "653100",
+          "url": "https://www.kashi.gov.cn/",
+          "host": "www.kashi.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kashi.gov.cn/"
+        },
+        {
+          "regionCode": "653200",
+          "url": "https://www.xjht.gov.cn/",
+          "host": "www.xjht.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.xjht.gov.cn/"
+        },
+        {
+          "regionCode": "654000",
+          "url": "https://www.xjyl.gov.cn/",
+          "host": "www.xjyl.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.xjyl.gov.cn/"
+        },
+        {
+          "regionCode": "654200",
+          "url": "https://www.xjtc.gov.cn/",
+          "host": "www.xjtc.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.xjtc.gov.cn/"
+        },
+        {
+          "regionCode": "654300",
+          "url": "http://www.xjalt.gov.cn/",
+          "host": "www.xjalt.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://xjalt.gov.cn/"
+        },
+        {
+          "regionCode": "659001",
+          "url": "https://www.shz.gov.cn/",
+          "host": "www.shz.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.shz.gov.cn/"
+        },
+        {
+          "regionCode": "659002",
+          "url": "http://www.ale.gov.cn",
+          "host": "www.ale.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.ale.gov.cn/"
+        },
+        {
+          "regionCode": "659003",
+          "url": "https://www.xjbtnss.gov.cn/",
+          "host": "www.xjbtnss.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.xjbtnss.gov.cn/"
+        },
+        {
+          "regionCode": "659004",
+          "url": "https://www.wjq.gov.cn/",
+          "host": "www.wjq.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wjq.gov.cn/"
+        },
+        {
+          "regionCode": "659005",
+          "url": "http://www.bts.gov.cn",
+          "host": "www.bts.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.bts.gov.cn/"
+        },
+        {
+          "regionCode": "659006",
+          "url": "https://www.tmg.gov.cn/",
+          "host": "www.tmg.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tmg.gov.cn/"
+        },
+        {
+          "regionCode": "659007",
+          "url": "https://www.xjshs.gov.cn/",
+          "host": "www.xjshs.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.xjshs.gov.cn/"
+        },
+        {
+          "regionCode": "659008",
+          "url": "http://www.cocodala.gov.cn",
+          "host": "www.cocodala.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.cocodala.gov.cn/"
+        },
+        {
+          "regionCode": "659009",
+          "url": "https://www.btdsss.gov.cn/",
+          "host": "www.btdsss.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.btdsss.gov.cn/"
+        },
+        {
+          "regionCode": "659010",
+          "url": "http://www.nqs.gov.cn",
+          "host": "www.nqs.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "http://www.nqs.gov.cn/"
+        },
+        {
+          "regionCode": "659011",
+          "url": "https://www.btnsss.gov.cn/",
+          "host": "www.btnsss.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.btnsss.gov.cn/"
+        },
+        {
+          "regionCode": "659012",
+          "url": "https://www.btdjs.gov.cn/",
+          "host": "www.btdjs.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.btdjs.gov.cn/"
+        },
+        {
+          "regionCode": "659013",
+          "url": "https://www.xjbtnss.gov.cn/xwzx/ssyw/202610/t20261009_68473.html",
+          "host": "www.xjbtnss.gov.cn",
+          "httpStatus": 200,
+          "finalUrl": "https://www.xjbtnss.gov.cn/xwzx/ssyw/202610/t20261009_68473.html"
+        }
+      ],
+      "intermediateEvidence": [
+        {
+          "url": "https://www.xjbtnss.gov.cn/xwzx/ssyw/202610/t20261009_68473.html",
+          "note": "659013 草湖市暂无独立可解析政府门户；该链接是第三师图木舒克市官方门户中确认草湖市/草湖项目区的权威页面，作为临时入口。"
+        }
+      ]
+    }
+  ],
+  "anomalies": [
+    {
+      "regionCode": "510100",
+      "kind": "waf_412",
+      "detail": "Node、curl 和 Chromium 均返回 HTTP 412 环境校验，无确定性 404/410，按 unknown 记录。"
+    },
+    {
+      "regionCode": "510800",
+      "kind": "waf_412_405",
+      "detail": "Node 与 curl 返回 412，跳过 WAF 的 HTTPS 请求返回 405；无确定性 404/410，按 unknown 记录。"
+    },
+    {
+      "regionCode": "620100",
+      "kind": "waf_412",
+      "detail": "HTTP/HTTPS 及浏览器均返回 412 环境校验，无确定性 404/410，按 unknown 记录。"
+    },
+    {
+      "regionCode": "632300",
+      "kind": "waf_412_tls",
+      "detail": "HTTP 返回 412，HTTPS 证书不受信任；无确定性 404/410，按 unknown 记录。"
+    },
+    {
+      "regionCode": "632600",
+      "kind": "waf_412",
+      "detail": "HTTP/HTTPS 均返回 412 环境校验，无确定性 404/410，按 unknown 记录。"
+    },
+    {
+      "regionCode": "530800",
+      "kind": "client_tls_difference",
+      "detail": "Node fetch TLS 失败，但 curl 与 Chromium 均返回 200，判定可访问。"
+    },
+    {
+      "regionCode": "530900",
+      "kind": "client_tls_difference",
+      "detail": "Node fetch TLS 失败，但 curl 与 Chromium 均返回 200，判定可访问。"
+    },
+    {
+      "regionCode": "532900",
+      "kind": "client_timeout_browser_ok",
+      "detail": "Node fetch 与 curl 在下载大页面时超时，Chromium 返回 200；判定可访问。"
+    },
+    {
+      "regionCode": "540100",
+      "kind": "client_transient_failure",
+      "detail": "Node fetch 偶发失败，curl 复测返回 200；判定可访问。"
+    }
+  ]
+}

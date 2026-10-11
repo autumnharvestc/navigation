@@ -7,5 +7,86 @@
     "url": "https://www.guizhou.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.guizhou.gov.cn/"
+  },
+  {
+    "id": "520100-government-www-guiyang-gov-cn",
+    "regionCode": "520100",
+    "name": "贵阳市人民政府",
+    "siteName": "贵阳市人民政府",
+    "url": "https://www.guiyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.guizhou.gov.cn/"
+  },
+  {
+    "id": "520200-government-www-gzlps-gov-cn",
+    "regionCode": "520200",
+    "name": "六盘水市人民政府",
+    "siteName": "六盘水市人民政府",
+    "url": "http://www.gzlps.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.guizhou.gov.cn/"
+  },
+  {
+    "id": "520300-government-www-zunyi-gov-cn",
+    "regionCode": "520300",
+    "name": "遵义市人民政府",
+    "siteName": "遵义市人民政府",
+    "url": "https://www.zunyi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.guizhou.gov.cn/"
+  },
+  {
+    "id": "520400-government-www-anshun-gov-cn",
+    "regionCode": "520400",
+    "name": "安顺市人民政府",
+    "siteName": "安顺市人民政府",
+    "url": "http://www.anshun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.guizhou.gov.cn/"
+  },
+  {
+    "id": "520500-government-www-bijie-gov-cn",
+    "regionCode": "520500",
+    "name": "毕节市人民政府",
+    "siteName": "毕节市人民政府",
+    "url": "https://www.bijie.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.guizhou.gov.cn/"
+  },
+  {
+    "id": "520600-government-www-trs-gov-cn",
+    "regionCode": "520600",
+    "name": "铜仁市人民政府",
+    "siteName": "铜仁市人民政府",
+    "url": "http://www.trs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.guizhou.gov.cn/"
+  },
+  {
+    "id": "522300-government-www-qxn-gov-cn",
+    "regionCode": "522300",
+    "name": "黔西南布依族苗族自治州人民政府",
+    "siteName": "黔西南布依族苗族自治州人民政府",
+    "url": "https://www.qxn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.guizhou.gov.cn/"
+  },
+  {
+    "id": "522600-government-www-qdn-gov-cn",
+    "regionCode": "522600",
+    "name": "黔东南苗族侗族自治州人民政府",
+    "siteName": "黔东南苗族侗族自治州人民政府",
+    "url": "https://www.qdn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.guizhou.gov.cn/"
+  },
+  {
+    "id": "522700-government-www-qiannan-gov-cn",
+    "regionCode": "522700",
+    "name": "黔南布依族苗族自治州人民政府",
+    "siteName": "黔南布依族苗族自治州人民政府",
+    "url": "https://www.qiannan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.guizhou.gov.cn/"
   }
 ]

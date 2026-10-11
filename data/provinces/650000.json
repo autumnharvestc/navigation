@@ -7,5 +7,248 @@
     "url": "https://www.xinjiang.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "650100-government-www-wlmq-gov-cn",
+    "regionCode": "650100",
+    "name": "乌鲁木齐市人民政府",
+    "siteName": "乌鲁木齐市人民政府",
+    "url": "http://www.wlmq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "650200-government-www-klmy-gov-cn",
+    "regionCode": "650200",
+    "name": "克拉玛依市人民政府",
+    "siteName": "克拉玛依市人民政府",
+    "url": "https://www.klmy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "650400-government-www-tlf-gov-cn",
+    "regionCode": "650400",
+    "name": "吐鲁番市人民政府",
+    "siteName": "吐鲁番市人民政府",
+    "url": "https://www.tlf.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "650500-government-www-hami-gov-cn",
+    "regionCode": "650500",
+    "name": "哈密市人民政府",
+    "siteName": "哈密市人民政府",
+    "url": "https://www.hami.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "652300-government-www-cj-gov-cn",
+    "regionCode": "652300",
+    "name": "昌吉回族自治州人民政府",
+    "siteName": "昌吉回族自治州人民政府",
+    "url": "https://www.cj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "652700-government-www-xjboz-gov-cn",
+    "regionCode": "652700",
+    "name": "博尔塔拉蒙古自治州人民政府",
+    "siteName": "博尔塔拉蒙古自治州人民政府",
+    "url": "https://www.xjboz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "652800-government-www-xjbz-gov-cn",
+    "regionCode": "652800",
+    "name": "巴音郭楞蒙古自治州人民政府",
+    "siteName": "巴音郭楞蒙古自治州人民政府",
+    "url": "http://www.xjbz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "652900-government-www-aks-gov-cn",
+    "regionCode": "652900",
+    "name": "阿克苏地区行政公署",
+    "siteName": "阿克苏地区行政公署",
+    "url": "https://www.aks.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "653000-government-www-xjkz-gov-cn",
+    "regionCode": "653000",
+    "name": "克孜勒苏柯尔克孜自治州人民政府",
+    "siteName": "克孜勒苏柯尔克孜自治州人民政府",
+    "url": "https://www.xjkz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "653100-government-www-kashi-gov-cn",
+    "regionCode": "653100",
+    "name": "喀什地区行政公署",
+    "siteName": "喀什地区行政公署",
+    "url": "https://www.kashi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "653200-government-www-xjht-gov-cn",
+    "regionCode": "653200",
+    "name": "和田地区行政公署",
+    "siteName": "和田地区行政公署",
+    "url": "https://www.xjht.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "654000-government-www-xjyl-gov-cn",
+    "regionCode": "654000",
+    "name": "伊犁哈萨克自治州人民政府",
+    "siteName": "伊犁哈萨克自治州人民政府",
+    "url": "https://www.xjyl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "654200-government-www-xjtc-gov-cn",
+    "regionCode": "654200",
+    "name": "塔城地区行政公署",
+    "siteName": "塔城地区行政公署",
+    "url": "https://www.xjtc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "654300-government-www-xjalt-gov-cn",
+    "regionCode": "654300",
+    "name": "阿勒泰地区行政公署",
+    "siteName": "阿勒泰地区行政公署",
+    "url": "http://www.xjalt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659001-government-www-shz-gov-cn",
+    "regionCode": "659001",
+    "name": "石河子市人民政府",
+    "siteName": "石河子市人民政府",
+    "url": "https://www.shz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659002-government-www-ale-gov-cn",
+    "regionCode": "659002",
+    "name": "阿拉尔市人民政府",
+    "siteName": "阿拉尔市人民政府",
+    "url": "http://www.ale.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659003-government-www-xjbtnss-gov-cn",
+    "regionCode": "659003",
+    "name": "图木舒克市人民政府",
+    "siteName": "图木舒克市人民政府",
+    "url": "https://www.xjbtnss.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659004-government-www-wjq-gov-cn",
+    "regionCode": "659004",
+    "name": "五家渠市人民政府",
+    "siteName": "五家渠市人民政府",
+    "url": "https://www.wjq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659005-government-www-bts-gov-cn",
+    "regionCode": "659005",
+    "name": "北屯市人民政府",
+    "siteName": "北屯市人民政府",
+    "url": "http://www.bts.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659006-government-www-tmg-gov-cn",
+    "regionCode": "659006",
+    "name": "铁门关市人民政府",
+    "siteName": "铁门关市人民政府",
+    "url": "https://www.tmg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659007-government-www-xjshs-gov-cn",
+    "regionCode": "659007",
+    "name": "双河市人民政府",
+    "siteName": "双河市人民政府",
+    "url": "https://www.xjshs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659008-government-www-cocodala-gov-cn",
+    "regionCode": "659008",
+    "name": "可克达拉市人民政府",
+    "siteName": "可克达拉市人民政府",
+    "url": "http://www.cocodala.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659009-government-www-btdsss-gov-cn",
+    "regionCode": "659009",
+    "name": "昆玉市人民政府",
+    "siteName": "昆玉市人民政府",
+    "url": "https://www.btdsss.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659010-government-www-nqs-gov-cn",
+    "regionCode": "659010",
+    "name": "胡杨河市人民政府",
+    "siteName": "胡杨河市人民政府",
+    "url": "http://www.nqs.gov.cn",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659011-government-www-btnsss-gov-cn",
+    "regionCode": "659011",
+    "name": "新星市人民政府",
+    "siteName": "新星市人民政府",
+    "url": "https://www.btnsss.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659012-government-www-btdjs-gov-cn",
+    "regionCode": "659012",
+    "name": "白杨市人民政府",
+    "siteName": "白杨市人民政府",
+    "url": "https://www.btdjs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "659013-government-www-xjbtnss-gov-cn",
+    "regionCode": "659013",
+    "name": "草湖市人民政府",
+    "siteName": "草湖市人民政府",
+    "url": "https://www.xjbtnss.gov.cn/xwzx/ssyw/202610/t20261009_68473.html",
+    "category": "government",
+    "sourceUrl": "https://www.xinjiang.gov.cn/"
   }
 ]

@@ -7,5 +7,95 @@
     "url": "https://www.shaanxi.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.shaanxi.gov.cn/"
+  },
+  {
+    "id": "610100-government-www-xa-gov-cn",
+    "regionCode": "610100",
+    "name": "西安市人民政府",
+    "siteName": "西安市人民政府",
+    "url": "http://www.xa.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shaanxi.gov.cn/"
+  },
+  {
+    "id": "610200-government-www-tongchuan-gov-cn",
+    "regionCode": "610200",
+    "name": "铜川市人民政府",
+    "siteName": "铜川市人民政府",
+    "url": "https://www.tongchuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shaanxi.gov.cn/"
+  },
+  {
+    "id": "610300-government-www-baoji-gov-cn",
+    "regionCode": "610300",
+    "name": "宝鸡市人民政府",
+    "siteName": "宝鸡市人民政府",
+    "url": "https://www.baoji.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shaanxi.gov.cn/"
+  },
+  {
+    "id": "610400-government-www-xianyang-gov-cn",
+    "regionCode": "610400",
+    "name": "咸阳市人民政府",
+    "siteName": "咸阳市人民政府",
+    "url": "https://www.xianyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shaanxi.gov.cn/"
+  },
+  {
+    "id": "610500-government-www-weinan-gov-cn",
+    "regionCode": "610500",
+    "name": "渭南市人民政府",
+    "siteName": "渭南市人民政府",
+    "url": "https://www.weinan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shaanxi.gov.cn/"
+  },
+  {
+    "id": "610600-government-www-yanan-gov-cn",
+    "regionCode": "610600",
+    "name": "延安市人民政府",
+    "siteName": "延安市人民政府",
+    "url": "https://www.yanan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shaanxi.gov.cn/"
+  },
+  {
+    "id": "610700-government-www-hanzhong-gov-cn",
+    "regionCode": "610700",
+    "name": "汉中市人民政府",
+    "siteName": "汉中市人民政府",
+    "url": "http://www.hanzhong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shaanxi.gov.cn/"
+  },
+  {
+    "id": "610800-government-www-yl-gov-cn",
+    "regionCode": "610800",
+    "name": "榆林市人民政府",
+    "siteName": "榆林市人民政府",
+    "url": "https://www.yl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shaanxi.gov.cn/"
+  },
+  {
+    "id": "610900-government-www-ankang-gov-cn",
+    "regionCode": "610900",
+    "name": "安康市人民政府",
+    "siteName": "安康市人民政府",
+    "url": "https://www.ankang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shaanxi.gov.cn/"
+  },
+  {
+    "id": "611000-government-www-shangluo-gov-cn",
+    "regionCode": "611000",
+    "name": "商洛市人民政府",
+    "siteName": "商洛市人民政府",
+    "url": "https://www.shangluo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shaanxi.gov.cn/"
   }
 ]
