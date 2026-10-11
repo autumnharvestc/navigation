@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-11T14:50:00+08:00",
-  "maintenance": "人工联网核验快照；测试不发起网络请求。未知状态不写入 valid 或 invalid。",
+  "maintenance": "人工联网核验快照（153 条已收录入口）；测试不发起网络请求。未知状态不写入 valid 或 invalid。",
   "sources": [
     {
       "sourceUrl": "https://www.cq.gov.cn/",
@@ -877,9 +877,9 @@
     {
       "sourceUrl": "https://www.gansu.gov.cn/",
       "sourceTitle": "甘肃省人民政府门户网站",
-      "evidence": "“市州（县区）政府网站”目录直接列出 14 个市州入口；直连有 WAF 412，Chromium 完成环境校验后成功渲染官方目录。",
+      "evidence": "“市州（县区）政府网站”目录列出 14 个市州入口；直接请求返回 WAF 412，Chromium 完成环境校验后页面有效并确认全部目标链接。",
       "checkedAt": "2026-10-11T14:50:00+08:00",
-      "httpStatus": 200,
+      "httpStatus": 412,
       "finalUrl": "https://www.gansu.gov.cn/",
       "targetHosts": [
         "www.baiyin.gov.cn",
@@ -998,7 +998,8 @@
         }
       ],
       "directHttpStatus": 412,
-      "verificationMethod": "Chromium after WAF challenge"
+      "verificationMethod": "Chromium after WAF challenge",
+      "effectiveHttpStatus": 200
     },
     {
       "sourceUrl": "http://www.qinghai.gov.cn/",
@@ -1132,7 +1133,7 @@
     {
       "sourceUrl": "https://www.xinjiang.gov.cn/",
       "sourceTitle": "新疆维吾尔自治区人民政府门户网站",
-      "evidence": "首页“地州市政府网站”与“自治区直辖县级市”导航直接列出 14 个地州和 13 个省直辖县级单位；草湖市无独立可解析官网，使用第三师图木舒克市官方门户草湖项目区页面作为临时入口。",
+      "evidence": "首页“地州市政府网站”与“自治区直辖县级市”导航列出各地州和自治区直辖县级单位入口；草湖市暂无独立政府门户，暂不收录。",
       "checkedAt": "2026-10-11T14:50:00+08:00",
       "httpStatus": 200,
       "finalUrl": "https://www.xinjiang.gov.cn/",
@@ -1346,19 +1347,6 @@
           "host": "www.btdjs.gov.cn",
           "httpStatus": 200,
           "finalUrl": "https://www.btdjs.gov.cn/"
-        },
-        {
-          "regionCode": "659013",
-          "url": "https://www.xjbtnss.gov.cn/xwzx/ssyw/202610/t20261009_68473.html",
-          "host": "www.xjbtnss.gov.cn",
-          "httpStatus": 200,
-          "finalUrl": "https://www.xjbtnss.gov.cn/xwzx/ssyw/202610/t20261009_68473.html"
-        }
-      ],
-      "intermediateEvidence": [
-        {
-          "url": "https://www.xjbtnss.gov.cn/xwzx/ssyw/202610/t20261009_68473.html",
-          "note": "659013 草湖市暂无独立可解析政府门户；该链接是第三师图木舒克市官方门户中确认草湖市/草湖项目区的权威页面，作为临时入口。"
         }
       ]
     }

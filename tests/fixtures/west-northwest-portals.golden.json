@@ -1681,16 +1681,5 @@
     "siteName": "白杨市人民政府",
     "url": "https://www.btdjs.gov.cn/",
     "sourceUrl": "https://www.xinjiang.gov.cn/"
-  },
-  {
-    "id": "659013-government-www-xjbtnss-gov-cn",
-    "regionCode": "659013",
-    "regionName": "草湖市",
-    "level": "county",
-    "parentCode": "659000",
-    "agencyName": "草湖市人民政府",
-    "siteName": "草湖市人民政府",
-    "url": "https://www.xjbtnss.gov.cn/xwzx/ssyw/202610/t20261009_68473.html",
-    "sourceUrl": "https://www.xinjiang.gov.cn/"
   }
 ]

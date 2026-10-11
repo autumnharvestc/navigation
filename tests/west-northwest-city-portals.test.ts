@@ -20,6 +20,7 @@ type TargetMapping = {
   url: string;
   host: string;
   httpStatus: number;
+  effectiveHttpStatus?: number;
   finalUrl: string;
 };
 
@@ -72,7 +73,7 @@ const expectedCounts: Record<string, number> = {
   '620000': 14,
   '630000': 8,
   '640000': 5,
-  '650000': 27,
+  '650000': 26,
 };
 const expectedSourceUrls = [
   'https://www.cq.gov.cn/',
@@ -137,12 +138,13 @@ function expectedAgencyName(entry: GoldenPortal): string {
 }
 
 describe('west and northwest city portals', () => {
-  it('matches the fixed 154-entry golden snapshot exactly', async () => {
+  it('matches the fixed 153-entry golden snapshot exactly', async () => {
     const golden = await readFixture<GoldenPortal[]>('west-northwest-portals.golden.json');
     const regions = await readData<Region[]>('regions.json');
 
-    expect(golden, 'golden snapshot must contain the 154 verified portals').toHaveLength(154);
+    expect(golden, 'golden snapshot must contain the 153 verified portals').toHaveLength(153);
     expect(duplicateValues(golden.map((entry) => entry.regionCode))).toEqual([]);
+    expect(golden.some((entry) => entry.regionCode === '659013')).toBe(false);
     for (const [province, count] of Object.entries(expectedCounts)) {
       expect(
         golden.filter((entry) => entry.regionCode.startsWith(province.slice(0, 2))),
@@ -155,6 +157,7 @@ describe('west and northwest city portals', () => {
       provinceFiles.map((province) => readData<AgencyRecord[]>(`provinces/${province}.json`)),
     );
     const allRecords = provinceAgencies.flat();
+    expect(allRecords.some((record) => record.regionCode === '659013')).toBe(false);
     const targetRecords = allRecords.filter((record) => goldenCodes.has(record.regionCode));
     const actualByRegion = new Map<string, AgencyRecord[]>();
 
@@ -223,6 +226,12 @@ describe('west and northwest city portals', () => {
     expect(duplicateValues(fixture.sources.map((source) => source.sourceUrl))).toEqual([]);
 
     const sourceByUrl = new Map(fixture.sources.map((source) => [source.sourceUrl, source]));
+    expect(
+      fixture.sources
+        .flatMap((source) => source.targetMappings)
+        .some((entry) => entry.regionCode === '659013'),
+    ).toBe(false);
+    expect(JSON.stringify(fixture)).not.toContain('t20261009_68473.html');
     for (const source of fixture.sources) {
       expect(source.sourceTitle).not.toBe('');
       expect(source.evidence).not.toBe('');
@@ -270,14 +279,6 @@ describe('west and northwest city portals', () => {
       expect(anomaly.kind).not.toBe('');
       expect(anomaly.detail).not.toBe('');
     }
-
-    const xinjiang = fixture.sources.find(
-      (source) => source.sourceUrl === 'https://www.xinjiang.gov.cn/',
-    );
-    expect(xinjiang?.intermediateEvidence).toHaveLength(1);
-    expect(xinjiang?.intermediateEvidence?.[0]?.url).toBe(
-      'https://www.xjbtnss.gov.cn/xwzx/ssyw/202610/t20261009_68473.html',
-    );
   });
 
   it('keeps IDs and URLs globally unique across all published data', async () => {
