@@ -7,5 +7,149 @@
     "url": "https://www.beijing.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.beijing.gov.cn/"
+  },
+  {
+    "id": "110101-government-bjdch-gov-cn",
+    "regionCode": "110101",
+    "name": "北京市东城区人民政府",
+    "siteName": "北京市东城区人民政府门户网站",
+    "url": "https://www.bjdch.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjdch.gov.cn/"
+  },
+  {
+    "id": "110102-government-bjxch-gov-cn",
+    "regionCode": "110102",
+    "name": "北京市西城区人民政府",
+    "siteName": "北京市西城区人民政府门户网站",
+    "url": "https://www.bjxch.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjxch.gov.cn/"
+  },
+  {
+    "id": "110105-government-bjchy-gov-cn",
+    "regionCode": "110105",
+    "name": "北京市朝阳区人民政府",
+    "siteName": "北京市朝阳区人民政府门户网站",
+    "url": "https://www.bjchy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjchy.gov.cn/"
+  },
+  {
+    "id": "110106-government-bjft-gov-cn",
+    "regionCode": "110106",
+    "name": "北京市丰台区人民政府",
+    "siteName": "北京市丰台区人民政府门户网站",
+    "url": "https://www.bjft.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjft.gov.cn/"
+  },
+  {
+    "id": "110107-government-bjsjs-gov-cn",
+    "regionCode": "110107",
+    "name": "北京市石景山区人民政府",
+    "siteName": "北京市石景山区人民政府门户网站",
+    "url": "https://www.bjsjs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjsjs.gov.cn/"
+  },
+  {
+    "id": "110108-government-bjhd-gov-cn",
+    "regionCode": "110108",
+    "name": "北京市海淀区人民政府",
+    "siteName": "北京市海淀区人民政府门户网站",
+    "url": "https://www.bjhd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjhd.gov.cn/"
+  },
+  {
+    "id": "110109-government-bjmtg-gov-cn",
+    "regionCode": "110109",
+    "name": "北京市门头沟区人民政府",
+    "siteName": "北京市门头沟区人民政府门户网站",
+    "url": "https://www.bjmtg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjmtg.gov.cn/"
+  },
+  {
+    "id": "110111-government-bjfsh-gov-cn",
+    "regionCode": "110111",
+    "name": "北京市房山区人民政府",
+    "siteName": "北京市房山区人民政府门户网站",
+    "url": "https://www.bjfsh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjfsh.gov.cn/"
+  },
+  {
+    "id": "110112-government-bjtzh-gov-cn",
+    "regionCode": "110112",
+    "name": "北京市通州区人民政府",
+    "siteName": "北京市通州区人民政府门户网站",
+    "url": "https://www.bjtzh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjtzh.gov.cn/"
+  },
+  {
+    "id": "110113-government-bjshy-gov-cn",
+    "regionCode": "110113",
+    "name": "北京市顺义区人民政府",
+    "siteName": "北京市顺义区人民政府门户网站",
+    "url": "https://www.bjshy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjshy.gov.cn/"
+  },
+  {
+    "id": "110114-government-bjchp-gov-cn",
+    "regionCode": "110114",
+    "name": "北京市昌平区人民政府",
+    "siteName": "北京市昌平区人民政府门户网站",
+    "url": "https://www.bjchp.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjchp.gov.cn/"
+  },
+  {
+    "id": "110115-government-bjdx-gov-cn",
+    "regionCode": "110115",
+    "name": "北京市大兴区人民政府",
+    "siteName": "北京市大兴区人民政府门户网站",
+    "url": "https://www.bjdx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjdx.gov.cn/"
+  },
+  {
+    "id": "110116-government-bjhr-gov-cn",
+    "regionCode": "110116",
+    "name": "北京市怀柔区人民政府",
+    "siteName": "北京市怀柔区人民政府门户网站",
+    "url": "https://www.bjhr.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjhr.gov.cn/"
+  },
+  {
+    "id": "110117-government-bjpg-gov-cn",
+    "regionCode": "110117",
+    "name": "北京市平谷区人民政府",
+    "siteName": "北京市平谷区人民政府门户网站",
+    "url": "https://www.bjpg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjpg.gov.cn/"
+  },
+  {
+    "id": "110118-government-bjmy-gov-cn",
+    "regionCode": "110118",
+    "name": "北京市密云区人民政府",
+    "siteName": "北京市密云区人民政府门户网站",
+    "url": "https://www.bjmy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjmy.gov.cn/"
+  },
+  {
+    "id": "110119-government-bjyq-gov-cn",
+    "regionCode": "110119",
+    "name": "北京市延庆区人民政府",
+    "siteName": "北京市延庆区人民政府门户网站",
+    "url": "https://www.bjyq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bjyq.gov.cn/"
   }
 ]
