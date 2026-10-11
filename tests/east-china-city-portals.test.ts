@@ -108,7 +108,12 @@ describe('east china city portals', () => {
       provinceFiles.map((province) => readData<AgencyRecord[]>(`provinces/${province}.json`)),
     );
     const allRecords = provinceAgencies.flat();
-    const targetRecords = allRecords.filter((record) => !provinceFiles.includes(record.regionCode));
+    const cityCodes = new Set(
+      regions.filter((region) => region.level === 'city').map((region) => region.code),
+    );
+    const targetRecords = allRecords.filter(
+      (record) => cityCodes.has(record.regionCode) || goldenCodes.has(record.regionCode),
+    );
     const actualByRegion = new Map<string, AgencyRecord[]>();
 
     for (const record of targetRecords) {

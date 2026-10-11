@@ -27,6 +27,60 @@
     "sourceUrl": "https://www.fujian.gov.cn/"
   },
   {
+    "id": "350203-government-www-siming-gov-cn",
+    "regionCode": "350203",
+    "name": "思明区人民政府",
+    "siteName": "厦门市思明区政府",
+    "url": "https://www.siming.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xm.gov.cn/"
+  },
+  {
+    "id": "350205-government-www-haicang-gov-cn",
+    "regionCode": "350205",
+    "name": "海沧区人民政府",
+    "siteName": "厦门市海沧区人民政府",
+    "url": "https://www.haicang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xm.gov.cn/"
+  },
+  {
+    "id": "350206-government-www-huli-gov-cn",
+    "regionCode": "350206",
+    "name": "湖里区人民政府",
+    "siteName": "湖里区人民政府",
+    "url": "https://www.huli.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xm.gov.cn/"
+  },
+  {
+    "id": "350211-government-www-jimei-gov-cn",
+    "regionCode": "350211",
+    "name": "集美区人民政府",
+    "siteName": "厦门市集美区人民政府门户网站",
+    "url": "https://www.jimei.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xm.gov.cn/"
+  },
+  {
+    "id": "350212-government-www-xmta-gov-cn",
+    "regionCode": "350212",
+    "name": "同安区人民政府",
+    "siteName": "厦门市同安区人民政府",
+    "url": "http://www.xmta.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xm.gov.cn/"
+  },
+  {
+    "id": "350213-government-www-xiangan-gov-cn",
+    "regionCode": "350213",
+    "name": "翔安区人民政府",
+    "siteName": "厦门市翔安区人民政府",
+    "url": "https://www.xiangan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xm.gov.cn/"
+  },
+  {
     "id": "350300-government-putian-gov-cn",
     "regionCode": "350300",
     "name": "莆田市人民政府",
@@ -34,6 +88,51 @@
     "url": "https://www.putian.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350302-government-www-chengxiang-gov-cn",
+    "regionCode": "350302",
+    "name": "城厢区人民政府",
+    "siteName": "莆田市城厢区人民政府",
+    "url": "https://www.chengxiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.putian.gov.cn/"
+  },
+  {
+    "id": "350303-government-www-pthj-gov-cn",
+    "regionCode": "350303",
+    "name": "涵江区人民政府",
+    "siteName": "莆田市涵江区人民政府",
+    "url": "https://www.pthj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.putian.gov.cn/"
+  },
+  {
+    "id": "350304-government-www-ptlc-gov-cn",
+    "regionCode": "350304",
+    "name": "荔城区人民政府",
+    "siteName": "莆田市荔城区人民政府",
+    "url": "https://www.ptlc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.putian.gov.cn/"
+  },
+  {
+    "id": "350305-government-www-ptxy-gov-cn",
+    "regionCode": "350305",
+    "name": "秀屿区人民政府",
+    "siteName": "福建省莆田市秀屿区人民政府",
+    "url": "https://www.ptxy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.putian.gov.cn/"
+  },
+  {
+    "id": "350322-government-www-xianyou-gov-cn",
+    "regionCode": "350322",
+    "name": "仙游县人民政府",
+    "siteName": "仙游县人民政府",
+    "url": "https://www.xianyou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.putian.gov.cn/"
   },
   {
     "id": "350400-government-sm-gov-cn",
@@ -54,6 +153,105 @@
     "sourceUrl": "https://www.fujian.gov.cn/"
   },
   {
+    "id": "350502-government-www-qzlc-gov-cn",
+    "regionCode": "350502",
+    "name": "鲤城区人民政府",
+    "siteName": "鲤城区人民政府",
+    "url": "http://www.qzlc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.quanzhou.gov.cn/"
+  },
+  {
+    "id": "350503-government-www-qzfz-gov-cn",
+    "regionCode": "350503",
+    "name": "丰泽区人民政府",
+    "siteName": "泉州市丰泽区人民政府",
+    "url": "https://www.qzfz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.quanzhou.gov.cn/"
+  },
+  {
+    "id": "350504-government-www-qzlj-gov-cn",
+    "regionCode": "350504",
+    "name": "洛江区人民政府",
+    "siteName": "洛江区人民政府",
+    "url": "http://www.qzlj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.quanzhou.gov.cn/"
+  },
+  {
+    "id": "350505-government-www-qg-gov-cn",
+    "regionCode": "350505",
+    "name": "泉港区人民政府",
+    "siteName": "泉州市泉港区人民政府",
+    "url": "https://www.qg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.quanzhou.gov.cn/"
+  },
+  {
+    "id": "350521-government-www-huian-gov-cn",
+    "regionCode": "350521",
+    "name": "惠安县人民政府",
+    "siteName": "惠安县人民政府",
+    "url": "http://www.huian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.quanzhou.gov.cn/"
+  },
+  {
+    "id": "350524-government-www-fjax-gov-cn",
+    "regionCode": "350524",
+    "name": "安溪县人民政府",
+    "siteName": "安溪县人民政府",
+    "url": "http://www.fjax.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.quanzhou.gov.cn/"
+  },
+  {
+    "id": "350525-government-www-fjyc-gov-cn",
+    "regionCode": "350525",
+    "name": "永春县人民政府",
+    "siteName": "永春县人民政府",
+    "url": "http://www.fjyc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.quanzhou.gov.cn/"
+  },
+  {
+    "id": "350526-government-www-dehua-gov-cn",
+    "regionCode": "350526",
+    "name": "德化县人民政府",
+    "siteName": "德化县人民政府",
+    "url": "http://www.dehua.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.quanzhou.gov.cn/"
+  },
+  {
+    "id": "350581-government-www-shishi-gov-cn",
+    "regionCode": "350581",
+    "name": "石狮市人民政府",
+    "siteName": "石狮市人民政府",
+    "url": "https://www.shishi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.quanzhou.gov.cn/"
+  },
+  {
+    "id": "350582-government-www-jinjiang-gov-cn",
+    "regionCode": "350582",
+    "name": "晋江市人民政府",
+    "siteName": "晋江市人民政府",
+    "url": "https://www.jinjiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.quanzhou.gov.cn/"
+  },
+  {
+    "id": "350583-government-www-nanan-gov-cn",
+    "regionCode": "350583",
+    "name": "南安市人民政府",
+    "siteName": "南安市人民政府",
+    "url": "http://www.nanan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.quanzhou.gov.cn/"
+  },
+  {
     "id": "350600-government-zhangzhou-gov-cn",
     "regionCode": "350600",
     "name": "漳州市人民政府",
@@ -61,6 +259,105 @@
     "url": "https://www.zhangzhou.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350602-government-www-xc-gov-cn",
+    "regionCode": "350602",
+    "name": "芗城区人民政府",
+    "siteName": "漳州市芗城区人民政府",
+    "url": "http://www.xc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhangzhou.gov.cn/"
+  },
+  {
+    "id": "350603-government-www-lwq-gov-cn",
+    "regionCode": "350603",
+    "name": "龙文区人民政府",
+    "siteName": "漳州市龙文区人民政府",
+    "url": "http://www.lwq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhangzhou.gov.cn/"
+  },
+  {
+    "id": "350604-government-www-longhai-gov-cn",
+    "regionCode": "350604",
+    "name": "龙海区人民政府",
+    "siteName": "漳州市龙海区人民政府",
+    "url": "https://www.longhai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhangzhou.gov.cn/"
+  },
+  {
+    "id": "350605-government-www-changtai-gov-cn",
+    "regionCode": "350605",
+    "name": "长泰区人民政府",
+    "siteName": "漳州市长泰区人民政府",
+    "url": "https://www.changtai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhangzhou.gov.cn/"
+  },
+  {
+    "id": "350622-government-www-yunxiao-gov-cn",
+    "regionCode": "350622",
+    "name": "云霄县人民政府",
+    "siteName": "云霄县人民政府",
+    "url": "http://www.yunxiao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhangzhou.gov.cn/"
+  },
+  {
+    "id": "350623-government-www-zhangpu-gov-cn",
+    "regionCode": "350623",
+    "name": "漳浦县人民政府",
+    "siteName": "漳浦县人民政府",
+    "url": "http://www.zhangpu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhangzhou.gov.cn/"
+  },
+  {
+    "id": "350624-government-www-zhaoan-gov-cn",
+    "regionCode": "350624",
+    "name": "诏安县人民政府",
+    "siteName": "诏安县人民政府",
+    "url": "http://www.zhaoan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhangzhou.gov.cn/"
+  },
+  {
+    "id": "350626-government-www-dongshandao-gov-cn",
+    "regionCode": "350626",
+    "name": "东山县人民政府",
+    "siteName": "东山县人民政府",
+    "url": "http://www.dongshandao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhangzhou.gov.cn/"
+  },
+  {
+    "id": "350627-government-www-fjnj-gov-cn",
+    "regionCode": "350627",
+    "name": "南靖县人民政府",
+    "siteName": "南靖县人民政府",
+    "url": "http://www.fjnj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhangzhou.gov.cn/"
+  },
+  {
+    "id": "350628-government-www-pinghe-gov-cn",
+    "regionCode": "350628",
+    "name": "平和县人民政府",
+    "siteName": "平和县人民政府",
+    "url": "http://www.pinghe.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhangzhou.gov.cn/"
+  },
+  {
+    "id": "350629-government-www-huaan-gov-cn",
+    "regionCode": "350629",
+    "name": "华安县人民政府",
+    "siteName": "华安县人民政府",
+    "url": "http://www.huaan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhangzhou.gov.cn/"
   },
   {
     "id": "350700-government-np-gov-cn",
@@ -88,5 +385,86 @@
     "url": "https://www.ningde.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.fujian.gov.cn/"
+  },
+  {
+    "id": "350902-government-www-jiaocheng-gov-cn",
+    "regionCode": "350902",
+    "name": "蕉城区人民政府",
+    "siteName": "蕉城区人民政府",
+    "url": "http://www.jiaocheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningde.gov.cn/"
+  },
+  {
+    "id": "350921-government-www-xiapu-gov-cn",
+    "regionCode": "350921",
+    "name": "霞浦县人民政府",
+    "siteName": "霞浦县人民政府",
+    "url": "http://www.xiapu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningde.gov.cn/"
+  },
+  {
+    "id": "350922-government-www-gutian-gov-cn",
+    "regionCode": "350922",
+    "name": "古田县人民政府",
+    "siteName": "古田县人民政府",
+    "url": "http://www.gutian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningde.gov.cn/"
+  },
+  {
+    "id": "350923-government-www-pingnan-gov-cn",
+    "regionCode": "350923",
+    "name": "屏南县人民政府",
+    "siteName": "屏南县人民政府",
+    "url": "https://www.pingnan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningde.gov.cn/"
+  },
+  {
+    "id": "350924-government-www-fjsn-gov-cn",
+    "regionCode": "350924",
+    "name": "寿宁县人民政府",
+    "siteName": "寿宁县人民政府",
+    "url": "http://www.fjsn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningde.gov.cn/"
+  },
+  {
+    "id": "350925-government-www-zhouning-gov-cn",
+    "regionCode": "350925",
+    "name": "周宁县人民政府",
+    "siteName": "周宁县人民政府",
+    "url": "http://www.zhouning.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningde.gov.cn/"
+  },
+  {
+    "id": "350926-government-www-zherong-gov-cn",
+    "regionCode": "350926",
+    "name": "柘荣县人民政府",
+    "siteName": "柘荣县人民政府",
+    "url": "http://www.zherong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningde.gov.cn/"
+  },
+  {
+    "id": "350981-government-www-fjfa-gov-cn",
+    "regionCode": "350981",
+    "name": "福安市人民政府",
+    "siteName": "福安市人民政府",
+    "url": "http://www.fjfa.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningde.gov.cn/"
+  },
+  {
+    "id": "350982-government-www-fuding-gov-cn",
+    "regionCode": "350982",
+    "name": "福鼎市人民政府",
+    "siteName": "福鼎市人民政府",
+    "url": "http://www.fuding.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ningde.gov.cn/"
   }
 ]

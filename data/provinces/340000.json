@@ -27,6 +27,69 @@
     "sourceUrl": "https://www.ah.gov.cn/"
   },
   {
+    "id": "340202-government-www-whjhq-gov-cn",
+    "regionCode": "340202",
+    "name": "镜湖区人民政府",
+    "siteName": "镜湖区人民政府",
+    "url": "https://www.whjhq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuhu.gov.cn/"
+  },
+  {
+    "id": "340207-government-www-jjq-gov-cn",
+    "regionCode": "340207",
+    "name": "鸠江区人民政府",
+    "siteName": "鸠江区人民政府",
+    "url": "https://www.jjq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuhu.gov.cn/"
+  },
+  {
+    "id": "340209-government-www-yjq-gov-cn",
+    "regionCode": "340209",
+    "name": "弋江区人民政府",
+    "siteName": "弋江区人民政府",
+    "url": "https://www.yjq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuhu.gov.cn/"
+  },
+  {
+    "id": "340210-government-www-wanzhi-gov-cn",
+    "regionCode": "340210",
+    "name": "湾沚区人民政府",
+    "siteName": "芜湖市湾沚区人民政府",
+    "url": "https://www.wanzhi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuhu.gov.cn/"
+  },
+  {
+    "id": "340212-government-www-fanchang-gov-cn",
+    "regionCode": "340212",
+    "name": "繁昌区人民政府",
+    "siteName": "芜湖市繁昌区人民政府",
+    "url": "https://www.fanchang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuhu.gov.cn/"
+  },
+  {
+    "id": "340223-government-www-nlx-gov-cn",
+    "regionCode": "340223",
+    "name": "南陵县人民政府",
+    "siteName": "南陵县人民政府",
+    "url": "https://www.nlx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuhu.gov.cn/"
+  },
+  {
+    "id": "340281-government-www-ww-gov-cn",
+    "regionCode": "340281",
+    "name": "无为市人民政府",
+    "siteName": "无为市人民政府",
+    "url": "https://www.ww.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuhu.gov.cn/"
+  },
+  {
     "id": "340300-government-bengbu-gov-cn",
     "regionCode": "340300",
     "name": "蚌埠市人民政府",
@@ -34,6 +97,69 @@
     "url": "https://www.bengbu.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "340302-government-www-bblzh-gov-cn",
+    "regionCode": "340302",
+    "name": "龙子湖区人民政府",
+    "siteName": "蚌埠市龙子湖区人民政府",
+    "url": "https://www.bblzh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bengbu.gov.cn/"
+  },
+  {
+    "id": "340303-government-www-bengshan-gov-cn",
+    "regionCode": "340303",
+    "name": "蚌山区人民政府",
+    "siteName": "蚌埠市蚌山区人民政府",
+    "url": "https://www.bengshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bengbu.gov.cn/"
+  },
+  {
+    "id": "340304-government-www-yuhui-gov-cn",
+    "regionCode": "340304",
+    "name": "禹会区人民政府",
+    "siteName": "蚌埠市禹会区人民政府",
+    "url": "https://www.yuhui.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bengbu.gov.cn/"
+  },
+  {
+    "id": "340311-government-www-huaishang-gov-cn",
+    "regionCode": "340311",
+    "name": "淮上区人民政府",
+    "siteName": "蚌埠市淮上区人民政府",
+    "url": "https://www.huaishang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bengbu.gov.cn/"
+  },
+  {
+    "id": "340321-government-www-ahhy-gov-cn",
+    "regionCode": "340321",
+    "name": "怀远县人民政府",
+    "siteName": "怀远县人民政府",
+    "url": "https://www.ahhy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bengbu.gov.cn/"
+  },
+  {
+    "id": "340322-government-www-wuhe-gov-cn",
+    "regionCode": "340322",
+    "name": "五河县人民政府",
+    "siteName": "五河县人民政府",
+    "url": "https://www.wuhe.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bengbu.gov.cn/"
+  },
+  {
+    "id": "340323-government-www-guzhen-gov-cn",
+    "regionCode": "340323",
+    "name": "固镇县人民政府",
+    "siteName": "固镇县人民政府",
+    "url": "https://www.guzhen.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bengbu.gov.cn/"
   },
   {
     "id": "340400-government-huainan-gov-cn",
@@ -45,6 +171,15 @@
     "sourceUrl": "https://www.ah.gov.cn/"
   },
   {
+    "id": "340406-government-www-panji-gov-cn",
+    "regionCode": "340406",
+    "name": "潘集区人民政府",
+    "siteName": "淮南市潘集区人民政府",
+    "url": "http://www.panji.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huainan.gov.cn/"
+  },
+  {
     "id": "340500-government-mas-gov-cn",
     "regionCode": "340500",
     "name": "马鞍山市人民政府",
@@ -54,6 +189,60 @@
     "sourceUrl": "https://www.ah.gov.cn/"
   },
   {
+    "id": "340503-government-www-mashsq-gov-cn",
+    "regionCode": "340503",
+    "name": "花山区人民政府",
+    "siteName": "马鞍山市花山区人民政府",
+    "url": "https://www.mashsq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.mas.gov.cn/"
+  },
+  {
+    "id": "340504-government-www-masys-gov-cn",
+    "regionCode": "340504",
+    "name": "雨山区人民政府",
+    "siteName": "马鞍山市雨山区人民政府",
+    "url": "https://www.masys.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.mas.gov.cn/"
+  },
+  {
+    "id": "340506-government-www-masbwq-gov-cn",
+    "regionCode": "340506",
+    "name": "博望区人民政府",
+    "siteName": "马鞍山市博望区人民政府",
+    "url": "https://www.masbwq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.mas.gov.cn/"
+  },
+  {
+    "id": "340521-government-www-dangtu-gov-cn",
+    "regionCode": "340521",
+    "name": "当涂县人民政府",
+    "siteName": "当涂县人民政府",
+    "url": "https://www.dangtu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.mas.gov.cn/"
+  },
+  {
+    "id": "340522-government-www-ahhs-gov-cn",
+    "regionCode": "340522",
+    "name": "含山县人民政府",
+    "siteName": "含山县人民政府",
+    "url": "https://www.ahhs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.mas.gov.cn/"
+  },
+  {
+    "id": "340523-government-www-hx-gov-cn",
+    "regionCode": "340523",
+    "name": "和县人民政府",
+    "siteName": "和县人民政府",
+    "url": "https://www.hx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.mas.gov.cn/"
+  },
+  {
     "id": "340600-government-huaibei-gov-cn",
     "regionCode": "340600",
     "name": "淮北市人民政府",
@@ -61,6 +250,33 @@
     "url": "https://www.huaibei.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "340603-government-www-hbxs-gov-cn",
+    "regionCode": "340603",
+    "name": "相山区人民政府",
+    "siteName": "相山区人民政府",
+    "url": "https://www.hbxs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huaibei.gov.cn/"
+  },
+  {
+    "id": "340604-government-www-lieshan-gov-cn",
+    "regionCode": "340604",
+    "name": "烈山区人民政府",
+    "siteName": "烈山区人民政府",
+    "url": "https://www.lieshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huaibei.gov.cn/"
+  },
+  {
+    "id": "340621-government-www-sxx-gov-cn",
+    "regionCode": "340621",
+    "name": "濉溪县人民政府",
+    "siteName": "濉溪县人民政府",
+    "url": "https://www.sxx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huaibei.gov.cn/"
   },
   {
     "id": "340700-government-tl-gov-cn",
@@ -99,6 +315,60 @@
     "sourceUrl": "https://www.ah.gov.cn/"
   },
   {
+    "id": "341122-government-www-laian-gov-cn",
+    "regionCode": "341122",
+    "name": "来安县人民政府",
+    "siteName": "来安县人民政府",
+    "url": "https://www.laian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.chuzhou.gov.cn/"
+  },
+  {
+    "id": "341124-government-www-quanjiao-gov-cn",
+    "regionCode": "341124",
+    "name": "全椒县人民政府",
+    "siteName": "全椒县人民政府",
+    "url": "https://www.quanjiao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.chuzhou.gov.cn/"
+  },
+  {
+    "id": "341125-government-www-dingyuan-gov-cn",
+    "regionCode": "341125",
+    "name": "定远县人民政府",
+    "siteName": "定远县人民政府",
+    "url": "https://www.dingyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.chuzhou.gov.cn/"
+  },
+  {
+    "id": "341126-government-www-fengyang-gov-cn",
+    "regionCode": "341126",
+    "name": "凤阳县人民政府",
+    "siteName": "凤阳县人民政府",
+    "url": "https://www.fengyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.chuzhou.gov.cn/"
+  },
+  {
+    "id": "341181-government-www-tianchang-gov-cn",
+    "regionCode": "341181",
+    "name": "天长市人民政府",
+    "siteName": "天长市人民政府",
+    "url": "https://www.tianchang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.chuzhou.gov.cn/"
+  },
+  {
+    "id": "341182-government-www-mingguang-gov-cn",
+    "regionCode": "341182",
+    "name": "明光市人民政府",
+    "siteName": "明光市人民政府",
+    "url": "https://www.mingguang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.chuzhou.gov.cn/"
+  },
+  {
     "id": "341200-government-fy-gov-cn",
     "regionCode": "341200",
     "name": "阜阳市人民政府",
@@ -106,6 +376,78 @@
     "url": "https://www.fy.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "341202-government-www-yingzhou-gov-cn",
+    "regionCode": "341202",
+    "name": "颍州区人民政府",
+    "siteName": "阜阳市颍州区人民政府",
+    "url": "https://www.yingzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fy.gov.cn/"
+  },
+  {
+    "id": "341203-government-www-yd-gov-cn",
+    "regionCode": "341203",
+    "name": "颍东区人民政府",
+    "siteName": "阜阳市颍东区人民政府",
+    "url": "https://www.yd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fy.gov.cn/"
+  },
+  {
+    "id": "341204-government-www-yingquan-gov-cn",
+    "regionCode": "341204",
+    "name": "颍泉区人民政府",
+    "siteName": "阜阳市颍泉区人民政府",
+    "url": "https://www.yingquan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fy.gov.cn/"
+  },
+  {
+    "id": "341221-government-www-linquan-gov-cn",
+    "regionCode": "341221",
+    "name": "临泉县人民政府",
+    "siteName": "临泉县人民政府",
+    "url": "https://www.linquan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fy.gov.cn/"
+  },
+  {
+    "id": "341222-government-www-taihe-gov-cn",
+    "regionCode": "341222",
+    "name": "太和县人民政府",
+    "siteName": "太和县人民政府",
+    "url": "https://www.taihe.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fy.gov.cn/"
+  },
+  {
+    "id": "341225-government-www-funan-gov-cn",
+    "regionCode": "341225",
+    "name": "阜南县人民政府",
+    "siteName": "阜南县人民政府",
+    "url": "https://www.funan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fy.gov.cn/"
+  },
+  {
+    "id": "341226-government-www-ahys-gov-cn",
+    "regionCode": "341226",
+    "name": "颍上县人民政府",
+    "siteName": "颍上县人民政府",
+    "url": "https://www.ahys.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fy.gov.cn/"
+  },
+  {
+    "id": "341282-government-www-ahjs-gov-cn",
+    "regionCode": "341282",
+    "name": "界首市人民政府",
+    "siteName": "界首市人民政府",
+    "url": "https://www.ahjs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fy.gov.cn/"
   },
   {
     "id": "341300-government-ahsz-gov-cn",
@@ -117,6 +459,51 @@
     "sourceUrl": "https://www.ah.gov.cn/"
   },
   {
+    "id": "341302-government-www-szyq-gov-cn",
+    "regionCode": "341302",
+    "name": "埇桥区人民政府",
+    "siteName": "宿州市埇桥区人民政府",
+    "url": "https://www.szyq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ahsz.gov.cn/"
+  },
+  {
+    "id": "341321-government-www-dangshan-gov-cn",
+    "regionCode": "341321",
+    "name": "砀山县人民政府",
+    "siteName": "砀山县人民政府",
+    "url": "https://www.dangshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ahsz.gov.cn/"
+  },
+  {
+    "id": "341322-government-www-ahxx-gov-cn",
+    "regionCode": "341322",
+    "name": "萧县人民政府",
+    "siteName": "萧县人民政府",
+    "url": "https://www.ahxx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ahsz.gov.cn/"
+  },
+  {
+    "id": "341323-government-www-lingbi-gov-cn",
+    "regionCode": "341323",
+    "name": "灵璧县人民政府",
+    "siteName": "灵璧县人民政府",
+    "url": "https://www.lingbi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ahsz.gov.cn/"
+  },
+  {
+    "id": "341324-government-www-sixian-gov-cn",
+    "regionCode": "341324",
+    "name": "泗县人民政府",
+    "siteName": "泗县人民政府",
+    "url": "https://www.sixian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.ahsz.gov.cn/"
+  },
+  {
     "id": "341500-government-luan-gov-cn",
     "regionCode": "341500",
     "name": "六安市人民政府",
@@ -124,6 +511,42 @@
     "url": "https://www.luan.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "341522-government-www-huoqiu-gov-cn",
+    "regionCode": "341522",
+    "name": "霍邱县人民政府",
+    "siteName": "霍邱县人民政府",
+    "url": "https://www.huoqiu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.luan.gov.cn/"
+  },
+  {
+    "id": "341523-government-www-shucheng-gov-cn",
+    "regionCode": "341523",
+    "name": "舒城县人民政府",
+    "siteName": "舒城县人民政府",
+    "url": "https://www.shucheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.luan.gov.cn/"
+  },
+  {
+    "id": "341524-government-www-ahjinzhai-gov-cn",
+    "regionCode": "341524",
+    "name": "金寨县人民政府",
+    "siteName": "金寨县人民政府",
+    "url": "https://www.ahjinzhai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.luan.gov.cn/"
+  },
+  {
+    "id": "341525-government-www-ahhuoshan-gov-cn",
+    "regionCode": "341525",
+    "name": "霍山县人民政府",
+    "siteName": "霍山县人民政府",
+    "url": "https://www.ahhuoshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.luan.gov.cn/"
   },
   {
     "id": "341600-government-bozhou-gov-cn",
@@ -135,6 +558,42 @@
     "sourceUrl": "https://www.ah.gov.cn/"
   },
   {
+    "id": "341602-government-www-bzqc-gov-cn",
+    "regionCode": "341602",
+    "name": "谯城区人民政府",
+    "siteName": "亳州市谯城区人民政府",
+    "url": "https://www.bzqc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bozhou.gov.cn/"
+  },
+  {
+    "id": "341621-government-www-gy-gov-cn",
+    "regionCode": "341621",
+    "name": "涡阳县人民政府",
+    "siteName": "涡阳县人民政府",
+    "url": "https://www.gy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bozhou.gov.cn/"
+  },
+  {
+    "id": "341622-government-www-mengcheng-gov-cn",
+    "regionCode": "341622",
+    "name": "蒙城县人民政府",
+    "siteName": "蒙城县人民政府",
+    "url": "https://www.mengcheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bozhou.gov.cn/"
+  },
+  {
+    "id": "341623-government-www-lixin-gov-cn",
+    "regionCode": "341623",
+    "name": "利辛县人民政府",
+    "siteName": "利辛县人民政府",
+    "url": "https://www.lixin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.bozhou.gov.cn/"
+  },
+  {
     "id": "341700-government-chizhou-gov-cn",
     "regionCode": "341700",
     "name": "池州市人民政府",
@@ -142,6 +601,15 @@
     "url": "https://www.chizhou.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.ah.gov.cn/"
+  },
+  {
+    "id": "341722-government-www-ahshitai-gov-cn",
+    "regionCode": "341722",
+    "name": "石台县人民政府",
+    "siteName": "石台县人民政府",
+    "url": "https://www.ahshitai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.chizhou.gov.cn/"
   },
   {
     "id": "341800-government-xuancheng-gov-cn",

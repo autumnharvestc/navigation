@@ -18,6 +18,96 @@
     "sourceUrl": "https://www.nantong.gov.cn/"
   },
   {
+    "id": "320102-government-www-xwzf-gov-cn",
+    "regionCode": "320102",
+    "name": "玄武区人民政府",
+    "siteName": "南京市玄武区人民政府",
+    "url": "http://www.xwzf.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nanjing.gov.cn/"
+  },
+  {
+    "id": "320104-government-www-njqh-gov-cn",
+    "regionCode": "320104",
+    "name": "秦淮区人民政府",
+    "siteName": "南京市秦淮区人民政府",
+    "url": "http://www.njqh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nanjing.gov.cn/"
+  },
+  {
+    "id": "320105-government-www-njjy-gov-cn",
+    "regionCode": "320105",
+    "name": "建邺区人民政府",
+    "siteName": "南京市建邺区人民政府",
+    "url": "http://www.njjy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nanjing.gov.cn/"
+  },
+  {
+    "id": "320106-government-www-njgl-gov-cn",
+    "regionCode": "320106",
+    "name": "鼓楼区人民政府",
+    "siteName": "鼓楼区人民政府",
+    "url": "http://www.njgl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nanjing.gov.cn/"
+  },
+  {
+    "id": "320111-government-njna-nanjing-gov-cn",
+    "regionCode": "320111",
+    "name": "浦口区人民政府",
+    "siteName": "南京江北新区管理委员会 南京市浦口区人民政府",
+    "url": "http://njna.nanjing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nanjing.gov.cn/"
+  },
+  {
+    "id": "320113-government-www-njqxq-gov-cn",
+    "regionCode": "320113",
+    "name": "栖霞区人民政府",
+    "siteName": "南京市栖霞区人民政府",
+    "url": "http://www.njqxq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nanjing.gov.cn/"
+  },
+  {
+    "id": "320114-government-www-njyh-gov-cn",
+    "regionCode": "320114",
+    "name": "雨花台区人民政府",
+    "siteName": "南京市雨花台区人民政府",
+    "url": "http://www.njyh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nanjing.gov.cn/"
+  },
+  {
+    "id": "320115-government-www-jiangning-gov-cn",
+    "regionCode": "320115",
+    "name": "江宁区人民政府",
+    "siteName": "南京市江宁区人民政府",
+    "url": "http://www.jiangning.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nanjing.gov.cn/"
+  },
+  {
+    "id": "320117-government-www-njls-gov-cn",
+    "regionCode": "320117",
+    "name": "溧水区人民政府",
+    "siteName": "南京市溧水区人民政府",
+    "url": "http://www.njls.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nanjing.gov.cn/"
+  },
+  {
+    "id": "320118-government-www-njgc-gov-cn",
+    "regionCode": "320118",
+    "name": "高淳区人民政府",
+    "siteName": "高淳区政府门户网站",
+    "url": "http://www.njgc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nanjing.gov.cn/"
+  },
+  {
     "id": "320200-government-wuxi-gov-cn",
     "regionCode": "320200",
     "name": "无锡市人民政府",
@@ -25,6 +115,69 @@
     "url": "https://www.wuxi.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320205-government-www-jsxishan-gov-cn",
+    "regionCode": "320205",
+    "name": "锡山区人民政府",
+    "siteName": "无锡市锡山区人民政府",
+    "url": "http://www.jsxishan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuxi.gov.cn/"
+  },
+  {
+    "id": "320206-government-www-huishan-gov-cn",
+    "regionCode": "320206",
+    "name": "惠山区人民政府",
+    "siteName": "无锡市惠山区人民政府",
+    "url": "http://www.huishan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuxi.gov.cn/"
+  },
+  {
+    "id": "320211-government-www-wxbh-gov-cn",
+    "regionCode": "320211",
+    "name": "滨湖区人民政府",
+    "siteName": "无锡市滨湖区人民政府",
+    "url": "http://www.wxbh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuxi.gov.cn/"
+  },
+  {
+    "id": "320213-government-www-wxlx-gov-cn",
+    "regionCode": "320213",
+    "name": "梁溪区人民政府",
+    "siteName": "无锡市梁溪区人民政府",
+    "url": "http://www.wxlx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuxi.gov.cn/"
+  },
+  {
+    "id": "320214-government-www-wnd-gov-cn",
+    "regionCode": "320214",
+    "name": "新吴区人民政府",
+    "siteName": "无锡高新区管委会新吴区人民政府",
+    "url": "http://www.wnd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuxi.gov.cn/"
+  },
+  {
+    "id": "320281-government-www-jiangyin-gov-cn",
+    "regionCode": "320281",
+    "name": "江阴市人民政府",
+    "siteName": "江阴市人民政府门户网",
+    "url": "http://www.jiangyin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuxi.gov.cn/"
+  },
+  {
+    "id": "320282-government-www-yixing-gov-cn",
+    "regionCode": "320282",
+    "name": "宜兴市人民政府",
+    "siteName": "宜兴市人民政府",
+    "url": "http://www.yixing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuxi.gov.cn/"
   },
   {
     "id": "320300-government-xz-gov-cn",
@@ -36,6 +189,96 @@
     "sourceUrl": "https://www.nantong.gov.cn/"
   },
   {
+    "id": "320302-government-www-xzgl-gov-cn",
+    "regionCode": "320302",
+    "name": "鼓楼区人民政府",
+    "siteName": "徐州市鼓楼区人民政府",
+    "url": "http://www.xzgl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xz.gov.cn/"
+  },
+  {
+    "id": "320303-government-www-xzyl-gov-cn",
+    "regionCode": "320303",
+    "name": "云龙区人民政府",
+    "siteName": "徐州市云龙区人民政府",
+    "url": "http://www.xzyl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xz.gov.cn/"
+  },
+  {
+    "id": "320305-government-www-xzjw-gov-cn",
+    "regionCode": "320305",
+    "name": "贾汪区人民政府",
+    "siteName": "徐州市贾汪区人民政府",
+    "url": "http://www.xzjw.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xz.gov.cn/"
+  },
+  {
+    "id": "320311-government-www-xzqs-gov-cn",
+    "regionCode": "320311",
+    "name": "泉山区人民政府",
+    "siteName": "徐州市泉山区人民政府",
+    "url": "http://www.xzqs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xz.gov.cn/"
+  },
+  {
+    "id": "320312-government-www-zgts-gov-cn",
+    "regionCode": "320312",
+    "name": "铜山区人民政府",
+    "siteName": "徐州市铜山区人民政府",
+    "url": "http://www.zgts.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xz.gov.cn/"
+  },
+  {
+    "id": "320321-government-www-chinafx-gov-cn",
+    "regionCode": "320321",
+    "name": "丰县人民政府",
+    "siteName": "丰县人民政府",
+    "url": "http://www.chinafx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xz.gov.cn/"
+  },
+  {
+    "id": "320322-government-www-px-gov-cn",
+    "regionCode": "320322",
+    "name": "沛县人民政府",
+    "siteName": "沛县人民政府",
+    "url": "http://www.px.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xz.gov.cn/"
+  },
+  {
+    "id": "320324-government-www-cnsn-gov-cn",
+    "regionCode": "320324",
+    "name": "睢宁县人民政府",
+    "siteName": "睢宁县人民政府",
+    "url": "http://www.cnsn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xz.gov.cn/"
+  },
+  {
+    "id": "320381-government-www-xy-gov-cn",
+    "regionCode": "320381",
+    "name": "新沂市人民政府",
+    "siteName": "新沂市人民政府",
+    "url": "http://www.xy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xz.gov.cn/"
+  },
+  {
+    "id": "320382-government-www-pz-gov-cn",
+    "regionCode": "320382",
+    "name": "邳州市人民政府",
+    "siteName": "邳州市人民政府",
+    "url": "http://www.pz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xz.gov.cn/"
+  },
+  {
     "id": "320400-government-changzhou-gov-cn",
     "regionCode": "320400",
     "name": "常州市人民政府",
@@ -43,6 +286,60 @@
     "url": "https://www.changzhou.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320402-government-www-cztn-gov-cn",
+    "regionCode": "320402",
+    "name": "天宁区人民政府",
+    "siteName": "常州市天宁区人民政府",
+    "url": "https://www.cztn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhou.gov.cn/"
+  },
+  {
+    "id": "320404-government-www-zhonglou-gov-cn",
+    "regionCode": "320404",
+    "name": "钟楼区人民政府",
+    "siteName": "常州市钟楼区政府",
+    "url": "https://www.zhonglou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhou.gov.cn/"
+  },
+  {
+    "id": "320411-government-www-cznd-gov-cn",
+    "regionCode": "320411",
+    "name": "新北区人民政府",
+    "siteName": "常州国家高新区管委会（新北区人民政府）",
+    "url": "https://www.cznd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhou.gov.cn/"
+  },
+  {
+    "id": "320412-government-www-wj-gov-cn",
+    "regionCode": "320412",
+    "name": "武进区人民政府",
+    "siteName": "常州市武进区人民政府",
+    "url": "https://www.wj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhou.gov.cn/"
+  },
+  {
+    "id": "320413-government-www-jintan-gov-cn",
+    "regionCode": "320413",
+    "name": "金坛区人民政府",
+    "siteName": "常州市金坛区人民政府",
+    "url": "https://www.jintan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhou.gov.cn/"
+  },
+  {
+    "id": "320481-government-www-liyang-gov-cn",
+    "regionCode": "320481",
+    "name": "溧阳市人民政府",
+    "siteName": "溧阳市人民政府",
+    "url": "https://www.liyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhou.gov.cn/"
   },
   {
     "id": "320500-government-suzhou-gov-cn",
@@ -54,11 +351,155 @@
     "sourceUrl": "https://www.nantong.gov.cn/"
   },
   {
+    "id": "320505-government-www-snd-gov-cn",
+    "regionCode": "320505",
+    "name": "虎丘区人民政府",
+    "siteName": "苏州高新区管委会（虎丘区人民政府）",
+    "url": "http://www.snd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suzhou.gov.cn/"
+  },
+  {
+    "id": "320506-government-www-szwz-gov-cn",
+    "regionCode": "320506",
+    "name": "吴中区人民政府",
+    "siteName": "苏州市吴中区人民政府",
+    "url": "http://www.szwz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suzhou.gov.cn/"
+  },
+  {
+    "id": "320507-government-www-szxc-gov-cn",
+    "regionCode": "320507",
+    "name": "相城区人民政府",
+    "siteName": "苏州市相城区人民政府",
+    "url": "http://www.szxc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suzhou.gov.cn/"
+  },
+  {
+    "id": "320508-government-www-gusu-gov-cn",
+    "regionCode": "320508",
+    "name": "姑苏区人民政府",
+    "siteName": "苏州市姑苏区人民政府",
+    "url": "http://www.gusu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suzhou.gov.cn/"
+  },
+  {
+    "id": "320509-government-www-wujiang-gov-cn",
+    "regionCode": "320509",
+    "name": "吴江区人民政府",
+    "siteName": "苏州市吴江区人民政府",
+    "url": "https://www.wujiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suzhou.gov.cn/"
+  },
+  {
+    "id": "320581-government-www-changshu-gov-cn",
+    "regionCode": "320581",
+    "name": "常熟市人民政府",
+    "siteName": "常熟市人民政府",
+    "url": "http://www.changshu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suzhou.gov.cn/"
+  },
+  {
+    "id": "320582-government-www-zjg-gov-cn",
+    "regionCode": "320582",
+    "name": "张家港市人民政府",
+    "siteName": "张家港市人民政府",
+    "url": "https://www.zjg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suzhou.gov.cn/"
+  },
+  {
+    "id": "320583-government-www-ks-gov-cn",
+    "regionCode": "320583",
+    "name": "昆山市人民政府",
+    "siteName": "昆山市人民政府",
+    "url": "http://www.ks.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suzhou.gov.cn/"
+  },
+  {
+    "id": "320585-government-www-taicang-gov-cn",
+    "regionCode": "320585",
+    "name": "太仓市人民政府",
+    "siteName": "太仓市人民政府",
+    "url": "http://www.taicang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suzhou.gov.cn/"
+  },
+  {
     "id": "320600-government-nantong-gov-cn",
     "regionCode": "320600",
     "name": "南通市人民政府",
     "siteName": "南通市人民政府",
     "url": "https://www.nantong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320612-government-www-tongzhou-gov-cn",
+    "regionCode": "320612",
+    "name": "通州区人民政府",
+    "siteName": "南通市通州区人民政府",
+    "url": "http://www.tongzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320613-government-www-chongchuan-gov-cn",
+    "regionCode": "320613",
+    "name": "崇川区人民政府",
+    "siteName": "南通市崇川区人民政府",
+    "url": "https://www.chongchuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320614-government-www-haimen-gov-cn",
+    "regionCode": "320614",
+    "name": "海门区人民政府",
+    "siteName": "南通市海门区人民政府",
+    "url": "https://www.haimen.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320623-government-www-rudong-gov-cn",
+    "regionCode": "320623",
+    "name": "如东县人民政府",
+    "siteName": "如东县人民政府",
+    "url": "https://www.rudong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320681-government-www-qidong-gov-cn",
+    "regionCode": "320681",
+    "name": "启东市人民政府",
+    "siteName": "启东市人民政府",
+    "url": "http://www.qidong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320682-government-www-rugao-gov-cn",
+    "regionCode": "320682",
+    "name": "如皋市人民政府",
+    "siteName": "如皋市人民政府",
+    "url": "https://www.rugao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320685-government-www-haian-gov-cn",
+    "regionCode": "320685",
+    "name": "海安市人民政府",
+    "siteName": "海安市人民政府",
+    "url": "https://www.haian.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.nantong.gov.cn/"
   },
@@ -72,6 +513,60 @@
     "sourceUrl": "https://www.nantong.gov.cn/"
   },
   {
+    "id": "320703-government-www-lianyun-gov-cn",
+    "regionCode": "320703",
+    "name": "连云区人民政府",
+    "siteName": "连云区人民政府",
+    "url": "http://www.lianyun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.lyg.gov.cn/"
+  },
+  {
+    "id": "320706-government-www-lyghz-gov-cn",
+    "regionCode": "320706",
+    "name": "海州区人民政府",
+    "siteName": "连云港海州区人民政府",
+    "url": "http://www.lyghz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.lyg.gov.cn/"
+  },
+  {
+    "id": "320707-government-www-ganyu-gov-cn",
+    "regionCode": "320707",
+    "name": "赣榆区人民政府",
+    "siteName": "赣榆区人民政府",
+    "url": "http://www.ganyu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.lyg.gov.cn/"
+  },
+  {
+    "id": "320722-government-www-jsdh-gov-cn",
+    "regionCode": "320722",
+    "name": "东海县人民政府",
+    "siteName": "东海县人民政府",
+    "url": "http://www.jsdh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.lyg.gov.cn/"
+  },
+  {
+    "id": "320723-government-www-guanyun-gov-cn",
+    "regionCode": "320723",
+    "name": "灌云县人民政府",
+    "siteName": "灌云县人民政府",
+    "url": "http://www.guanyun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.lyg.gov.cn/"
+  },
+  {
+    "id": "320724-government-www-guannan-gov-cn",
+    "regionCode": "320724",
+    "name": "灌南县人民政府",
+    "siteName": "灌南县人民政府",
+    "url": "http://www.guannan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.lyg.gov.cn/"
+  },
+  {
     "id": "320800-government-huaian-gov-cn",
     "regionCode": "320800",
     "name": "淮安市人民政府",
@@ -79,6 +574,69 @@
     "url": "https://www.huaian.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "320803-government-www-zghaq-gov-cn",
+    "regionCode": "320803",
+    "name": "淮安区人民政府",
+    "siteName": "淮安区人民政府",
+    "url": "http://www.zghaq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huaian.gov.cn/"
+  },
+  {
+    "id": "320804-government-www-zghy-gov-cn",
+    "regionCode": "320804",
+    "name": "淮阴区人民政府",
+    "siteName": "淮阴区人民政府",
+    "url": "http://www.zghy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huaian.gov.cn/"
+  },
+  {
+    "id": "320812-government-www-haqjp-gov-cn",
+    "regionCode": "320812",
+    "name": "清江浦区人民政府",
+    "siteName": "清江浦区人民政府",
+    "url": "http://www.haqjp.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huaian.gov.cn/"
+  },
+  {
+    "id": "320813-government-www-hongze-gov-cn",
+    "regionCode": "320813",
+    "name": "洪泽区人民政府",
+    "siteName": "淮安市洪泽区人民政府",
+    "url": "http://www.hongze.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huaian.gov.cn/"
+  },
+  {
+    "id": "320826-government-www-lianshui-gov-cn",
+    "regionCode": "320826",
+    "name": "涟水县人民政府",
+    "siteName": "涟水县人民政府",
+    "url": "http://www.lianshui.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huaian.gov.cn/"
+  },
+  {
+    "id": "320830-government-www-xuyi-gov-cn",
+    "regionCode": "320830",
+    "name": "盱眙县人民政府",
+    "siteName": "盱眙县人民政府",
+    "url": "http://www.xuyi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huaian.gov.cn/"
+  },
+  {
+    "id": "320831-government-www-jinhu-gov-cn",
+    "regionCode": "320831",
+    "name": "金湖县人民政府",
+    "siteName": "金湖县人民政府",
+    "url": "http://www.jinhu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.huaian.gov.cn/"
   },
   {
     "id": "320900-government-yancheng-gov-cn",
@@ -90,6 +648,78 @@
     "sourceUrl": "https://www.nantong.gov.cn/"
   },
   {
+    "id": "320902-government-www-tinghu-gov-cn",
+    "regionCode": "320902",
+    "name": "亭湖区人民政府",
+    "siteName": "盐城市亭湖区人民政府",
+    "url": "https://www.tinghu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yancheng.gov.cn/"
+  },
+  {
+    "id": "320903-government-www-yandu-gov-cn",
+    "regionCode": "320903",
+    "name": "盐都区人民政府",
+    "siteName": "盐城市盐都区人民政府",
+    "url": "https://www.yandu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yancheng.gov.cn/"
+  },
+  {
+    "id": "320921-government-www-xiangshui-gov-cn",
+    "regionCode": "320921",
+    "name": "响水县人民政府",
+    "siteName": "响水县人民政府",
+    "url": "http://www.xiangshui.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yancheng.gov.cn/"
+  },
+  {
+    "id": "320922-government-www-binhai-gov-cn",
+    "regionCode": "320922",
+    "name": "滨海县人民政府",
+    "siteName": "滨海县人民政府",
+    "url": "http://www.binhai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yancheng.gov.cn/"
+  },
+  {
+    "id": "320923-government-www-funing-gov-cn",
+    "regionCode": "320923",
+    "name": "阜宁县人民政府",
+    "siteName": "阜宁县人民政府",
+    "url": "http://www.funing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yancheng.gov.cn/"
+  },
+  {
+    "id": "320924-government-www-sheyang-gov-cn",
+    "regionCode": "320924",
+    "name": "射阳县人民政府",
+    "siteName": "射阳县人民政府",
+    "url": "http://www.sheyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yancheng.gov.cn/"
+  },
+  {
+    "id": "320925-government-www-jianhu-gov-cn",
+    "regionCode": "320925",
+    "name": "建湖县人民政府",
+    "siteName": "建湖县人民政府",
+    "url": "https://www.jianhu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yancheng.gov.cn/"
+  },
+  {
+    "id": "320981-government-www-dongtai-gov-cn",
+    "regionCode": "320981",
+    "name": "东台市人民政府",
+    "siteName": "东台市人民政府",
+    "url": "https://www.dongtai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yancheng.gov.cn/"
+  },
+  {
     "id": "321000-government-yangzhou-gov-cn",
     "regionCode": "321000",
     "name": "扬州市人民政府",
@@ -97,6 +727,60 @@
     "url": "https://www.yangzhou.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "321002-government-www-yzglq-gov-cn",
+    "regionCode": "321002",
+    "name": "广陵区人民政府",
+    "siteName": "广陵区人民政府",
+    "url": "http://www.yzglq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yangzhou.gov.cn/"
+  },
+  {
+    "id": "321003-government-www-hj-gov-cn",
+    "regionCode": "321003",
+    "name": "邗江区人民政府",
+    "siteName": "邗江区人民政府",
+    "url": "http://www.hj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yangzhou.gov.cn/"
+  },
+  {
+    "id": "321012-government-jd-yangzhou-gov-cn",
+    "regionCode": "321012",
+    "name": "江都区人民政府",
+    "siteName": "江都区人民政府",
+    "url": "http://jd.yangzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yangzhou.gov.cn/"
+  },
+  {
+    "id": "321023-government-baoying-yangzhou-gov-cn",
+    "regionCode": "321023",
+    "name": "宝应县人民政府",
+    "siteName": "宝应县人民政府",
+    "url": "https://baoying.yangzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yangzhou.gov.cn/"
+  },
+  {
+    "id": "321081-government-www-yizheng-gov-cn",
+    "regionCode": "321081",
+    "name": "仪征市人民政府",
+    "siteName": "仪征市人民政府",
+    "url": "http://www.yizheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yangzhou.gov.cn/"
+  },
+  {
+    "id": "321084-government-gaoyou-yangzhou-gov-cn",
+    "regionCode": "321084",
+    "name": "高邮市人民政府",
+    "siteName": "高邮市人民政府",
+    "url": "http://gaoyou.yangzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yangzhou.gov.cn/"
   },
   {
     "id": "321100-government-zhenjiang-gov-cn",
@@ -108,6 +792,51 @@
     "sourceUrl": "https://www.nantong.gov.cn/"
   },
   {
+    "id": "321102-government-www-jingkou-gov-cn",
+    "regionCode": "321102",
+    "name": "京口区人民政府",
+    "siteName": "京口区人民政府",
+    "url": "http://www.jingkou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhenjiang.gov.cn/"
+  },
+  {
+    "id": "321111-government-www-runzhou-gov-cn",
+    "regionCode": "321111",
+    "name": "润州区人民政府",
+    "siteName": "润州区人民政府",
+    "url": "http://www.runzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhenjiang.gov.cn/"
+  },
+  {
+    "id": "321112-government-www-dantu-gov-cn",
+    "regionCode": "321112",
+    "name": "丹徒区人民政府",
+    "siteName": "丹徒区人民政府",
+    "url": "http://www.dantu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhenjiang.gov.cn/"
+  },
+  {
+    "id": "321181-government-www-danyang-gov-cn",
+    "regionCode": "321181",
+    "name": "丹阳市人民政府",
+    "siteName": "丹阳市人民政府",
+    "url": "https://www.danyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhenjiang.gov.cn/"
+  },
+  {
+    "id": "321182-government-www-yz-gov-cn",
+    "regionCode": "321182",
+    "name": "扬中市人民政府",
+    "siteName": "扬中市人民政府",
+    "url": "http://www.yz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.zhenjiang.gov.cn/"
+  },
+  {
     "id": "321200-government-taizhou-gov-cn",
     "regionCode": "321200",
     "name": "泰州市人民政府",
@@ -117,6 +846,51 @@
     "sourceUrl": "https://www.nantong.gov.cn/"
   },
   {
+    "id": "321202-government-www-tzhl-gov-cn",
+    "regionCode": "321202",
+    "name": "海陵区人民政府",
+    "siteName": "泰州市海陵区人民政府",
+    "url": "http://www.tzhl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.taizhou.gov.cn/"
+  },
+  {
+    "id": "321204-government-www-jiangyan-gov-cn",
+    "regionCode": "321204",
+    "name": "姜堰区人民政府",
+    "siteName": "泰州市姜堰区人民政府",
+    "url": "http://www.jiangyan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.taizhou.gov.cn/"
+  },
+  {
+    "id": "321281-government-www-xinghua-gov-cn",
+    "regionCode": "321281",
+    "name": "兴化市人民政府",
+    "siteName": "兴化市人民政府",
+    "url": "https://www.xinghua.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.taizhou.gov.cn/"
+  },
+  {
+    "id": "321282-government-www-jingjiang-gov-cn",
+    "regionCode": "321282",
+    "name": "靖江市人民政府",
+    "siteName": "靖江市政府",
+    "url": "http://www.jingjiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.taizhou.gov.cn/"
+  },
+  {
+    "id": "321283-government-www-taixing-gov-cn",
+    "regionCode": "321283",
+    "name": "泰兴市人民政府",
+    "siteName": "泰兴市人民政府",
+    "url": "https://www.taixing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.taizhou.gov.cn/"
+  },
+  {
     "id": "321300-government-suqian-gov-cn",
     "regionCode": "321300",
     "name": "宿迁市人民政府",
@@ -124,5 +898,50 @@
     "url": "https://www.suqian.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.nantong.gov.cn/"
+  },
+  {
+    "id": "321302-government-www-sqsc-gov-cn",
+    "regionCode": "321302",
+    "name": "宿城区人民政府",
+    "siteName": "宿城区人民政府",
+    "url": "https://www.sqsc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suqian.gov.cn/"
+  },
+  {
+    "id": "321311-government-www-suyu-gov-cn",
+    "regionCode": "321311",
+    "name": "宿豫区人民政府",
+    "siteName": "宿豫区人民政府",
+    "url": "http://www.suyu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suqian.gov.cn/"
+  },
+  {
+    "id": "321322-government-www-shuyang-gov-cn",
+    "regionCode": "321322",
+    "name": "沭阳县人民政府",
+    "siteName": "沭阳县人民政府",
+    "url": "http://www.shuyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suqian.gov.cn/"
+  },
+  {
+    "id": "321323-government-www-siyang-gov-cn",
+    "regionCode": "321323",
+    "name": "泗阳县人民政府",
+    "siteName": "泗阳县人民政府",
+    "url": "http://www.siyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suqian.gov.cn/"
+  },
+  {
+    "id": "321324-government-www-sihong-gov-cn",
+    "regionCode": "321324",
+    "name": "泗洪县人民政府",
+    "siteName": "泗洪县人民政府",
+    "url": "http://www.sihong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.suqian.gov.cn/"
   }
 ]
