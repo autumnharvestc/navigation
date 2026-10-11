@@ -51,4 +51,8 @@ describe('release workflow configuration', () => {
     expect(config).toContain('process.env.GITHUB_REPOSITORY');
     expect(config).toContain('githubPagesBase');
   });
+  it('excludes nested worktrees from unit test discovery', async () => {
+    const config = await readFile('vite.config.ts', 'utf8');
+    expect(config).toContain('**/.worktrees/**');
+  });
 });
