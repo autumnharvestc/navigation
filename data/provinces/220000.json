@@ -88,5 +88,545 @@
     "url": "http://www.yanbian.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.jl.gov.cn/xglj/szfbmszxszf/"
+  },
+  {
+    "id": "220102-government-nanguan-changchun-gov-cn",
+    "regionCode": "220102",
+    "name": "南关区人民政府",
+    "siteName": "南关区人民政府",
+    "url": "http://nanguan.changchun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.changchun.gov.cn/"
+  },
+  {
+    "id": "220103-government-www-jckc-gov-cn",
+    "regionCode": "220103",
+    "name": "宽城区人民政府",
+    "siteName": "宽城区人民政府",
+    "url": "http://www.jckc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.changchun.gov.cn/"
+  },
+  {
+    "id": "220104-government-chaoyang-changchun-gov-cn",
+    "regionCode": "220104",
+    "name": "朝阳区人民政府",
+    "siteName": "朝阳区人民政府",
+    "url": "http://chaoyang.changchun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.changchun.gov.cn/"
+  },
+  {
+    "id": "220105-government-erdao-changchun-gov-cn",
+    "regionCode": "220105",
+    "name": "二道区人民政府",
+    "siteName": "二道区人民政府",
+    "url": "http://erdao.changchun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.changchun.gov.cn/"
+  },
+  {
+    "id": "220106-government-www-luyuan-gov-cn",
+    "regionCode": "220106",
+    "name": "绿园区人民政府",
+    "siteName": "绿园区人民政府",
+    "url": "http://www.luyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.changchun.gov.cn/"
+  },
+  {
+    "id": "220112-government-www-shuangyang-gov-cn",
+    "regionCode": "220112",
+    "name": "双阳区人民政府",
+    "siteName": "双阳区人民政府",
+    "url": "http://www.shuangyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.changchun.gov.cn/"
+  },
+  {
+    "id": "220113-government-www-jiutai-gov-cn",
+    "regionCode": "220113",
+    "name": "九台区人民政府",
+    "siteName": "九台区人民政府",
+    "url": "http://www.jiutai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.changchun.gov.cn/"
+  },
+  {
+    "id": "220122-government-www-nongan-gov-cn",
+    "regionCode": "220122",
+    "name": "农安县人民政府",
+    "siteName": "农安县人民政府",
+    "url": "http://www.nongan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.changchun.gov.cn/"
+  },
+  {
+    "id": "220182-government-www-yushu-gov-cn",
+    "regionCode": "220182",
+    "name": "榆树市人民政府",
+    "siteName": "榆树市人民政府",
+    "url": "http://www.yushu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.changchun.gov.cn/"
+  },
+  {
+    "id": "220183-government-www-dehui-gov-cn",
+    "regionCode": "220183",
+    "name": "德惠市人民政府",
+    "siteName": "德惠市人民政府",
+    "url": "http://www.dehui.gov.cn/Index.shtml",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1022278"
+  },
+  {
+    "id": "220184-government-www-gongzhuling-gov-cn",
+    "regionCode": "220184",
+    "name": "公主岭市人民政府",
+    "siteName": "公主岭市人民政府",
+    "url": "http://www.gongzhuling.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.changchun.gov.cn/"
+  },
+  {
+    "id": "220202-government-www-jlscy-gov-cn",
+    "regionCode": "220202",
+    "name": "昌邑区人民政府",
+    "siteName": "昌邑区人民政府",
+    "url": "http://www.jlscy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlcity.gov.cn/"
+  },
+  {
+    "id": "220203-government-www-longtan-gov-cn",
+    "regionCode": "220203",
+    "name": "龙潭区人民政府",
+    "siteName": "龙潭区人民政府",
+    "url": "http://www.longtan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlcity.gov.cn/"
+  },
+  {
+    "id": "220204-government-www-jlcy-gov-cn",
+    "regionCode": "220204",
+    "name": "船营区人民政府",
+    "siteName": "船营区人民政府",
+    "url": "http://www.jlcy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlcity.gov.cn/"
+  },
+  {
+    "id": "220211-government-www-jlfm-gov-cn",
+    "regionCode": "220211",
+    "name": "丰满区人民政府",
+    "siteName": "丰满区人民政府",
+    "url": "http://www.jlfm.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlcity.gov.cn/"
+  },
+  {
+    "id": "220221-government-www-jlyj-gov-cn",
+    "regionCode": "220221",
+    "name": "永吉县人民政府",
+    "siteName": "永吉县人民政府",
+    "url": "https://www.jlyj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlcity.gov.cn/"
+  },
+  {
+    "id": "220281-government-www-jiaohe-gov-cn",
+    "regionCode": "220281",
+    "name": "蛟河市人民政府",
+    "siteName": "蛟河市人民政府",
+    "url": "https://www.jiaohe.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlcity.gov.cn/"
+  },
+  {
+    "id": "220282-government-www-huadian-gov-cn",
+    "regionCode": "220282",
+    "name": "桦甸市人民政府",
+    "siteName": "桦甸市人民政府",
+    "url": "http://www.huadian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlcity.gov.cn/"
+  },
+  {
+    "id": "220283-government-www-shulan-gov-cn",
+    "regionCode": "220283",
+    "name": "舒兰市人民政府",
+    "siteName": "舒兰市人民政府",
+    "url": "http://www.shulan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlcity.gov.cn/"
+  },
+  {
+    "id": "220284-government-www-panshi-gov-cn",
+    "regionCode": "220284",
+    "name": "磐石市人民政府",
+    "siteName": "磐石市人民政府",
+    "url": "http://www.panshi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlcity.gov.cn/"
+  },
+  {
+    "id": "220302-government-txq-siping-gov-cn",
+    "regionCode": "220302",
+    "name": "铁西区人民政府",
+    "siteName": "铁西区人民政府",
+    "url": "http://txq.siping.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.siping.gov.cn/"
+  },
+  {
+    "id": "220303-government-tdq-siping-gov-cn",
+    "regionCode": "220303",
+    "name": "铁东区人民政府",
+    "siteName": "铁东区人民政府",
+    "url": "http://tdq.siping.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.siping.gov.cn/"
+  },
+  {
+    "id": "220322-government-www-lishu-gov-cn",
+    "regionCode": "220322",
+    "name": "梨树县人民政府",
+    "siteName": "梨树县人民政府",
+    "url": "http://www.lishu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.siping.gov.cn/"
+  },
+  {
+    "id": "220323-government-www-yitong-gov-cn",
+    "regionCode": "220323",
+    "name": "伊通满族自治县人民政府",
+    "siteName": "伊通满族自治县人民政府",
+    "url": "http://www.yitong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.siping.gov.cn/"
+  },
+  {
+    "id": "220382-government-www-shuangliao-gov-cn",
+    "regionCode": "220382",
+    "name": "双辽市人民政府",
+    "siteName": "双辽市人民政府",
+    "url": "http://www.shuangliao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.siping.gov.cn/"
+  },
+  {
+    "id": "220402-government-www-jllyls-gov-cn",
+    "regionCode": "220402",
+    "name": "龙山区人民政府",
+    "siteName": "龙山区人民政府",
+    "url": "http://www.jllyls.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.liaoyuan.gov.cn/"
+  },
+  {
+    "id": "220403-government-www-lyxa-gov-cn",
+    "regionCode": "220403",
+    "name": "西安区人民政府",
+    "siteName": "西安区人民政府",
+    "url": "http://www.lyxa.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.liaoyuan.gov.cn/"
+  },
+  {
+    "id": "220421-government-www-dongfeng-gov-cn",
+    "regionCode": "220421",
+    "name": "东丰县人民政府",
+    "siteName": "东丰县人民政府",
+    "url": "http://www.dongfeng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.liaoyuan.gov.cn/"
+  },
+  {
+    "id": "220422-government-www-dongliao-gov-cn",
+    "regionCode": "220422",
+    "name": "东辽县人民政府",
+    "siteName": "东辽县人民政府",
+    "url": "http://www.dongliao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.liaoyuan.gov.cn/"
+  },
+  {
+    "id": "220502-government-www-dc-gov-cn",
+    "regionCode": "220502",
+    "name": "东昌区人民政府",
+    "siteName": "东昌区人民政府",
+    "url": "http://www.dc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tonghua.gov.cn/"
+  },
+  {
+    "id": "220503-government-www-edj-gov-cn",
+    "regionCode": "220503",
+    "name": "二道江区人民政府",
+    "siteName": "二道江区人民政府",
+    "url": "http://www.edj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tonghua.gov.cn/"
+  },
+  {
+    "id": "220521-government-www-tonghuaxian-gov-cn",
+    "regionCode": "220521",
+    "name": "通化县人民政府",
+    "siteName": "通化县人民政府",
+    "url": "http://www.tonghuaxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tonghua.gov.cn/"
+  },
+  {
+    "id": "220523-government-www-huinanxian-gov-cn",
+    "regionCode": "220523",
+    "name": "辉南县人民政府",
+    "siteName": "辉南县人民政府",
+    "url": "http://www.huinanxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tonghua.gov.cn/"
+  },
+  {
+    "id": "220524-government-www-jllh-gov-cn",
+    "regionCode": "220524",
+    "name": "柳河县人民政府",
+    "siteName": "柳河县人民政府",
+    "url": "http://www.jllh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tonghua.gov.cn/"
+  },
+  {
+    "id": "220581-government-www-mhk-gov-cn",
+    "regionCode": "220581",
+    "name": "梅河口市人民政府",
+    "siteName": "梅河口市人民政府",
+    "url": "http://www.mhk.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q971498"
+  },
+  {
+    "id": "220582-government-www-jilinja-gov-cn",
+    "regionCode": "220582",
+    "name": "集安市人民政府",
+    "siteName": "集安市人民政府",
+    "url": "http://www.jilinja.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tonghua.gov.cn/"
+  },
+  {
+    "id": "220602-government-www-hunjiang-gov-cn",
+    "regionCode": "220602",
+    "name": "浑江区人民政府",
+    "siteName": "浑江区人民政府",
+    "url": "https://www.hunjiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cbs.gov.cn/"
+  },
+  {
+    "id": "220605-government-jy-cbs-gov-cn",
+    "regionCode": "220605",
+    "name": "江源区人民政府",
+    "siteName": "江源区人民政府",
+    "url": "https://jy.cbs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cbs.gov.cn/"
+  },
+  {
+    "id": "220621-government-www-fusong-gov-cn",
+    "regionCode": "220621",
+    "name": "抚松县人民政府",
+    "siteName": "抚松县人民政府",
+    "url": "https://www.fusong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cbs.gov.cn/"
+  },
+  {
+    "id": "220622-government-jyx-cbs-gov-cn",
+    "regionCode": "220622",
+    "name": "靖宇县人民政府",
+    "siteName": "靖宇县人民政府",
+    "url": "https://jyx.cbs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cbs.gov.cn/"
+  },
+  {
+    "id": "220623-government-www-changbai-gov-cn",
+    "regionCode": "220623",
+    "name": "长白朝鲜族自治县人民政府",
+    "siteName": "长白朝鲜族自治县人民政府",
+    "url": "https://www.changbai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cbs.gov.cn/"
+  },
+  {
+    "id": "220681-government-www-linjiang-gov-cn",
+    "regionCode": "220681",
+    "name": "临江市人民政府",
+    "siteName": "临江市人民政府",
+    "url": "https://www.linjiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cbs.gov.cn/"
+  },
+  {
+    "id": "220702-government-www-ningjiang-gov-cn",
+    "regionCode": "220702",
+    "name": "宁江区人民政府",
+    "siteName": "宁江区人民政府",
+    "url": "http://www.ningjiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlsy.gov.cn/"
+  },
+  {
+    "id": "220721-government-www-qianguo-gov-cn",
+    "regionCode": "220721",
+    "name": "前郭尔罗斯蒙古族自治县人民政府",
+    "siteName": "前郭尔罗斯蒙古族自治县人民政府",
+    "url": "http://www.qianguo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1376078"
+  },
+  {
+    "id": "220722-government-www-jlcl-gov-cn",
+    "regionCode": "220722",
+    "name": "长岭县人民政府",
+    "siteName": "长岭县人民政府",
+    "url": "http://www.jlcl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlsy.gov.cn/"
+  },
+  {
+    "id": "220723-government-www-jlqa-gov-cn",
+    "regionCode": "220723",
+    "name": "乾安县人民政府",
+    "siteName": "乾安县人民政府",
+    "url": "http://www.jlqa.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlsy.gov.cn/"
+  },
+  {
+    "id": "220781-government-www-jlfy-gov-cn",
+    "regionCode": "220781",
+    "name": "扶余市人民政府",
+    "siteName": "扶余市人民政府",
+    "url": "http://www.jlfy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jlsy.gov.cn/"
+  },
+  {
+    "id": "220802-government-www-taobei-gov-cn",
+    "regionCode": "220802",
+    "name": "洮北区人民政府",
+    "siteName": "洮北区人民政府",
+    "url": "http://www.taobei.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jlbc.gov.cn/"
+  },
+  {
+    "id": "220821-government-www-jlzhenlai-gov-cn",
+    "regionCode": "220821",
+    "name": "镇赉县人民政府",
+    "siteName": "镇赉县人民政府",
+    "url": "http://www.jlzhenlai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jlbc.gov.cn/"
+  },
+  {
+    "id": "220822-government-www-tongyu-gov-cn",
+    "regionCode": "220822",
+    "name": "通榆县人民政府",
+    "siteName": "通榆县人民政府",
+    "url": "http://www.tongyu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jlbc.gov.cn/"
+  },
+  {
+    "id": "220881-government-www-taonan-gov-cn",
+    "regionCode": "220881",
+    "name": "洮南市人民政府",
+    "siteName": "洮南市人民政府",
+    "url": "http://www.taonan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jlbc.gov.cn/"
+  },
+  {
+    "id": "220882-government-www-daan-gov-cn",
+    "regionCode": "220882",
+    "name": "大安市人民政府",
+    "siteName": "大安市人民政府",
+    "url": "http://www.daan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.jlbc.gov.cn/"
+  },
+  {
+    "id": "222401-government-www-yanji-gov-cn",
+    "regionCode": "222401",
+    "name": "延吉市人民政府",
+    "siteName": "延吉市人民政府",
+    "url": "http://www.yanji.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.yanbian.gov.cn/"
+  },
+  {
+    "id": "222402-government-tumen-gov-cn",
+    "regionCode": "222402",
+    "name": "图们市人民政府",
+    "siteName": "图们市人民政府",
+    "url": "http://tumen.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q713323"
+  },
+  {
+    "id": "222403-government-www-dunhua-gov-cn",
+    "regionCode": "222403",
+    "name": "敦化市人民政府",
+    "siteName": "敦化市人民政府",
+    "url": "http://www.dunhua.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.yanbian.gov.cn/"
+  },
+  {
+    "id": "222405-government-longjing-yanbian-gov-cn",
+    "regionCode": "222405",
+    "name": "龙井市人民政府",
+    "siteName": "龙井市人民政府",
+    "url": "http://longjing.yanbian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q713327"
+  },
+  {
+    "id": "222406-government-www-helong-gov-cn",
+    "regionCode": "222406",
+    "name": "和龙市人民政府",
+    "siteName": "和龙市人民政府",
+    "url": "http://www.helong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.yanbian.gov.cn/"
+  },
+  {
+    "id": "222424-government-www-wangqing-gov-cn",
+    "regionCode": "222424",
+    "name": "汪清县人民政府",
+    "siteName": "汪清县人民政府",
+    "url": "http://www.wangqing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q699138"
+  },
+  {
+    "id": "222426-government-www-antu-gov-cn",
+    "regionCode": "222426",
+    "name": "安图县人民政府",
+    "siteName": "安图县人民政府",
+    "url": "http://www.antu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.yanbian.gov.cn/"
+  },
+  {
+    "id": "222404-government-www-hunchun-gov-cn",
+    "regionCode": "222404",
+    "name": "珲春市人民政府",
+    "siteName": "珲春市人民政府",
+    "url": "http://www.hunchun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.yanbian.gov.cn/"
   }
 ]

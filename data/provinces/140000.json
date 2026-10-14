@@ -106,5 +106,1058 @@
     "url": "https://www.lvliang.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.shanxi.gov.cn/"
+  },
+  {
+    "id": "140105-government-www-tyxd-gov-cn",
+    "regionCode": "140105",
+    "name": "小店区人民政府",
+    "siteName": "小店区人民政府",
+    "url": "http://www.tyxd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1333710"
+  },
+  {
+    "id": "140106-government-www-yingze-gov-cn",
+    "regionCode": "140106",
+    "name": "迎泽区人民政府",
+    "siteName": "迎泽区人民政府",
+    "url": "http://www.yingze.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1333527"
+  },
+  {
+    "id": "140107-government-www-sxtyxhl-gov-cn",
+    "regionCode": "140107",
+    "name": "杏花岭区人民政府",
+    "siteName": "杏花岭区人民政府",
+    "url": "http://www.sxtyxhl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1333633"
+  },
+  {
+    "id": "140108-government-www-tyjcp-gov-cn",
+    "regionCode": "140108",
+    "name": "尖草坪区人民政府",
+    "siteName": "尖草坪区人民政府",
+    "url": "http://www.tyjcp.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1333680"
+  },
+  {
+    "id": "140109-government-www-sxtywbl-gov-cn",
+    "regionCode": "140109",
+    "name": "万柏林区人民政府",
+    "siteName": "万柏林区人民政府",
+    "url": "http://www.sxtywbl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1333647"
+  },
+  {
+    "id": "140110-government-www-jinyuan-gov-cn",
+    "regionCode": "140110",
+    "name": "晋源区人民政府",
+    "siteName": "晋源区人民政府",
+    "url": "http://www.jinyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1333589"
+  },
+  {
+    "id": "140121-government-www-qx-gov-cn",
+    "regionCode": "140121",
+    "name": "清徐县人民政府",
+    "siteName": "清徐县人民政府",
+    "url": "http://www.qx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1318786"
+  },
+  {
+    "id": "140122-government-www-sxyangqu-gov-cn",
+    "regionCode": "140122",
+    "name": "阳曲县人民政府",
+    "siteName": "阳曲县人民政府",
+    "url": "http://www.sxyangqu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1272863"
+  },
+  {
+    "id": "140123-government-www-sxlf-gov-cn",
+    "regionCode": "140123",
+    "name": "娄烦县人民政府",
+    "siteName": "娄烦县人民政府",
+    "url": "http://www.sxlf.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1331408"
+  },
+  {
+    "id": "140181-government-www-sxgujiao-gov-cn",
+    "regionCode": "140181",
+    "name": "古交市人民政府",
+    "siteName": "古交市人民政府",
+    "url": "http://www.sxgujiao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q943710"
+  },
+  {
+    "id": "140212-government-www-xr-gov-cn",
+    "regionCode": "140212",
+    "name": "新荣区人民政府",
+    "siteName": "新荣区人民政府",
+    "url": "https://www.xr.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.dt.gov.cn/"
+  },
+  {
+    "id": "140213-government-www-pingcheng-gov-cn",
+    "regionCode": "140213",
+    "name": "平城区人民政府",
+    "siteName": "平城区人民政府",
+    "url": "https://www.pingcheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.dt.gov.cn/"
+  },
+  {
+    "id": "140214-government-www-yungang-gov-cn",
+    "regionCode": "140214",
+    "name": "云冈区人民政府",
+    "siteName": "云冈区人民政府",
+    "url": "https://www.yungang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.dt.gov.cn/"
+  },
+  {
+    "id": "140215-government-www-yunzhou-gov-cn",
+    "regionCode": "140215",
+    "name": "云州区人民政府",
+    "siteName": "云州区人民政府",
+    "url": "https://www.yunzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.dt.gov.cn/"
+  },
+  {
+    "id": "140221-government-www-dtyg-gov-cn",
+    "regionCode": "140221",
+    "name": "阳高县人民政府",
+    "siteName": "阳高县人民政府",
+    "url": "http://www.dtyg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.dt.gov.cn/"
+  },
+  {
+    "id": "140222-government-www-dttz-gov-cn",
+    "regionCode": "140222",
+    "name": "天镇县人民政府",
+    "siteName": "天镇县人民政府",
+    "url": "http://www.dttz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.dt.gov.cn/"
+  },
+  {
+    "id": "140223-government-www-sx-guangling-gov-cn",
+    "regionCode": "140223",
+    "name": "广灵县人民政府",
+    "siteName": "广灵县人民政府",
+    "url": "http://www.sx-guangling.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.dt.gov.cn/"
+  },
+  {
+    "id": "140224-government-www-lingqiu-gov-cn",
+    "regionCode": "140224",
+    "name": "灵丘县人民政府",
+    "siteName": "灵丘县人民政府",
+    "url": "https://www.lingqiu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.dt.gov.cn/"
+  },
+  {
+    "id": "140225-government-www-hunyuan-gov-cn",
+    "regionCode": "140225",
+    "name": "浑源县人民政府",
+    "siteName": "浑源县人民政府",
+    "url": "https://www.hunyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.dt.gov.cn/"
+  },
+  {
+    "id": "140226-government-www-zuoyun-gov-cn",
+    "regionCode": "140226",
+    "name": "左云县人民政府",
+    "siteName": "左云县人民政府",
+    "url": "https://www.zuoyun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.dt.gov.cn/"
+  },
+  {
+    "id": "140302-government-www-yqcq-gov-cn",
+    "regionCode": "140302",
+    "name": "城区人民政府",
+    "siteName": "城区人民政府",
+    "url": "http://www.yqcq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yq.gov.cn/"
+  },
+  {
+    "id": "140303-government-ghhzy-yq-gov-cn",
+    "regionCode": "140303",
+    "name": "矿区人民政府",
+    "siteName": "矿区人民政府",
+    "url": "https://ghhzy.yq.gov.cn/xwgg/tzgg/202609/t20260914_2238240.html",
+    "category": "government",
+    "sourceUrl": "https://www.yq.gov.cn/"
+  },
+  {
+    "id": "140311-government-www-yqjq-gov-cn",
+    "regionCode": "140311",
+    "name": "郊区人民政府",
+    "siteName": "郊区人民政府",
+    "url": "http://www.yqjq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yq.gov.cn/"
+  },
+  {
+    "id": "140321-government-www-pd-gov-cn",
+    "regionCode": "140321",
+    "name": "平定县人民政府",
+    "siteName": "平定县人民政府",
+    "url": "http://www.pd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yq.gov.cn/"
+  },
+  {
+    "id": "140322-government-www-sxyx-gov-cn",
+    "regionCode": "140322",
+    "name": "盂县人民政府",
+    "siteName": "盂县人民政府",
+    "url": "https://www.sxyx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yq.gov.cn/"
+  },
+  {
+    "id": "140403-government-www-luzhouqu-gov-cn",
+    "regionCode": "140403",
+    "name": "潞州区人民政府",
+    "siteName": "潞州区人民政府",
+    "url": "http://www.luzhouqu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhi.gov.cn/"
+  },
+  {
+    "id": "140404-government-www-shangdangqu-gov-cn",
+    "regionCode": "140404",
+    "name": "上党区人民政府",
+    "siteName": "上党区人民政府",
+    "url": "http://www.shangdangqu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhi.gov.cn/"
+  },
+  {
+    "id": "140405-government-www-tunliu-gov-cn",
+    "regionCode": "140405",
+    "name": "屯留区人民政府",
+    "siteName": "屯留区人民政府",
+    "url": "http://www.tunliu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhi.gov.cn/"
+  },
+  {
+    "id": "140406-government-www-lc-gov-cn",
+    "regionCode": "140406",
+    "name": "潞城区人民政府",
+    "siteName": "潞城区人民政府",
+    "url": "http://www.lc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhi.gov.cn/"
+  },
+  {
+    "id": "140423-government-www-xiangyuan-gov-cn",
+    "regionCode": "140423",
+    "name": "襄垣县人民政府",
+    "siteName": "襄垣县人民政府",
+    "url": "http://www.xiangyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhi.gov.cn/"
+  },
+  {
+    "id": "140425-government-www-pingshun-gov-cn",
+    "regionCode": "140425",
+    "name": "平顺县人民政府",
+    "siteName": "平顺县人民政府",
+    "url": "http://www.pingshun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhi.gov.cn/"
+  },
+  {
+    "id": "140426-government-www-sxlc-gov-cn",
+    "regionCode": "140426",
+    "name": "黎城县人民政府",
+    "siteName": "黎城县人民政府",
+    "url": "http://www.sxlc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhi.gov.cn/"
+  },
+  {
+    "id": "140427-government-www-huguan-gov-cn",
+    "regionCode": "140427",
+    "name": "壶关县人民政府",
+    "siteName": "壶关县人民政府",
+    "url": "http://www.huguan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhi.gov.cn/"
+  },
+  {
+    "id": "140428-government-www-zhangzi-gov-cn",
+    "regionCode": "140428",
+    "name": "长子县人民政府",
+    "siteName": "长子县人民政府",
+    "url": "http://www.zhangzi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhi.gov.cn/"
+  },
+  {
+    "id": "140429-government-www-wuxiang-gov-cn",
+    "regionCode": "140429",
+    "name": "武乡县人民政府",
+    "siteName": "武乡县人民政府",
+    "url": "http://www.wuxiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhi.gov.cn/"
+  },
+  {
+    "id": "140430-government-www-qinxian-gov-cn",
+    "regionCode": "140430",
+    "name": "沁县人民政府",
+    "siteName": "沁县人民政府",
+    "url": "https://www.qinxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changzhi.gov.cn/"
+  },
+  {
+    "id": "140431-government-www-qinyuan-gov-cn",
+    "regionCode": "140431",
+    "name": "沁源县人民政府",
+    "siteName": "沁源县人民政府",
+    "url": "http://www.qinyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197215"
+  },
+  {
+    "id": "140502-government-www-jccq-gov-cn",
+    "regionCode": "140502",
+    "name": "城区人民政府",
+    "siteName": "城区人民政府",
+    "url": "http://www.jccq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jcgov.gov.cn/"
+  },
+  {
+    "id": "140521-government-www-qinshui-gov-cn",
+    "regionCode": "140521",
+    "name": "沁水县人民政府",
+    "siteName": "沁水县人民政府",
+    "url": "https://www.qinshui.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q517930"
+  },
+  {
+    "id": "140522-government-yczf-gov-cn",
+    "regionCode": "140522",
+    "name": "阳城县人民政府",
+    "siteName": "阳城县人民政府",
+    "url": "https://yczf.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jcgov.gov.cn/"
+  },
+  {
+    "id": "140524-government-www-lczf-gov-cn",
+    "regionCode": "140524",
+    "name": "陵川县人民政府",
+    "siteName": "陵川县人民政府",
+    "url": "http://www.lczf.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197140"
+  },
+  {
+    "id": "140525-government-www-zezhou-gov-cn",
+    "regionCode": "140525",
+    "name": "泽州县人民政府",
+    "siteName": "泽州县人民政府",
+    "url": "http://www.zezhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.jcgov.gov.cn/"
+  },
+  {
+    "id": "140581-government-www-sxgp-gov-cn",
+    "regionCode": "140581",
+    "name": "高平市人民政府",
+    "siteName": "高平市人民政府",
+    "url": "http://www.sxgp.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1363661"
+  },
+  {
+    "id": "140602-government-www-szscq-gov-cn",
+    "regionCode": "140602",
+    "name": "朔城区人民政府",
+    "siteName": "朔城区人民政府",
+    "url": "http://www.szscq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.shuozhou.gov.cn/"
+  },
+  {
+    "id": "140603-government-www-szpinglu-gov-cn",
+    "regionCode": "140603",
+    "name": "平鲁区人民政府",
+    "siteName": "平鲁区人民政府",
+    "url": "http://www.szpinglu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.shuozhou.gov.cn/"
+  },
+  {
+    "id": "140621-government-www-shanyin-gov-cn",
+    "regionCode": "140621",
+    "name": "山阴县人民政府",
+    "siteName": "山阴县人民政府",
+    "url": "http://www.shanyin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.shuozhou.gov.cn/"
+  },
+  {
+    "id": "140622-government-www-yingxian-gov-cn",
+    "regionCode": "140622",
+    "name": "应县人民政府",
+    "siteName": "应县人民政府",
+    "url": "http://www.yingxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.shuozhou.gov.cn/"
+  },
+  {
+    "id": "140623-government-www-youyuzf-gov-cn",
+    "regionCode": "140623",
+    "name": "右玉县人民政府",
+    "siteName": "右玉县人民政府",
+    "url": "http://www.youyuzf.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.shuozhou.gov.cn/"
+  },
+  {
+    "id": "140681-government-www-zghr-gov-cn",
+    "regionCode": "140681",
+    "name": "怀仁市人民政府",
+    "siteName": "怀仁市人民政府",
+    "url": "http://www.zghr.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.shuozhou.gov.cn/"
+  },
+  {
+    "id": "140702-government-www-yuci-gov-cn",
+    "regionCode": "140702",
+    "name": "榆次区人民政府",
+    "siteName": "榆次区人民政府",
+    "url": "http://www.yuci.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1330568"
+  },
+  {
+    "id": "140703-government-www-taigu-gov-cn",
+    "regionCode": "140703",
+    "name": "太谷区人民政府",
+    "siteName": "太谷区人民政府",
+    "url": "http://www.taigu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q955461"
+  },
+  {
+    "id": "140721-government-www-yushe-gov-cn",
+    "regionCode": "140721",
+    "name": "榆社县人民政府",
+    "siteName": "榆社县人民政府",
+    "url": "http://www.yushe.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q284275"
+  },
+  {
+    "id": "140722-government-www-zuoquan-gov-cn",
+    "regionCode": "140722",
+    "name": "左权县人民政府",
+    "siteName": "左权县人民政府",
+    "url": "http://www.zuoquan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q230205"
+  },
+  {
+    "id": "140723-government-www-heshun-gov-cn",
+    "regionCode": "140723",
+    "name": "和顺县人民政府",
+    "siteName": "和顺县人民政府",
+    "url": "http://www.heshun.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197119"
+  },
+  {
+    "id": "140724-government-www-xiyang-gov-cn",
+    "regionCode": "140724",
+    "name": "昔阳县人民政府",
+    "siteName": "昔阳县人民政府",
+    "url": "http://www.xiyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1196928"
+  },
+  {
+    "id": "140725-government-www-shouyang-gov-cn",
+    "regionCode": "140725",
+    "name": "寿阳县人民政府",
+    "siteName": "寿阳县人民政府",
+    "url": "http://www.shouyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197229"
+  },
+  {
+    "id": "140727-government-qx-sxjz-gov-cn",
+    "regionCode": "140727",
+    "name": "祁县人民政府",
+    "siteName": "祁县人民政府",
+    "url": "http://qx.sxjz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1196900"
+  },
+  {
+    "id": "140728-government-www-pingyao-gov-cn",
+    "regionCode": "140728",
+    "name": "平遥县人民政府",
+    "siteName": "平遥县人民政府",
+    "url": "http://www.pingyao.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q618687"
+  },
+  {
+    "id": "140729-government-www-lingshi-gov-cn",
+    "regionCode": "140729",
+    "name": "灵石县人民政府",
+    "siteName": "灵石县人民政府",
+    "url": "http://www.lingshi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197064"
+  },
+  {
+    "id": "140781-government-www-jiexiu-gov-cn",
+    "regionCode": "140781",
+    "name": "介休市人民政府",
+    "siteName": "介休市人民政府",
+    "url": "http://www.jiexiu.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1362530"
+  },
+  {
+    "id": "140802-government-www-yanhu-gov-cn",
+    "regionCode": "140802",
+    "name": "盐湖区人民政府",
+    "siteName": "盐湖区人民政府",
+    "url": "http://www.yanhu.gov.cn/zfxxgk/zfwj/index.shtml",
+    "category": "government",
+    "sourceUrl": "https://www.yuncheng.gov.cn/"
+  },
+  {
+    "id": "140821-government-www-sxly-gov-cn",
+    "regionCode": "140821",
+    "name": "临猗县人民政府",
+    "siteName": "临猗县人民政府",
+    "url": "https://www.sxly.gov.cn/zfxxgk/zcfgyjd/index.shtml",
+    "category": "government",
+    "sourceUrl": "https://www.yuncheng.gov.cn/"
+  },
+  {
+    "id": "140822-government-www-wanrong-gov-cn",
+    "regionCode": "140822",
+    "name": "万荣县人民政府",
+    "siteName": "万荣县人民政府",
+    "url": "https://www.wanrong.gov.cn/zfxxgk/zcwj/index.shtml",
+    "category": "government",
+    "sourceUrl": "https://www.yuncheng.gov.cn/"
+  },
+  {
+    "id": "140823-government-www-wenxi-gov-cn",
+    "regionCode": "140823",
+    "name": "闻喜县人民政府",
+    "siteName": "闻喜县人民政府",
+    "url": "http://www.wenxi.gov.cn/zfxxgk/wjjjd/index.shtml",
+    "category": "government",
+    "sourceUrl": "https://www.yuncheng.gov.cn/"
+  },
+  {
+    "id": "140824-government-www-jishan-gov-cn",
+    "regionCode": "140824",
+    "name": "稷山县人民政府",
+    "siteName": "稷山县人民政府",
+    "url": "http://www.jishan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yuncheng.gov.cn/"
+  },
+  {
+    "id": "140825-government-www-jiangzhou-gov-cn",
+    "regionCode": "140825",
+    "name": "新绛县人民政府",
+    "siteName": "新绛县人民政府",
+    "url": "http://www.jiangzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yuncheng.gov.cn/"
+  },
+  {
+    "id": "140826-government-www-jiangxian-gov-cn",
+    "regionCode": "140826",
+    "name": "绛县人民政府",
+    "siteName": "绛县人民政府",
+    "url": "http://www.jiangxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197307"
+  },
+  {
+    "id": "140827-government-www-yuanqu-gov-cn",
+    "regionCode": "140827",
+    "name": "垣曲县人民政府",
+    "siteName": "垣曲县人民政府",
+    "url": "http://www.yuanqu.gov.cn/zfxxgk/zfwj/index.shtml",
+    "category": "government",
+    "sourceUrl": "https://www.yuncheng.gov.cn/"
+  },
+  {
+    "id": "140828-government-www-sxxiaxian-gov-cn",
+    "regionCode": "140828",
+    "name": "夏县人民政府",
+    "siteName": "夏县人民政府",
+    "url": "http://www.sxxiaxian.gov.cn/zfxxgk/zfwj/xzfwj/index.shtml",
+    "category": "government",
+    "sourceUrl": "https://www.yuncheng.gov.cn/"
+  },
+  {
+    "id": "140829-government-www-pinglu-gov-cn",
+    "regionCode": "140829",
+    "name": "平陆县人民政府",
+    "siteName": "平陆县人民政府",
+    "url": "http://www.pinglu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yuncheng.gov.cn/"
+  },
+  {
+    "id": "140830-government-www-rcx-gov-cn",
+    "regionCode": "140830",
+    "name": "芮城县人民政府",
+    "siteName": "芮城县人民政府",
+    "url": "https://www.rcx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yuncheng.gov.cn/"
+  },
+  {
+    "id": "140881-government-www-yongji-gov-cn",
+    "regionCode": "140881",
+    "name": "永济市人民政府",
+    "siteName": "永济市人民政府",
+    "url": "http://www.yongji.gov.cn/zfxxgk/zcfgwj/szfwj/index.shtml",
+    "category": "government",
+    "sourceUrl": "https://www.yuncheng.gov.cn/"
+  },
+  {
+    "id": "140882-government-www-sxhj-gov-cn",
+    "regionCode": "140882",
+    "name": "河津市人民政府",
+    "siteName": "河津市人民政府",
+    "url": "http://www.sxhj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yuncheng.gov.cn/"
+  },
+  {
+    "id": "140902-government-www-xzxfq-gov-cn",
+    "regionCode": "140902",
+    "name": "忻府区人民政府",
+    "siteName": "忻府区人民政府",
+    "url": "http://www.xzxfq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140921-government-www-dingxiang-gov-cn",
+    "regionCode": "140921",
+    "name": "定襄县人民政府",
+    "siteName": "定襄县人民政府",
+    "url": "http://www.dingxiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140922-government-www-wutai-gov-cn",
+    "regionCode": "140922",
+    "name": "五台县人民政府",
+    "siteName": "五台县人民政府",
+    "url": "http://www.wutai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140923-government-www-daixian-gov-cn",
+    "regionCode": "140923",
+    "name": "代县人民政府",
+    "siteName": "代县人民政府",
+    "url": "http://www.daixian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140924-government-www-fanshi-gov-cn",
+    "regionCode": "140924",
+    "name": "繁峙县人民政府",
+    "siteName": "繁峙县人民政府",
+    "url": "http://www.fanshi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140925-government-www-ningwu-gov-cn",
+    "regionCode": "140925",
+    "name": "宁武县人民政府",
+    "siteName": "宁武县人民政府",
+    "url": "http://www.ningwu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140926-government-www-sxjl-gov-cn",
+    "regionCode": "140926",
+    "name": "静乐县人民政府",
+    "siteName": "静乐县人民政府",
+    "url": "http://www.sxjl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140927-government-www-shenchi-gov-cn",
+    "regionCode": "140927",
+    "name": "神池县人民政府",
+    "siteName": "神池县人民政府",
+    "url": "http://www.shenchi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140928-government-www-xzwz-gov-cn",
+    "regionCode": "140928",
+    "name": "五寨县人民政府",
+    "siteName": "五寨县人民政府",
+    "url": "http://www.xzwz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140929-government-www-xzkl-gov-cn",
+    "regionCode": "140929",
+    "name": "岢岚县人民政府",
+    "siteName": "岢岚县人民政府",
+    "url": "http://www.xzkl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140930-government-www-hequ-gov-cn",
+    "regionCode": "140930",
+    "name": "河曲县人民政府",
+    "siteName": "河曲县人民政府",
+    "url": "http://www.hequ.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140931-government-www-baode-gov-cn",
+    "regionCode": "140931",
+    "name": "保德县人民政府",
+    "siteName": "保德县人民政府",
+    "url": "http://www.baode.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140932-government-www-pianguan-gov-cn",
+    "regionCode": "140932",
+    "name": "偏关县人民政府",
+    "siteName": "偏关县人民政府",
+    "url": "http://www.pianguan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "140981-government-www-yuanping-gov-cn",
+    "regionCode": "140981",
+    "name": "原平市人民政府",
+    "siteName": "原平市人民政府",
+    "url": "http://www.yuanping.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sxxz.gov.cn/"
+  },
+  {
+    "id": "141002-government-www-yaodu-gov-cn",
+    "regionCode": "141002",
+    "name": "尧都区人民政府",
+    "siteName": "尧都区人民政府",
+    "url": "http://www.yaodu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141021-government-www-quwo-gov-cn",
+    "regionCode": "141021",
+    "name": "曲沃县人民政府",
+    "siteName": "曲沃县人民政府",
+    "url": "http://www.quwo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141022-government-www-yicheng-gov-cn",
+    "regionCode": "141022",
+    "name": "翼城县人民政府",
+    "siteName": "翼城县人民政府",
+    "url": "http://www.yicheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141023-government-www-xiangfen-gov-cn",
+    "regionCode": "141023",
+    "name": "襄汾县人民政府",
+    "siteName": "襄汾县人民政府",
+    "url": "http://www.xiangfen.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141024-government-www-hongtong-gov-cn",
+    "regionCode": "141024",
+    "name": "洪洞县人民政府",
+    "siteName": "洪洞县人民政府",
+    "url": "http://www.hongtong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141025-government-www-guxian-gov-cn",
+    "regionCode": "141025",
+    "name": "古县人民政府",
+    "siteName": "古县人民政府",
+    "url": "http://www.guxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141026-government-www-anze-gov-cn",
+    "regionCode": "141026",
+    "name": "安泽县人民政府",
+    "siteName": "安泽县人民政府",
+    "url": "http://www.anze.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141027-government-www-fushan-gov-cn",
+    "regionCode": "141027",
+    "name": "浮山县人民政府",
+    "siteName": "浮山县人民政府",
+    "url": "http://www.fushan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141028-government-www-zgjx-gov-cn",
+    "regionCode": "141028",
+    "name": "吉县人民政府",
+    "siteName": "吉县人民政府",
+    "url": "http://www.zgjx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141029-government-www-xiangning-gov-cn",
+    "regionCode": "141029",
+    "name": "乡宁县人民政府",
+    "siteName": "乡宁县人民政府",
+    "url": "http://www.xiangning.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141030-government-www-daning-gov-cn",
+    "regionCode": "141030",
+    "name": "大宁县人民政府",
+    "siteName": "大宁县人民政府",
+    "url": "http://www.daning.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141031-government-www-sxxx-gov-cn",
+    "regionCode": "141031",
+    "name": "隰县人民政府",
+    "siteName": "隰县人民政府",
+    "url": "http://www.sxxx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141032-government-www-sxyh-gov-cn",
+    "regionCode": "141032",
+    "name": "永和县人民政府",
+    "siteName": "永和县人民政府",
+    "url": "http://www.sxyh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141033-government-www-puxian-gov-cn",
+    "regionCode": "141033",
+    "name": "蒲县人民政府",
+    "siteName": "蒲县人民政府",
+    "url": "http://www.puxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141034-government-www-fenxi-gov-cn",
+    "regionCode": "141034",
+    "name": "汾西县人民政府",
+    "siteName": "汾西县人民政府",
+    "url": "http://www.fenxi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141081-government-www-houma-gov-cn",
+    "regionCode": "141081",
+    "name": "侯马市人民政府",
+    "siteName": "侯马市人民政府",
+    "url": "http://www.houma.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141082-government-www-huozhou-gov-cn",
+    "regionCode": "141082",
+    "name": "霍州市人民政府",
+    "siteName": "霍州市人民政府",
+    "url": "http://www.huozhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.linfen.gov.cn/"
+  },
+  {
+    "id": "141102-government-www-lishi-gov-cn",
+    "regionCode": "141102",
+    "name": "离石区人民政府",
+    "siteName": "离石区人民政府",
+    "url": "http://www.lishi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q256594"
+  },
+  {
+    "id": "141121-government-www-wenshui-gov-cn",
+    "regionCode": "141121",
+    "name": "文水县人民政府",
+    "siteName": "文水县人民政府",
+    "url": "http://www.wenshui.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197430"
+  },
+  {
+    "id": "141122-government-www-sx-jc-gov-cn",
+    "regionCode": "141122",
+    "name": "交城县人民政府",
+    "siteName": "交城县人民政府",
+    "url": "http://www.sx-jc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1332111"
+  },
+  {
+    "id": "141123-government-www-sxxingxian-gov-cn",
+    "regionCode": "141123",
+    "name": "兴县人民政府",
+    "siteName": "兴县人民政府",
+    "url": "http://www.sxxingxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197426"
+  },
+  {
+    "id": "141124-government-www-linxian-gov-cn",
+    "regionCode": "141124",
+    "name": "临县人民政府",
+    "siteName": "临县人民政府",
+    "url": "http://www.linxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q570324"
+  },
+  {
+    "id": "141125-government-www-liulin-gov-cn",
+    "regionCode": "141125",
+    "name": "柳林县人民政府",
+    "siteName": "柳林县人民政府",
+    "url": "http://www.liulin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197466"
+  },
+  {
+    "id": "141126-government-www-sxshilou-gov-cn",
+    "regionCode": "141126",
+    "name": "石楼县人民政府",
+    "siteName": "石楼县人民政府",
+    "url": "http://www.sxshilou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197439"
+  },
+  {
+    "id": "141127-government-www-lanxian-gov-cn",
+    "regionCode": "141127",
+    "name": "岚县人民政府",
+    "siteName": "岚县人民政府",
+    "url": "http://www.lanxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197469"
+  },
+  {
+    "id": "141128-government-www-sxfangshan-gov-cn",
+    "regionCode": "141128",
+    "name": "方山县人民政府",
+    "siteName": "方山县人民政府",
+    "url": "http://www.sxfangshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197580"
+  },
+  {
+    "id": "141129-government-www-sxzhongyang-gov-cn",
+    "regionCode": "141129",
+    "name": "中阳县人民政府",
+    "siteName": "中阳县人民政府",
+    "url": "http://www.sxzhongyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q197931"
+  },
+  {
+    "id": "141130-government-www-jiaokou-gov-cn",
+    "regionCode": "141130",
+    "name": "交口县人民政府",
+    "siteName": "交口县人民政府",
+    "url": "http://www.jiaokou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1197371"
+  },
+  {
+    "id": "141181-government-www-xiaoyi-gov-cn",
+    "regionCode": "141181",
+    "name": "孝义市人民政府",
+    "siteName": "孝义市人民政府",
+    "url": "http://www.xiaoyi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1332210"
+  },
+  {
+    "id": "141182-government-www-fenyang-gov-cn",
+    "regionCode": "141182",
+    "name": "汾阳市人民政府",
+    "siteName": "汾阳市人民政府",
+    "url": "http://www.fenyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q929190"
   }
 ]
