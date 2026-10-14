@@ -537,13 +537,13 @@
     "level": "county",
     "parentCode": "130300",
     "expected": true,
-    "id": "130304-government-www-bdhxq-gov-cn",
+    "id": "130304-government-www-beidaihe-gov-cn",
     "agencyName": "北戴河区人民政府",
     "siteName": "北戴河区人民政府",
-    "url": "http://www.bdhxq.gov.cn/",
-    "sourceUrl": "https://www.qhd.gov.cn/",
-    "sourceKind": "city-directory",
-    "anchorText": "北戴河新区管委"
+    "url": "http://www.beidaihe.gov.cn/",
+    "sourceUrl": "http://www.wikidata.org/entity/Q814657",
+    "sourceKind": "wikidata",
+    "verificationUrl": "http://www.wikidata.org/entity/Q814657"
   },
   {
     "regionCode": "130306",
@@ -596,7 +596,7 @@
     "id": "130324-government-www-lulong-gov-cn",
     "agencyName": "卢龙县人民政府",
     "siteName": "卢龙县人民政府",
-    "url": "http://www.lulong.gov.cn/",
+    "url": "https://www.lulong.gov.cn/",
     "sourceUrl": "http://www.wikidata.org/entity/Q1196398",
     "sourceKind": "wikidata",
     "verificationUrl": "http://www.wikidata.org/entity/Q1196398"
@@ -831,13 +831,13 @@
     "level": "county",
     "parentCode": "130400",
     "expected": true,
-    "id": "130435-government-www-hebei-gov-cn",
+    "id": "130435-government-www-qzx-gov-cn",
     "agencyName": "曲周县人民政府",
     "siteName": "曲周县人民政府",
-    "url": "http://www.hebei.gov.cn/columns/580d0301-2e0b-4152-9dd1-7d7f4e0f4980/202610/14/b77d515b-cbe8-4649-a2f4-9e806b4ed13c.html",
+    "url": "http://www.qzx.gov.cn/",
     "sourceUrl": "https://www.hd.gov.cn/",
     "sourceKind": "city-directory",
-    "anchorText": "河北曲周科技小院为大面积绿色增粮“打样板”"
+    "anchorText": "曲周县人民政府"
   },
   {
     "regionCode": "130481",
@@ -4135,13 +4135,13 @@
     "level": "county",
     "parentCode": "210100",
     "expected": true,
-    "id": "210124-government-www-fkzs-com",
+    "id": "210124-government-www-faku-gov-cn",
     "agencyName": "法库县人民政府",
     "siteName": "法库县人民政府",
-    "url": "http://www.fkzs.com/",
-    "sourceUrl": "http://www.wikidata.org/entity/Q282929",
-    "sourceKind": "wikidata",
-    "verificationUrl": "http://www.wikidata.org/entity/Q282929"
+    "url": "https://www.faku.gov.cn/",
+    "sourceUrl": "https://www.ln.gov.cn/",
+    "sourceKind": "official-directory",
+    "anchorText": "法库县"
   },
   {
     "regionCode": "210181",
@@ -5510,7 +5510,7 @@
     "id": "220183-government-www-dehui-gov-cn",
     "agencyName": "德惠市人民政府",
     "siteName": "德惠市人民政府",
-    "url": "http://www.dehui.gov.cn/Index.shtml",
+    "url": "http://www.dehui.gov.cn/",
     "sourceUrl": "http://www.wikidata.org/entity/Q1022278",
     "sourceKind": "wikidata",
     "verificationUrl": "http://www.wikidata.org/entity/Q1022278"

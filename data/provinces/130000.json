@@ -450,13 +450,13 @@
     "sourceUrl": "https://www.qhd.gov.cn/"
   },
   {
-    "id": "130304-government-www-bdhxq-gov-cn",
+    "id": "130304-government-www-beidaihe-gov-cn",
     "regionCode": "130304",
     "name": "北戴河区人民政府",
     "siteName": "北戴河区人民政府",
-    "url": "http://www.bdhxq.gov.cn/",
+    "url": "http://www.beidaihe.gov.cn/",
     "category": "government",
-    "sourceUrl": "https://www.qhd.gov.cn/"
+    "sourceUrl": "http://www.wikidata.org/entity/Q814657"
   },
   {
     "id": "130306-government-www-chinafuning-gov-cn",
@@ -490,7 +490,7 @@
     "regionCode": "130324",
     "name": "卢龙县人民政府",
     "siteName": "卢龙县人民政府",
-    "url": "http://www.lulong.gov.cn/",
+    "url": "https://www.lulong.gov.cn/",
     "category": "government",
     "sourceUrl": "http://www.wikidata.org/entity/Q1196398"
   },
@@ -639,11 +639,11 @@
     "sourceUrl": "http://www.wikidata.org/entity/Q1196685"
   },
   {
-    "id": "130435-government-www-hebei-gov-cn",
+    "id": "130435-government-www-qzx-gov-cn",
     "regionCode": "130435",
     "name": "曲周县人民政府",
     "siteName": "曲周县人民政府",
-    "url": "http://www.hebei.gov.cn/columns/580d0301-2e0b-4152-9dd1-7d7f4e0f4980/202610/14/b77d515b-cbe8-4649-a2f4-9e806b4ed13c.html",
+    "url": "http://www.qzx.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.hd.gov.cn/"
   },

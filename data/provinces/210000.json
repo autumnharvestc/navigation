@@ -234,13 +234,13 @@
     "sourceUrl": "http://www.wikidata.org/entity/Q1027319"
   },
   {
-    "id": "210124-government-www-fkzs-com",
+    "id": "210124-government-www-faku-gov-cn",
     "regionCode": "210124",
     "name": "法库县人民政府",
     "siteName": "法库县人民政府",
-    "url": "http://www.fkzs.com/",
+    "url": "https://www.faku.gov.cn/",
     "category": "government",
-    "sourceUrl": "http://www.wikidata.org/entity/Q282929"
+    "sourceUrl": "https://www.ln.gov.cn/"
   },
   {
     "id": "210181-government-www-xinmins-gov-cn",

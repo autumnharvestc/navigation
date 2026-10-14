@@ -38,6 +38,9 @@ type SourceEvidence = {
   sourceTitle: string;
   sourceKind: SourceKind;
   checkedAt: string;
+  httpStatus: number | null;
+  verificationMethod: string;
+  statusNote: string;
   targetMappings: SourceMapping[];
 };
 
@@ -84,6 +87,16 @@ describe('north and northeast county portals', () => {
 
     expect(golden).toHaveLength(444);
     expect(duplicateValues(golden.map((entry) => entry.regionCode))).toEqual([]);
+    const expectedCodes = new Set(
+      regions
+        .filter(
+          (region) =>
+            region.level === 'county' &&
+            ['130000', '140000', '210000', '220000'].includes(`${region.code.slice(0, 2)}0000`),
+        )
+        .map((region) => region.code),
+    );
+    expect(new Set(golden.map((entry) => entry.regionCode))).toEqual(expectedCodes);
     for (const [prefix, expected] of Object.entries(expectedByProvince)) {
       expect(golden.filter((entry) => entry.regionCode.startsWith(prefix))).toHaveLength(expected);
     }
@@ -102,7 +115,14 @@ describe('north and northeast county portals', () => {
       expect(entry.url).toMatch(/^https?:\/\//);
       expect(entry.sourceUrl).toMatch(/^https?:\/\//);
       expect(['city-directory', 'official-directory', 'wikidata']).toContain(entry.sourceKind);
-      if (entry.sourceKind === 'wikidata') expect(entry.verificationUrl).toBe(entry.sourceUrl);
+      if (entry.sourceKind === 'wikidata') {
+        expect(entry.verificationUrl).toBe(entry.sourceUrl);
+      } else {
+        expect(entry.anchorText).toBeTruthy();
+        expect(entry.anchorText?.replace(/\\s+/g, '')).toContain(
+          entry.regionName.replace(/(满族自治县|蒙古族自治县|自治县|县|区|市)$/, ''),
+        );
+      }
     }
   });
 
@@ -148,6 +168,9 @@ describe('north and northeast county portals', () => {
     for (const source of fixture.sources) {
       expect(source.sourceTitle).not.toBe('');
       expect(source.checkedAt).toBe(fixture.checkedAt);
+      expect(source.verificationMethod).not.toBe('');
+      expect(source.statusNote).not.toBe('');
+      expect(source.httpStatus === null || Number.isInteger(source.httpStatus)).toBe(true);
       expect(['city-directory', 'official-directory', 'wikidata']).toContain(source.sourceKind);
       for (const mapping of source.targetMappings) {
         mappedCodes.add(mapping.regionCode);
@@ -158,13 +181,47 @@ describe('north and northeast county portals', () => {
         expect(new URL(mapping.targetUrl).hostname).toBe(mapping.targetHost);
         expect(mapping.sourceKind).toBe(entry?.sourceKind);
         if (mapping.sourceKind === 'wikidata') {
-          expect(mapping.wikidataItem).toBe(entry?.verificationUrl);
+          expect(mapping.wikidataItem ?? mapping.verificationUrl).toBe(entry?.verificationUrl);
+        } else {
+          expect(mapping.anchorText).toBeTruthy();
+          expect(mapping.anchorText?.replace(/\\s+/g, '')).toContain(
+            (entry?.regionName ?? '').replace(/(满族自治县|蒙古族自治县|自治县|县|区|市)$/, ''),
+          );
         }
       }
     }
 
     expect(mappedCodes).toEqual(new Set(golden.map((entry) => entry.regionCode)));
     expect(duplicateValues(golden.map((entry) => new URL(entry.url).hostname))).toEqual([]);
+  });
+
+  it('locks known corrected official county portals', async () => {
+    const golden = await loadGolden();
+    const records = (
+      await Promise.all(
+        provinceFiles.map((file) =>
+          readJson<AgencyRecord[]>(join('data', 'provinces', `${file}.json`)),
+        ),
+      )
+    ).flat();
+    const actual = new Map(records.map((record) => [record.regionCode, record]));
+    const expected = new Map(golden.map((entry) => [entry.regionCode, entry]));
+
+    for (const code of ['130324', '130435', '210124', '220183']) {
+      expect(actual.get(code)).toMatchObject({
+        id: expected.get(code)?.id,
+        url: expected.get(code)?.url,
+        sourceUrl: expected.get(code)?.sourceUrl,
+      });
+    }
+    expect(expected.get('130435')?.url).toBe('http://www.qzx.gov.cn/');
+    expect(expected.get('210124')).toMatchObject({
+      url: 'https://www.faku.gov.cn/',
+      sourceKind: 'official-directory',
+      sourceUrl: 'https://www.ln.gov.cn/',
+    });
+    expect(expected.get('220183')?.url).toBe('http://www.dehui.gov.cn/');
+    expect(expected.get('130324')?.url).toBe('https://www.lulong.gov.cn/');
   });
 
   it('keeps all published IDs and URLs globally unique', async () => {
