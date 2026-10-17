@@ -2339,7 +2339,7 @@
     "agencyName": "尖山区人民政府",
     "siteName": "尖山区人民政府",
     "url": "https://www.sysjs.gov.cn/",
-    "sourceUrl": "http://www.shuangyashan.gov.cn/",
+    "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml",
     "sourceKind": "city-directory",
     "anchorText": "尖山区"
   },
@@ -2353,7 +2353,7 @@
     "agencyName": "岭东区人民政府",
     "siteName": "岭东区人民政府",
     "url": "https://www.sysld.gov.cn/",
-    "sourceUrl": "http://www.shuangyashan.gov.cn/",
+    "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml",
     "sourceKind": "city-directory",
     "anchorText": "岭东区"
   },
@@ -2367,7 +2367,7 @@
     "agencyName": "四方台区人民政府",
     "siteName": "四方台区人民政府",
     "url": "http://www.syssft.gov.cn/",
-    "sourceUrl": "http://www.shuangyashan.gov.cn/",
+    "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml",
     "sourceKind": "city-directory",
     "anchorText": "四方台区"
   },
@@ -2395,7 +2395,7 @@
     "agencyName": "集贤县人民政府",
     "siteName": "集贤县人民政府",
     "url": "http://www.jixian.gov.cn/",
-    "sourceUrl": "http://www.shuangyashan.gov.cn/",
+    "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml",
     "sourceKind": "city-directory",
     "anchorText": "集贤县"
   },
@@ -2426,7 +2426,7 @@
     "agencyName": "宝清县人民政府",
     "siteName": "宝清县人民政府",
     "url": "https://www.hlbaoqing.gov.cn/",
-    "sourceUrl": "http://www.shuangyashan.gov.cn/",
+    "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml",
     "sourceKind": "city-directory",
     "anchorText": "宝清县"
   },
@@ -2440,7 +2440,7 @@
     "agencyName": "饶河县人民政府",
     "siteName": "饶河县人民政府",
     "url": "http://www.raohe.gov.cn/",
-    "sourceUrl": "http://www.shuangyashan.gov.cn/",
+    "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml",
     "sourceKind": "city-directory",
     "anchorText": "饶河县"
   },
@@ -4186,13 +4186,10 @@
     "id": "410581-government-www-linzhou-gov-cn",
     "agencyName": "林州市人民政府",
     "siteName": "林州市人民政府",
-    "url": "https://www.linzhou.gov.cn/Government/",
-    "sourceUrl": "http://www.wikidata.org/entity/Q1198639",
-    "sourceKind": "wikidata",
-    "verificationUrl": "http://www.wikidata.org/entity/Q1198639",
-    "wikidataItem": "http://www.wikidata.org/entity/Q1198639",
-    "p856Snapshot": "http://www.linzhou.gov.cn/Government/",
-    "p856CheckedAt": "2026-10-17T04:33:19.691Z"
+    "url": "https://www.linzhou.gov.cn/",
+    "sourceUrl": "https://www.anyang.gov.cn/",
+    "sourceKind": "city-directory",
+    "anchorText": "林州市政府"
   },
   {
     "regionCode": "410602",
@@ -4341,13 +4338,13 @@
     "level": "county",
     "parentCode": "410700",
     "expected": true,
-    "id": "410721-government-www-xinxiang-gov-cn",
+    "id": "410721-government-www-xinxiangxian-gov-cn",
     "agencyName": "新乡县人民政府",
     "siteName": "新乡县人民政府",
-    "url": "https://www.xinxiang.gov.cn/zjxx/index.html",
-    "sourceUrl": "https://www.xinxiang.gov.cn/",
-    "sourceKind": "city-directory",
-    "anchorText": "走进新乡"
+    "url": "http://www.xinxiangxian.gov.cn/",
+    "sourceUrl": "http://www.xinxiangxian.gov.cn/htmls/index.html",
+    "sourceKind": "official-self",
+    "anchorText": "新乡县人民政府"
   },
   {
     "regionCode": "410724",
@@ -5839,12 +5836,9 @@
     "id": "411729-government-www-xincai-gov-cn",
     "agencyName": "新蔡县人民政府",
     "siteName": "新蔡县人民政府",
-    "url": "https://www.xincai.gov.cn/index.asp",
-    "sourceUrl": "http://www.wikidata.org/entity/Q1199071",
-    "sourceKind": "wikidata",
-    "verificationUrl": "http://www.wikidata.org/entity/Q1199071",
-    "wikidataItem": "http://www.wikidata.org/entity/Q1199071",
-    "p856Snapshot": "http://www.xincai.gov.cn/index.asp",
-    "p856CheckedAt": "2026-10-17T04:33:19.691Z"
+    "url": "https://www.xincai.gov.cn/",
+    "sourceUrl": "https://www.zhumadian.gov.cn/",
+    "sourceKind": "city-directory",
+    "anchorText": "新蔡县"
   }
 ]

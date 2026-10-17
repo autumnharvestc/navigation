@@ -54,65 +54,6 @@
       ]
     },
     {
-      "sourceUrl": "http://www.shuangyashan.gov.cn/",
-      "sourceTitle": "官方政府门户站群目录",
-      "sourceKind": "city-directory",
-      "checkedAt": "2026-10-17T04:33:19.702Z",
-      "httpStatus": 200,
-      "verificationMethod": "市级政府门户站群目录",
-      "statusNote": "source request HTTP 200",
-      "targetMappings": [
-        {
-          "regionCode": "230502",
-          "regionName": "尖山区",
-          "targetUrl": "https://www.sysjs.gov.cn/",
-          "targetHost": "www.sysjs.gov.cn",
-          "sourceKind": "city-directory",
-          "anchorText": "尖山区"
-        },
-        {
-          "regionCode": "230503",
-          "regionName": "岭东区",
-          "targetUrl": "https://www.sysld.gov.cn/",
-          "targetHost": "www.sysld.gov.cn",
-          "sourceKind": "city-directory",
-          "anchorText": "岭东区"
-        },
-        {
-          "regionCode": "230505",
-          "regionName": "四方台区",
-          "targetUrl": "http://www.syssft.gov.cn/",
-          "targetHost": "www.syssft.gov.cn",
-          "sourceKind": "city-directory",
-          "anchorText": "四方台区"
-        },
-        {
-          "regionCode": "230521",
-          "regionName": "集贤县",
-          "targetUrl": "http://www.jixian.gov.cn/",
-          "targetHost": "www.jixian.gov.cn",
-          "sourceKind": "city-directory",
-          "anchorText": "集贤县"
-        },
-        {
-          "regionCode": "230523",
-          "regionName": "宝清县",
-          "targetUrl": "https://www.hlbaoqing.gov.cn/",
-          "targetHost": "www.hlbaoqing.gov.cn",
-          "sourceKind": "city-directory",
-          "anchorText": "宝清县"
-        },
-        {
-          "regionCode": "230524",
-          "regionName": "饶河县",
-          "targetUrl": "http://www.raohe.gov.cn/",
-          "targetHost": "www.raohe.gov.cn",
-          "sourceKind": "city-directory",
-          "anchorText": "饶河县"
-        }
-      ]
-    },
-    {
       "sourceUrl": "http://www.tongliao.gov.cn/",
       "sourceTitle": "官方政府门户站群目录",
       "sourceKind": "city-directory",
@@ -831,28 +772,6 @@
           "verificationUrl": "http://www.wikidata.org/entity/Q1198636",
           "wikidataItem": "http://www.wikidata.org/entity/Q1198636",
           "p856Snapshot": "http://www.xxmyq.gov.cn/",
-          "p856CheckedAt": "2026-10-17T04:33:19.691Z"
-        }
-      ]
-    },
-    {
-      "sourceUrl": "http://www.wikidata.org/entity/Q1198639",
-      "sourceTitle": "Wikidata 行政区划官网属性",
-      "sourceKind": "wikidata",
-      "checkedAt": "2026-10-17T04:33:19.702Z",
-      "httpStatus": 429,
-      "verificationMethod": "Wikidata P856",
-      "statusNote": "source request HTTP 429",
-      "targetMappings": [
-        {
-          "regionCode": "410581",
-          "regionName": "林州市",
-          "targetUrl": "https://www.linzhou.gov.cn/Government/",
-          "targetHost": "www.linzhou.gov.cn",
-          "sourceKind": "wikidata",
-          "verificationUrl": "http://www.wikidata.org/entity/Q1198639",
-          "wikidataItem": "http://www.wikidata.org/entity/Q1198639",
-          "p856Snapshot": "http://www.linzhou.gov.cn/Government/",
           "p856CheckedAt": "2026-10-17T04:33:19.691Z"
         }
       ]
@@ -1843,28 +1762,6 @@
           "verificationUrl": "http://www.wikidata.org/entity/Q1199069",
           "wikidataItem": "http://www.wikidata.org/entity/Q1199069",
           "p856Snapshot": "http://www.suiping.gov.cn/",
-          "p856CheckedAt": "2026-10-17T04:33:19.691Z"
-        }
-      ]
-    },
-    {
-      "sourceUrl": "http://www.wikidata.org/entity/Q1199071",
-      "sourceTitle": "Wikidata 行政区划官网属性",
-      "sourceKind": "wikidata",
-      "checkedAt": "2026-10-17T04:33:19.702Z",
-      "httpStatus": 429,
-      "verificationMethod": "Wikidata P856",
-      "statusNote": "source request HTTP 429",
-      "targetMappings": [
-        {
-          "regionCode": "411729",
-          "regionName": "新蔡县",
-          "targetUrl": "https://www.xincai.gov.cn/index.asp",
-          "targetHost": "www.xincai.gov.cn",
-          "sourceKind": "wikidata",
-          "verificationUrl": "http://www.wikidata.org/entity/Q1199071",
-          "wikidataItem": "http://www.wikidata.org/entity/Q1199071",
-          "p856Snapshot": "http://www.xincai.gov.cn/index.asp",
           "p856CheckedAt": "2026-10-17T04:33:19.691Z"
         }
       ]
@@ -4054,6 +3951,14 @@
           "targetHost": "www.ayx.gov.cn",
           "sourceKind": "city-directory",
           "anchorText": "安阳县政府"
+        },
+        {
+          "regionCode": "410581",
+          "regionName": "林州市",
+          "targetUrl": "https://www.linzhou.gov.cn/",
+          "targetHost": "www.linzhou.gov.cn",
+          "sourceKind": "city-directory",
+          "anchorText": "林州市政府"
         }
       ]
     },
@@ -5655,25 +5560,6 @@
       ]
     },
     {
-      "sourceUrl": "https://www.xinxiang.gov.cn/",
-      "sourceTitle": "官方政府门户站群目录",
-      "sourceKind": "city-directory",
-      "checkedAt": "2026-10-17T04:33:19.702Z",
-      "httpStatus": 200,
-      "verificationMethod": "市级政府门户站群目录",
-      "statusNote": "source request HTTP 200",
-      "targetMappings": [
-        {
-          "regionCode": "410721",
-          "regionName": "新乡县",
-          "targetUrl": "https://www.xinxiang.gov.cn/zjxx/index.html",
-          "targetHost": "www.xinxiang.gov.cn",
-          "sourceKind": "city-directory",
-          "anchorText": "走进新乡"
-        }
-      ]
-    },
-    {
       "sourceUrl": "https://www.yc.gov.cn/",
       "sourceTitle": "官方政府门户站群目录",
       "sourceKind": "city-directory",
@@ -5844,6 +5730,103 @@
           "targetHost": "www.xiangcheng.gov.cn",
           "sourceKind": "city-directory",
           "anchorText": "项城市人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml",
+      "sourceTitle": "官方政府门户站群目录",
+      "sourceKind": "city-directory",
+      "checkedAt": "2026-10-17T04:33:19.702Z",
+      "httpStatus": 200,
+      "verificationMethod": "官方站群目录",
+      "statusNote": "已核验来源页或官网标题；链接状态由巡检流程更新。",
+      "targetMappings": [
+        {
+          "regionCode": "230502",
+          "regionName": "尖山区",
+          "targetUrl": "https://www.sysjs.gov.cn/",
+          "targetHost": "www.sysjs.gov.cn",
+          "sourceKind": "city-directory",
+          "anchorText": "尖山区"
+        },
+        {
+          "regionCode": "230503",
+          "regionName": "岭东区",
+          "targetUrl": "https://www.sysld.gov.cn/",
+          "targetHost": "www.sysld.gov.cn",
+          "sourceKind": "city-directory",
+          "anchorText": "岭东区"
+        },
+        {
+          "regionCode": "230505",
+          "regionName": "四方台区",
+          "targetUrl": "http://www.syssft.gov.cn/",
+          "targetHost": "www.syssft.gov.cn",
+          "sourceKind": "city-directory",
+          "anchorText": "四方台区"
+        },
+        {
+          "regionCode": "230521",
+          "regionName": "集贤县",
+          "targetUrl": "http://www.jixian.gov.cn/",
+          "targetHost": "www.jixian.gov.cn",
+          "sourceKind": "city-directory",
+          "anchorText": "集贤县"
+        },
+        {
+          "regionCode": "230523",
+          "regionName": "宝清县",
+          "targetUrl": "https://www.hlbaoqing.gov.cn/",
+          "targetHost": "www.hlbaoqing.gov.cn",
+          "sourceKind": "city-directory",
+          "anchorText": "宝清县"
+        },
+        {
+          "regionCode": "230524",
+          "regionName": "饶河县",
+          "targetUrl": "http://www.raohe.gov.cn/",
+          "targetHost": "www.raohe.gov.cn",
+          "sourceKind": "city-directory",
+          "anchorText": "饶河县"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.zhumadian.gov.cn/",
+      "sourceTitle": "官方政府门户站群目录",
+      "sourceKind": "city-directory",
+      "checkedAt": "2026-10-17T04:33:19.702Z",
+      "httpStatus": 200,
+      "verificationMethod": "官方站群目录",
+      "statusNote": "已核验来源页或官网标题；链接状态由巡检流程更新。",
+      "targetMappings": [
+        {
+          "regionCode": "411729",
+          "regionName": "新蔡县",
+          "targetUrl": "https://www.xincai.gov.cn/",
+          "targetHost": "www.xincai.gov.cn",
+          "sourceKind": "city-directory",
+          "anchorText": "新蔡县"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "http://www.xinxiangxian.gov.cn/htmls/index.html",
+      "sourceTitle": "新乡县人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-17T04:33:19.702Z",
+      "httpStatus": 200,
+      "verificationMethod": "官网页面标题",
+      "statusNote": "已核验来源页或官网标题；链接状态由巡检流程更新。",
+      "targetMappings": [
+        {
+          "regionCode": "410721",
+          "regionName": "新乡县",
+          "targetUrl": "http://www.xinxiangxian.gov.cn/",
+          "targetHost": "www.xinxiangxian.gov.cn",
+          "sourceKind": "official-self",
+          "anchorText": "新乡县人民政府"
         }
       ]
     }

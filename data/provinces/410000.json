@@ -652,9 +652,9 @@
     "regionCode": "410581",
     "name": "林州市人民政府",
     "siteName": "林州市人民政府",
-    "url": "https://www.linzhou.gov.cn/Government/",
+    "url": "https://www.linzhou.gov.cn/",
     "category": "government",
-    "sourceUrl": "http://www.wikidata.org/entity/Q1198639"
+    "sourceUrl": "https://www.anyang.gov.cn/"
   },
   {
     "id": "410602-government-www-hbhsq-gov-cn",
@@ -738,13 +738,13 @@
     "sourceUrl": "http://www.wikidata.org/entity/Q1198636"
   },
   {
-    "id": "410721-government-www-xinxiang-gov-cn",
+    "id": "410721-government-www-xinxiangxian-gov-cn",
     "regionCode": "410721",
     "name": "新乡县人民政府",
     "siteName": "新乡县人民政府",
-    "url": "https://www.xinxiang.gov.cn/zjxx/index.html",
+    "url": "http://www.xinxiangxian.gov.cn/",
     "category": "government",
-    "sourceUrl": "https://www.xinxiang.gov.cn/"
+    "sourceUrl": "http://www.xinxiangxian.gov.cn/htmls/index.html"
   },
   {
     "id": "410724-government-www-huojia-gov-cn",
@@ -1570,8 +1570,8 @@
     "regionCode": "411729",
     "name": "新蔡县人民政府",
     "siteName": "新蔡县人民政府",
-    "url": "https://www.xincai.gov.cn/index.asp",
+    "url": "https://www.xincai.gov.cn/",
     "category": "government",
-    "sourceUrl": "http://www.wikidata.org/entity/Q1199071"
+    "sourceUrl": "https://www.zhumadian.gov.cn/"
   }
 ]

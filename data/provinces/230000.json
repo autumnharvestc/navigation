@@ -591,7 +591,7 @@
     "siteName": "尖山区人民政府",
     "url": "https://www.sysjs.gov.cn/",
     "category": "government",
-    "sourceUrl": "http://www.shuangyashan.gov.cn/"
+    "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml"
   },
   {
     "id": "230503-government-www-sysld-gov-cn",
@@ -600,7 +600,7 @@
     "siteName": "岭东区人民政府",
     "url": "https://www.sysld.gov.cn/",
     "category": "government",
-    "sourceUrl": "http://www.shuangyashan.gov.cn/"
+    "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml"
   },
   {
     "id": "230505-government-www-syssft-gov-cn",
@@ -609,7 +609,7 @@
     "siteName": "四方台区人民政府",
     "url": "http://www.syssft.gov.cn/",
     "category": "government",
-    "sourceUrl": "http://www.shuangyashan.gov.cn/"
+    "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml"
   },
   {
     "id": "230506-government-www-sysbsq-gov-cn",
@@ -627,7 +627,7 @@
     "siteName": "集贤县人民政府",
     "url": "http://www.jixian.gov.cn/",
     "category": "government",
-    "sourceUrl": "http://www.shuangyashan.gov.cn/"
+    "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml"
   },
   {
     "id": "230522-government-www-hljyy-gov-cn",
@@ -645,7 +645,7 @@
     "siteName": "宝清县人民政府",
     "url": "https://www.hlbaoqing.gov.cn/",
     "category": "government",
-    "sourceUrl": "http://www.shuangyashan.gov.cn/"
+    "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml"
   },
   {
     "id": "230524-government-www-raohe-gov-cn",
@@ -654,7 +654,7 @@
     "siteName": "饶河县人民政府",
     "url": "http://www.raohe.gov.cn/",
     "category": "government",
-    "sourceUrl": "http://www.shuangyashan.gov.cn/"
+    "sourceUrl": "http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml"
   },
   {
     "id": "230602-government-www-saertu-gov-cn",

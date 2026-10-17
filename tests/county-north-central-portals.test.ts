@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import type { AgencyRecord, Region } from '../src/domain/schema';
 
-type SourceKind = 'city-directory' | 'official-directory' | 'wikidata';
+type SourceKind = 'city-directory' | 'official-directory' | 'official-self' | 'wikidata';
 
 type GoldenEntry = {
   regionCode: string;
@@ -126,7 +126,9 @@ describe('north and central county portals', () => {
       expect(entry.siteName).toBeTruthy();
       expect(entry.url).toMatch(/^https?:\/\//);
       expect(entry.sourceUrl).toMatch(/^https?:\/\//);
-      expect(['city-directory', 'official-directory', 'wikidata']).toContain(entry.sourceKind);
+      expect(['city-directory', 'official-directory', 'official-self', 'wikidata']).toContain(
+        entry.sourceKind,
+      );
       if (entry.sourceKind === 'wikidata') {
         expect(entry.verificationUrl).toBe(entry.sourceUrl);
         expect(new URL(entry.p856Snapshot ?? '').hostname.replace(/^www\./, '')).toBe(
@@ -138,7 +140,9 @@ describe('north and central county portals', () => {
         expect(canonicalName(entry.anchorText).endsWith(canonicalName(entry.regionName))).toBe(
           true,
         );
-        expect(canonicalName(entry.anchorText)).not.toMatch(/新闻|调研|项目|工作|报道|科技|小院/);
+        expect(canonicalName(entry.anchorText)).not.toMatch(
+          /走进|活动|公告|座谈|会议|新闻|调研|项目|工作|报道|科技|小院/,
+        );
       }
     }
   });
@@ -188,7 +192,9 @@ describe('north and central county portals', () => {
       expect(source.verificationMethod).not.toBe('');
       expect(source.statusNote).not.toBe('');
       expect(source.httpStatus === null || Number.isInteger(source.httpStatus)).toBe(true);
-      expect(['city-directory', 'official-directory', 'wikidata']).toContain(source.sourceKind);
+      expect(['city-directory', 'official-directory', 'official-self', 'wikidata']).toContain(
+        source.sourceKind,
+      );
       for (const mapping of source.targetMappings) {
         mappedCodes.add(mapping.regionCode);
         const entry = expectedByCode.get(mapping.regionCode);
@@ -232,7 +238,16 @@ describe('north and central county portals', () => {
     const actual = new Map(records.map((record) => [record.regionCode, record]));
     const expected = new Map(golden.map((entry) => [entry.regionCode, entry]));
 
-    for (const code of ['150526', '231226', '230506', '410212', '411102']) {
+    for (const code of [
+      '150526',
+      '231226',
+      '230506',
+      '410212',
+      '411102',
+      '410721',
+      '410581',
+      '411729',
+    ]) {
       expect(actual.get(code)).toMatchObject({
         id: expected.get(code)?.id,
         url: expected.get(code)?.url,
@@ -252,6 +267,25 @@ describe('north and central county portals', () => {
     expect(expected.get('230506')?.url).toBe('http://www.sysbsq.gov.cn/');
     expect(expected.get('410212')?.url).toBe('https://www.xiangfuqu.gov.cn/');
     expect(expected.get('411102')?.url).toBe('https://www.yuanhui.gov.cn/');
+    expect(expected.get('410721')).toMatchObject({
+      url: 'http://www.xinxiangxian.gov.cn/',
+      sourceKind: 'official-self',
+      sourceUrl: 'http://www.xinxiangxian.gov.cn/htmls/index.html',
+    });
+    expect(expected.get('410581')).toMatchObject({
+      url: 'https://www.linzhou.gov.cn/',
+      sourceKind: 'city-directory',
+      sourceUrl: 'https://www.anyang.gov.cn/',
+    });
+    expect(expected.get('411729')).toMatchObject({
+      url: 'https://www.xincai.gov.cn/',
+      sourceKind: 'city-directory',
+      sourceUrl: 'https://www.zhumadian.gov.cn/',
+    });
+    for (const code of ['230502', '230503', '230505', '230521', '230523', '230524'])
+      expect(expected.get(code)?.sourceUrl).toBe(
+        'http://www.shuangyashan.gov.cn/sys/zqdh/zqdh.shtml',
+      );
   });
 
   it('keeps all published IDs and URLs globally unique', async () => {
