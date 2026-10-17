@@ -20,6 +20,8 @@ type GoldenEntry = {
   verificationUrl?: string;
   wikidataItem?: string;
   anchorText?: string;
+  p856Snapshot?: string;
+  p856CheckedAt?: string;
 };
 
 type SourceMapping = {
@@ -31,6 +33,8 @@ type SourceMapping = {
   verificationUrl?: string;
   wikidataItem?: string;
   anchorText?: string;
+  p856Snapshot?: string;
+  p856CheckedAt?: string;
 };
 
 type SourceEvidence = {
@@ -55,6 +59,13 @@ const expectedByProvince: Record<string, number> = { '13': 167, '14': 117, '21':
 
 async function readJson<T>(path: string): Promise<T> {
   return JSON.parse(await readFile(path, 'utf8')) as T;
+}
+
+function canonicalName(value: string | undefined): string {
+  return (value ?? '')
+    .replace(/\s+/g, '')
+    .replace(/(人民政府|政府网站|政府|管委会|管理委员会|行政公署)$/, '')
+    .replace(/(满族自治县|蒙古族自治县|自治县|县|区|市)$/, '');
 }
 
 function duplicateValues(values: string[]): string[] {
@@ -117,11 +128,14 @@ describe('north and northeast county portals', () => {
       expect(['city-directory', 'official-directory', 'wikidata']).toContain(entry.sourceKind);
       if (entry.sourceKind === 'wikidata') {
         expect(entry.verificationUrl).toBe(entry.sourceUrl);
+        expect(entry.p856Snapshot).toBe(entry.url);
+        expect(entry.p856CheckedAt).toBeTruthy();
       } else {
         expect(entry.anchorText).toBeTruthy();
-        expect(entry.anchorText?.replace(/\\s+/g, '')).toContain(
-          entry.regionName.replace(/(满族自治县|蒙古族自治县|自治县|县|区|市)$/, ''),
+        expect(canonicalName(entry.anchorText).endsWith(canonicalName(entry.regionName))).toBe(
+          true,
         );
+        expect(canonicalName(entry.anchorText)).not.toMatch(/新闻|调研|项目|工作|报道|科技|小院/);
       }
     }
   });
@@ -182,11 +196,17 @@ describe('north and northeast county portals', () => {
         expect(mapping.sourceKind).toBe(entry?.sourceKind);
         if (mapping.sourceKind === 'wikidata') {
           expect(mapping.wikidataItem ?? mapping.verificationUrl).toBe(entry?.verificationUrl);
+          expect(mapping.p856Snapshot).toBe(entry?.p856Snapshot);
+          expect(mapping.p856CheckedAt).toBe(entry?.p856CheckedAt);
         } else {
           expect(mapping.anchorText).toBeTruthy();
-          expect(mapping.anchorText?.replace(/\\s+/g, '')).toContain(
-            (entry?.regionName ?? '').replace(/(满族自治县|蒙古族自治县|自治县|县|区|市)$/, ''),
+          expect(canonicalName(mapping.anchorText).endsWith(canonicalName(entry?.regionName))).toBe(
+            true,
           );
+          expect(canonicalName(mapping.anchorText)).not.toMatch(
+            /新闻|调研|项目|工作|报道|科技|小院/,
+          );
+          expect(mapping.p856Snapshot).toBeUndefined();
         }
       }
     }
@@ -207,7 +227,7 @@ describe('north and northeast county portals', () => {
     const actual = new Map(records.map((record) => [record.regionCode, record]));
     const expected = new Map(golden.map((entry) => [entry.regionCode, entry]));
 
-    for (const code of ['130324', '130435', '210124', '220183']) {
+    for (const code of ['130304', '130324', '130435', '210124', '220183']) {
       expect(actual.get(code)).toMatchObject({
         id: expected.get(code)?.id,
         url: expected.get(code)?.url,
@@ -220,7 +240,12 @@ describe('north and northeast county portals', () => {
       sourceKind: 'official-directory',
       sourceUrl: 'https://www.ln.gov.cn/',
     });
-    expect(expected.get('220183')?.url).toBe('http://www.dehui.gov.cn/');
+    expect(expected.get('130304')?.url).toBe('http://www.beidaihe.gov.cn/');
+    expect(expected.get('220183')).toMatchObject({
+      url: 'http://www.dehui.gov.cn/',
+      sourceKind: 'official-directory',
+      sourceUrl: 'http://www.changchun.gov.cn/',
+    });
     expect(expected.get('130324')?.url).toBe('https://www.lulong.gov.cn/');
   });
 
