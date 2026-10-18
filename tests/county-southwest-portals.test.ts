@@ -191,6 +191,7 @@ describe('southwest county portals', () => {
           mapping.targetHttpStatus === null || Number.isInteger(mapping.targetHttpStatus),
         ).toBe(true);
         expect(mapping.targetStatusNote).not.toBe('');
+        expect(mapping.targetStatusNote).not.toMatch(/后台|登录|管理系统|管理平台|admin|login/i);
 
         if (mapping.sourceKind === 'wikidata') {
           expect(mapping.wikidataItem).toBe(entry?.wikidataItem);
@@ -255,6 +256,8 @@ describe('southwest county portals', () => {
 
     expect(expected.get('510116')?.url).not.toBe('http://www.cdjinjiang.gov.cn/');
     expect(expected.get('520330')?.url).not.toBe('http://www.xishui.gov.cn/');
+    expect(expected.get('510682')).toMatchObject({ url: 'https://www.shifang.gov.cn/' });
+    expect(actual.get('510682')?.url).toBe('https://www.shifang.gov.cn/');
   });
 
   it('keeps all province records globally unique by id, url, and host', async () => {

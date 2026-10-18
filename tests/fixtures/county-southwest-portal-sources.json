@@ -566,11 +566,11 @@
         {
           "regionCode": "510682",
           "regionName": "什邡市",
-          "targetUrl": "http://www.shifang.gov.cn/",
+          "targetUrl": "https://www.shifang.gov.cn/",
           "targetHost": "www.shifang.gov.cn",
           "sourceKind": "wikidata",
           "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，最终 https://admin.shifang.gov.cn/manager/login.jsp，标题 德阳市门户管理系统-登录",
+          "targetStatusNote": "HTTP 200，标题 什邡市人民政府",
           "wikidataItem": "http://www.wikidata.org/entity/Q1028157",
           "verificationUrl": "http://www.wikidata.org/entity/Q1028157",
           "p856Snapshot": "http://www.shifang.gov.cn/",
@@ -9088,8 +9088,8 @@
       "sourceKind": "official-self",
       "checkedAt": "2026-10-18T18:09:57+08:00",
       "httpStatus": 412,
-      "verificationMethod": "目标官网 HTTP GET",
-      "statusNote": "目标官网直接核验；状态为实际请求结果。",
+      "verificationMethod": "official host + indexed title; direct GET 412 WAF",
+      "statusNote": "目标官网直接请求为 412，已保存检索到的正式页面标题作为来源证据。",
       "targetMappings": [
         {
           "regionCode": "510116",
@@ -9098,7 +9098,7 @@
           "targetHost": "www.shuangliu.gov.cn",
           "sourceKind": "official-self",
           "targetHttpStatus": 412,
-          "targetStatusNote": "HTTP 412",
+          "targetStatusNote": "HTTP 412 WAF；Sogou 索引标题：双流区人民政府门户网站；目标 host 为官方政府域名",
           "anchorText": "双流区"
         }
       ]
