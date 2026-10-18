@@ -150,7 +150,7 @@
     "siteName": "红寺堡区人民政府",
     "url": "https://www.hongsibu.gov.cn/",
     "category": "government",
-    "sourceUrl": "https://www.wuzhong.gov.cn/"
+    "sourceUrl": "https://www.hongsibu.gov.cn/"
   },
   {
     "id": "640323-government-www-yanchi-gov-cn",
@@ -159,7 +159,7 @@
     "siteName": "盐池县人民政府",
     "url": "http://www.yanchi.gov.cn/",
     "category": "government",
-    "sourceUrl": "https://www.wuzhong.gov.cn/"
+    "sourceUrl": "http://www.yanchi.gov.cn/"
   },
   {
     "id": "640324-government-www-nxtx-gov-cn",

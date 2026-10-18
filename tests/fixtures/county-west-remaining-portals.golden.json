@@ -1275,9 +1275,9 @@
     "agencyName": "王益区人民政府",
     "siteName": "王益区人民政府",
     "url": "https://www.tcwy.gov.cn/",
-    "sourceUrl": "https://www.tongchuan.gov.cn/",
-    "sourceKind": "city-directory",
-    "anchorText": "王益区政府"
+    "sourceUrl": "https://www.tcwy.gov.cn/",
+    "sourceKind": "official-self",
+    "anchorText": "王益区人民政府"
   },
   {
     "regionCode": "610203",
@@ -1289,9 +1289,9 @@
     "agencyName": "印台区人民政府",
     "siteName": "印台区人民政府",
     "url": "https://www.yintai.gov.cn/",
-    "sourceUrl": "https://www.tongchuan.gov.cn/",
-    "sourceKind": "city-directory",
-    "anchorText": "印台区政府"
+    "sourceUrl": "https://www.yintai.gov.cn/",
+    "sourceKind": "official-self",
+    "anchorText": "印台区人民政府"
   },
   {
     "regionCode": "610204",
@@ -1303,9 +1303,9 @@
     "agencyName": "耀州区人民政府",
     "siteName": "耀州区人民政府",
     "url": "https://www.yaozhou.gov.cn/",
-    "sourceUrl": "https://www.tongchuan.gov.cn/",
-    "sourceKind": "city-directory",
-    "anchorText": "耀州区政府"
+    "sourceUrl": "https://www.yaozhou.gov.cn/",
+    "sourceKind": "official-self",
+    "anchorText": "耀州区人民政府"
   },
   {
     "regionCode": "610222",
@@ -1317,9 +1317,9 @@
     "agencyName": "宜君县人民政府",
     "siteName": "宜君县人民政府",
     "url": "https://www.yijun.gov.cn/",
-    "sourceUrl": "https://www.tongchuan.gov.cn/",
-    "sourceKind": "city-directory",
-    "anchorText": "宜君县政府"
+    "sourceUrl": "https://www.yijun.gov.cn/",
+    "sourceKind": "official-self",
+    "anchorText": "宜君县人民政府"
   },
   {
     "regionCode": "610302",
@@ -2431,8 +2431,8 @@
     "agencyName": "汉滨区人民政府",
     "siteName": "汉滨区人民政府",
     "url": "https://www.hanbin.gov.cn/",
-    "sourceUrl": "https://www.ankang.gov.cn/",
-    "sourceKind": "city-directory",
+    "sourceUrl": "https://www.hanbin.gov.cn/",
+    "sourceKind": "official-self",
     "anchorText": "汉滨区人民政府"
   },
   {
@@ -2445,8 +2445,8 @@
     "agencyName": "汉阴县人民政府",
     "siteName": "汉阴县人民政府",
     "url": "https://www.hanyin.gov.cn/",
-    "sourceUrl": "https://www.ankang.gov.cn/",
-    "sourceKind": "city-directory",
+    "sourceUrl": "https://www.hanyin.gov.cn/",
+    "sourceKind": "official-self",
     "anchorText": "汉阴县人民政府"
   },
   {
@@ -2459,8 +2459,8 @@
     "agencyName": "石泉县人民政府",
     "siteName": "石泉县人民政府",
     "url": "https://www.shiquan.gov.cn/",
-    "sourceUrl": "https://www.ankang.gov.cn/",
-    "sourceKind": "city-directory",
+    "sourceUrl": "https://www.shiquan.gov.cn/",
+    "sourceKind": "official-self",
     "anchorText": "石泉县人民政府"
   },
   {
@@ -2473,8 +2473,8 @@
     "agencyName": "宁陕县人民政府",
     "siteName": "宁陕县人民政府",
     "url": "https://www.ningshan.gov.cn/",
-    "sourceUrl": "https://www.ankang.gov.cn/",
-    "sourceKind": "city-directory",
+    "sourceUrl": "https://www.ningshan.gov.cn/",
+    "sourceKind": "official-self",
     "anchorText": "宁陕县人民政府"
   },
   {
@@ -2487,8 +2487,8 @@
     "agencyName": "紫阳县人民政府",
     "siteName": "紫阳县人民政府",
     "url": "https://www.zyx.gov.cn/",
-    "sourceUrl": "https://www.ankang.gov.cn/",
-    "sourceKind": "city-directory",
+    "sourceUrl": "https://www.zyx.gov.cn/",
+    "sourceKind": "official-self",
     "anchorText": "紫阳县人民政府"
   },
   {
@@ -2501,8 +2501,8 @@
     "agencyName": "岚皋县人民政府",
     "siteName": "岚皋县人民政府",
     "url": "https://www.langao.gov.cn/",
-    "sourceUrl": "https://www.ankang.gov.cn/",
-    "sourceKind": "city-directory",
+    "sourceUrl": "https://www.langao.gov.cn/",
+    "sourceKind": "official-self",
     "anchorText": "岚皋县人民政府"
   },
   {
@@ -2515,8 +2515,8 @@
     "agencyName": "平利县人民政府",
     "siteName": "平利县人民政府",
     "url": "https://www.pingli.gov.cn/",
-    "sourceUrl": "https://www.ankang.gov.cn/",
-    "sourceKind": "city-directory",
+    "sourceUrl": "https://www.pingli.gov.cn/",
+    "sourceKind": "official-self",
     "anchorText": "平利县人民政府"
   },
   {
@@ -2529,8 +2529,8 @@
     "agencyName": "镇坪县人民政府",
     "siteName": "镇坪县人民政府",
     "url": "https://www.zhp.gov.cn/",
-    "sourceUrl": "https://www.ankang.gov.cn/",
-    "sourceKind": "city-directory",
+    "sourceUrl": "https://www.zhp.gov.cn/",
+    "sourceKind": "official-self",
     "anchorText": "镇坪县人民政府"
   },
   {
@@ -2543,8 +2543,8 @@
     "agencyName": "白河县人民政府",
     "siteName": "白河县人民政府",
     "url": "https://www.baihe.gov.cn/",
-    "sourceUrl": "https://www.ankang.gov.cn/",
-    "sourceKind": "city-directory",
+    "sourceUrl": "https://www.baihe.gov.cn/",
+    "sourceKind": "official-self",
     "anchorText": "白河县人民政府"
   },
   {
@@ -2557,8 +2557,8 @@
     "agencyName": "旬阳市人民政府",
     "siteName": "旬阳市人民政府",
     "url": "https://www.xyx.gov.cn/",
-    "sourceUrl": "https://www.ankang.gov.cn/",
-    "sourceKind": "city-directory",
+    "sourceUrl": "https://www.xyx.gov.cn/",
+    "sourceKind": "official-self",
     "anchorText": "旬阳市人民政府"
   },
   {
@@ -2723,8 +2723,8 @@
     "agencyName": "安宁区人民政府",
     "siteName": "安宁区人民政府",
     "url": "https://www.lzanning.gov.cn/",
-    "sourceUrl": "https://www.lanzhou.gov.cn/",
-    "sourceKind": "city-directory",
+    "sourceUrl": "https://www.lzanning.gov.cn/",
+    "sourceKind": "official-self",
     "anchorText": "安宁区人民政府"
   },
   {
@@ -4869,9 +4869,9 @@
     "agencyName": "红寺堡区人民政府",
     "siteName": "红寺堡区人民政府",
     "url": "https://www.hongsibu.gov.cn/",
-    "sourceUrl": "https://www.wuzhong.gov.cn/",
-    "sourceKind": "city-directory",
-    "anchorText": "红寺堡区人民政府网"
+    "sourceUrl": "https://www.hongsibu.gov.cn/",
+    "sourceKind": "official-self",
+    "anchorText": "红寺堡区人民政府"
   },
   {
     "regionCode": "640323",
@@ -4883,9 +4883,9 @@
     "agencyName": "盐池县人民政府",
     "siteName": "盐池县人民政府",
     "url": "http://www.yanchi.gov.cn/",
-    "sourceUrl": "https://www.wuzhong.gov.cn/",
-    "sourceKind": "city-directory",
-    "anchorText": "盐池县人民政府网"
+    "sourceUrl": "http://www.yanchi.gov.cn/",
+    "sourceKind": "official-self",
+    "anchorText": "盐池县人民政府"
   },
   {
     "regionCode": "640324",

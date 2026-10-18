@@ -4984,117 +4984,6 @@
       ]
     },
     {
-      "sourceUrl": "https://www.ankang.gov.cn/",
-      "sourceTitle": "官方政府门户站群目录",
-      "sourceKind": "city-directory",
-      "checkedAt": "2026-10-18T12:28:04.280Z",
-      "httpStatus": 200,
-      "verificationMethod": "官方站群目录",
-      "statusNote": "source request HTTP 200",
-      "targetMappings": [
-        {
-          "regionCode": "610902",
-          "regionName": "汉滨区",
-          "targetUrl": "https://www.hanbin.gov.cn/",
-          "targetHost": "www.hanbin.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 汉滨区人民政府",
-          "anchorText": "汉滨区人民政府"
-        },
-        {
-          "regionCode": "610921",
-          "regionName": "汉阴县",
-          "targetUrl": "https://www.hanyin.gov.cn/",
-          "targetHost": "www.hanyin.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 首页-汉阴县人民政府",
-          "anchorText": "汉阴县人民政府"
-        },
-        {
-          "regionCode": "610922",
-          "regionName": "石泉县",
-          "targetUrl": "https://www.shiquan.gov.cn/",
-          "targetHost": "www.shiquan.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 石泉县人民政府",
-          "anchorText": "石泉县人民政府"
-        },
-        {
-          "regionCode": "610923",
-          "regionName": "宁陕县",
-          "targetUrl": "https://www.ningshan.gov.cn/",
-          "targetHost": "www.ningshan.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 宁陕县人民政府",
-          "anchorText": "宁陕县人民政府"
-        },
-        {
-          "regionCode": "610924",
-          "regionName": "紫阳县",
-          "targetUrl": "https://www.zyx.gov.cn/",
-          "targetHost": "www.zyx.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 紫阳县人民政府",
-          "anchorText": "紫阳县人民政府"
-        },
-        {
-          "regionCode": "610925",
-          "regionName": "岚皋县",
-          "targetUrl": "https://www.langao.gov.cn/",
-          "targetHost": "www.langao.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 岚皋县人民政府",
-          "anchorText": "岚皋县人民政府"
-        },
-        {
-          "regionCode": "610926",
-          "regionName": "平利县",
-          "targetUrl": "https://www.pingli.gov.cn/",
-          "targetHost": "www.pingli.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 平利县人民政府",
-          "anchorText": "平利县人民政府"
-        },
-        {
-          "regionCode": "610927",
-          "regionName": "镇坪县",
-          "targetUrl": "https://www.zhp.gov.cn/",
-          "targetHost": "www.zhp.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 镇坪县人民政府",
-          "anchorText": "镇坪县人民政府"
-        },
-        {
-          "regionCode": "610929",
-          "regionName": "白河县",
-          "targetUrl": "https://www.baihe.gov.cn/",
-          "targetHost": "www.baihe.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 白河县人民政府",
-          "anchorText": "白河县人民政府"
-        },
-        {
-          "regionCode": "610981",
-          "regionName": "旬阳市",
-          "targetUrl": "https://www.xyx.gov.cn/",
-          "targetHost": "www.xyx.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 旬阳市人民政府",
-          "anchorText": "旬阳市人民政府"
-        }
-      ]
-    },
-    {
       "sourceUrl": "https://www.baoji.gov.cn/",
       "sourceTitle": "官方政府门户站群目录",
       "sourceKind": "city-directory",
@@ -5714,27 +5603,6 @@
       ]
     },
     {
-      "sourceUrl": "https://www.lanzhou.gov.cn/",
-      "sourceTitle": "官方政府门户站群目录",
-      "sourceKind": "city-directory",
-      "checkedAt": "2026-10-18T12:28:04.280Z",
-      "httpStatus": 412,
-      "verificationMethod": "官方站群目录",
-      "statusNote": "source request HTTP 412",
-      "targetMappings": [
-        {
-          "regionCode": "620105",
-          "regionName": "安宁区",
-          "targetUrl": "https://www.lzanning.gov.cn/",
-          "targetHost": "www.lzanning.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 安宁区人民政府",
-          "anchorText": "安宁区人民政府"
-        }
-      ]
-    },
-    {
       "sourceUrl": "https://www.lasa.gov.cn/",
       "sourceTitle": "官方政府门户站群目录",
       "sourceKind": "city-directory",
@@ -6101,57 +5969,6 @@
       ]
     },
     {
-      "sourceUrl": "https://www.tongchuan.gov.cn/",
-      "sourceTitle": "官方政府门户站群目录",
-      "sourceKind": "city-directory",
-      "checkedAt": "2026-10-18T12:28:04.280Z",
-      "httpStatus": 200,
-      "verificationMethod": "官方站群目录",
-      "statusNote": "source request HTTP 200",
-      "targetMappings": [
-        {
-          "regionCode": "610202",
-          "regionName": "王益区",
-          "targetUrl": "https://www.tcwy.gov.cn/",
-          "targetHost": "www.tcwy.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 铜川市王益区人民政府",
-          "anchorText": "王益区政府"
-        },
-        {
-          "regionCode": "610203",
-          "regionName": "印台区",
-          "targetUrl": "https://www.yintai.gov.cn/",
-          "targetHost": "www.yintai.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 铜川市印台区人民政府",
-          "anchorText": "印台区政府"
-        },
-        {
-          "regionCode": "610204",
-          "regionName": "耀州区",
-          "targetUrl": "https://www.yaozhou.gov.cn/",
-          "targetHost": "www.yaozhou.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 铜川市耀州区人民政府",
-          "anchorText": "耀州区政府"
-        },
-        {
-          "regionCode": "610222",
-          "regionName": "宜君县",
-          "targetUrl": "https://www.yijun.gov.cn/",
-          "targetHost": "www.yijun.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 宜君县人民政府",
-          "anchorText": "宜君县政府"
-        }
-      ]
-    },
-    {
       "sourceUrl": "https://www.weinan.gov.cn/",
       "sourceTitle": "官方政府门户站群目录",
       "sourceKind": "city-directory",
@@ -6269,37 +6086,6 @@
           "targetHttpStatus": 200,
           "targetStatusNote": "HTTP 200，标题 华阴市人民政府",
           "anchorText": "华阴市"
-        }
-      ]
-    },
-    {
-      "sourceUrl": "https://www.wuzhong.gov.cn/",
-      "sourceTitle": "官方政府门户站群目录",
-      "sourceKind": "city-directory",
-      "checkedAt": "2026-10-18T12:28:04.280Z",
-      "httpStatus": 200,
-      "verificationMethod": "官方站群目录",
-      "statusNote": "source request HTTP 200",
-      "targetMappings": [
-        {
-          "regionCode": "640303",
-          "regionName": "红寺堡区",
-          "targetUrl": "https://www.hongsibu.gov.cn/",
-          "targetHost": "www.hongsibu.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 红寺堡区人民政府",
-          "anchorText": "红寺堡区人民政府网"
-        },
-        {
-          "regionCode": "640323",
-          "regionName": "盐池县",
-          "targetUrl": "http://www.yanchi.gov.cn/",
-          "targetHost": "www.yanchi.gov.cn",
-          "sourceKind": "city-directory",
-          "targetHttpStatus": 200,
-          "targetStatusNote": "HTTP 200，标题 盐池县人民政府",
-          "anchorText": "盐池县人民政府网"
         }
       ]
     },
@@ -7199,6 +6985,363 @@
           "targetHttpStatus": 200,
           "targetStatusNote": "HTTP 200，标题 阿勒泰市人民政府网站",
           "anchorText": "阿勒泰市人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.hanbin.gov.cn/",
+      "sourceTitle": "汉滨区人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 汉滨区人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610902",
+          "regionName": "汉滨区",
+          "targetUrl": "https://www.hanbin.gov.cn/",
+          "targetHost": "www.hanbin.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 汉滨区人民政府",
+          "anchorText": "汉滨区人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.hanyin.gov.cn/",
+      "sourceTitle": "汉阴县人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 首页-汉阴县人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610921",
+          "regionName": "汉阴县",
+          "targetUrl": "https://www.hanyin.gov.cn/",
+          "targetHost": "www.hanyin.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 首页-汉阴县人民政府",
+          "anchorText": "汉阴县人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.shiquan.gov.cn/",
+      "sourceTitle": "石泉县人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 石泉县人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610922",
+          "regionName": "石泉县",
+          "targetUrl": "https://www.shiquan.gov.cn/",
+          "targetHost": "www.shiquan.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 石泉县人民政府",
+          "anchorText": "石泉县人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.ningshan.gov.cn/",
+      "sourceTitle": "宁陕县人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 宁陕县人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610923",
+          "regionName": "宁陕县",
+          "targetUrl": "https://www.ningshan.gov.cn/",
+          "targetHost": "www.ningshan.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 宁陕县人民政府",
+          "anchorText": "宁陕县人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.zyx.gov.cn/",
+      "sourceTitle": "紫阳县人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 紫阳县人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610924",
+          "regionName": "紫阳县",
+          "targetUrl": "https://www.zyx.gov.cn/",
+          "targetHost": "www.zyx.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 紫阳县人民政府",
+          "anchorText": "紫阳县人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.langao.gov.cn/",
+      "sourceTitle": "岚皋县人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 岚皋县人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610925",
+          "regionName": "岚皋县",
+          "targetUrl": "https://www.langao.gov.cn/",
+          "targetHost": "www.langao.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 岚皋县人民政府",
+          "anchorText": "岚皋县人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.pingli.gov.cn/",
+      "sourceTitle": "平利县人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 平利县人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610926",
+          "regionName": "平利县",
+          "targetUrl": "https://www.pingli.gov.cn/",
+          "targetHost": "www.pingli.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 平利县人民政府",
+          "anchorText": "平利县人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.zhp.gov.cn/",
+      "sourceTitle": "镇坪县人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 镇坪县人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610927",
+          "regionName": "镇坪县",
+          "targetUrl": "https://www.zhp.gov.cn/",
+          "targetHost": "www.zhp.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 镇坪县人民政府",
+          "anchorText": "镇坪县人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.baihe.gov.cn/",
+      "sourceTitle": "白河县人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 白河县人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610929",
+          "regionName": "白河县",
+          "targetUrl": "https://www.baihe.gov.cn/",
+          "targetHost": "www.baihe.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 白河县人民政府",
+          "anchorText": "白河县人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.xyx.gov.cn/",
+      "sourceTitle": "旬阳市人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 旬阳市人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610981",
+          "regionName": "旬阳市",
+          "targetUrl": "https://www.xyx.gov.cn/",
+          "targetHost": "www.xyx.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 旬阳市人民政府",
+          "anchorText": "旬阳市人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.lzanning.gov.cn/",
+      "sourceTitle": "安宁区人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 安宁区人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "620105",
+          "regionName": "安宁区",
+          "targetUrl": "https://www.lzanning.gov.cn/",
+          "targetHost": "www.lzanning.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 安宁区人民政府",
+          "anchorText": "安宁区人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.tcwy.gov.cn/",
+      "sourceTitle": "王益区人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 铜川市王益区人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610202",
+          "regionName": "王益区",
+          "targetUrl": "https://www.tcwy.gov.cn/",
+          "targetHost": "www.tcwy.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 铜川市王益区人民政府",
+          "anchorText": "王益区人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.yintai.gov.cn/",
+      "sourceTitle": "印台区人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 铜川市印台区人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610203",
+          "regionName": "印台区",
+          "targetUrl": "https://www.yintai.gov.cn/",
+          "targetHost": "www.yintai.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 铜川市印台区人民政府",
+          "anchorText": "印台区人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.yaozhou.gov.cn/",
+      "sourceTitle": "耀州区人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 铜川市耀州区人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610204",
+          "regionName": "耀州区",
+          "targetUrl": "https://www.yaozhou.gov.cn/",
+          "targetHost": "www.yaozhou.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 铜川市耀州区人民政府",
+          "anchorText": "耀州区人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.yijun.gov.cn/",
+      "sourceTitle": "宜君县人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 宜君县人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "610222",
+          "regionName": "宜君县",
+          "targetUrl": "https://www.yijun.gov.cn/",
+          "targetHost": "www.yijun.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 宜君县人民政府",
+          "anchorText": "宜君县人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.hongsibu.gov.cn/",
+      "sourceTitle": "红寺堡区人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 红寺堡区人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "640303",
+          "regionName": "红寺堡区",
+          "targetUrl": "https://www.hongsibu.gov.cn/",
+          "targetHost": "www.hongsibu.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 红寺堡区人民政府",
+          "anchorText": "红寺堡区人民政府"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "http://www.yanchi.gov.cn/",
+      "sourceTitle": "盐池县人民政府官网",
+      "sourceKind": "official-self",
+      "checkedAt": "2026-10-18T12:28:04.280Z",
+      "httpStatus": 200,
+      "verificationMethod": "目标官网标题/主办单位",
+      "statusNote": "HTTP 200，标题 盐池县人民政府",
+      "targetMappings": [
+        {
+          "regionCode": "640323",
+          "regionName": "盐池县",
+          "targetUrl": "http://www.yanchi.gov.cn/",
+          "targetHost": "www.yanchi.gov.cn",
+          "sourceKind": "official-self",
+          "targetHttpStatus": 200,
+          "targetStatusNote": "HTTP 200，标题 盐池县人民政府",
+          "anchorText": "盐池县人民政府"
         }
       ]
     }

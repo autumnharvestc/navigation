@@ -307,6 +307,33 @@ describe('west remaining county portals', () => {
       ['622924', 'https://www.ghx.gov.cn/'],
       ['622925', 'https://www.hezheng.gov.cn/'],
     ]);
+    const officialSelfCodes = [
+      '610202',
+      '610203',
+      '610204',
+      '610222',
+      '640303',
+      '640323',
+      '620105',
+      '610902',
+      '610921',
+      '610922',
+      '610923',
+      '610924',
+      '610925',
+      '610926',
+      '610927',
+      '610929',
+      '610981',
+    ];
+    for (const code of officialSelfCodes) {
+      expect(expected.get(code)).toMatchObject({
+        expected: true,
+        sourceKind: 'official-self',
+        sourceUrl: expected.get(code)?.url,
+      });
+    }
+
     for (const [code, url] of fixed) {
       expect(expected.get(code)).toMatchObject({ expected: true, url });
       expect(actual.get(code)).toMatchObject({ url });
