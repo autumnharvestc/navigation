@@ -23,6 +23,8 @@ type GoldenEntry = {
   anchorText?: string;
   p856Snapshot?: string;
   p856CheckedAt?: string;
+  p856CurrentUrl?: string;
+  p856DriftNote?: string;
 };
 
 type SourceMapping = {
@@ -84,7 +86,7 @@ const alreadyCoveredCountyCodes = new Set([
   '469029',
   '469030',
 ]);
-const blankCodes = new Set(['460202', '460203', '460204', '460302', '460303']);
+const blankCodes = new Set(['460302', '460303']);
 
 async function readJson<T>(path: string): Promise<T> {
   return JSON.parse(await readFile(path, 'utf8')) as T;
@@ -200,7 +202,7 @@ describe('south and central county portals', () => {
     const goldenByCode = new Map(golden.map((entry) => [entry.regionCode, entry]));
     const records = await loadProvinceRecords();
     const targetRecords = records.filter((record) => goldenByCode.has(record.regionCode));
-    expect(targetRecords).toHaveLength(459);
+    expect(targetRecords).toHaveLength(462);
 
     for (const actual of targetRecords) {
       const expected = goldenByCode.get(actual.regionCode);
@@ -298,6 +300,23 @@ describe('south and central county portals', () => {
       ['441423', 'https://www.fengshun.gov.cn/'],
     ]);
 
+    for (const [code, url] of [
+      ['460202', 'https://ht.sanya.gov.cn/'],
+      ['460203', 'https://jy.sanya.gov.cn/'],
+      ['460204', 'https://ty.sanya.gov.cn/'],
+    ] as const) {
+      expect(expected.get(code)).toMatchObject({
+        expected: true,
+        url,
+        sourceUrl: 'https://www.sanya.gov.cn/',
+        sourceKind: 'official-directory',
+      });
+      expect(actual.get(code)).toMatchObject({ url, sourceUrl: 'https://www.sanya.gov.cn/' });
+    }
+    for (const code of ['420304', '421088', '440224']) {
+      expect(expected.get(code)?.p856DriftNote).toBeTruthy();
+      expect(expected.get(code)?.p856CurrentUrl).toMatch(/^https?:\/\//);
+    }
     for (const [code, url] of fixed) {
       expect(expected.get(code)).toMatchObject({
         expected: true,

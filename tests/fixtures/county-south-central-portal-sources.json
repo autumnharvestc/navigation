@@ -482,7 +482,9 @@
           "verificationUrl": "http://www.wikidata.org/entity/Q1199133",
           "wikidataItem": "http://www.wikidata.org/entity/Q1199133",
           "p856Snapshot": "http://yunyang.shiyan.gov.cn/",
-          "p856CheckedAt": "2026-10-18T03:55:18.650Z"
+          "p856CheckedAt": "2026-10-18T03:55:18.650Z",
+          "p856CurrentUrl": "http://www.hbyx.gov.cn/",
+          "p856DriftNote": "Wikidata 当前 P856 与快照漂移；目标 URL 已独立验证为有效官网，不自动覆盖。"
         }
       ]
     },
@@ -1579,7 +1581,9 @@
           "verificationUrl": "http://www.wikidata.org/entity/Q1356616",
           "wikidataItem": "http://www.wikidata.org/entity/Q1356616",
           "p856Snapshot": "http://www.jianli.gov.cn/",
-          "p856CheckedAt": "2026-10-18T03:55:18.650Z"
+          "p856CheckedAt": "2026-10-18T03:55:18.650Z",
+          "p856CurrentUrl": "http://www.jllz.gov.cn/",
+          "p856DriftNote": "Wikidata 当前 P856 与快照漂移；目标 URL 已独立验证为有效官网，不自动覆盖。"
         }
       ]
     },
@@ -5197,7 +5201,9 @@
           "verificationUrl": "http://www.wikidata.org/entity/Q1111625",
           "wikidataItem": "http://www.wikidata.org/entity/Q1111625",
           "p856Snapshot": "http://www.sgrh.gov.cn/",
-          "p856CheckedAt": "2026-10-18T03:55:18.650Z"
+          "p856CheckedAt": "2026-10-18T03:55:18.650Z",
+          "p856CurrentUrl": "http://www.renhua.gov.cn/",
+          "p856DriftNote": "Wikidata 当前 P856 与快照漂移；目标 URL 已独立验证为有效官网，不自动覆盖。"
         }
       ]
     },
@@ -10064,6 +10070,41 @@
           "wikidataItem": "http://www.wikidata.org/entity/Q16259700",
           "p856Snapshot": "http://yz.sanya.gov.cn/",
           "p856CheckedAt": "2026-10-18T03:55:18.650Z"
+        }
+      ]
+    },
+    {
+      "sourceUrl": "https://www.sanya.gov.cn/",
+      "sourceTitle": "三亚市人民政府门户网站",
+      "sourceKind": "official-directory",
+      "checkedAt": "2026-10-18T03:55:18.650Z",
+      "httpStatus": 200,
+      "verificationMethod": "官方站群目录",
+      "statusNote": "三亚市政府门户直接列出三个区级子域；链接状态由巡检流程更新。",
+      "targetMappings": [
+        {
+          "regionCode": "460202",
+          "regionName": "海棠区",
+          "targetUrl": "https://ht.sanya.gov.cn/",
+          "targetHost": "ht.sanya.gov.cn",
+          "sourceKind": "official-directory",
+          "anchorText": "海棠区人民政府"
+        },
+        {
+          "regionCode": "460203",
+          "regionName": "吉阳区",
+          "targetUrl": "https://jy.sanya.gov.cn/",
+          "targetHost": "jy.sanya.gov.cn",
+          "sourceKind": "official-directory",
+          "anchorText": "吉阳区人民政府"
+        },
+        {
+          "regionCode": "460204",
+          "regionName": "天涯区",
+          "targetUrl": "https://ty.sanya.gov.cn/",
+          "targetHost": "ty.sanya.gov.cn",
+          "sourceKind": "official-directory",
+          "anchorText": "天涯区人民政府"
         }
       ]
     }

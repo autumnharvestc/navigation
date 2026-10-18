@@ -216,6 +216,33 @@
     "sourceUrl": "http://www.wikidata.org/entity/Q951789"
   },
   {
+    "id": "460202-government-ht-sanya-gov-cn",
+    "regionCode": "460202",
+    "name": "海棠区人民政府",
+    "siteName": "海棠区人民政府",
+    "url": "https://ht.sanya.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sanya.gov.cn/"
+  },
+  {
+    "id": "460203-government-jy-sanya-gov-cn",
+    "regionCode": "460203",
+    "name": "吉阳区人民政府",
+    "siteName": "吉阳区人民政府",
+    "url": "https://jy.sanya.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sanya.gov.cn/"
+  },
+  {
+    "id": "460204-government-ty-sanya-gov-cn",
+    "regionCode": "460204",
+    "name": "天涯区人民政府",
+    "siteName": "天涯区人民政府",
+    "url": "https://ty.sanya.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.sanya.gov.cn/"
+  },
+  {
     "id": "460205-government-yz-sanya-gov-cn",
     "regionCode": "460205",
     "name": "崖州区人民政府",
