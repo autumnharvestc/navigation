@@ -178,5 +178,50 @@
     "url": "http://qiongzhong.hainan.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.hainan.gov.cn/hainan/"
+  },
+  {
+    "id": "460105-government-xyqzf-haikou-gov-cn",
+    "regionCode": "460105",
+    "name": "秀英区人民政府",
+    "siteName": "秀英区人民政府",
+    "url": "http://xyqzf.haikou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1339902"
+  },
+  {
+    "id": "460106-government-lhqzf-haikou-gov-cn",
+    "regionCode": "460106",
+    "name": "龙华区人民政府",
+    "siteName": "龙华区人民政府",
+    "url": "http://lhqzf.haikou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1340019"
+  },
+  {
+    "id": "460107-government-qsqzf-haikou-gov-cn",
+    "regionCode": "460107",
+    "name": "琼山区人民政府",
+    "siteName": "琼山区人民政府",
+    "url": "http://qsqzf.haikou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1022262"
+  },
+  {
+    "id": "460108-government-mlqzf-haikou-gov-cn",
+    "regionCode": "460108",
+    "name": "美兰区人民政府",
+    "siteName": "美兰区人民政府",
+    "url": "http://mlqzf.haikou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q951789"
+  },
+  {
+    "id": "460205-government-yz-sanya-gov-cn",
+    "regionCode": "460205",
+    "name": "崖州区人民政府",
+    "siteName": "崖州区人民政府",
+    "url": "http://yz.sanya.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q16259700"
   }
 ]

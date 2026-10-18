@@ -196,5 +196,1103 @@
     "url": "https://www.yunfu.gov.cn/",
     "category": "government",
     "sourceUrl": "http://www.gd.gov.cn/yw/ds/index.html"
+  },
+  {
+    "id": "440103-government-www-lw-gov-cn",
+    "regionCode": "440103",
+    "name": "荔湾区人民政府",
+    "siteName": "荔湾区人民政府",
+    "url": "http://www.lw.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q590891"
+  },
+  {
+    "id": "440104-government-www-yuexiu-gov-cn",
+    "regionCode": "440104",
+    "name": "越秀区人民政府",
+    "siteName": "越秀区人民政府",
+    "url": "http://www.yuexiu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1022928"
+  },
+  {
+    "id": "440105-government-www-haizhu-gov-cn",
+    "regionCode": "440105",
+    "name": "海珠区人民政府",
+    "siteName": "海珠区人民政府",
+    "url": "http://www.haizhu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1022913"
+  },
+  {
+    "id": "440106-government-www-thnet-gov-cn",
+    "regionCode": "440106",
+    "name": "天河区人民政府",
+    "siteName": "天河区人民政府",
+    "url": "http://www.thnet.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q917049"
+  },
+  {
+    "id": "440111-government-www-by-gov-cn",
+    "regionCode": "440111",
+    "name": "白云区人民政府",
+    "siteName": "白云区人民政府",
+    "url": "http://www.by.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q80946"
+  },
+  {
+    "id": "440112-government-www-hp-gov-cn",
+    "regionCode": "440112",
+    "name": "黄埔区人民政府",
+    "siteName": "黄埔区人民政府",
+    "url": "http://www.hp.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023890"
+  },
+  {
+    "id": "440113-government-panyu-gov-cn",
+    "regionCode": "440113",
+    "name": "番禺区人民政府",
+    "siteName": "番禺区人民政府",
+    "url": "http://panyu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q948245"
+  },
+  {
+    "id": "440114-government-www-huadu-gov-cn",
+    "regionCode": "440114",
+    "name": "花都区人民政府",
+    "siteName": "花都区人民政府",
+    "url": "http://www.huadu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q498004"
+  },
+  {
+    "id": "440115-government-www-gzns-gov-cn",
+    "regionCode": "440115",
+    "name": "南沙区人民政府",
+    "siteName": "南沙区人民政府",
+    "url": "http://www.gzns.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q199422"
+  },
+  {
+    "id": "440117-government-www-conghua-gov-cn",
+    "regionCode": "440117",
+    "name": "从化区人民政府",
+    "siteName": "从化区人民政府",
+    "url": "http://www.conghua.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023907"
+  },
+  {
+    "id": "440118-government-www-zengcheng-gov-cn",
+    "regionCode": "440118",
+    "name": "增城区人民政府",
+    "siteName": "增城区人民政府",
+    "url": "http://www.zengcheng.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q189529"
+  },
+  {
+    "id": "440203-government-www-sgwjq-gov-cn",
+    "regionCode": "440203",
+    "name": "武江区人民政府",
+    "siteName": "武江区人民政府",
+    "url": "http://www.sgwjq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1199787"
+  },
+  {
+    "id": "440204-government-www-sgzj-gov-cn",
+    "regionCode": "440204",
+    "name": "浈江区人民政府",
+    "siteName": "浈江区人民政府",
+    "url": "http://www.sgzj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q197715"
+  },
+  {
+    "id": "440205-government-www-qujiang-gov-cn",
+    "regionCode": "440205",
+    "name": "曲江区人民政府",
+    "siteName": "曲江区人民政府",
+    "url": "http://www.qujiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1346617"
+  },
+  {
+    "id": "440222-government-www-shixing-gov-cn",
+    "regionCode": "440222",
+    "name": "始兴县人民政府",
+    "siteName": "始兴县人民政府",
+    "url": "http://www.shixing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1346567"
+  },
+  {
+    "id": "440224-government-www-sgrh-gov-cn",
+    "regionCode": "440224",
+    "name": "仁化县人民政府",
+    "siteName": "仁化县人民政府",
+    "url": "http://www.sgrh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1111625"
+  },
+  {
+    "id": "440229-government-www-wengyuan-gov-cn",
+    "regionCode": "440229",
+    "name": "翁源县人民政府",
+    "siteName": "翁源县人民政府",
+    "url": "http://www.wengyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1374780"
+  },
+  {
+    "id": "440232-government-www-ruyuan-gov-cn",
+    "regionCode": "440232",
+    "name": "乳源瑶族自治县人民政府",
+    "siteName": "乳源瑶族自治县人民政府",
+    "url": "http://www.ruyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q762968"
+  },
+  {
+    "id": "440233-government-www-xinfeng-gov-cn",
+    "regionCode": "440233",
+    "name": "新丰县人民政府",
+    "siteName": "新丰县人民政府",
+    "url": "http://www.xinfeng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1346606"
+  },
+  {
+    "id": "440281-government-www-lechang-gov-cn",
+    "regionCode": "440281",
+    "name": "乐昌市人民政府",
+    "siteName": "乐昌市人民政府",
+    "url": "http://www.lechang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023909"
+  },
+  {
+    "id": "440282-government-www-gdnx-gov-cn",
+    "regionCode": "440282",
+    "name": "南雄市人民政府",
+    "siteName": "南雄市人民政府",
+    "url": "http://www.gdnx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q934465"
+  },
+  {
+    "id": "440303-government-www-szlh-gov-cn",
+    "regionCode": "440303",
+    "name": "罗湖区人民政府",
+    "siteName": "罗湖区人民政府",
+    "url": "http://www.szlh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1001376"
+  },
+  {
+    "id": "440304-government-www-szft-gov-cn",
+    "regionCode": "440304",
+    "name": "福田区人民政府",
+    "siteName": "福田区人民政府",
+    "url": "http://www.szft.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q572153"
+  },
+  {
+    "id": "440305-government-www-szns-gov-cn",
+    "regionCode": "440305",
+    "name": "南山区人民政府",
+    "siteName": "南山区人民政府",
+    "url": "http://www.szns.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q533836"
+  },
+  {
+    "id": "440306-government-www-baoan-gov-cn",
+    "regionCode": "440306",
+    "name": "宝安区人民政府",
+    "siteName": "宝安区人民政府",
+    "url": "http://www.baoan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q807049"
+  },
+  {
+    "id": "440307-government-www-lg-gov-cn",
+    "regionCode": "440307",
+    "name": "龙岗区人民政府",
+    "siteName": "龙岗区人民政府",
+    "url": "https://www.lg.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1001406"
+  },
+  {
+    "id": "440308-government-www-yantian-gov-cn",
+    "regionCode": "440308",
+    "name": "盐田区人民政府",
+    "siteName": "盐田区人民政府",
+    "url": "http://www.yantian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1001381"
+  },
+  {
+    "id": "440309-government-www-szlhxq-gov-cn",
+    "regionCode": "440309",
+    "name": "龙华区人民政府",
+    "siteName": "龙华区人民政府",
+    "url": "http://www.szlhxq.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q276983"
+  },
+  {
+    "id": "440310-government-www-szpsq-gov-cn",
+    "regionCode": "440310",
+    "name": "坪山区人民政府",
+    "siteName": "坪山区人民政府",
+    "url": "https://www.szpsq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.szpsq.gov.cn/"
+  },
+  {
+    "id": "440311-government-www-szgm-gov-cn",
+    "regionCode": "440311",
+    "name": "光明区人民政府",
+    "siteName": "光明区人民政府",
+    "url": "http://www.szgm.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q287547"
+  },
+  {
+    "id": "440402-government-www-zhxz-gov-cn",
+    "regionCode": "440402",
+    "name": "香洲区人民政府",
+    "siteName": "香洲区人民政府",
+    "url": "http://www.zhxz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1338790"
+  },
+  {
+    "id": "440403-government-www-doumen-gov-cn",
+    "regionCode": "440403",
+    "name": "斗门区人民政府",
+    "siteName": "斗门区人民政府",
+    "url": "http://www.doumen.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1252689"
+  },
+  {
+    "id": "440404-government-www-jinwan-gov-cn",
+    "regionCode": "440404",
+    "name": "金湾区人民政府",
+    "siteName": "金湾区人民政府",
+    "url": "http://www.jinwan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1351500"
+  },
+  {
+    "id": "440507-government-www-gdlonghu-gov-cn",
+    "regionCode": "440507",
+    "name": "龙湖区人民政府",
+    "siteName": "龙湖区人民政府",
+    "url": "http://www.gdlonghu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1338540"
+  },
+  {
+    "id": "440511-government-www-gdjinping-gov-cn",
+    "regionCode": "440511",
+    "name": "金平区人民政府",
+    "siteName": "金平区人民政府",
+    "url": "http://www.gdjinping.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1341949"
+  },
+  {
+    "id": "440512-government-www-haojiang-gov-cn",
+    "regionCode": "440512",
+    "name": "濠江区人民政府",
+    "siteName": "濠江区人民政府",
+    "url": "http://www.haojiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q285241"
+  },
+  {
+    "id": "440513-government-www-gdchaoyang-gov-cn",
+    "regionCode": "440513",
+    "name": "潮阳区人民政府",
+    "siteName": "潮阳区人民政府",
+    "url": "http://www.gdchaoyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1062618"
+  },
+  {
+    "id": "440514-government-www-chaonan-gov-cn",
+    "regionCode": "440514",
+    "name": "潮南区人民政府",
+    "siteName": "潮南区人民政府",
+    "url": "http://www.chaonan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1062513"
+  },
+  {
+    "id": "440515-government-www-gdchenghai-gov-cn",
+    "regionCode": "440515",
+    "name": "澄海区人民政府",
+    "siteName": "澄海区人民政府",
+    "url": "http://www.gdchenghai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1028088"
+  },
+  {
+    "id": "440523-government-www-nanao-gov-cn",
+    "regionCode": "440523",
+    "name": "南澳县人民政府",
+    "siteName": "南澳县人民政府",
+    "url": "http://www.nanao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1374598"
+  },
+  {
+    "id": "440604-government-www-chancheng-gov-cn",
+    "regionCode": "440604",
+    "name": "禅城区人民政府",
+    "siteName": "禅城区人民政府",
+    "url": "http://www.chancheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1061690"
+  },
+  {
+    "id": "440605-government-www-nanhai-gov-cn",
+    "regionCode": "440605",
+    "name": "南海区人民政府",
+    "siteName": "南海区人民政府",
+    "url": "http://www.nanhai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023893"
+  },
+  {
+    "id": "440606-government-www-shunde-gov-cn",
+    "regionCode": "440606",
+    "name": "顺德区人民政府",
+    "siteName": "顺德区人民政府",
+    "url": "http://www.shunde.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q945428"
+  },
+  {
+    "id": "440607-government-www-sanshui-gov-cn",
+    "regionCode": "440607",
+    "name": "三水区人民政府",
+    "siteName": "三水区人民政府",
+    "url": "http://www.sanshui.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q769621"
+  },
+  {
+    "id": "440608-government-www-gaoming-gov-cn",
+    "regionCode": "440608",
+    "name": "高明区人民政府",
+    "siteName": "高明区人民政府",
+    "url": "http://www.gaoming.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q603151"
+  },
+  {
+    "id": "440703-government-www-pjq-gov-cn",
+    "regionCode": "440703",
+    "name": "蓬江区人民政府",
+    "siteName": "蓬江区人民政府",
+    "url": "http://www.pjq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1338611"
+  },
+  {
+    "id": "440704-government-www-jianghai-gov-cn",
+    "regionCode": "440704",
+    "name": "江海区人民政府",
+    "siteName": "江海区人民政府",
+    "url": "http://www.jianghai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1199783"
+  },
+  {
+    "id": "440705-government-www-xinhui-gov-cn",
+    "regionCode": "440705",
+    "name": "新会区人民政府",
+    "siteName": "新会区人民政府",
+    "url": "http://www.xinhui.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023903"
+  },
+  {
+    "id": "440781-government-www-cnts-gov-cn",
+    "regionCode": "440781",
+    "name": "台山市人民政府",
+    "siteName": "台山市人民政府",
+    "url": "http://www.cnts.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q164904"
+  },
+  {
+    "id": "440783-government-www-kaiping-gov-cn",
+    "regionCode": "440783",
+    "name": "开平市人民政府",
+    "siteName": "开平市人民政府",
+    "url": "http://www.kaiping.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q599514"
+  },
+  {
+    "id": "440784-government-www-heshan-gov-cn",
+    "regionCode": "440784",
+    "name": "鹤山市人民政府",
+    "siteName": "鹤山市人民政府",
+    "url": "http://www.heshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023921"
+  },
+  {
+    "id": "440785-government-www-enping-gov-cn",
+    "regionCode": "440785",
+    "name": "恩平市人民政府",
+    "siteName": "恩平市人民政府",
+    "url": "http://www.enping.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1343673"
+  },
+  {
+    "id": "440802-government-www-chikan-gov-cn",
+    "regionCode": "440802",
+    "name": "赤坎区人民政府",
+    "siteName": "赤坎区人民政府",
+    "url": "http://www.chikan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1072623"
+  },
+  {
+    "id": "440803-government-www-zjxs-gov-cn",
+    "regionCode": "440803",
+    "name": "霞山区人民政府",
+    "siteName": "霞山区人民政府",
+    "url": "http://www.zjxs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1374770"
+  },
+  {
+    "id": "440804-government-www-ptq-gov-cn",
+    "regionCode": "440804",
+    "name": "坡头区人民政府",
+    "siteName": "坡头区人民政府",
+    "url": "http://www.ptq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q919149"
+  },
+  {
+    "id": "440811-government-www-zjmazhang-gov-cn",
+    "regionCode": "440811",
+    "name": "麻章区人民政府",
+    "siteName": "麻章区人民政府",
+    "url": "http://www.zjmazhang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1374514"
+  },
+  {
+    "id": "440823-government-www-suixi-gov-cn",
+    "regionCode": "440823",
+    "name": "遂溪县人民政府",
+    "siteName": "遂溪县人民政府",
+    "url": "http://www.suixi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1374540"
+  },
+  {
+    "id": "440825-government-www-xuwen-gov-cn",
+    "regionCode": "440825",
+    "name": "徐闻县人民政府",
+    "siteName": "徐闻县人民政府",
+    "url": "http://www.xuwen.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1374567"
+  },
+  {
+    "id": "440881-government-www-lianjiang-gov-cn",
+    "regionCode": "440881",
+    "name": "廉江市人民政府",
+    "siteName": "廉江市人民政府",
+    "url": "http://www.lianjiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1374728"
+  },
+  {
+    "id": "440882-government-www-leizhou-gov-cn",
+    "regionCode": "440882",
+    "name": "雷州市人民政府",
+    "siteName": "雷州市人民政府",
+    "url": "http://www.leizhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1209167"
+  },
+  {
+    "id": "440883-government-www-gdwc-gov-cn",
+    "regionCode": "440883",
+    "name": "吴川市人民政府",
+    "siteName": "吴川市人民政府",
+    "url": "http://www.gdwc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q690255"
+  },
+  {
+    "id": "440902-government-www-maonan-gov-cn",
+    "regionCode": "440902",
+    "name": "茂南区人民政府",
+    "siteName": "茂南区人民政府",
+    "url": "http://www.maonan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q378776"
+  },
+  {
+    "id": "440904-government-dianbai-gov-cn",
+    "regionCode": "440904",
+    "name": "电白区人民政府",
+    "siteName": "电白区人民政府",
+    "url": "http://dianbai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1208952"
+  },
+  {
+    "id": "440981-government-www-gaozhou-gov-cn",
+    "regionCode": "440981",
+    "name": "高州市人民政府",
+    "siteName": "高州市人民政府",
+    "url": "http://www.gaozhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1209135"
+  },
+  {
+    "id": "440982-government-www-huazhou-gov-cn",
+    "regionCode": "440982",
+    "name": "化州市人民政府",
+    "siteName": "化州市人民政府",
+    "url": "http://www.huazhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1374792"
+  },
+  {
+    "id": "440983-government-www-xinyi-gov-cn",
+    "regionCode": "440983",
+    "name": "信宜市人民政府",
+    "siteName": "信宜市人民政府",
+    "url": "http://www.xinyi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023896"
+  },
+  {
+    "id": "441202-government-www-zqdz-gov-cn",
+    "regionCode": "441202",
+    "name": "端州区人民政府",
+    "siteName": "端州区人民政府",
+    "url": "http://www.zqdz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1262720"
+  },
+  {
+    "id": "441203-government-www-zqdh-com-cn",
+    "regionCode": "441203",
+    "name": "鼎湖区人民政府",
+    "siteName": "鼎湖区人民政府",
+    "url": "http://www.zqdh.com.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1226421"
+  },
+  {
+    "id": "441204-government-www-gaoyao-gov-cn",
+    "regionCode": "441204",
+    "name": "高要区人民政府",
+    "siteName": "高要区人民政府",
+    "url": "http://www.gaoyao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023913"
+  },
+  {
+    "id": "441223-government-www-gdgn-gov-cn",
+    "regionCode": "441223",
+    "name": "广宁县人民政府",
+    "siteName": "广宁县人民政府",
+    "url": "http://www.gdgn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q991381"
+  },
+  {
+    "id": "441224-government-www-huaiji-gov-cn",
+    "regionCode": "441224",
+    "name": "怀集县人民政府",
+    "siteName": "怀集县人民政府",
+    "url": "http://www.huaiji.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1199561"
+  },
+  {
+    "id": "441225-government-www-fengkai-gov-cn",
+    "regionCode": "441225",
+    "name": "封开县人民政府",
+    "siteName": "封开县人民政府",
+    "url": "http://www.fengkai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q593266"
+  },
+  {
+    "id": "441226-government-www-deqing-gd-cn",
+    "regionCode": "441226",
+    "name": "德庆县人民政府",
+    "siteName": "德庆县人民政府",
+    "url": "http://www.deqing.gd.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1191993"
+  },
+  {
+    "id": "441284-government-www-sihui-gov-cn",
+    "regionCode": "441284",
+    "name": "四会市人民政府",
+    "siteName": "四会市人民政府",
+    "url": "http://www.sihui.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1209153"
+  },
+  {
+    "id": "441302-government-www-hcq-gov-cn",
+    "regionCode": "441302",
+    "name": "惠城区人民政府",
+    "siteName": "惠城区人民政府",
+    "url": "http://www.hcq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1199390"
+  },
+  {
+    "id": "441303-government-www-huiyang-gov-cn",
+    "regionCode": "441303",
+    "name": "惠阳区人民政府",
+    "siteName": "惠阳区人民政府",
+    "url": "http://www.huiyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q614902"
+  },
+  {
+    "id": "441322-government-www-boluo-gov-cn",
+    "regionCode": "441322",
+    "name": "博罗县人民政府",
+    "siteName": "博罗县人民政府",
+    "url": "http://www.boluo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q728269"
+  },
+  {
+    "id": "441323-government-www-huidong-gov-cn",
+    "regionCode": "441323",
+    "name": "惠东县人民政府",
+    "siteName": "惠东县人民政府",
+    "url": "http://www.huidong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1374972"
+  },
+  {
+    "id": "441324-government-www-longmen-gov-cn",
+    "regionCode": "441324",
+    "name": "龙门县人民政府",
+    "siteName": "龙门县人民政府",
+    "url": "http://www.longmen.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q924542"
+  },
+  {
+    "id": "441402-government-www-meijiang-gov-cn",
+    "regionCode": "441402",
+    "name": "梅江区人民政府",
+    "siteName": "梅江区人民政府",
+    "url": "http://www.meijiang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1342129"
+  },
+  {
+    "id": "441403-government-www-gdmx-gov-cn",
+    "regionCode": "441403",
+    "name": "梅县区人民政府",
+    "siteName": "梅县区人民政府",
+    "url": "http://www.gdmx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1209086"
+  },
+  {
+    "id": "441422-government-www-dabu-gov-cn",
+    "regionCode": "441422",
+    "name": "大埔县人民政府",
+    "siteName": "大埔县人民政府",
+    "url": "http://www.dabu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1156607"
+  },
+  {
+    "id": "441423-government-www-fengshun-gov-cn",
+    "regionCode": "441423",
+    "name": "丰顺县人民政府",
+    "siteName": "丰顺县人民政府",
+    "url": "https://www.fengshun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.fengshun.gov.cn/"
+  },
+  {
+    "id": "441424-government-www-wuhua-gov-cn",
+    "regionCode": "441424",
+    "name": "五华县人民政府",
+    "siteName": "五华县人民政府",
+    "url": "http://www.wuhua.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1374525"
+  },
+  {
+    "id": "441426-government-www-pingyuan-gov-cn",
+    "regionCode": "441426",
+    "name": "平远县人民政府",
+    "siteName": "平远县人民政府",
+    "url": "http://www.pingyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1355986"
+  },
+  {
+    "id": "441427-government-www-jiaoling-gov-cn",
+    "regionCode": "441427",
+    "name": "蕉岭县人民政府",
+    "siteName": "蕉岭县人民政府",
+    "url": "http://www.jiaoling.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1356111"
+  },
+  {
+    "id": "441481-government-www-xingning-gov-cn",
+    "regionCode": "441481",
+    "name": "兴宁市人民政府",
+    "siteName": "兴宁市人民政府",
+    "url": "http://www.xingning.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023920"
+  },
+  {
+    "id": "441502-government-www-swchengqu-gov-cn",
+    "regionCode": "441502",
+    "name": "城区人民政府",
+    "siteName": "城区人民政府",
+    "url": "http://www.swchengqu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1070007"
+  },
+  {
+    "id": "441521-government-www-gdhf-gov-cn",
+    "regionCode": "441521",
+    "name": "海丰县人民政府",
+    "siteName": "海丰县人民政府",
+    "url": "http://www.gdhf.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1355997"
+  },
+  {
+    "id": "441523-government-www-luhe-gov-cn",
+    "regionCode": "441523",
+    "name": "陆河县人民政府",
+    "siteName": "陆河县人民政府",
+    "url": "http://www.luhe.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1356042"
+  },
+  {
+    "id": "441581-government-www-lufengshi-gov-cn",
+    "regionCode": "441581",
+    "name": "陆丰市人民政府",
+    "siteName": "陆丰市人民政府",
+    "url": "http://www.lufengshi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1025345"
+  },
+  {
+    "id": "441602-government-www-gdyc-gov-cn",
+    "regionCode": "441602",
+    "name": "源城区人民政府",
+    "siteName": "源城区人民政府",
+    "url": "http://www.gdyc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1199831"
+  },
+  {
+    "id": "441621-government-www-zijin-gov-cn",
+    "regionCode": "441621",
+    "name": "紫金县人民政府",
+    "siteName": "紫金县人民政府",
+    "url": "http://www.zijin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q202844"
+  },
+  {
+    "id": "441622-government-www-gdhylc-gov-cn",
+    "regionCode": "441622",
+    "name": "龙川县人民政府",
+    "siteName": "龙川县人民政府",
+    "url": "http://www.gdhylc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1356029"
+  },
+  {
+    "id": "441623-government-www-lianping-gov-cn",
+    "regionCode": "441623",
+    "name": "连平县人民政府",
+    "siteName": "连平县人民政府",
+    "url": "http://www.lianping.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q164910"
+  },
+  {
+    "id": "441624-government-www-heping-gov-cn",
+    "regionCode": "441624",
+    "name": "和平县人民政府",
+    "siteName": "和平县人民政府",
+    "url": "http://www.heping.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1346610"
+  },
+  {
+    "id": "441625-government-www-gddongyuan-gov-cn",
+    "regionCode": "441625",
+    "name": "东源县人民政府",
+    "siteName": "东源县人民政府",
+    "url": "http://www.gddongyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1241513"
+  },
+  {
+    "id": "441702-government-www-jiangcheng-gov-cn",
+    "regionCode": "441702",
+    "name": "江城区人民政府",
+    "siteName": "江城区人民政府",
+    "url": "http://www.jiangcheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1338583"
+  },
+  {
+    "id": "441704-government-www-yangdong-gov-cn",
+    "regionCode": "441704",
+    "name": "阳东区人民政府",
+    "siteName": "阳东区人民政府",
+    "url": "http://www.yangdong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1338785"
+  },
+  {
+    "id": "441721-government-www-yangxi-gov-cn",
+    "regionCode": "441721",
+    "name": "阳西县人民政府",
+    "siteName": "阳西县人民政府",
+    "url": "http://www.yangxi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1338625"
+  },
+  {
+    "id": "441781-government-www-yangchun-gov-cn",
+    "regionCode": "441781",
+    "name": "阳春市人民政府",
+    "siteName": "阳春市人民政府",
+    "url": "http://www.yangchun.gov.cn",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023923"
+  },
+  {
+    "id": "441802-government-www-qingcheng-gov-cn",
+    "regionCode": "441802",
+    "name": "清城区人民政府",
+    "siteName": "清城区人民政府",
+    "url": "http://www.qingcheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1235574"
+  },
+  {
+    "id": "441803-government-www-qingxin-gov-cn",
+    "regionCode": "441803",
+    "name": "清新区人民政府",
+    "siteName": "清新区人民政府",
+    "url": "http://www.qingxin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q889471"
+  },
+  {
+    "id": "441821-government-www-fogang-gov-cn",
+    "regionCode": "441821",
+    "name": "佛冈县人民政府",
+    "siteName": "佛冈县人民政府",
+    "url": "http://www.fogang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q179000"
+  },
+  {
+    "id": "441823-government-www-yangshan-gov-cn",
+    "regionCode": "441823",
+    "name": "阳山县人民政府",
+    "siteName": "阳山县人民政府",
+    "url": "http://www.yangshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q286151"
+  },
+  {
+    "id": "441825-government-www-gdls-gov-cn",
+    "regionCode": "441825",
+    "name": "连山壮族瑶族自治县人民政府",
+    "siteName": "连山壮族瑶族自治县人民政府",
+    "url": "http://www.gdls.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023908"
+  },
+  {
+    "id": "441826-government-www-liannan-gov-cn",
+    "regionCode": "441826",
+    "name": "连南瑶族自治县人民政府",
+    "siteName": "连南瑶族自治县人民政府",
+    "url": "http://www.liannan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1356011"
+  },
+  {
+    "id": "441881-government-www-yingde-gov-cn",
+    "regionCode": "441881",
+    "name": "英德市人民政府",
+    "siteName": "英德市人民政府",
+    "url": "http://www.yingde.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1028091"
+  },
+  {
+    "id": "441882-government-www-lianzhou-gov-cn",
+    "regionCode": "441882",
+    "name": "连州市人民政府",
+    "siteName": "连州市人民政府",
+    "url": "http://www.lianzhou.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023910"
+  },
+  {
+    "id": "445102-government-www-xiangqiao-gov-cn",
+    "regionCode": "445102",
+    "name": "湘桥区人民政府",
+    "siteName": "湘桥区人民政府",
+    "url": "http://www.xiangqiao.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1342144"
+  },
+  {
+    "id": "445103-government-www-chaoan-gov-cn",
+    "regionCode": "445103",
+    "name": "潮安区人民政府",
+    "siteName": "潮安区人民政府",
+    "url": "http://www.chaoan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1062490"
+  },
+  {
+    "id": "445122-government-www-raoping-gov-cn",
+    "regionCode": "445122",
+    "name": "饶平县人民政府",
+    "siteName": "饶平县人民政府",
+    "url": "http://www.raoping.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1209160"
+  },
+  {
+    "id": "445202-government-www-jyrongcheng-gov-cn",
+    "regionCode": "445202",
+    "name": "榕城区人民政府",
+    "siteName": "榕城区人民政府",
+    "url": "http://www.jyrongcheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1199826"
+  },
+  {
+    "id": "445203-government-www-jiedong-gov-cn",
+    "regionCode": "445203",
+    "name": "揭东区人民政府",
+    "siteName": "揭东区人民政府",
+    "url": "http://www.jiedong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1342235"
+  },
+  {
+    "id": "445222-government-www-jiexi-gov-cn",
+    "regionCode": "445222",
+    "name": "揭西县人民政府",
+    "siteName": "揭西县人民政府",
+    "url": "http://www.jiexi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1342024"
+  },
+  {
+    "id": "445224-government-www-huilai-gov-cn",
+    "regionCode": "445224",
+    "name": "惠来县人民政府",
+    "siteName": "惠来县人民政府",
+    "url": "http://www.huilai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1346650"
+  },
+  {
+    "id": "445281-government-www-puning-gov-cn",
+    "regionCode": "445281",
+    "name": "普宁市人民政府",
+    "siteName": "普宁市人民政府",
+    "url": "http://www.puning.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1346536"
+  },
+  {
+    "id": "445302-government-www-yfyunchengqu-gov-cn",
+    "regionCode": "445302",
+    "name": "云城区人民政府",
+    "siteName": "云城区人民政府",
+    "url": "http://www.yfyunchengqu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1199719"
+  },
+  {
+    "id": "445303-government-www-yunan-gov-cn",
+    "regionCode": "445303",
+    "name": "云安区人民政府",
+    "siteName": "云安区人民政府",
+    "url": "http://www.yunan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q233441"
+  },
+  {
+    "id": "445321-government-www-xinxing-gov-cn",
+    "regionCode": "445321",
+    "name": "新兴县人民政府",
+    "siteName": "新兴县人民政府",
+    "url": "http://www.xinxing.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q287273"
+  },
+  {
+    "id": "445322-government-www-gdyunan-gov-cn",
+    "regionCode": "445322",
+    "name": "郁南县人民政府",
+    "siteName": "郁南县人民政府",
+    "url": "http://www.gdyunan.gov.cn:80/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q668241"
+  },
+  {
+    "id": "445381-government-www-luoding-gov-cn",
+    "regionCode": "445381",
+    "name": "罗定市人民政府",
+    "siteName": "罗定市人民政府",
+    "url": "http://www.luoding.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1022980"
   }
 ]
