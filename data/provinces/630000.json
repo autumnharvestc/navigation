@@ -79,5 +79,401 @@
     "url": "https://www.haixi.gov.cn/",
     "category": "government",
     "sourceUrl": "http://www.qinghai.gov.cn/"
+  },
+  {
+    "id": "630102-government-www-xncd-gov-cn",
+    "regionCode": "630102",
+    "name": "城东区人民政府",
+    "siteName": "城东区人民政府",
+    "url": "https://www.xncd.gov.cn/index.html",
+    "category": "government",
+    "sourceUrl": "http://www.xining.gov.cn"
+  },
+  {
+    "id": "630103-government-www-xncz-gov-cn",
+    "regionCode": "630103",
+    "name": "城中区人民政府",
+    "siteName": "城中区人民政府",
+    "url": "http://www.xncz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xining.gov.cn"
+  },
+  {
+    "id": "630104-government-www-xncx-gov-cn",
+    "regionCode": "630104",
+    "name": "城西区人民政府",
+    "siteName": "城西区人民政府",
+    "url": "https://www.xncx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xining.gov.cn"
+  },
+  {
+    "id": "630105-government-www-xncb-gov-cn",
+    "regionCode": "630105",
+    "name": "城北区人民政府",
+    "siteName": "城北区人民政府",
+    "url": "https://www.xncb.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xining.gov.cn"
+  },
+  {
+    "id": "630106-government-www-huangzhong-gov-cn",
+    "regionCode": "630106",
+    "name": "湟中区人民政府",
+    "siteName": "湟中区人民政府",
+    "url": "https://www.huangzhong.gov.cn/index.html",
+    "category": "government",
+    "sourceUrl": "http://www.xining.gov.cn"
+  },
+  {
+    "id": "630121-government-www-datong-gov-cn",
+    "regionCode": "630121",
+    "name": "大通回族土族自治县人民政府",
+    "siteName": "大通回族土族自治县人民政府",
+    "url": "https://www.datong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1172653"
+  },
+  {
+    "id": "630123-government-www-huangyuan-gov-cn",
+    "regionCode": "630123",
+    "name": "湟源县人民政府",
+    "siteName": "湟源县人民政府",
+    "url": "https://www.huangyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1356903"
+  },
+  {
+    "id": "630202-government-www-ledu-gov-cn",
+    "regionCode": "630202",
+    "name": "乐都区人民政府",
+    "siteName": "乐都区人民政府",
+    "url": "http://www.ledu.gov.cn/index.html",
+    "category": "government",
+    "sourceUrl": "https://www.haidong.gov.cn/"
+  },
+  {
+    "id": "630203-government-www-pinganqu-gov-cn",
+    "regionCode": "630203",
+    "name": "平安区人民政府",
+    "siteName": "平安区人民政府",
+    "url": "https://www.pinganqu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023056"
+  },
+  {
+    "id": "630222-government-www-minhe-gov-cn",
+    "regionCode": "630222",
+    "name": "民和回族土族自治县人民政府",
+    "siteName": "民和回族土族自治县人民政府",
+    "url": "https://www.minhe.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1356925"
+  },
+  {
+    "id": "630223-government-www-huzhu-gov-cn",
+    "regionCode": "630223",
+    "name": "互助土族自治县人民政府",
+    "siteName": "互助土族自治县人民政府",
+    "url": "https://www.huzhu.gov.cn/index.htm",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1356943"
+  },
+  {
+    "id": "630224-government-www-hdhl-gov-cn",
+    "regionCode": "630224",
+    "name": "化隆回族自治县人民政府",
+    "siteName": "化隆回族自治县人民政府",
+    "url": "http://www.hdhl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q536207"
+  },
+  {
+    "id": "630225-government-www-xunhua-gov-cn",
+    "regionCode": "630225",
+    "name": "循化撒拉族自治县人民政府",
+    "siteName": "循化撒拉族自治县人民政府",
+    "url": "http://www.xunhua.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1004882"
+  },
+  {
+    "id": "632221-government-www-menyuan-gov-cn",
+    "regionCode": "632221",
+    "name": "门源回族自治县人民政府",
+    "siteName": "门源回族自治县人民政府",
+    "url": "http://www.menyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1354609"
+  },
+  {
+    "id": "632222-government-www-qhql-gov-cn",
+    "regionCode": "632222",
+    "name": "祁连县人民政府",
+    "siteName": "祁连县人民政府",
+    "url": "http://www.qhql.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q939065"
+  },
+  {
+    "id": "632223-government-www-haiyanxian-gov-cn",
+    "regionCode": "632223",
+    "name": "海晏县人民政府",
+    "siteName": "海晏县人民政府",
+    "url": "https://www.haiyanxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1208229"
+  },
+  {
+    "id": "632224-government-www-qhgc-gov-cn",
+    "regionCode": "632224",
+    "name": "刚察县人民政府",
+    "siteName": "刚察县人民政府",
+    "url": "http://www.qhgc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q630450"
+  },
+  {
+    "id": "632301-government-www-hntongren-gov-cn",
+    "regionCode": "632301",
+    "name": "同仁市人民政府",
+    "siteName": "同仁市人民政府",
+    "url": "http://www.hntongren.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1364679"
+  },
+  {
+    "id": "632322-government-www-jianzha-gov-cn",
+    "regionCode": "632322",
+    "name": "尖扎县人民政府",
+    "siteName": "尖扎县人民政府",
+    "url": "http://www.jianzha.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1364610"
+  },
+  {
+    "id": "632323-government-www-zeku-gov-cn",
+    "regionCode": "632323",
+    "name": "泽库县人民政府",
+    "siteName": "泽库县人民政府",
+    "url": "https://www.zeku.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q247607"
+  },
+  {
+    "id": "632324-government-www-henanxian-gov-cn",
+    "regionCode": "632324",
+    "name": "河南蒙古族自治县人民政府",
+    "siteName": "河南蒙古族自治县人民政府",
+    "url": "http://www.henanxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1343766"
+  },
+  {
+    "id": "632521-government-www-gonghe-gov-cn",
+    "regionCode": "632521",
+    "name": "共和县人民政府",
+    "siteName": "共和县人民政府",
+    "url": "https://www.gonghe.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainanzhou.gov.cn/"
+  },
+  {
+    "id": "632522-government-www-tongde-gov-cn",
+    "regionCode": "632522",
+    "name": "同德县人民政府",
+    "siteName": "同德县人民政府",
+    "url": "https://www.tongde.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainanzhou.gov.cn/"
+  },
+  {
+    "id": "632523-government-www-guide-gov-cn",
+    "regionCode": "632523",
+    "name": "贵德县人民政府",
+    "siteName": "贵德县人民政府",
+    "url": "https://www.guide.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainanzhou.gov.cn/"
+  },
+  {
+    "id": "632524-government-www-xinghai-gov-cn",
+    "regionCode": "632524",
+    "name": "兴海县人民政府",
+    "siteName": "兴海县人民政府",
+    "url": "https://www.xinghai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainanzhou.gov.cn/"
+  },
+  {
+    "id": "632525-government-www-guinan-gov-cn",
+    "regionCode": "632525",
+    "name": "贵南县人民政府",
+    "siteName": "贵南县人民政府",
+    "url": "https://www.guinan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.hainanzhou.gov.cn/"
+  },
+  {
+    "id": "632621-government-www-maqin-gov-cn",
+    "regionCode": "632621",
+    "name": "玛沁县人民政府",
+    "siteName": "玛沁县人民政府",
+    "url": "https://www.maqin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1026109"
+  },
+  {
+    "id": "632622-government-www-banma-gov-cn",
+    "regionCode": "632622",
+    "name": "班玛县人民政府",
+    "siteName": "班玛县人民政府",
+    "url": "https://www.banma.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q803870"
+  },
+  {
+    "id": "632623-government-gande-gov-cn",
+    "regionCode": "632623",
+    "name": "甘德县人民政府",
+    "siteName": "甘德县人民政府",
+    "url": "http://gande.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q206292"
+  },
+  {
+    "id": "632624-government-www-dari-gov-cn",
+    "regionCode": "632624",
+    "name": "达日县人民政府",
+    "siteName": "达日县人民政府",
+    "url": "https://www.dari.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1166385"
+  },
+  {
+    "id": "632625-government-www-jiuzhixian-gov-cn",
+    "regionCode": "632625",
+    "name": "久治县人民政府",
+    "siteName": "久治县人民政府",
+    "url": "https://www.jiuzhixian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1356885"
+  },
+  {
+    "id": "632626-government-www-maduo-gov-cn",
+    "regionCode": "632626",
+    "name": "玛多县人民政府",
+    "siteName": "玛多县人民政府",
+    "url": "http://www.maduo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.guoluo.gov.cn"
+  },
+  {
+    "id": "632701-government-www-yushushi-gov-cn",
+    "regionCode": "632701",
+    "name": "玉树市人民政府",
+    "siteName": "玉树市人民政府",
+    "url": "https://www.yushushi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yushushi.gov.cn/"
+  },
+  {
+    "id": "632722-government-www-zaduo-gov-cn",
+    "regionCode": "632722",
+    "name": "杂多县人民政府",
+    "siteName": "杂多县人民政府",
+    "url": "https://www.zaduo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q140091"
+  },
+  {
+    "id": "632723-government-www-chengduo-gov-cn",
+    "regionCode": "632723",
+    "name": "称多县人民政府",
+    "siteName": "称多县人民政府",
+    "url": "http://www.chengduo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1072293"
+  },
+  {
+    "id": "632724-government-www-zhiduo-gov-cn",
+    "regionCode": "632724",
+    "name": "治多县人民政府",
+    "siteName": "治多县人民政府",
+    "url": "http://www.zhiduo.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q197776"
+  },
+  {
+    "id": "632725-government-www-nangqian-gov-cn",
+    "regionCode": "632725",
+    "name": "囊谦县人民政府",
+    "siteName": "囊谦县人民政府",
+    "url": "http://www.nangqian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1208547"
+  },
+  {
+    "id": "632726-government-www-qumalai-gov-cn",
+    "regionCode": "632726",
+    "name": "曲麻莱县人民政府",
+    "siteName": "曲麻莱县人民政府",
+    "url": "https://www.qumalai.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q340203"
+  },
+  {
+    "id": "632801-government-www-geermu-gov-cn",
+    "regionCode": "632801",
+    "name": "格尔木市人民政府",
+    "siteName": "格尔木市人民政府",
+    "url": "https://www.geermu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q858250"
+  },
+  {
+    "id": "632802-government-www-delingha-gov-cn",
+    "regionCode": "632802",
+    "name": "德令哈市人民政府",
+    "siteName": "德令哈市人民政府",
+    "url": "http://www.delingha.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.haixi.gov.cn/"
+  },
+  {
+    "id": "632803-government-www-mangya-gov-cn",
+    "regionCode": "632803",
+    "name": "茫崖市人民政府",
+    "siteName": "茫崖市人民政府",
+    "url": "https://www.mangya.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.haixi.gov.cn/"
+  },
+  {
+    "id": "632821-government-www-wulanxian-gov-cn",
+    "regionCode": "632821",
+    "name": "乌兰县人民政府",
+    "siteName": "乌兰县人民政府",
+    "url": "https://www.wulanxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.haixi.gov.cn/"
+  },
+  {
+    "id": "632822-government-www-dulan-gov-cn",
+    "regionCode": "632822",
+    "name": "都兰县人民政府",
+    "siteName": "都兰县人民政府",
+    "url": "http://www.dulan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.haixi.gov.cn/"
+  },
+  {
+    "id": "632823-government-www-tianjun-gov-cn",
+    "regionCode": "632823",
+    "name": "天峻县人民政府",
+    "siteName": "天峻县人民政府",
+    "url": "http://www.tianjun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.haixi.gov.cn/"
   }
 ]

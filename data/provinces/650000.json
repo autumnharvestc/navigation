@@ -241,5 +241,869 @@
     "url": "https://www.btdjs.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.xinjiang.gov.cn/"
+  },
+  {
+    "id": "650102-government-www-xjtsq-gov-cn",
+    "regionCode": "650102",
+    "name": "天山区人民政府",
+    "siteName": "天山区人民政府",
+    "url": "http://www.xjtsq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1027340"
+  },
+  {
+    "id": "650103-government-www-sayibak-gov-cn",
+    "regionCode": "650103",
+    "name": "沙依巴克区人民政府",
+    "siteName": "沙依巴克区人民政府",
+    "url": "http://www.sayibak.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wlmq.gov.cn/"
+  },
+  {
+    "id": "650104-government-www-wxsq-gov-cn",
+    "regionCode": "650104",
+    "name": "新市区人民政府",
+    "siteName": "新市区人民政府",
+    "url": "http://www.wxsq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1026050"
+  },
+  {
+    "id": "650105-government-www-xjsmgq-gov-cn",
+    "regionCode": "650105",
+    "name": "水磨沟区人民政府",
+    "siteName": "水磨沟区人民政府",
+    "url": "http://www.xjsmgq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wlmq.gov.cn/"
+  },
+  {
+    "id": "650106-government-www-tth-gov-cn",
+    "regionCode": "650106",
+    "name": "头屯河区人民政府",
+    "siteName": "头屯河区人民政府",
+    "url": "http://www.tth.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1026076"
+  },
+  {
+    "id": "650107-government-www-dabancheng-gov-cn",
+    "regionCode": "650107",
+    "name": "达坂城区人民政府",
+    "siteName": "达坂城区人民政府",
+    "url": "https://www.dabancheng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wlmq.gov.cn/"
+  },
+  {
+    "id": "650109-government-www-xjmd-gov-cn",
+    "regionCode": "650109",
+    "name": "米东区人民政府",
+    "siteName": "米东区人民政府",
+    "url": "http://www.xjmd.gov.cn/structure/index.htm",
+    "category": "government",
+    "sourceUrl": "http://www.wlmq.gov.cn/"
+  },
+  {
+    "id": "650121-government-www-wlmqx-gov-cn",
+    "regionCode": "650121",
+    "name": "乌鲁木齐县人民政府",
+    "siteName": "乌鲁木齐县人民政府",
+    "url": "https://www.wlmqx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wlmq.gov.cn/"
+  },
+  {
+    "id": "650202-government-www-dsz-gov-cn",
+    "regionCode": "650202",
+    "name": "独山子区人民政府",
+    "siteName": "独山子区人民政府",
+    "url": "https://www.dsz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.klmy.gov.cn/"
+  },
+  {
+    "id": "650203-government-www-klmyq-gov-cn",
+    "regionCode": "650203",
+    "name": "克拉玛依区人民政府",
+    "siteName": "克拉玛依区人民政府",
+    "url": "https://www.klmyq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.klmy.gov.cn/"
+  },
+  {
+    "id": "650204-government-www-bjtq-gov-cn",
+    "regionCode": "650204",
+    "name": "白碱滩区人民政府",
+    "siteName": "白碱滩区人民政府",
+    "url": "https://www.bjtq.gov.cn/#/homePage",
+    "category": "government",
+    "sourceUrl": "https://www.klmy.gov.cn/"
+  },
+  {
+    "id": "650205-government-www-weh-gov-cn",
+    "regionCode": "650205",
+    "name": "乌尔禾区人民政府",
+    "siteName": "乌尔禾区人民政府",
+    "url": "https://www.weh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.klmy.gov.cn/"
+  },
+  {
+    "id": "650402-government-www-turpan-gov-cn",
+    "regionCode": "650402",
+    "name": "高昌区人民政府",
+    "siteName": "高昌区人民政府",
+    "url": "http://www.turpan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q192564"
+  },
+  {
+    "id": "650421-government-www-xjshanshan-gov-cn",
+    "regionCode": "650421",
+    "name": "鄯善县人民政府",
+    "siteName": "鄯善县人民政府",
+    "url": "http://www.xjshanshan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023110"
+  },
+  {
+    "id": "650422-government-www-tkx-gov-cn",
+    "regionCode": "650422",
+    "name": "托克逊县人民政府",
+    "siteName": "托克逊县人民政府",
+    "url": "http://www.tkx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.tlf.gov.cn/"
+  },
+  {
+    "id": "650502-government-www-xjhm-gov-cn",
+    "regionCode": "650502",
+    "name": "伊州区人民政府",
+    "siteName": "伊州区人民政府",
+    "url": "http://www.xjhm.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q650585"
+  },
+  {
+    "id": "650521-government-www-xjblk-gov-cn",
+    "regionCode": "650521",
+    "name": "巴里坤哈萨克自治县人民政府",
+    "siteName": "巴里坤哈萨克自治县人民政府",
+    "url": "http://www.xjblk.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q808309"
+  },
+  {
+    "id": "650522-government-www-xjyiwu-gov-cn",
+    "regionCode": "650522",
+    "name": "伊吾县人民政府",
+    "siteName": "伊吾县人民政府",
+    "url": "https://www.xjyiwu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q626525"
+  },
+  {
+    "id": "652301-government-www-cjs-gov-cn",
+    "regionCode": "652301",
+    "name": "昌吉市人民政府",
+    "siteName": "昌吉市人民政府",
+    "url": "https://www.cjs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cjs.gov.cn/"
+  },
+  {
+    "id": "652302-government-www-fk-gov-cn",
+    "regionCode": "652302",
+    "name": "阜康市人民政府",
+    "siteName": "阜康市人民政府",
+    "url": "https://www.fk.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cj.gov.cn/"
+  },
+  {
+    "id": "652323-government-www-htb-gov-cn",
+    "regionCode": "652323",
+    "name": "呼图壁县人民政府",
+    "siteName": "呼图壁县人民政府",
+    "url": "https://www.htb.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cj.gov.cn/"
+  },
+  {
+    "id": "652324-government-www-mns-gov-cn",
+    "regionCode": "652324",
+    "name": "玛纳斯县人民政府",
+    "siteName": "玛纳斯县人民政府",
+    "url": "http://www.mns.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cj.gov.cn/"
+  },
+  {
+    "id": "652325-government-www-xjqt-gov-cn",
+    "regionCode": "652325",
+    "name": "奇台县人民政府",
+    "siteName": "奇台县人民政府",
+    "url": "https://www.xjqt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cj.gov.cn/"
+  },
+  {
+    "id": "652327-government-www-jmser-gov-cn",
+    "regionCode": "652327",
+    "name": "吉木萨尔县人民政府",
+    "siteName": "吉木萨尔县人民政府",
+    "url": "https://www.jmser.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q910078"
+  },
+  {
+    "id": "652328-government-www-mlx-gov-cn",
+    "regionCode": "652328",
+    "name": "木垒哈萨克自治县人民政府",
+    "siteName": "木垒哈萨克自治县人民政府",
+    "url": "http://www.mlx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.cj.gov.cn/"
+  },
+  {
+    "id": "652701-government-www-xjbl-gov-cn",
+    "regionCode": "652701",
+    "name": "博乐市人民政府",
+    "siteName": "博乐市人民政府",
+    "url": "https://www.xjbl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjboz.gov.cn/"
+  },
+  {
+    "id": "652702-government-www-alsk-gov-cn",
+    "regionCode": "652702",
+    "name": "阿拉山口市人民政府",
+    "siteName": "阿拉山口市人民政府",
+    "url": "https://www.alsk.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjboz.gov.cn/"
+  },
+  {
+    "id": "652722-government-www-xjjh-gov-cn",
+    "regionCode": "652722",
+    "name": "精河县人民政府",
+    "siteName": "精河县人民政府",
+    "url": "https://www.xjjh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjboz.gov.cn/"
+  },
+  {
+    "id": "652723-government-www-xjwq-gov-cn",
+    "regionCode": "652723",
+    "name": "温泉县人民政府",
+    "siteName": "温泉县人民政府",
+    "url": "https://www.xjwq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjboz.gov.cn/"
+  },
+  {
+    "id": "652801-government-www-xjkel-gov-cn",
+    "regionCode": "652801",
+    "name": "库尔勒市人民政府",
+    "siteName": "库尔勒市人民政府",
+    "url": "https://www.xjkel.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xjbz.gov.cn/"
+  },
+  {
+    "id": "652822-government-www-xjlt-gov-cn",
+    "regionCode": "652822",
+    "name": "轮台县人民政府",
+    "siteName": "轮台县人民政府",
+    "url": "http://www.xjlt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023121"
+  },
+  {
+    "id": "652823-government-www-yuli-gov-cn",
+    "regionCode": "652823",
+    "name": "尉犁县人民政府",
+    "siteName": "尉犁县人民政府",
+    "url": "https://www.yuli.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xjbz.gov.cn/"
+  },
+  {
+    "id": "652824-government-www-xjrq-gov-cn",
+    "regionCode": "652824",
+    "name": "若羌县人民政府",
+    "siteName": "若羌县人民政府",
+    "url": "http://www.xjrq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xjbz.gov.cn/"
+  },
+  {
+    "id": "652825-government-www-xjqmx-gov-cn",
+    "regionCode": "652825",
+    "name": "且末县人民政府",
+    "siteName": "且末县人民政府",
+    "url": "http://www.xjqmx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xjbz.gov.cn/"
+  },
+  {
+    "id": "652826-government-www-xjyq-gov-cn",
+    "regionCode": "652826",
+    "name": "焉耆回族自治县人民政府",
+    "siteName": "焉耆回族自治县人民政府",
+    "url": "https://www.xjyq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xjbz.gov.cn/"
+  },
+  {
+    "id": "652827-government-www-xjhj-gov-cn",
+    "regionCode": "652827",
+    "name": "和静县人民政府",
+    "siteName": "和静县人民政府",
+    "url": "http://www.xjhj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xjbz.gov.cn/"
+  },
+  {
+    "id": "652828-government-www-xjhs-gov-cn",
+    "regionCode": "652828",
+    "name": "和硕县人民政府",
+    "siteName": "和硕县人民政府",
+    "url": "https://www.xjhs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xjbz.gov.cn/"
+  },
+  {
+    "id": "652829-government-www-xjbh-gov-cn",
+    "regionCode": "652829",
+    "name": "博湖县人民政府",
+    "siteName": "博湖县人民政府",
+    "url": "http://www.xjbh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xjbz.gov.cn/"
+  },
+  {
+    "id": "652901-government-www-akss-gov-cn",
+    "regionCode": "652901",
+    "name": "阿克苏市人民政府",
+    "siteName": "阿克苏市人民政府",
+    "url": "https://www.akss.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.aks.gov.cn/"
+  },
+  {
+    "id": "652902-government-www-xjkc-gov-cn",
+    "regionCode": "652902",
+    "name": "库车市人民政府",
+    "siteName": "库车市人民政府",
+    "url": "https://www.xjkc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023116"
+  },
+  {
+    "id": "652922-government-www-wensu-gov-cn",
+    "regionCode": "652922",
+    "name": "温宿县人民政府",
+    "siteName": "温宿县人民政府",
+    "url": "http://www.wensu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023165"
+  },
+  {
+    "id": "652924-government-www-xjsy-gov-cn",
+    "regionCode": "652924",
+    "name": "沙雅县人民政府",
+    "siteName": "沙雅县人民政府",
+    "url": "https://www.xjsy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023159"
+  },
+  {
+    "id": "652925-government-www-xjxinhe-gov-cn",
+    "regionCode": "652925",
+    "name": "新和县人民政府",
+    "siteName": "新和县人民政府",
+    "url": "https://www.xjxinhe.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1365251"
+  },
+  {
+    "id": "652926-government-www-xjbc-gov-cn",
+    "regionCode": "652926",
+    "name": "拜城县人民政府",
+    "siteName": "拜城县人民政府",
+    "url": "https://www.xjbc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q812060"
+  },
+  {
+    "id": "652927-government-www-xjwsx-gov-cn",
+    "regionCode": "652927",
+    "name": "乌什县人民政府",
+    "siteName": "乌什县人民政府",
+    "url": "http://www.xjwsx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1207622"
+  },
+  {
+    "id": "652928-government-www-xjawt-gov-cn",
+    "regionCode": "652928",
+    "name": "阿瓦提县人民政府",
+    "siteName": "阿瓦提县人民政府",
+    "url": "https://www.xjawt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q791640"
+  },
+  {
+    "id": "652929-government-www-xjkpx-gov-cn",
+    "regionCode": "652929",
+    "name": "柯坪县人民政府",
+    "siteName": "柯坪县人民政府",
+    "url": "https://www.xjkpx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1207782"
+  },
+  {
+    "id": "653001-government-www-xjats-gov-cn",
+    "regionCode": "653001",
+    "name": "阿图什市人民政府",
+    "siteName": "阿图什市人民政府",
+    "url": "https://www.xjats.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjkz.gov.cn/"
+  },
+  {
+    "id": "653022-government-www-xjakt-gov-cn",
+    "regionCode": "653022",
+    "name": "阿克陶县人民政府",
+    "siteName": "阿克陶县人民政府",
+    "url": "https://www.xjakt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjkz.gov.cn/"
+  },
+  {
+    "id": "653023-government-www-xjahq-gov-cn",
+    "regionCode": "653023",
+    "name": "阿合奇县人民政府",
+    "siteName": "阿合奇县人民政府",
+    "url": "https://www.xjahq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjkz.gov.cn/"
+  },
+  {
+    "id": "653024-government-www-xjwqx-gov-cn",
+    "regionCode": "653024",
+    "name": "乌恰县人民政府",
+    "siteName": "乌恰县人民政府",
+    "url": "http://www.xjwqx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjkz.gov.cn/"
+  },
+  {
+    "id": "653101-government-www-xjks-gov-cn",
+    "regionCode": "653101",
+    "name": "喀什市人民政府",
+    "siteName": "喀什市人民政府",
+    "url": "http://www.xjks.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q170521"
+  },
+  {
+    "id": "653121-government-www-xjsf-gov-cn",
+    "regionCode": "653121",
+    "name": "疏附县人民政府",
+    "siteName": "疏附县人民政府",
+    "url": "http://www.xjsf.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023095"
+  },
+  {
+    "id": "653122-government-www-shule-gov-cn",
+    "regionCode": "653122",
+    "name": "疏勒县人民政府",
+    "siteName": "疏勒县人民政府",
+    "url": "http://www.shule.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023123"
+  },
+  {
+    "id": "653123-government-www-yjs-gov-cn",
+    "regionCode": "653123",
+    "name": "英吉沙县人民政府",
+    "siteName": "英吉沙县人民政府",
+    "url": "http://www.yjs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.kashi.gov.cn/"
+  },
+  {
+    "id": "653124-government-www-xjzp-gov-cn",
+    "regionCode": "653124",
+    "name": "泽普县人民政府",
+    "siteName": "泽普县人民政府",
+    "url": "http://www.xjzp.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.kashi.gov.cn/"
+  },
+  {
+    "id": "653125-government-www-shache-gov-cn",
+    "regionCode": "653125",
+    "name": "莎车县人民政府",
+    "siteName": "莎车县人民政府",
+    "url": "http://www.shache.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.kashi.gov.cn/"
+  },
+  {
+    "id": "653126-government-www-xjyc-gov-cn",
+    "regionCode": "653126",
+    "name": "叶城县人民政府",
+    "siteName": "叶城县人民政府",
+    "url": "http://www.xjyc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023102"
+  },
+  {
+    "id": "653127-government-www-mgt-gov-cn",
+    "regionCode": "653127",
+    "name": "麦盖提县人民政府",
+    "siteName": "麦盖提县人民政府",
+    "url": "http://www.mgt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q762509"
+  },
+  {
+    "id": "653128-government-www-yph-gov-cn",
+    "regionCode": "653128",
+    "name": "岳普湖县人民政府",
+    "siteName": "岳普湖县人民政府",
+    "url": "http://www.yph.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q746315"
+  },
+  {
+    "id": "653129-government-www-xjjsx-gov-cn",
+    "regionCode": "653129",
+    "name": "伽师县人民政府",
+    "siteName": "伽师县人民政府",
+    "url": "http://www.xjjsx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023479"
+  },
+  {
+    "id": "653130-government-www-bachu-gov-cn",
+    "regionCode": "653130",
+    "name": "巴楚县人民政府",
+    "siteName": "巴楚县人民政府",
+    "url": "https://www.bachu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023160"
+  },
+  {
+    "id": "653131-government-www-tskeg-gov-cn",
+    "regionCode": "653131",
+    "name": "塔什库尔干塔吉克自治县人民政府",
+    "siteName": "塔什库尔干塔吉克自治县人民政府",
+    "url": "http://www.tskeg.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.kashi.gov.cn/"
+  },
+  {
+    "id": "653201-government-www-hts-gov-cn",
+    "regionCode": "653201",
+    "name": "和田市人民政府",
+    "siteName": "和田市人民政府",
+    "url": "https://www.hts.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q235389"
+  },
+  {
+    "id": "653221-government-www-htx-gov-cn",
+    "regionCode": "653221",
+    "name": "和田县人民政府",
+    "siteName": "和田县人民政府",
+    "url": "http://www.htx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q922669"
+  },
+  {
+    "id": "653222-government-www-myx-gov-cn",
+    "regionCode": "653222",
+    "name": "墨玉县人民政府",
+    "siteName": "墨玉县人民政府",
+    "url": "http://www.myx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjht.gov.cn/"
+  },
+  {
+    "id": "653223-government-www-ps-gov-cn",
+    "regionCode": "653223",
+    "name": "皮山县人民政府",
+    "siteName": "皮山县人民政府",
+    "url": "http://www.ps.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjht.gov.cn/"
+  },
+  {
+    "id": "653224-government-www-xjlpx-gov-cn",
+    "regionCode": "653224",
+    "name": "洛浦县人民政府",
+    "siteName": "洛浦县人民政府",
+    "url": "https://www.xjlpx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjht.gov.cn/"
+  },
+  {
+    "id": "653225-government-www-xjcl-gov-cn",
+    "regionCode": "653225",
+    "name": "策勒县人民政府",
+    "siteName": "策勒县人民政府",
+    "url": "http://www.xjcl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjht.gov.cn/"
+  },
+  {
+    "id": "653226-government-www-xjyt-gov-cn",
+    "regionCode": "653226",
+    "name": "于田县人民政府",
+    "siteName": "于田县人民政府",
+    "url": "https://www.xjyt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1209102"
+  },
+  {
+    "id": "653227-government-www-mfx-gov-cn",
+    "regionCode": "653227",
+    "name": "民丰县人民政府",
+    "siteName": "民丰县人民政府",
+    "url": "https://www.mfx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1207828"
+  },
+  {
+    "id": "654002-government-www-yining-gov-cn",
+    "regionCode": "654002",
+    "name": "伊宁市人民政府",
+    "siteName": "伊宁市人民政府",
+    "url": "http://www.yining.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q866021"
+  },
+  {
+    "id": "654003-government-www-xjkuitun-gov-cn",
+    "regionCode": "654003",
+    "name": "奎屯市人民政府",
+    "siteName": "奎屯市人民政府",
+    "url": "http://www.xjkuitun.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjyl.gov.cn/"
+  },
+  {
+    "id": "654004-government-www-xjhegs-gov-cn",
+    "regionCode": "654004",
+    "name": "霍尔果斯市人民政府",
+    "siteName": "霍尔果斯市人民政府",
+    "url": "http://www.xjhegs.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q10565907"
+  },
+  {
+    "id": "654021-government-www-xjyn-gov-cn",
+    "regionCode": "654021",
+    "name": "伊宁县人民政府",
+    "siteName": "伊宁县人民政府",
+    "url": "http://www.xjyn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1207838"
+  },
+  {
+    "id": "654022-government-www-xjcbcr-gov-cn",
+    "regionCode": "654022",
+    "name": "察布查尔锡伯自治县人民政府",
+    "siteName": "察布查尔锡伯自治县人民政府",
+    "url": "https://www.xjcbcr.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q997577"
+  },
+  {
+    "id": "654023-government-www-xjhc-gov-cn",
+    "regionCode": "654023",
+    "name": "霍城县人民政府",
+    "siteName": "霍城县人民政府",
+    "url": "http://www.xjhc.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjyl.gov.cn/"
+  },
+  {
+    "id": "654024-government-www-xjgl-gov-cn",
+    "regionCode": "654024",
+    "name": "巩留县人民政府",
+    "siteName": "巩留县人民政府",
+    "url": "http://www.xjgl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjyl.gov.cn/"
+  },
+  {
+    "id": "654025-government-www-xinyuan-gov-cn",
+    "regionCode": "654025",
+    "name": "新源县人民政府",
+    "siteName": "新源县人民政府",
+    "url": "http://www.xinyuan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q575600"
+  },
+  {
+    "id": "654026-government-www-zhaosu-gov-cn",
+    "regionCode": "654026",
+    "name": "昭苏县人民政府",
+    "siteName": "昭苏县人民政府",
+    "url": "http://www.zhaosu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q197508"
+  },
+  {
+    "id": "654027-government-www-zgtks-gov-cn",
+    "regionCode": "654027",
+    "name": "特克斯县人民政府",
+    "siteName": "特克斯县人民政府",
+    "url": "http://www.zgtks.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjyl.gov.cn/"
+  },
+  {
+    "id": "654028-government-www-nlk-gov-cn",
+    "regionCode": "654028",
+    "name": "尼勒克县人民政府",
+    "siteName": "尼勒克县人民政府",
+    "url": "http://www.nlk.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1365213"
+  },
+  {
+    "id": "654201-government-www-xjtcsh-gov-cn",
+    "regionCode": "654201",
+    "name": "塔城市人民政府",
+    "siteName": "塔城市人民政府",
+    "url": "https://www.xjtcsh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjtc.gov.cn/"
+  },
+  {
+    "id": "654202-government-www-xjws-gov-cn",
+    "regionCode": "654202",
+    "name": "乌苏市人民政府",
+    "siteName": "乌苏市人民政府",
+    "url": "https://www.xjws.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023067"
+  },
+  {
+    "id": "654203-government-www-xjswx-gov-cn",
+    "regionCode": "654203",
+    "name": "沙湾市人民政府",
+    "siteName": "沙湾市人民政府",
+    "url": "http://www.xjswx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023098"
+  },
+  {
+    "id": "654221-government-www-xjem-gov-cn",
+    "regionCode": "654221",
+    "name": "额敏县人民政府",
+    "siteName": "额敏县人民政府",
+    "url": "http://www.xjem.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjtc.gov.cn/"
+  },
+  {
+    "id": "654224-government-www-xjtl-gov-cn",
+    "regionCode": "654224",
+    "name": "托里县人民政府",
+    "siteName": "托里县人民政府",
+    "url": "http://www.xjtl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.xjtc.gov.cn/"
+  },
+  {
+    "id": "654225-government-www-xjym-gov-cn",
+    "regionCode": "654225",
+    "name": "裕民县人民政府",
+    "siteName": "裕民县人民政府",
+    "url": "https://www.xjym.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023107"
+  },
+  {
+    "id": "654226-government-www-xjhbk-gov-cn",
+    "regionCode": "654226",
+    "name": "和布克赛尔蒙古自治县人民政府",
+    "siteName": "和布克赛尔蒙古自治县人民政府",
+    "url": "http://www.xjhbk.gov.cn/xjhbk/index.shtml",
+    "category": "government",
+    "sourceUrl": "https://www.xjtc.gov.cn/"
+  },
+  {
+    "id": "654301-government-www-alt-gov-cn",
+    "regionCode": "654301",
+    "name": "阿勒泰市人民政府",
+    "siteName": "阿勒泰市人民政府",
+    "url": "https://www.alt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.alt.gov.cn/"
+  },
+  {
+    "id": "654321-government-www-brj-gov-cn",
+    "regionCode": "654321",
+    "name": "布尔津县人民政府",
+    "siteName": "布尔津县人民政府",
+    "url": "https://www.brj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1016896"
+  },
+  {
+    "id": "654322-government-www-xjfy-gov-cn",
+    "regionCode": "654322",
+    "name": "富蕴县人民政府",
+    "siteName": "富蕴县人民政府",
+    "url": "https://www.xjfy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023090"
+  },
+  {
+    "id": "654323-government-www-xjfhx-gov-cn",
+    "regionCode": "654323",
+    "name": "福海县人民政府",
+    "siteName": "福海县人民政府",
+    "url": "http://www.xjfhx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xjalt.gov.cn/"
+  },
+  {
+    "id": "654324-government-www-hbh-gov-cn",
+    "regionCode": "654324",
+    "name": "哈巴河县人民政府",
+    "siteName": "哈巴河县人民政府",
+    "url": "https://www.hbh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xjalt.gov.cn/"
+  },
+  {
+    "id": "654325-government-www-xjqh-gov-cn",
+    "regionCode": "654325",
+    "name": "青河县人民政府",
+    "siteName": "青河县人民政府",
+    "url": "https://www.xjqh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1023167"
+  },
+  {
+    "id": "654326-government-www-jmn-gov-cn",
+    "regionCode": "654326",
+    "name": "吉木乃县人民政府",
+    "siteName": "吉木乃县人民政府",
+    "url": "https://www.jmn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.xjalt.gov.cn/"
   }
 ]

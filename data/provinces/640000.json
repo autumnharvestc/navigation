@@ -52,5 +52,203 @@
     "url": "https://www.nxzw.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.nx.gov.cn/"
+  },
+  {
+    "id": "640104-government-www-xqq-gov-cn",
+    "regionCode": "640104",
+    "name": "兴庆区人民政府",
+    "siteName": "兴庆区人民政府",
+    "url": "http://www.xqq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yinchuan.gov.cn/"
+  },
+  {
+    "id": "640105-government-www-ycxixia-gov-cn",
+    "regionCode": "640105",
+    "name": "西夏区人民政府",
+    "siteName": "西夏区人民政府",
+    "url": "http://www.ycxixia.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yinchuan.gov.cn/"
+  },
+  {
+    "id": "640106-government-www-ycjinfeng-gov-cn",
+    "regionCode": "640106",
+    "name": "金凤区人民政府",
+    "siteName": "金凤区人民政府",
+    "url": "http://www.ycjinfeng.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1345134"
+  },
+  {
+    "id": "640121-government-www-nxyn-gov-cn",
+    "regionCode": "640121",
+    "name": "永宁县人民政府",
+    "siteName": "永宁县人民政府",
+    "url": "https://www.nxyn.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yinchuan.gov.cn/"
+  },
+  {
+    "id": "640122-government-www-nxhl-gov-cn",
+    "regionCode": "640122",
+    "name": "贺兰县人民政府",
+    "siteName": "贺兰县人民政府",
+    "url": "http://www.nxhl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yinchuan.gov.cn/"
+  },
+  {
+    "id": "640181-government-www-nxlw-gov-cn",
+    "regionCode": "640181",
+    "name": "灵武市人民政府",
+    "siteName": "灵武市人民政府",
+    "url": "http://www.nxlw.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q609421"
+  },
+  {
+    "id": "640202-government-www-dwk-gov-cn",
+    "regionCode": "640202",
+    "name": "大武口区人民政府",
+    "siteName": "大武口区人民政府",
+    "url": "http://www.dwk.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1178915"
+  },
+  {
+    "id": "640205-government-www-huinong-gov-cn",
+    "regionCode": "640205",
+    "name": "惠农区人民政府",
+    "siteName": "惠农区人民政府",
+    "url": "http://www.huinong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1201662"
+  },
+  {
+    "id": "640221-government-www-nxpl-gov-cn",
+    "regionCode": "640221",
+    "name": "平罗县人民政府",
+    "siteName": "平罗县人民政府",
+    "url": "http://www.nxpl.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q736956"
+  },
+  {
+    "id": "640302-government-ltq-wuzhong-gov-cn",
+    "regionCode": "640302",
+    "name": "利通区人民政府",
+    "siteName": "利通区人民政府",
+    "url": "http://ltq.wuzhong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q686862"
+  },
+  {
+    "id": "640303-government-www-hongsibu-gov-cn",
+    "regionCode": "640303",
+    "name": "红寺堡区人民政府",
+    "siteName": "红寺堡区人民政府",
+    "url": "https://www.hongsibu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuzhong.gov.cn/"
+  },
+  {
+    "id": "640323-government-www-yanchi-gov-cn",
+    "regionCode": "640323",
+    "name": "盐池县人民政府",
+    "siteName": "盐池县人民政府",
+    "url": "http://www.yanchi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.wuzhong.gov.cn/"
+  },
+  {
+    "id": "640324-government-www-nxtx-gov-cn",
+    "regionCode": "640324",
+    "name": "同心县人民政府",
+    "siteName": "同心县人民政府",
+    "url": "http://www.nxtx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1201951"
+  },
+  {
+    "id": "640381-government-www-qtx-gov-cn",
+    "regionCode": "640381",
+    "name": "青铜峡市人民政府",
+    "siteName": "青铜峡市人民政府",
+    "url": "http://www.qtx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q938707"
+  },
+  {
+    "id": "640402-government-www-yzh-gov-cn",
+    "regionCode": "640402",
+    "name": "原州区人民政府",
+    "siteName": "原州区人民政府",
+    "url": "https://www.yzh.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.yzh.gov.cn/"
+  },
+  {
+    "id": "640422-government-www-nxxj-gov-cn",
+    "regionCode": "640422",
+    "name": "西吉县人民政府",
+    "siteName": "西吉县人民政府",
+    "url": "https://www.nxxj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nxxj.gov.cn/"
+  },
+  {
+    "id": "640423-government-www-nxld-gov-cn",
+    "regionCode": "640423",
+    "name": "隆德县人民政府",
+    "siteName": "隆德县人民政府",
+    "url": "https://www.nxld.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nxld.gov.cn/"
+  },
+  {
+    "id": "640424-government-www-nxjy-gov-cn",
+    "regionCode": "640424",
+    "name": "泾源县人民政府",
+    "siteName": "泾源县人民政府",
+    "url": "https://www.nxjy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nxjy.gov.cn/"
+  },
+  {
+    "id": "640425-government-www-pengyang-gov-cn",
+    "regionCode": "640425",
+    "name": "彭阳县人民政府",
+    "siteName": "彭阳县人民政府",
+    "url": "https://www.pengyang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.pengyang.gov.cn/"
+  },
+  {
+    "id": "640502-government-www-spt-gov-cn",
+    "regionCode": "640502",
+    "name": "沙坡头区人民政府",
+    "siteName": "沙坡头区人民政府",
+    "url": "https://www.spt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nxzw.gov.cn/"
+  },
+  {
+    "id": "640521-government-www-znzf-gov-cn",
+    "regionCode": "640521",
+    "name": "中宁县人民政府",
+    "siteName": "中宁县人民政府",
+    "url": "https://www.znzf.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nxzw.gov.cn/"
+  },
+  {
+    "id": "640522-government-www-hy-gov-cn",
+    "regionCode": "640522",
+    "name": "海原县人民政府",
+    "siteName": "海原县人民政府",
+    "url": "http://www.hy.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.nxzw.gov.cn/"
   }
 ]

@@ -70,5 +70,671 @@
     "url": "https://www.al.gov.cn/",
     "category": "government",
     "sourceUrl": "https://www.xizang.gov.cn/"
+  },
+  {
+    "id": "540102-government-www-cgq-gov-cn",
+    "regionCode": "540102",
+    "name": "城关区人民政府",
+    "siteName": "城关区人民政府",
+    "url": "https://www.cgq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1026100"
+  },
+  {
+    "id": "540103-government-www-dldqq-gov-cn",
+    "regionCode": "540103",
+    "name": "堆龙德庆区人民政府",
+    "siteName": "堆龙德庆区人民政府",
+    "url": "https://www.dldqq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.lasa.gov.cn/"
+  },
+  {
+    "id": "540104-government-www-xzdz-gov-cn",
+    "regionCode": "540104",
+    "name": "达孜区人民政府",
+    "siteName": "达孜区人民政府",
+    "url": "http://www.xzdz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1013643"
+  },
+  {
+    "id": "540121-government-www-linzhouxian-gov-cn",
+    "regionCode": "540121",
+    "name": "林周县人民政府",
+    "siteName": "林周县人民政府",
+    "url": "https://www.linzhouxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.lasa.gov.cn/"
+  },
+  {
+    "id": "540122-government-www-dangxiong-gov-cn",
+    "regionCode": "540122",
+    "name": "当雄县人民政府",
+    "siteName": "当雄县人民政府",
+    "url": "http://www.dangxiong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q769114"
+  },
+  {
+    "id": "540123-government-www-nmx-gov-cn",
+    "regionCode": "540123",
+    "name": "尼木县人民政府",
+    "siteName": "尼木县人民政府",
+    "url": "https://www.nmx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.lasa.gov.cn/"
+  },
+  {
+    "id": "540124-government-www-xzqsx-gov-cn",
+    "regionCode": "540124",
+    "name": "曲水县人民政府",
+    "siteName": "曲水县人民政府",
+    "url": "http://www.xzqsx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q370338"
+  },
+  {
+    "id": "540127-government-www-xzmzgk-gov-cn",
+    "regionCode": "540127",
+    "name": "墨竹工卡县人民政府",
+    "siteName": "墨竹工卡县人民政府",
+    "url": "https://www.xzmzgk.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.lasa.gov.cn/"
+  },
+  {
+    "id": "540202-government-www-sangzhuzi-gov-cn",
+    "regionCode": "540202",
+    "name": "桑珠孜区人民政府",
+    "siteName": "桑珠孜区人民政府",
+    "url": "http://www.sangzhuzi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540221-government-www-nmlx-gov-cn",
+    "regionCode": "540221",
+    "name": "南木林县人民政府",
+    "siteName": "南木林县人民政府",
+    "url": "http://www.nmlx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540222-government-www-jiangzi-gov-cn",
+    "regionCode": "540222",
+    "name": "江孜县人民政府",
+    "siteName": "江孜县人民政府",
+    "url": "http://www.jiangzi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540223-government-www-drx-gov-cn",
+    "regionCode": "540223",
+    "name": "定日县人民政府",
+    "siteName": "定日县人民政府",
+    "url": "http://www.drx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540224-government-www-sj-gov-cn",
+    "regionCode": "540224",
+    "name": "萨迦县人民政府",
+    "siteName": "萨迦县人民政府",
+    "url": "http://www.sj.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540225-government-www-lazi-gov-cn",
+    "regionCode": "540225",
+    "name": "拉孜县人民政府",
+    "siteName": "拉孜县人民政府",
+    "url": "http://www.lazi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540226-government-www-arx-gov-cn",
+    "regionCode": "540226",
+    "name": "昂仁县人民政府",
+    "siteName": "昂仁县人民政府",
+    "url": "http://www.arx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540227-government-www-xietongmen-gov-cn",
+    "regionCode": "540227",
+    "name": "谢通门县人民政府",
+    "siteName": "谢通门县人民政府",
+    "url": "http://www.xietongmen.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540228-government-www-blx-gov-cn",
+    "regionCode": "540228",
+    "name": "白朗县人民政府",
+    "siteName": "白朗县人民政府",
+    "url": "http://www.blx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540229-government-www-renbu-gov-cn",
+    "regionCode": "540229",
+    "name": "仁布县人民政府",
+    "siteName": "仁布县人民政府",
+    "url": "http://www.renbu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540230-government-www-kmx-gov-cn",
+    "regionCode": "540230",
+    "name": "康马县人民政府",
+    "siteName": "康马县人民政府",
+    "url": "http://www.kmx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540231-government-www-djx-gov-cn",
+    "regionCode": "540231",
+    "name": "定结县人民政府",
+    "siteName": "定结县人民政府",
+    "url": "http://www.djx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540232-government-www-zbx-gov-cn",
+    "regionCode": "540232",
+    "name": "仲巴县人民政府",
+    "siteName": "仲巴县人民政府",
+    "url": "http://www.zbx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540233-government-www-ydx-gov-cn",
+    "regionCode": "540233",
+    "name": "亚东县人民政府",
+    "siteName": "亚东县人民政府",
+    "url": "http://www.ydx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540234-government-www-jilong-gov-cn",
+    "regionCode": "540234",
+    "name": "吉隆县人民政府",
+    "siteName": "吉隆县人民政府",
+    "url": "http://www.jilong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540235-government-www-nlmx-gov-cn",
+    "regionCode": "540235",
+    "name": "聂拉木县人民政府",
+    "siteName": "聂拉木县人民政府",
+    "url": "http://www.nlmx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540236-government-www-sgx-gov-cn",
+    "regionCode": "540236",
+    "name": "萨嘎县人民政府",
+    "siteName": "萨嘎县人民政府",
+    "url": "http://www.sgx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540237-government-www-gbx-gov-cn",
+    "regionCode": "540237",
+    "name": "岗巴县人民政府",
+    "siteName": "岗巴县人民政府",
+    "url": "http://www.gbx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.rikaze.gov.cn/"
+  },
+  {
+    "id": "540302-government-karuo-changdu-gov-cn",
+    "regionCode": "540302",
+    "name": "卡若区人民政府",
+    "siteName": "卡若区人民政府",
+    "url": "https://karuo.changdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changdu.gov.cn/"
+  },
+  {
+    "id": "540321-government-jiangda-changdu-gov-cn",
+    "regionCode": "540321",
+    "name": "江达县人民政府",
+    "siteName": "江达县人民政府",
+    "url": "https://jiangda.changdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changdu.gov.cn/"
+  },
+  {
+    "id": "540322-government-gongjue-changdu-gov-cn",
+    "regionCode": "540322",
+    "name": "贡觉县人民政府",
+    "siteName": "贡觉县人民政府",
+    "url": "https://gongjue.changdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changdu.gov.cn/"
+  },
+  {
+    "id": "540323-government-leiwuqi-changdu-gov-cn",
+    "regionCode": "540323",
+    "name": "类乌齐县人民政府",
+    "siteName": "类乌齐县人民政府",
+    "url": "https://leiwuqi.changdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changdu.gov.cn/"
+  },
+  {
+    "id": "540324-government-dingqing-changdu-gov-cn",
+    "regionCode": "540324",
+    "name": "丁青县人民政府",
+    "siteName": "丁青县人民政府",
+    "url": "https://dingqing.changdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changdu.gov.cn/"
+  },
+  {
+    "id": "540325-government-chaya-changdu-gov-cn",
+    "regionCode": "540325",
+    "name": "察雅县人民政府",
+    "siteName": "察雅县人民政府",
+    "url": "https://chaya.changdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changdu.gov.cn/"
+  },
+  {
+    "id": "540326-government-basu-changdu-gov-cn",
+    "regionCode": "540326",
+    "name": "八宿县人民政府",
+    "siteName": "八宿县人民政府",
+    "url": "https://basu.changdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changdu.gov.cn/"
+  },
+  {
+    "id": "540327-government-zuogong-changdu-gov-cn",
+    "regionCode": "540327",
+    "name": "左贡县人民政府",
+    "siteName": "左贡县人民政府",
+    "url": "https://zuogong.changdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changdu.gov.cn/"
+  },
+  {
+    "id": "540328-government-mangkang-changdu-gov-cn",
+    "regionCode": "540328",
+    "name": "芒康县人民政府",
+    "siteName": "芒康县人民政府",
+    "url": "https://mangkang.changdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changdu.gov.cn/"
+  },
+  {
+    "id": "540329-government-luolong-changdu-gov-cn",
+    "regionCode": "540329",
+    "name": "洛隆县人民政府",
+    "siteName": "洛隆县人民政府",
+    "url": "https://luolong.changdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changdu.gov.cn/"
+  },
+  {
+    "id": "540330-government-bianba-changdu-gov-cn",
+    "regionCode": "540330",
+    "name": "边坝县人民政府",
+    "siteName": "边坝县人民政府",
+    "url": "https://bianba.changdu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.changdu.gov.cn/"
+  },
+  {
+    "id": "540402-government-www-xzlinz-gov-cn",
+    "regionCode": "540402",
+    "name": "巴宜区人民政府",
+    "siteName": "巴宜区人民政府",
+    "url": "http://www.xzlinz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q519708"
+  },
+  {
+    "id": "540421-government-www-gbjd-gov-cn",
+    "regionCode": "540421",
+    "name": "工布江达县人民政府",
+    "siteName": "工布江达县人民政府",
+    "url": "http://www.gbjd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1026170"
+  },
+  {
+    "id": "540423-government-www-xzmt-gov-cn",
+    "regionCode": "540423",
+    "name": "墨脱县人民政府",
+    "siteName": "墨脱县人民政府",
+    "url": "http://www.xzmt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1028177"
+  },
+  {
+    "id": "540424-government-www-bomi-gov-cn",
+    "regionCode": "540424",
+    "name": "波密县人民政府",
+    "siteName": "波密县人民政府",
+    "url": "https://www.bomi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q892024"
+  },
+  {
+    "id": "540425-government-www-chayu-gov-cn",
+    "regionCode": "540425",
+    "name": "察隅县人民政府",
+    "siteName": "察隅县人民政府",
+    "url": "https://www.chayu.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q167842"
+  },
+  {
+    "id": "540426-government-www-xzlx-gov-cn",
+    "regionCode": "540426",
+    "name": "朗县人民政府",
+    "siteName": "朗县人民政府",
+    "url": "http://www.xzlx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1364702"
+  },
+  {
+    "id": "540481-government-www-milin-gov-cn",
+    "regionCode": "540481",
+    "name": "米林市人民政府",
+    "siteName": "米林市人民政府",
+    "url": "https://www.milin.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q955403"
+  },
+  {
+    "id": "540502-government-www-naidong-gov-cn",
+    "regionCode": "540502",
+    "name": "乃东区人民政府",
+    "siteName": "乃东区人民政府",
+    "url": "http://www.naidong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shannan.gov.cn/"
+  },
+  {
+    "id": "540521-government-www-zhanang-gov-cn",
+    "regionCode": "540521",
+    "name": "扎囊县人民政府",
+    "siteName": "扎囊县人民政府",
+    "url": "http://www.zhanang.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shannan.gov.cn/"
+  },
+  {
+    "id": "540522-government-www-gongga-gov-cn",
+    "regionCode": "540522",
+    "name": "贡嘎县人民政府",
+    "siteName": "贡嘎县人民政府",
+    "url": "http://www.gongga.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shannan.gov.cn/"
+  },
+  {
+    "id": "540523-government-www-sangri-gov-cn",
+    "regionCode": "540523",
+    "name": "桑日县人民政府",
+    "siteName": "桑日县人民政府",
+    "url": "http://www.sangri.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shannan.gov.cn/"
+  },
+  {
+    "id": "540524-government-www-qiongjie-gov-cn",
+    "regionCode": "540524",
+    "name": "琼结县人民政府",
+    "siteName": "琼结县人民政府",
+    "url": "http://www.qiongjie.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shannan.gov.cn/"
+  },
+  {
+    "id": "540525-government-www-qusong-gov-cn",
+    "regionCode": "540525",
+    "name": "曲松县人民政府",
+    "siteName": "曲松县人民政府",
+    "url": "http://www.qusong.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shannan.gov.cn/"
+  },
+  {
+    "id": "540526-government-www-cuomei-gov-cn",
+    "regionCode": "540526",
+    "name": "措美县人民政府",
+    "siteName": "措美县人民政府",
+    "url": "http://www.cuomei.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shannan.gov.cn/"
+  },
+  {
+    "id": "540527-government-www-luozha-gov-cn",
+    "regionCode": "540527",
+    "name": "洛扎县人民政府",
+    "siteName": "洛扎县人民政府",
+    "url": "http://www.luozha.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shannan.gov.cn/"
+  },
+  {
+    "id": "540528-government-www-jiacha-gov-cn",
+    "regionCode": "540528",
+    "name": "加查县人民政府",
+    "siteName": "加查县人民政府",
+    "url": "http://www.jiacha.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shannan.gov.cn/"
+  },
+  {
+    "id": "540529-government-www-longzixian-gov-cn",
+    "regionCode": "540529",
+    "name": "隆子县人民政府",
+    "siteName": "隆子县人民政府",
+    "url": "http://www.longzixian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shannan.gov.cn/"
+  },
+  {
+    "id": "540531-government-www-langkazi-gov-cn",
+    "regionCode": "540531",
+    "name": "浪卡子县人民政府",
+    "siteName": "浪卡子县人民政府",
+    "url": "http://www.langkazi.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shannan.gov.cn/"
+  },
+  {
+    "id": "540581-government-www-cuona-gov-cn",
+    "regionCode": "540581",
+    "name": "错那市人民政府",
+    "siteName": "错那市人民政府",
+    "url": "http://www.cuona.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.shannan.gov.cn/"
+  },
+  {
+    "id": "540602-government-www-nqsnq-gov-cn",
+    "regionCode": "540602",
+    "name": "色尼区人民政府",
+    "siteName": "色尼区人民政府",
+    "url": "http://www.nqsnq.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.naqu.gov.cn/"
+  },
+  {
+    "id": "540621-government-www-nqjlx-gov-cn",
+    "regionCode": "540621",
+    "name": "嘉黎县人民政府",
+    "siteName": "嘉黎县人民政府",
+    "url": "http://www.nqjlx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.naqu.gov.cn/"
+  },
+  {
+    "id": "540622-government-www-nqbrx-gov-cn",
+    "regionCode": "540622",
+    "name": "比如县人民政府",
+    "siteName": "比如县人民政府",
+    "url": "http://www.nqbrx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.naqu.gov.cn/"
+  },
+  {
+    "id": "540623-government-www-nqnrx-gov-cn",
+    "regionCode": "540623",
+    "name": "聂荣县人民政府",
+    "siteName": "聂荣县人民政府",
+    "url": "http://www.nqnrx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.naqu.gov.cn/"
+  },
+  {
+    "id": "540624-government-www-nqadx-gov-cn",
+    "regionCode": "540624",
+    "name": "安多县人民政府",
+    "siteName": "安多县人民政府",
+    "url": "http://www.nqadx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.naqu.gov.cn/"
+  },
+  {
+    "id": "540625-government-www-nqszx-gov-cn",
+    "regionCode": "540625",
+    "name": "申扎县人民政府",
+    "siteName": "申扎县人民政府",
+    "url": "http://www.nqszx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.naqu.gov.cn/"
+  },
+  {
+    "id": "540626-government-www-nqsx-gov-cn",
+    "regionCode": "540626",
+    "name": "索县人民政府",
+    "siteName": "索县人民政府",
+    "url": "http://www.nqsx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.naqu.gov.cn/"
+  },
+  {
+    "id": "540627-government-www-nqbgx-gov-cn",
+    "regionCode": "540627",
+    "name": "班戈县人民政府",
+    "siteName": "班戈县人民政府",
+    "url": "http://www.nqbgx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.naqu.gov.cn/"
+  },
+  {
+    "id": "540628-government-www-nqbqx-gov-cn",
+    "regionCode": "540628",
+    "name": "巴青县人民政府",
+    "siteName": "巴青县人民政府",
+    "url": "http://www.nqbqx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.naqu.gov.cn/"
+  },
+  {
+    "id": "540629-government-www-nqnmx-gov-cn",
+    "regionCode": "540629",
+    "name": "尼玛县人民政府",
+    "siteName": "尼玛县人民政府",
+    "url": "http://www.nqnmx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.naqu.gov.cn/"
+  },
+  {
+    "id": "540630-government-www-nqshx-gov-cn",
+    "regionCode": "540630",
+    "name": "双湖县人民政府",
+    "siteName": "双湖县人民政府",
+    "url": "http://www.nqshx.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.naqu.gov.cn/"
+  },
+  {
+    "id": "542521-government-pulan-gov-cn",
+    "regionCode": "542521",
+    "name": "普兰县人民政府",
+    "siteName": "普兰县人民政府",
+    "url": "http://pulan.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.al.gov.cn/"
+  },
+  {
+    "id": "542522-government-www-xzzd-gov-cn",
+    "regionCode": "542522",
+    "name": "札达县人民政府",
+    "siteName": "札达县人民政府",
+    "url": "http://www.xzzd.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q146601"
+  },
+  {
+    "id": "542523-government-www-xzge-gov-cn",
+    "regionCode": "542523",
+    "name": "噶尔县人民政府",
+    "siteName": "噶尔县人民政府",
+    "url": "http://www.xzge.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1026159"
+  },
+  {
+    "id": "542524-government-www-xzrt-gov-cn",
+    "regionCode": "542524",
+    "name": "日土县人民政府",
+    "siteName": "日土县人民政府",
+    "url": "http://www.xzrt.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1028124"
+  },
+  {
+    "id": "542525-government-www-xzgej-gov-cn",
+    "regionCode": "542525",
+    "name": "革吉县人民政府",
+    "siteName": "革吉县人民政府",
+    "url": "http://www.xzgej.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q1364660"
+  },
+  {
+    "id": "542526-government-www-xzgz-gov-cn",
+    "regionCode": "542526",
+    "name": "改则县人民政府",
+    "siteName": "改则县人民政府",
+    "url": "http://www.xzgz.gov.cn/",
+    "category": "government",
+    "sourceUrl": "http://www.wikidata.org/entity/Q163156"
+  },
+  {
+    "id": "542527-government-cuoqinxian-gov-cn",
+    "regionCode": "542527",
+    "name": "措勤县人民政府",
+    "siteName": "措勤县人民政府",
+    "url": "http://cuoqinxian.gov.cn/",
+    "category": "government",
+    "sourceUrl": "https://www.al.gov.cn/"
   }
 ]
